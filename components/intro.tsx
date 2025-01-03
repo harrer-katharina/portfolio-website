@@ -1,0 +1,116 @@
+"use client";
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+import { motion } from "framer-motion";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { FaGithubSquare } from "react-icons/fa";
+import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
+import KLogo from "./k-logo";
+
+export default function Intro() {
+  const { ref } = useSectionInView("Home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  return (
+    <>
+      <section
+        ref={ref}
+        id="home"
+        className="flex flex-col lg:flex-row items-center justify-center px-8 lg:px-16 l:h-[90vh] lg:h-[80vh]"
+      >
+        <div className="flex flex-col items-start max-w-xl lg:mr-16 dark:text-white">
+          <h1 className="text-3xl font-bold">Hi, ich bin</h1>
+
+          <motion.span
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              type: "spring",
+              stiffness: 125,
+              delay: 0.1,
+              duration: 0.7,
+            }}
+          >
+            <div className="flex items-center mb-4 text-5xl !leading-[1.5] sm:text-6xl ">
+              <KLogo height={60} />
+              <span className="font-bold text-7xl leading-0">atharina</span>
+            </div>
+          </motion.span>
+
+          <motion.h1
+            className="mb-10 mt-4 font-medium !leading-[1.5]"
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+          >
+            <p className="text-lg font-semibold text-gray-600 mt-2 dark:text-gray-100">
+              FRONTENDENTWICKLERIN
+            </p>
+            <p className="text-gray-600 mt-4 dark:text-gray-100">
+              Ich absolviere derzeit meinen Master in Interactive Technologies
+              und bringe meine Leidenschaft für kreatives Entwickeln und Design
+              in jedes Projekt ein.
+            </p>
+          </motion.h1>
+          <motion.div
+            className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              delay: 0.1,
+            }}
+          >
+            <Link
+              href="#contact"
+              className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+              onClick={() => {
+                setActiveSection("Contact");
+                setTimeOfLastClick(Date.now());
+              }}
+            >
+              Kontakt{" "}
+              <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+            </Link>
+
+            <a
+              className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+              href="https://www.linkedin.com/in/katharina-barbara-harrer"
+              target="_blank"
+            >
+              <BsLinkedin />
+            </a>
+
+            <a
+              className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+              href="https://github.com/harrer-katharina"
+              target="_blank"
+            >
+              <FaGithubSquare />
+            </a>
+          </motion.div>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            type: "tween",
+            duration: 0.2,
+          }}
+        >
+          <div className="relative w-full max-w-sm lg:max-w-md mt-8 lg:mt-0">
+            <Image
+              src="/kh-image.png"
+              alt="Katharina"
+              width={477}
+              height={499}
+              className="object-contain"
+              priority
+            />
+          </div>
+        </motion.div>
+      </section>
+    </>
+  );
+}
