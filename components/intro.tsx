@@ -9,8 +9,10 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import KLogo from "./k-logo";
+import { useTranslations } from "next-intl";
 
 export default function Intro() {
+  const t = useTranslations("Intro");
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
@@ -21,7 +23,7 @@ export default function Intro() {
         className="flex flex-col lg:flex-row items-center justify-center px-8 lg:px-16 l:h-[90vh] lg:h-[80vh]"
       >
         <div className="flex flex-col items-start max-w-xl lg:mr-16 dark:text-white">
-          <h1 className="text-3xl font-bold">Hi, ich bin</h1>
+          <h1 className="text-3xl font-bold">{t("introduction")}</h1>
 
           <motion.span
             initial={{ opacity: 0, scale: 0 }}
@@ -45,12 +47,10 @@ export default function Intro() {
             animate={{ opacity: 1, y: 0 }}
           >
             <p className="text-lg font-semibold text-gray-600 mt-2 dark:text-gray-100">
-              FRONTENDENTWICKLERIN
+              {t("job")}
             </p>
             <p className="text-gray-600 mt-4 dark:text-gray-100">
-              Ich absolviere derzeit meinen Master in Interactive Technologies
-              und bringe meine Leidenschaft für kreatives Entwickeln und Design
-              in jedes Projekt ein.
+              {t("description")}
             </p>
           </motion.h1>
           <motion.div
@@ -69,7 +69,7 @@ export default function Intro() {
                 setTimeOfLastClick(Date.now());
               }}
             >
-              Kontakt{" "}
+              {t("cta")}{" "}
               <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
             </Link>
 

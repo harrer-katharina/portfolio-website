@@ -1,0 +1,70 @@
+{
+  "Links": {
+    "home": "Home",
+    "about": "Über mich",
+    "projects": "Projekte",
+    "skills": "Skills",
+    "experience": "Werdegang",
+    "contact": "Kontakt"
+  },
+  "Intro": {
+    "introduction": "Hi, ich bin",
+    "job": "Frontendentwicklerin",
+    "description": "Ich absolviere derzeit meinen Master in Interactive Technologies und bringe meine Leidenschaft für kreatives Entwickeln und Design in jedes Projekt ein.",
+    "cta": "Kontakt"
+  },
+  "About": {
+    "title": "Über mich",
+    "introPart1": "Während meines",
+    "introHighlight1": "Bachelorstudiums in Medieninformatik an der TH Nürnberg",
+    "introPart2": "konnte ich fundierte Kenntnisse in theoretischen Grundlagen, praktischer Informatik und digitalen Medien erwerben. Besonders fasziniert mich die Möglichkeit, dieses Wissen anzuwenden, zu vertiefen und stetig zu erweitern. Daher habe ich mich entschieden, nach meinem Bachelorabschluss den",
+    "introHighlight2": "Masterstudiengang Interactive Technologies mit dem Schwerpunkt Mobile an der FH St. Pölten ",
+    "introPart3": "zu absolvieren. Ich bin leidenschaftlich daran interessiert, neue Technologien zu erlernen, und suche derzeit eine",
+    "introHighlight3": "Teilzeitstelle als Frontend-Entwicklerin.",
+    "hobbiesPart1": "In meiner Freizeit engagiere ich mich für Nachhaltigkeit und genieße das vegane Kochen und Backen. Ich bin gerne in der Natur unterwegs – sei es beim Wandern in den Bergen, Rennradfahren oder Bikepacking, um neue Orte und Länder zu entdecken. Letztes Jahr habe ich beispielsweise mit dem Rad die Strecke von Roth nach Budapest zurückgelegt und Dänemark sowie Schweden erkundet."
+},
+  "Projects": {
+    "title": "Meine Projekte",
+    "timeParabox": "Interaktives Rätselspiel mit Escape-Box-Elementen und Zeitreise-Thematik, gesteuert durch eine native App.",
+    "bevry": "Eine Web-App für Cocktailfans zum Entdecken, Teilen, Bewerten und Verwalten von Getränken.",
+    "erika": "Eine App als digitale Begleiterin für klimafreundliches Handeln und regionale Aktivitäten.",
+    "ecocalypse": "Erstellung einer immersiven Videospielszene in Unity mit Fokus auf Worldbuilding und Visual Storytelling.",
+    "veganAdvent": "Ein digitaler Adventskalender mit wertvollen Tipps und Infos für ein veganes Leben.",
+    "trilum": "Analyse und Überarbeitung der Benutzeroberfläche des drahtlosen Pick-by-Light-Systems TRILUM zur Verbesserung der Usability.",
+    "nakt": "WordPress-Website ohne vorgefertigte Themes oder Plugins. Der Fokus lag auf PHP-Programmierung, ergänzt durch HTML, JavaScript und CSS."
+  },
+  "Experiences": {
+    "title": "Mein Werdegang",
+    "bachelorTitle": "Bachelor of Science - Medieninformatik",
+    "bachelorLocation": "TH Nürnberg",
+    "bachelorDescription": "Bachelorarbeit in Kooperation mit Fraunhofer: Analyse und Überarbeitung der Benutzeroberfläche eines Pick-by-Light-Systems zur Verbesserung der Usability am Beispiel des Projekts TRILUM.",
+    "bachelorDate": "10/2018 – 03/2022",
+    "job1Title": "Wissenschaftliche Hilfskraft: Bereich Frontendentwicklung",
+    "job1Location": "Fraunhofer IIS, Nürnberg",
+    "job1Description": "Entwicklung mit Vue.js; Durchführung und Auswertung von Objektmessungen bei einem Projekt im Machine Learning Kontext; Erstellung von UI-Prototypen",
+    "job1Date": "01/2021 – 03/2022",
+    "job2Title": "Entwicklerin: Bereich Frontend - Middleware",
+    "job2Location": "edison street GmbH, Roth",
+    "job2Description": "Entwicklung an einer Website, um Kunden ihre Verbrauchs-, Leistungs- und Bewegungsdaten anschaulich anzuzeigen unter Einsatz von React und PHP. Nach dem abgeschlossenen Bachelor arbeitete ich dort Vollzeit (04/22 – 08/23) und während des Masterstudiums Teilzeit (09/23 – 02/25)",
+    "job2Date": "04/2022 – 02/2025",
+    "masterTitle": "Dipl.Ing. Interactive Technologies",
+    "masterLocation": "FH St. Pölten, Österreich",
+    "masterDescription": "Masterstudiengang Interactive Technologies, Schwerpunkt Mobile",
+    "masterDate": "09/2023 - dato"
+  },
+  "Skills": {
+    "title": "Meine Kenntnisse"
+  },
+  "Contact": {
+    "title": "Kontaktiere mich",
+    "description1": "Bitte kontaktiere mich direkt unter",
+    "description2": "oder über dieses Formular.",
+    "emailPlaceholder": "Deine E-Mail",
+    "messagePlaceholder": "Deine Nachricht",
+    "submit": "Absenden",
+    "success": "E-Mail erfolgreich gesendet!"
+  },
+  "Footer": {
+    "description": "Diese Website wurde mit React & Next.js, TypeScript, Tailwind CSS & Framer Motion erstellt."
+  }
+}

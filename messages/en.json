@@ -1,0 +1,70 @@
+{
+  "Links": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "Intro": {
+    "introduction": "Hey, I am",
+    "job": "Frontenddeveloper",
+    "description": "I am currently pursuing my master's degree in Interactive Technologies, bringing my passion for creative development and design into every project.",
+    "cta": "Contact"
+  },
+  "About": {
+    "title": "About Me",
+    "introPart1": "During my",
+    "introHighlight1": "bachelor's studies in Media Informatics at TH Nürnberg",
+    "introPart2": "I acquired comprehensive knowledge in theoretical foundations, practical computer science, and digital media. I am particularly fascinated by the opportunity to apply, deepen, and continuously expand this knowledge. Therefore, I decided to pursue the",
+    "introHighlight2": "master's program in Interactive Technologies with a focus on Mobile at FH St. Pölten",
+    "introPart3": ". I am passionate about learning new technologies and am currently seeking a",
+    "introHighlight3": "part-time position as a frontend developer.",
+    "hobbiesPart1": "In my free time, I am committed to sustainability and enjoy vegan cooking and baking. I love being in nature—whether hiking in the mountains, road cycling, or bikepacking to discover new places and countries. Last year, for example, I cycled from Roth to Budapest and explored Denmark and Sweden."
+  },
+  "Projects": {
+    "title": "My Projects",
+    "timeParabox": "An interactive puzzle game with escape-box elements and a time travel theme, controlled via a native app.",
+    "bevry": "A web app for cocktail enthusiasts to discover, share, rate, and manage drinks.",
+    "erika": "An app that acts as a digital companion for climate-friendly actions and regional activities.",
+    "ecocalypse": "Creation of an immersive video game scene in Unity with a focus on worldbuilding and visual storytelling.",
+    "veganAdvent": "A digital advent calendar with valuable tips and information for a vegan lifestyle.",
+    "trilum": "Analysis and redesign of the user interface of the wireless pick-by-light system TRILUM to enhance usability.",
+    "nakt": "WordPress website without pre-made themes or plugins, focused on PHP development complemented by HTML, JavaScript, and CSS."
+  },
+  "Experiences": {
+    "title": "My Career",
+    "bachelorTitle": "Bachelor of Science - Media Informatics",
+    "bachelorLocation": "TH Nürnberg",
+    "bachelorDescription": "Bachelor thesis in collaboration with Fraunhofer: Analysis and redesign of the user interface of a pick-by-light system to improve usability using the TRILUM project as a case study.",
+    "bachelorDate": "10/2018 – 03/2022",
+    "job1Title": "Research Assistant: Frontend Development",
+    "job1Location": "Fraunhofer IIS, Nuremberg",
+    "job1Description": "Development with Vue.js; conducting and evaluating object measurements for a machine learning project; creating UI prototypes.",
+    "job1Date": "01/2021 – 03/2022",
+    "job2Title": "Frontend Developer - Middleware",
+    "job2Location": "edison street GmbH, Roth",
+    "job2Description": "Developed a website to visually display customers' consumption, performance, and motion data using React and PHP. Worked full-time after my bachelor's (04/22 – 08/23) and part-time during my master's studies (09/23 – 02/25).",
+    "job2Date": "04/2022 – 02/2025",
+    "masterTitle": "Dipl.Ing. Interactive Technologies",
+    "masterLocation": "FH St. Pölten, Austria",
+    "masterDescription": "Master's program in Interactive Technologies with a focus on Mobile.",
+    "masterDate": "09/2023 - present"
+  },
+  "Skills": {
+    "title": "My skills"
+  },
+  "Contact": {
+    "title": "Contact me",
+    "description1": "Please contact me directly at",
+    "description2": "or through this form.",
+    "emailPlaceholder": "Your email",
+    "messagePlaceholder": "Your message",
+    "submit": "Submit",
+    "success": "Email sent successfully!"
+  },
+  "Footer": {
+    "description": "This website is built with React & Next.js, TypeScript, Tailwind CSS & Framer Motion."
+  }
+}

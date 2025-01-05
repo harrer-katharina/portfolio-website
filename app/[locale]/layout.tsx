@@ -1,11 +1,15 @@
 import Header from "@/components/header";
-import "./globals.css";
+import "../globals.css";
 import { Inter } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
+import LanguageSwitch from "@/components/language-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
+import { notFound } from "next/navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,13 +19,20 @@ export const metadata = {
     "Katharina is a passionate frontend developer specializing in creating responsive, user-friendly, and visually engaging web designs. Explore her portfolio to see innovative projects crafted with modern technologies and creative design principles.",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params: { locale },
 }: {
   children: React.ReactNode;
+  params: { locale: string };
 }) {
+  const messages = await getMessages({ locale });
+
+  if (!["en", "de"].includes(locale)) {
+    notFound();
+  }
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang={locale} className="!scroll-smooth">
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
@@ -30,11 +41,14 @@ export default function RootLayout({
 
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
-            <Header />
-            {children}
+            <NextIntlClientProvider messages={messages}>
+              <Header />
+              {children}
+            </NextIntlClientProvider>
             <Footer />
 
             <Toaster position="top-right" />
+            <LanguageSwitch />
             <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>

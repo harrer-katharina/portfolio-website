@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { useTranslations } from "next-intl";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
@@ -9,6 +10,7 @@ import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 
 export default function Contact() {
+  const t = useTranslations("Contact");
   const { ref } = useSectionInView("Contact");
 
   return (
@@ -29,14 +31,14 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>{t("title")}</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
+        {t("description1")}{" "}
         <a className="underline" href="mailto:hello@katharina-harrer.de">
           hello@katharina-harrer.de
         </a>{" "}
-        or through this form.
+        {t("description2")}
       </p>
 
       <form
@@ -51,7 +53,7 @@ export default function Contact() {
             return;
           }
 
-          toast.success("Email sent successfully!");
+          toast.success(t("success"));
         }}
       >
         <input
@@ -60,12 +62,12 @@ export default function Contact() {
           type="email"
           required
           maxLength={500}
-          placeholder="Your email"
+          placeholder={t("emailPlaceholder")}
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
-          placeholder="Your message"
+          placeholder={t("messagePlaceholder")}
           required
           maxLength={5000}
         />
