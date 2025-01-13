@@ -12,8 +12,8 @@ import KLogo from "./k-logo";
 import { useTranslations } from "next-intl";
 
 export default function Intro() {
-  const t = useTranslations("Intro");
   const { ref } = useSectionInView("Home", 0.5);
+  const t = useTranslations("Intro");
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
     <>

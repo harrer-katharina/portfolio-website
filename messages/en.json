@@ -25,13 +25,75 @@
   },
   "Projects": {
     "title": "My Projects",
-    "timeParabox": "An interactive puzzle game with escape-box elements and a time travel theme, controlled via a native app.",
-    "bevry": "A web app for cocktail enthusiasts to discover, share, rate, and manage drinks.",
-    "erika": "An app that acts as a digital companion for climate-friendly actions and regional activities.",
-    "ecocalypse": "Creation of an immersive video game scene in Unity with a focus on worldbuilding and visual storytelling.",
-    "veganAdvent": "A digital advent calendar with valuable tips and information for a vegan lifestyle.",
-    "trilum": "Analysis and redesign of the user interface of the wireless pick-by-light system TRILUM to enhance usability.",
-    "nakt": "WordPress website without pre-made themes or plugins, focused on PHP development complemented by HTML, JavaScript, and CSS."
+    "date": "Creation Period",
+    "technologies": "Technologies",
+    "type": "Project Type",
+    "duration": "Project Duration",
+    "timeParabox": {
+      "description": "Interactive puzzle game with escape-box elements and time travel theme, controlled by a native app."
+    },
+    "bevry": {
+      "description": "A web app for cocktail enthusiasts to discover, share, rate, and manage drinks.",
+      "date": "Nov 2023 - July 2024",
+      "type": "Web Development, Corporate Branding",
+      "duration": "9 months",
+      "project": {
+        "title": "The Project",
+        "text": [
+          "Bevry is a web app created during my master's studies together with four fellow students. The application is aimed at cocktail enthusiasts who enjoy trying new drink creations and sharing their own recipes.",
+          "Initially, we focused on the basic functions: viewing, posting, liking, and rating cocktail recipes."
+        ],
+        "cta": "View App"
+      },
+      "features": {
+        "title": "Features",
+        "text": [
+          "In the second semester of the master's program, we gave the app a new design and added numerous new features to further improve the user experience.",
+          "With the new bar inventory feature, users can always keep track of their existing ingredients. Additionally, recommendations based on the ingredients available in the bar stock were integrated. The shopping list simplifies shopping by allowing missing ingredients to be added directly from the recipe. Users can now also create their own ingredients and add substitute ingredients to make recipes even more personalized.",
+          "For entertainment at parties, our two new mini-games come into play. One is the turn-based multiplayer game 'Spin the Wheel', and the other is the single-player game 'Mix it Up'."
+        ]
+      },
+      "branding": {
+        "title": "Branding",
+        "text": [
+          "In the course 'Brand Identity & Corporate Design', the corporate identity of Bevry was developed. We worked with Adobe InDesign, Adobe Photoshop, and Figma.",
+          "I created the logo, various business stationery, stickers, website designs, and mockups.",
+          "Take a look at the brand book!"
+        ],
+        "cta": "View Brandbook"
+      },
+      "implementation": {
+        "title": "Implementation",
+        "text": [
+          "The five of us worked with Scrum to organize ourselves. Sprint planning and sprint reviews took place every two weeks during our weekly meetings. We used Jira to create tickets and track their status on the Kanban board.",
+          "We also collaborated with fellow students from other master's programs, including 'Photography' for cocktail, marketing, and portfolio photos, 'Graphic Design' for app design and icons, 'Sound Design' for soundtracks and sound effects for the mini-games, and 'Animation' for a loading animation as well as animations within the mini-games."
+        ]
+      },
+      "myTasks": {
+        "title": "My Tasks",
+        "text": [
+          "My main responsibility was in backend development with NestJS. Endpoint documentation was done using OpenAPI in Swagger. In the backend, I was responsible for the implementation of recipes, ingredients, substitute ingredients, as well as the shopping list and bar inventory. I also handled user data management and the implementation of email verification.",
+          "Additionally, I was involved in frontend development with Vue.js. I assisted in implementing the new screen designs and integrated both the self-designed icons and the loading animation."
+        ],
+        "cta": "View Blog Post"
+      }
+    },
+    "erika": {
+      "description": "An app as a digital companion for climate-friendly actions and local activities."
+    },
+    "ecocalypse": {
+      "description": "Creation of an immersive video game scene in Unity with a focus on worldbuilding and visual storytelling."
+    },
+    "veganAdvent": {
+      "description": "A digital advent calendar with valuable tips and information for a vegan lifestyle."
+    },
+    "trilum": {
+      "description": "Analysis and revision of the user interface of the wireless pick-by-light system TRILUM to improve usability."
+    },
+    "nakt": {
+      "description": "WordPress website without pre-built themes or plugins. The focus was on PHP programming, complemented by HTML, JavaScript, and CSS."
+    },
+    "notFound": "Project not found."
   },
   "Experiences": {
     "title": "My Career",

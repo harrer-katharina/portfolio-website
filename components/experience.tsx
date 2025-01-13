@@ -13,8 +13,8 @@ import { useTheme } from "@/context/theme-context";
 import { useTranslations } from "next-intl";
 
 export default function Experience() {
-  const t = useTranslations("Experiences");
   const { ref } = useSectionInView("Experience");
+  const t = useTranslations("Experiences");
   const { theme } = useTheme();
 
   return (
@@ -26,7 +26,7 @@ export default function Experience() {
             <VerticalTimelineElement
               contentStyle={{
                 background:
-                  theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
+                  theme === "light" ? "#f3f4f699" : "rgba(255, 255, 255, 0.05)",
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
@@ -41,8 +41,7 @@ export default function Experience() {
               date={item.date}
               icon={item.icon}
               iconStyle={{
-                background:
-                  theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
+                background: theme === "light" ? "white" : "#343A47",
                 fontSize: "1.5rem",
               }}
             >

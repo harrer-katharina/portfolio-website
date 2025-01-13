@@ -22,16 +22,77 @@
     "introPart3": "zu absolvieren. Ich bin leidenschaftlich daran interessiert, neue Technologien zu erlernen, und suche derzeit eine",
     "introHighlight3": "Teilzeitstelle als Frontend-Entwicklerin.",
     "hobbiesPart1": "In meiner Freizeit engagiere ich mich für Nachhaltigkeit und genieße das vegane Kochen und Backen. Ich bin gerne in der Natur unterwegs – sei es beim Wandern in den Bergen, Rennradfahren oder Bikepacking, um neue Orte und Länder zu entdecken. Letztes Jahr habe ich beispielsweise mit dem Rad die Strecke von Roth nach Budapest zurückgelegt und Dänemark sowie Schweden erkundet."
-},
+  },
   "Projects": {
     "title": "Meine Projekte",
-    "timeParabox": "Interaktives Rätselspiel mit Escape-Box-Elementen und Zeitreise-Thematik, gesteuert durch eine native App.",
-    "bevry": "Eine Web-App für Cocktailfans zum Entdecken, Teilen, Bewerten und Verwalten von Getränken.",
-    "erika": "Eine App als digitale Begleiterin für klimafreundliches Handeln und regionale Aktivitäten.",
-    "ecocalypse": "Erstellung einer immersiven Videospielszene in Unity mit Fokus auf Worldbuilding und Visual Storytelling.",
-    "veganAdvent": "Ein digitaler Adventskalender mit wertvollen Tipps und Infos für ein veganes Leben.",
-    "trilum": "Analyse und Überarbeitung der Benutzeroberfläche des drahtlosen Pick-by-Light-Systems TRILUM zur Verbesserung der Usability.",
-    "nakt": "WordPress-Website ohne vorgefertigte Themes oder Plugins. Der Fokus lag auf PHP-Programmierung, ergänzt durch HTML, JavaScript und CSS."
+    "date": "Entstehungszeitraum",
+    "technologies": "Technologien",
+    "type": "Projekttyp",
+    "duration": "Projektdauer",
+    "timeParabox": {
+      "description": "Interaktives Rätselspiel mit Escape-Box-Elementen und Zeitreise-Thematik, gesteuert durch eine native App."
+    },
+    "bevry": {
+      "description": "Eine Web-App für Cocktailfans zum Entdecken, Teilen, Bewerten und Verwalten von Getränken.",
+      "date": "Nov 2023 - Juli 2024",
+      "type": "Webentwicklung, Corporate Branding",
+      "duration": "9 Monate",
+      "project": {
+        "title": "Das Projekt",
+        "text": [
+          "Bevry ist eine Web-App, die im Rahmen meines Masterstudiums zusammen mit vier Kommilitoninnen entstanden ist. Die Anwendung richtet sich an Cocktail-Enthusiast*innen, die gerne neue neue Getränkekreationen ausprobieren und ihre eigenen Rezepte teilen möchten.", 
+          "Zunächst konzentrierten wir uns auf die grundlegenden Funktionen: das Ansehen, Posten, Liken und Bewerten von Cocktailrezepten."
+        ],
+        "cta": "App ansehen"
+      },
+      "features": {
+        "title": "Die Funktionalitäten",
+        "text": [
+          "Im zweiten Mastersemester haben wir der App ein neues Design verliehen und zahlreiche neue Funktionen hinzugefügt, um das Nutzererlebnis weiter zu verbessern.", 
+          "Mit der neuen Bar-Inventory-Funktion behalten Nutzer*innen stets den Überblick über ihre vorhandenen Zutaten. Zusätzlich wurden Empfehlungen basierend auf den aktuell im Barbestand vorhandenen Zutaten integriert. Die Einkaufsliste erleichtert das Einkaufen, indem fehlende Zutaten direkt aus dem Rezept hinzugefügt werden können. Zudem haben Nutzer*innen nun die Möglichkeit, eigene Zutaten zu erstellen und Ersatzzutaten hinzuzufügen, um Rezepte noch individueller anzupassen.", 
+          "Für Unterhaltung auf Partys sorgen unsere beiden neuen Minispiele. Zum einen gibt es das Turn-Based Multiplayer-Game 'Spin the Wheel' und zum anderen das Singleplayer-Game 'Mix it Up'."
+        ]
+      },
+      "branding": {
+        "title": "Das Branding",
+        "text": [
+          "In der Lehrveranstaltung 'Markenidentität & Corporate Design' wurde die Corporate Identity von Bevry entwickelt. Wir arbeiteten dort mit Adobe InDesign, Adobe Photoshop und Figma.", 
+          "Ich habe dabei das Logo, verschiedene Geschäftsdrucksorten, Sticker, Website-Designs und Mockups angefertigt.", "Wirf doch mal einen Blick in das Brandbook!" 
+        ],
+        "cta": "Brandbook ansehen"
+      },
+      "implementation": {
+        "title": "Die Umsetzung",
+        "text": [
+          "Wir fünf arbeiteten mit Scrum, um uns zu organisieren. Sprint Planning und Sprint Review fanden alle zwei Wochen während unseres wöchentlichen Meetings statt. Wir nutzten Jira, um Tickets zu erstellen und deren Status auf dem Kanban-Board zu verfolgen.", 
+          "Wir arbeiteten auch mit Kommiliton*innen aus anderen Masterklassen zusammen, darunter 'Fotografie' für Cocktail-, Marketing- und Portfoliofotos, 'Grafikdesign' für Appdesign und Icons, 'Sound Design' für Soundtracks und Sound Effects für die Minigames und 'Animation' für eine Ladeanimation sowie Animationen innerhalb der Minigames."
+        ]
+      },
+      "myTasks": {
+        "title": "Meine Aufgaben",
+        "text": [
+          "Meine Hauptverantwortung lag in der Backend-Entwicklung mit NestJS. Die Endpunkt-Dokumentation erfolgte mithilfe von OpenAPI in Swagger. Im Backend war ich unter anderem für die Implementierung der Rezepte, Zutaten, Ersatzzutaten sowie der Einkaufsliste und des Barbestands zuständig. Auch die Verwaltung der Nutzerdaten und die Implementierung der E-Mail-Verifizierung gehörten zu meinen Aufgaben.", 
+          "Darüber hinaus war ich an der Frontend-Entwicklung mit Vue.js beteiligt. Ich unterstützte bei der Umsetzung der neuen Screendesigns und integrierte sowohl die selbst gestalteten Icons als auch die Ladeanimation."
+        ],
+        "cta": "Blogeintrag ansehen"
+      }
+    },
+    "erika": {
+      "description": "Eine App als digitale Begleiterin für klimafreundliches Handeln und regionale Aktivitäten."
+    },
+    "ecocalypse": {
+      "description": "Erstellung einer immersiven Videospielszene in Unity mit Fokus auf Worldbuilding und Visual Storytelling."
+    },
+    "veganAdvent": {
+      "description": "Ein digitaler Adventskalender mit wertvollen Tipps und Infos für ein veganes Leben."
+    },
+    "trilum": {
+      "description": "Analyse und Überarbeitung der Benutzeroberfläche des drahtlosen Pick-by-Light-Systems TRILUM zur Verbesserung der Usability."
+    },
+    "nakt": {
+      "description": "WordPress-Website ohne vorgefertigte Themes oder Plugins. Der Fokus lag auf PHP-Programmierung, ergänzt durch HTML, JavaScript und CSS."
+    },
+    "notFound": "Projekt nicht gefunden."
   },
   "Experiences": {
     "title": "Mein Werdegang",

@@ -4,40 +4,52 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import ecocalypse from "@/public/ecocalypse-scene.webp";
 import trilum from "@/public/trilum-orders-overview.png";
-import bevry from "@/public/bevry-mocktail.png";
 import erika from "@/public/erika-closeup.png";
 import advent from "@/public/advent-light.png";
 import adventDark from "@/public/advent-dark.png";
 import nakt from "@/public/nakt-recipe-customizer-desktop.png";
 import timeparabox from "@/public/time-parabox.png";
 
+import bevry from "@/public/bevry-mocktail.png";
+import bevryCocktails from "@/public/bevry/bevry-cocktails.png"
+import bevryFeatures from "@/public/bevry/bevry-features.png"
+import bevryThumbnail from "@/public/bevry/bevry-thumbnail.png"
+import bevryBranding from "@/public/bevry/bevry-mockup-drucksorten.png"
+import bevryGroup from "@/public/bevry/bevry-group.jpg"
+import bevryScreens from "@/public/bevry/bevry-kathy-politan.png"
+
 export const getLinks = () => {
   const t = useTranslations("Links");
-  console.log("Translations verfügbar:", t);
 
   return [
     {
-      name: t("home"),
+      name: "Home",
+      title: t("home"),
       hash: "#home",
     },
     {
-      name: t("about"),
+      name: "About",
+      title: t("about"),
       hash: "#about",
     },
     {
-      name: t("projects"),
+      name: "Projects",
+      title: t("projects"),
       hash: "#projects",
     },
     {
-      name: t("skills"),
+      name: "Skills",
+      title: t("skills"),
       hash: "#skills",
     },
     {
-      name: t("experience"),
+      name: "Experience",
+      title: t("experience"),
       hash: "#experience",
     },
     {
-      name: t("contact"),
+      name: "Contact",
+      title: t("contact"),
       hash: "#contact",
     },
   ];
@@ -82,46 +94,108 @@ export const getProjectsData = (theme: string) => {
   const t = useTranslations("Projects");
   return [
     {
+      projectId: "time-parabox",
       title: "Time ParaBox",
-      description: t("timeParabox"),
+      description: t("timeParabox.description"),
       tags: ["React Native"],
-      imageUrl: timeparabox,
+      image: timeparabox,
+      sectionImage: timeparabox,
+      sections: []
     },
     {
+      projectId: "bevry",
       title: "Bevry",
-      description: t("bevry"),
+      date: t("bevry.date"),
+      type: t("bevry.type"),
+      duration: t("bevry.duration"),
+      description: t("bevry.description"),
       tags: ["NestJs", "Vue.js", "Adobe InDesign", "Adobe Photoshop"],
-      imageUrl: bevry,
+      image: bevry,
+      sectionImage: bevryCocktails,
+      sections: [
+        {
+          title: t("bevry.project.title"),
+          text: [t("bevry.project.text.0"), t("bevry.project.text.1")],
+          image: bevryThumbnail,
+          cta: {
+            title: t("bevry.project.cta"),
+            link: "https://www.bevry.app/"
+          }
+        },
+        {
+          title: t("bevry.features.title"),
+          text: [t("bevry.features.text.0"), t("bevry.features.text.1"), t("bevry.features.text.2")],
+          image: bevryFeatures,
+        },
+        {
+          title: t("bevry.branding.title"),
+          text: [t("bevry.branding.text.0"), t("bevry.branding.text.1")],
+          image: bevryBranding,
+          cta: {
+            title: t("bevry.branding.cta"),
+            link: "https://drive.google.com/file/d/1EBQXIvsGwTVECHbXja0FkFjYMyWmaNPS/view"
+          }
+        },
+        {
+          title: t("bevry.implementation.title"),
+          text: [t("bevry.implementation.text.0"), t("bevry.implementation.text.1")],
+          image: bevryGroup,
+        },
+        {
+          title: t("bevry.myTasks.title"),
+          text: [t("bevry.myTasks.text.0"), t("bevry.myTasks.text.1")],
+          image: bevryScreens,
+          cta: {
+            title: t("bevry.myTasks.cta"),
+            link: "https://mfg.fhstp.ac.at/allgemein/bevry-semesterprojekt-sose24/"
+          }
+        },
+      ],
     },
     {
+      projectId: "erika",
       title: "ERIKA",
-      description: t("erika"),
+      description: t("erika.description"),
       tags: ["Figma"],
-      imageUrl: erika,
+      image: erika,
+      sectionImage: erika,
+      sections: [],
     },
     {
+      projectId: "ecocalypse",
       title: "Ecocalypse",
-      description: t("ecocalypse"),
+      description: t("ecocalypse.description"),
       tags: ["Unity"],
-      imageUrl: ecocalypse,
+      image: ecocalypse,
+      sectionImage: ecocalypse,
+      sections: [],
     },
     {
+      projectId: "vegan-advent",
       title: "vegan advent",
-      description: t("veganAdvent"),
+      description: t("veganAdvent.description"),
       tags: ["React", "Tailwind"],
-      imageUrl: theme === "light" ? advent : adventDark,
+      image: theme === "light" ? advent : adventDark,
+      sectionImage: advent,
+      sections: [],
     },
     {
+      projectId: "trilum",
       title: "TRILUM",
-      description: t("trilum"),
+      description: t("trilum.description"),
       tags: ["Angluar", "PostgreSQL", "Figma"],
-      imageUrl: trilum,
+      image: trilum,
+      sectionImage: trilum,
+      sections: [],
     },
     {
+      projectId: "nakt",
       title: "NAKT",
-      description: t("nakt"),
+      description: t("nakt.description"),
       tags: ["WordPress", "PHP", "Html", "JS", "Css"],
-      imageUrl: nakt,
+      image: nakt,
+      sectionImage: nakt,
+      sections: [],
     },
   ];
 };
