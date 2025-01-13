@@ -10,13 +10,6 @@ html.dark {
   --line-color: rgba(255, 255, 255, 0.2);
 }
 
-.mask-circle {
-  mask-image: url('/bubble.svg');
-  mask-size: cover;
-  mask-repeat: no-repeat;
-  mask-position: center;
-}
-
 .borderBlack {
   @apply border border-black/10;
 }
