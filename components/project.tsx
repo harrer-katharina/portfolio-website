@@ -2,11 +2,12 @@
 
 import { useRef } from "react";
 import { useRouter } from "next/navigation";
-import { useActiveSectionContext } from "@/context/active-section-context";
-import { useLanguage } from "@/context/language-context";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { useActiveSectionContext } from "@/context/active-section-context";
+import { useLanguage } from "@/context/language-context";
 import { ProjectType } from "../lib/types";
+import Tag from "@/components/tag";
 
 type ProjectProps = ProjectType;
 
@@ -54,12 +55,7 @@ export default function Project({
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
-              <li
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
-                key={index}
-              >
-                {tag}
-              </li>
+              <Tag index={index} title={tag} />
             ))}
           </ul>
         </div>

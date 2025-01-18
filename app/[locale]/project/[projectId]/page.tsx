@@ -6,6 +6,7 @@ import Image from "next/image";
 import { getProjectsData } from "@/lib/data";
 import { useTheme } from "@/context/theme-context";
 import CTABtn from "@/components/cta-btn";
+import Tag from "@/components/tag";
 
 const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
   const { theme } = useTheme();
@@ -24,7 +25,7 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] ">
+        <div className="relative w-full aspect-[16/9] sm:aspect-[21/9]">
           <Image
             src={project.sectionImage}
             alt={project.title}
@@ -42,12 +43,7 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
           <div className="text-lg font-semibold">{t("technologies")}</div>
           <ul className="flex flex-wrap gap-2 mt-2">
             {project.tags.map((tag, index) => (
-              <li
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
-                key={index}
-              >
-                {tag}
-              </li>
+              <Tag index={index} title={tag} />
             ))}
           </ul>
         </div>

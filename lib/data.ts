@@ -4,19 +4,25 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import ecocalypse from "@/public/ecocalypse-scene.webp";
 import trilum from "@/public/trilum-orders-overview.png";
-import erika from "@/public/erika-closeup.png";
 import advent from "@/public/advent-light.png";
 import adventDark from "@/public/advent-dark.png";
 import nakt from "@/public/nakt-recipe-customizer-desktop.png";
 import timeparabox from "@/public/time-parabox.png";
 
-import bevry from "@/public/bevry-mocktail.png";
-import bevryCocktails from "@/public/bevry/bevry-cocktails.png"
-import bevryFeatures from "@/public/bevry/bevry-features.png"
-import bevryThumbnail from "@/public/bevry/bevry-thumbnail.png"
-import bevryBranding from "@/public/bevry/bevry-mockup-drucksorten.png"
-import bevryGroup from "@/public/bevry/bevry-group.jpg"
-import bevryScreens from "@/public/bevry/bevry-kathy-politan.png"
+import bevry from "@/public/bevry/bevry-mocktail.png";
+import bevryCocktails from "@/public/bevry/bevry-cocktails.png";
+import bevryFeatures from "@/public/bevry/bevry-features.png";
+import bevryThumbnail from "@/public/bevry/bevry-thumbnail.png";
+import bevryBranding from "@/public/bevry/bevry-mockup-drucksorten.png";
+import bevryGroup from "@/public/bevry/bevry-group.jpg";
+import bevryScreens from "@/public/bevry/bevry-kathy-politan.png";
+
+import erika from "@/public/erika/erika-closeup.png";
+import erikaHand from "@/public/erika/erika-hand.png";
+import erikaProject from "@/public/erika/erika-project.png";
+import erikaScreens from "@/public/erika/erika-mockups.png";
+import erikaLogo from "@/public/erika/erika-logo.svg";
+import erikaPrototype from "@/public/erika/erika-prototype.png";
 
 export const getLinks = () => {
   const t = useTranslations("Links");
@@ -155,11 +161,47 @@ export const getProjectsData = (theme: string) => {
     {
       projectId: "erika",
       title: "ERIKA",
+      date: t("erika.date"),
+      type: t("erika.type"),
+      duration: t("erika.duration"),
       description: t("erika.description"),
       tags: ["Figma"],
       image: erika,
-      sectionImage: erika,
-      sections: [],
+      sectionImage: erikaHand,
+      sections: [
+        {
+          title: t("erika.project.title"),
+          text: [t("erika.project.text.0"), t("erika.project.text.1")],
+          image: erikaProject,
+          cta: {
+            title: t("erika.project.cta"),
+            link: "https://erika.fhstp.ac.at/"
+          }
+        },
+        {
+          title: t("erika.implementation.title"),
+          text: [t("erika.implementation.text.0"), t("erika.implementation.text.1"), t("erika.implementation.text.2")],
+          image: erikaScreens,
+        },
+        {
+          title: t("erika.sustainability.title"),
+          text: [t("erika.sustainability.text.0"), t("erika.sustainability.text.1"),t("erika.sustainability.text.2"), t("erika.sustainability.text.3")],
+          image: erikaLogo,
+          cta: {
+            title: t("erika.sustainability.cta"),
+            link: "https://mfg.fhstp.ac.at/allgemein/sustainable-webdesign/"
+          }
+        },
+        {
+          title: t("erika.prototyping.title"),
+          text: [t("erika.prototyping.text.0"), t("erika.prototyping.text.1"), t("erika.prototyping.text.2")],
+          image: erikaPrototype,
+          cta: {
+            title: t("erika.prototyping.cta"),
+            link: "https://www.figma.com/proto/e10aY7un7NpT8NdGW9HgAu/ERIKA?page-id=0%3A1&node-id=54-1755&viewport=735%2C324%2C0.06&t=pEKHDE4FGPe4fp6N-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=54%3A3545"
+          }
+        },
+      ],
     },
     {
       projectId: "ecocalypse",

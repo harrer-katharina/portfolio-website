@@ -78,7 +78,45 @@
       }
     },
     "erika": {
-      "description": "Eine App als digitale Begleiterin für klimafreundliches Handeln und regionale Aktivitäten."
+      "description": "Eine App als digitale Begleiterin für klimafreundliches Handeln und regionale Aktivitäten.",
+      "date": "März 2024 - Juni 2024",
+      "type": "Nachhaltiges Web- & Appdesign, Prototyping",
+      "duration": "4 Monate",
+      "project": {
+        "title": "Das Projekt",
+        "text": [
+          "Im zweiten Mastersemester hatte ich die Möglichkeit, an einem Forschungsprojekt des dem Studiengang angeschlossenen Forschungsinstituts mitzuarbeiten. Ich habe mich für das Projekt ERIKA entschieden. Ziel des Projekts ist die Entwicklung der App ERIKA, die als digitale Begleiterin für klimabewusstes Handeln im Alltag fungiert.",
+          "Die App soll dazu beitragen, klimafreundliches Verhalten zu fördern und regionale Aktivitäten in der Region Waidhofen a/d Ybbs sichtbar zu machen. Dabei liegt der Fokus nicht nur auf nachhaltigen Inhalten, sondern auch auf nachhaltigen Aspekten bei der Entwicklung und dem Design der App, um das Konzept der Nachhaltigkeit ganzheitlich zu implementieren."
+        ],
+        "cta": "Projekt ansehen"
+      },
+      "implementation": {
+        "title": "Die Umsetzung",
+        "text": [
+          "Während meiner Tätigkeit im Forschungsprojekt ERIKA habe ich umfassend recherchiert, welche Faktoren für die Entwicklung einer nachhaltigen Website entscheidend sind.", 
+          "Darüber hinaus war ich an der Recherche und Ausarbeitung von Forschungsfragen beteiligt, die sich mit klimafreundlichem Handeln im Alltag, den Auswirkungen verschiedener Maßnahmen, der Rolle der Digitalisierung und der Anwendung von Gamification zur Unterstützung nachhaltigen Verhaltens beschäftigen.", 
+          "Ich habe Umfrageergebnisse ausgewertet und aufbereitet sowie einen klickbaren Prototypen der App erstellt."
+        ]
+      },
+      "sustainability": {
+        "title": "Nachhaltiges Web- & Appdesign",
+        "text": [
+          "In allen Lebensbereichen bemühen wir uns um Nachhaltigkeit, doch selten wird bedacht, wie stark das Internet unseren Planeten belastet. Die Kohlenstoffemissionen des Internets entsprechen denen der Luftfahrtindustrie und machen etwa 2 % der globalen Emissionen aus.", 
+          "Bei meiner Recherche zu nachhaltigem Web-, App- und E-Mail-Design bin ich auf zahlreiche Aspekte gestoßen, die zur Nachhaltigkeit beitragen können. Dazu gehören grünes Hosting, SEO, Design, UX und Performance-Optimierung. Beispielsweise tragen die Wahl von Farben und Schriftarten, effizienter Code, minimierte HTTP-Anfragen, optimierte Bilder und die Reduzierung von Drittanbieter-Einbettungen zur Reduktion des CO₂-Fußabdrucks bei.",
+          "Nachhaltiges Webdesign ist nicht nur aus ökologischer Sicht sinnvoll, sondern verbessert auch die Benutzer*innenerfahrung, das Suchmaschinen-Ranking und die Zugänglichkeit, insbesondere in Regionen mit eingeschränktem Internetzugang. Webseiten, die weniger Ressourcen verbrauchen, laden schneller und bieten eine bessere Performance, was die Zufriedenheit der Nutzer*innen erhöht und die Reichweite steigert.",
+          "Die Ergebnisse meiner Recherchen habe ich schließlich in einem Blogartikel zusammengefasst." 
+        ],
+        "cta": "Blogartikel ansehen"
+      },
+      "prototyping": {
+        "title": "Prototyping",
+        "text": [
+          "Darüber hinaus habe ich einen Figma-Prototypen für eine User Story des ERIKA Services erstellt. Dieser Klickdummy visualisiert, wie der Service im Alltag genutzt werden kann, um die Benutzer*innen über aktuelle nachhaltige Initiativen zu informieren.", 
+          "Der Prototyp beinhaltet ein Formular, über das Nutzer*innen eigene Initiativen einreichen können. Nach Prüfung und Freigabe erscheinen diese Initiativen in der Kalender- und Kartenansicht. So können Nutzer*innen nicht nur an Veranstaltungen teilnehmen, sondern auch eigene Ideen einbringen, um ihren ökologischen Handabdruck zu vergrößern.",
+          "In der Kalender- und Kartenansicht können Nutzer*innen alle bevorstehenden Initiativen und Events, wie zum Beispiel den Wochenmarkt oder den bevorstehenden Flohmarkt, einsehen. Jedes Event verfügt über eine Detailansicht mit einer Beschreibung sowie Informationen zu den Terminen und dem Veranstaltungsort. Bei aktivierter GPS-Funktion erhalten Nutzer*innen Benachrichtigungen, wenn sie sich in der Nähe eines Events befinden."
+        ],
+        "cta": "Prototyp ansehen"
+      }
     },
     "ecocalypse": {
       "description": "Erstellung einer immersiven Videospielszene in Unity mit Fokus auf Worldbuilding und Visual Storytelling."
