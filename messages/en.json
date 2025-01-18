@@ -79,7 +79,45 @@
       }
     },
     "erika": {
-      "description": "An app as a digital companion for climate-friendly actions and local activities."
+      "description": "An app as a digital companion for climate-friendly actions and regional activities.",
+      "date": "March 2024 - June 2024",
+      "type": "Sustainable web & app design, prototyping",
+      "duration": "4 months",
+      "project": {
+        "title": "The Project",
+        "text": [
+          "In the second semester of my master's program, I had the opportunity to work on a research project affiliated with the program's research institute. I chose the ERIKA project. The goal of the project is to develop the ERIKA app, which serves as a digital companion for climate-conscious actions in everyday life.",
+          "The app aims to promote climate-friendly behavior and highlight regional activities in the Waidhofen a/d Ybbs area. The focus is not only on sustainable content but also on sustainable aspects in the development and design of the app, ensuring a holistic implementation of the concept of sustainability."
+        ],
+        "cta": "View Project"
+      },
+      "implementation": {
+        "title": "The Implementation",
+        "text": [
+          "During my work on the ERIKA research project, I conducted extensive research on the factors crucial for developing a sustainable website.",
+          "Additionally, I participated in researching and formulating research questions related to climate-friendly actions in daily life, the impacts of various measures, the role of digitalization, and the application of gamification to support sustainable behavior.",
+          "I analyzed and processed survey results and created a clickable prototype of the app."
+        ]
+      },
+      "sustainability": {
+        "title": "Sustainable Web & App Design",
+        "text": [
+          "In all areas of life, we strive for sustainability, but the environmental impact of the internet is often overlooked. The carbon emissions of the internet are equivalent to those of the aviation industry, accounting for about 2% of global emissions.",
+          "In my research on sustainable web, app, and email design, I discovered many aspects that contribute to sustainability. These include green hosting, SEO, design, UX, and performance optimization. For instance, choosing colors and fonts, writing efficient code, minimizing HTTP requests, optimizing images, and reducing third-party integrations can help lower the CO₂ footprint.",
+          "Sustainable web design is not only ecologically beneficial but also improves user experience, search engine ranking, and accessibility, particularly in regions with limited internet access. Websites that consume fewer resources load faster and offer better performance, enhancing user satisfaction and increasing reach.",
+          "I summarized the results of my research in a blog post."
+        ],
+        "cta": "Read Blog Post"
+      },
+      "prototyping": {
+        "title": "Prototyping",
+        "text": [
+          "Additionally, I created a Figma prototype for a user story of the ERIKA service. This click dummy visualizes how the service can be used in everyday life to inform users about current sustainable initiatives.",
+          "The prototype includes a form through which users can submit their own initiatives. After review and approval, these initiatives appear in the calendar and map views. This allows users not only to participate in events but also to contribute their own ideas to increase their ecological handprint.",
+          "In the calendar and map views, users can see all upcoming initiatives and events, such as the weekly market or an upcoming flea market. Each event features a detailed view with a description and information about dates and locations. When GPS is enabled, users receive notifications when they are near an event."
+        ],
+        "cta": "View Prototype"
+      }
     },
     "ecocalypse": {
       "description": "Creation of an immersive video game scene in Unity with a focus on worldbuilding and visual storytelling."
