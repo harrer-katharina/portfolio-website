@@ -3,8 +3,6 @@ import { useTranslations } from "next-intl";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import trilum from "@/public/trilum-orders-overview.png";
-import advent from "@/public/advent-light.png";
-import adventDark from "@/public/advent-dark.png";
 import nakt from "@/public/nakt-recipe-customizer-desktop.png";
 import timeparabox from "@/public/time-parabox.png";
 
@@ -29,6 +27,12 @@ import ecocalypseEntrance from "@/public/ecocalypse/ecocalypse-scene-entrance.we
 import ecocalypsePoster from "@/public/ecocalypse/ecocalypse-natures-revenge-poster.webp";
 import ecocalypseScene from "@/public/ecocalypse/ecocalypse-scene.webp";
 import ecocalypseCollage from "@/public/ecocalypse/ecocalypse-collage.webp";
+
+import advent from "@/public/advent-light.png";
+import adventDark from "@/public/advent-dark.png";
+import veganAdvent from "@/public/veganAdvent/veganAdvent.png";
+import veganAdventPoster from "@/public/veganAdvent/veganAdvent-poster.png";
+import veganAdventApp from "@/public/veganAdvent/veganAdvent-app.png";
 
 export const getLinks = () => {
   const t = useTranslations("Links");
@@ -249,11 +253,33 @@ export const getProjectsData = (theme: string) => {
     {
       projectId: "vegan-advent",
       title: "vegan advent",
+      date: t("veganAdvent.date"),
+      type: t("veganAdvent.type"),
+      duration: t("veganAdvent.duration"),
       description: t("veganAdvent.description"),
       tags: ["React", "Tailwind"],
       image: theme === "light" ? advent : adventDark,
-      sectionImage: advent,
-      sections: [],
+      sectionImage: veganAdvent,
+      sections: [
+        {
+          title: t("veganAdvent.project.title"),
+          text: [t("veganAdvent.project.text.0"), t("veganAdvent.project.text.1")],
+          image: veganAdventPoster,
+          cta: {
+            title: t("veganAdvent.project.cta"),
+            link: "https://it231508.students.fhstp.ac.at/adventcalendar"
+          }
+        },
+        {
+          title: t("veganAdvent.implementation.title"),
+          text: [t("veganAdvent.implementation.text.0"), t("veganAdvent.implementation.text.1"), t("veganAdvent.implementation.text.2")],
+          image: veganAdventApp,
+          cta: {
+            title: t("veganAdvent.implementation.cta"),
+            link: "https://github.com/katharina-harrer/advent-calendar"
+          }
+        },
+      ],
     },
     {
       projectId: "trilum",

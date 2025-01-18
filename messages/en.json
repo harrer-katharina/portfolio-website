@@ -159,7 +159,27 @@
       }
     },
     "veganAdvent": {
-      "description": "A digital advent calendar with valuable tips and information for a vegan lifestyle."
+      "description": "A digital advent calendar with valuable tips and information for a vegan lifestyle.",
+      "date": "October 2024",
+      "type": "App Design, Web Development",
+      "duration": "2 weeks",
+      "project": {
+        "title": "The Project",
+        "text": [
+          "The idea behind this advent calendar was to present new information or helpful tips about veganism each day in December. I intentionally chose not to include a feature that checks the current day, ensuring that the website's content is always accessible as part of the 'Print to Mobile' project for my master's program at FH St. Pölten. My goal was not only to share recipes but also to raise awareness of the benefits of a vegan lifestyle.",
+          "Additionally, there is a poster with 24 numbered QR codes. Each day in December, users can scan the QR code for the respective day to access the corresponding advent door."
+        ],
+        "cta": "View App"
+      },
+      "implementation": {
+        "title": "The Implementation",
+        "text": [
+          "I developed the web application using React and Tailwind CSS. The interactive bar chart in door 2 was created with ApexCharts.",
+          "On the website, users can switch between Light Mode, Dark Mode, and the system’s default display mode. The colors of the SVG on the homepage also adapt to the selected mode.",
+          "More information about the project and the commented source code for my implemented components can be found on GitHub."
+        ],
+        "cta": "View GitHub Repo"
+      }
     },
     "trilum": {
       "description": "Analysis and revision of the user interface of the wireless pick-by-light system TRILUM to improve usability."

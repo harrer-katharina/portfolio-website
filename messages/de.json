@@ -158,7 +158,27 @@
       }
     },
     "veganAdvent": {
-      "description": "Ein digitaler Adventskalender mit wertvollen Tipps und Infos für ein veganes Leben."
+      "description": "Ein digitaler Adventskalender mit wertvollen Tipps und Infos für ein veganes Leben.",
+      "date": "Oktober 2024",
+      "type": "Appdesign, Webentwicklung",
+      "duration": "2 Wochen",
+      "project": {
+        "title": "Das Projekt",
+        "text": [
+          "Die Idee für diesen Adventskalender war es, jeden Tag im Dezember eine neue Information oder einen hilfreichen Tipp zum Thema Veganismus zu präsentieren. Dabei habe ich bewusst auf die Funktion verzichtet, den aktuellen Tag zu überprüfen, damit die Inhalte der Webseite im Rahmen des 'Print to Mobile' Projekts meiner Masterklasse an der FH St. Pölten immer zugänglich sind. Mein Ziel ist es, nicht nur Rezepte zu teilen, sondern auch das Bewusstsein für die Vorteile eines veganen Lebensstils zu stärken.",
+          "Zusätzlich gibt es ein Poster, auf dem insgesamt 24 nummerierte QR-Codes abgebildet sind. Jeden Tag im Dezember kann der QR-Code des aktuellen Tages eingescannt werden, um direkt zum jeweiligen Türchen zu gelangen."
+        ],
+        "cta": "App ansehen"
+      },
+      "implementation": {
+        "title": "Die Umsetzung",
+        "text": [
+          "Für die Erstellung der Webapplikation habe ich React und Tailwind CSS verwendet. Das interaktive Säulendiagramm in Türchen 2 habe ich mit ApexCharts erstellt.",
+          "Auf der Website können Nutzer*innen zwischen Light Mode, Dark Mode und dem systemweiten Anzeigemodus wechseln. Dabei ändern sich auch die Farben des SVGs auf der Startseite entsprechend.",
+          "Weitere Informationen zum Projekt sowie den kommentierten Quellcode meiner umgesetzten Komponenten findest du auf GitHub."
+        ],
+        "cta": "GitHub-Repo ansehen"
+      }
     },
     "trilum": {
       "description": "Analyse und Überarbeitung der Benutzeroberfläche des drahtlosen Pick-by-Light-Systems TRILUM zur Verbesserung der Usability."
