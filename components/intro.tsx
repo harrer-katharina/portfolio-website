@@ -38,7 +38,9 @@ export default function Intro() {
           >
             <div className="flex items-center mb-4 text-5xl !leading-[1.5] sm:text-6xl ">
               <KLogo height={60} />
-              <span className="font-bold text-7xl leading-0">atharina</span>
+              <span className="font-bold text-5xl sm:text-7xl leading-0">
+                atharina
+              </span>
             </div>
           </motion.span>
 

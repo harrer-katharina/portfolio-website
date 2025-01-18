@@ -119,7 +119,43 @@
       }
     },
     "ecocalypse": {
-      "description": "Erstellung einer immersiven Videospielszene in Unity mit Fokus auf Worldbuilding und Visual Storytelling."
+      "description": "Erstellung einer immersiven Videospielszene in Unity mit Fokus auf Worldbuilding und Visual Storytelling.",
+      "date": "Juni 2024",
+      "type": "Gamedesign, Worldbuilding und Storytelling",
+      "duration": "1 Woche",
+      "project": {
+        "title": "Das Projekt",
+        "text": [
+          "Im zweiten Semester des Masterstudiums hatten wir die Möglichkeit, im Rahmen der Summer School an einwöchigen Workshops zu verschiedenen Themen teilzunehmen. Ich entschied mich für einen Workshop zum Thema 'Environmental Storytelling'. Dort wurden Themen wie Worldbuilding sowie Environmental und Visual Storytelling behandelt.",
+          "Das Projekt umfasste die Erstellung einer statischen oder interaktiven immersiven Videospielszene unter Verwendung von Unity und vorgefertigten Assets. Die Szene sollte einen realistischen Spielort darstellen, der sowohl visuell ansprechend als auch funktional für die Videospielumgebung ist. Besonderes Augenmerk lag dabei auf der korrekten Umsetzung der zuvor erlernten Prinzipien des Environmental Storytelling.",
+          "In diesem Workshop arbeiteten wir in Kleingruppen und entwickelten die Idee zu 'Ecocalypse', einem Spiel, in dem die Spieler*innen in einer Welt leben, die von einer Klimakatastrophe heimgesucht wurde. Es ist das Jahr 2035. Erst vor einem Jahr geschah die Katastrophe, die alles verändert hat. In nur wenigen Tagen brannte der gesamte Regenwald ab. Die Folge: Das Klima kollabierte und damit auch die globale Weltordnung."
+        ]
+      },
+      "implementation": {
+        "title": "Die Umsetzung",
+        "text": [
+          "Für die Umsetzung des Projekts übernahm ich mehrere Aufgaben, darunter das Worldbuilding, das Storytelling und das Erstellen der platzierten Gegenstände im Raum, wie bspw. die Zeitungsartikel. Zudem war ich für die Auswahl der benötigten Low Poly Assets für Unity verantwortlich.", 
+          "Bei der Erstellung der Storyline legten wir besonderen Wert auf die Integration von Behavioral Traces, Identity Claims und Mood Modifiers. Diese Elemente mussten stimmig sein, um ein immersives Erlebnis zu schaffen. Unstimmigkeiten im Raum, bei der Beleuchtung oder dem Sound könnten die Spieler*innen aus der Szene reißen und das Erlebnis zerstören."
+        ]
+      },
+      "scene": {
+        "title": "Die Szene",
+        "text": [
+          "Die Szene spielt in einem Zimmer eines eleganten Wohnhauses, das früher Josephs Büro war. Nach dem unerwarteten Kollaps der Infrastruktur hatte er sich hier verschanzt und auf den richtigen Zeitpunkt gewartet, um zu seiner Familie aufs Land zu flüchten.",
+          "Der*Die Spieler*in entdecken Spuren seines täglichen Lebens und seiner Vorbereitungen auf die Flucht, darunter persönliche Gegenstände, Notizen und Vorräte. Der Raum ist verwüstet und trägt noch die Spuren eines gewaltsamen Überfalls, bei dem Joseph ermordet wurde, um an seine Ressourcen zu gelangen. Jetzt nutzen die Eindringlinge seine Vorräte, während der Raum ein eindrückliches Bild von Josephs verzweifeltem Überlebenskampf und seinem tragischen Ende vermittelt." 
+        ]
+      },
+      "objects": {
+        "title": "Die Gegenstände",
+        "text": [
+          "Verschiedene Gegenstände wurden sorgfältig im Raum platziert, um seine Geschichte zu erzählen und die Hintergrundgeschichte des Spiels zu vermitteln.",
+          "An den Wänden befinden sich mehrere Zeitungsartikel, die Informationen zur Krise und den globalen Ereignissen liefern. Ein Familienporträt zeigt Josephs Familie und deutet auf einen sicheren Unterschlupf am Land hin. Eine Stadtkarte mit markierter Fluchtroute verdeutlicht Josephs geplanten Fluchtweg.",
+          "Ein Wandkalender zeigt, dass das Spiel im Januar 2035 spielt und dass Joseph versucht hatte, den Überblick über die Zeit zu bewahren. Seine detaillierte Tagesroutine gibt Aufschluss darüber, wie er seine Tage strukturierte, um in der Isolation nicht den Verstand zu verlieren. Auf dem Schreibtisch liegt ein angefangener Brief an Julia, der Einblicke in Josephs Gedanken und Gefühle gewährt. Schließlich unterstreicht die Werbung für 'H2-NO' die extremen Umstände der Welt, in der Wasser zur kostbarsten Ressource geworden ist.",
+          "Diese Gegenstände liefern wertvolle Hinweise auf Josephs Leben und die Umstände, die zu seiner aktuellen Situation führten. Durch diese sorgfältige Planung und Umsetzung konnten wir eine immersive und konsistente Spielszene schaffen, die die Prinzipien des Environmental Storytelling effektiv nutzt.",
+          "Falls du dich für weitere Details des Projekts interessierst, kannst du dir die..."
+        ],
+        "cta": "Dokumentation ansehen"
+      }
     },
     "veganAdvent": {
       "description": "Ein digitaler Adventskalender mit wertvollen Tipps und Infos für ein veganes Leben."

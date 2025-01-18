@@ -2,7 +2,6 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import ecocalypse from "@/public/ecocalypse-scene.webp";
 import trilum from "@/public/trilum-orders-overview.png";
 import advent from "@/public/advent-light.png";
 import adventDark from "@/public/advent-dark.png";
@@ -23,6 +22,13 @@ import erikaProject from "@/public/erika/erika-project.png";
 import erikaScreens from "@/public/erika/erika-mockups.png";
 import erikaLogo from "@/public/erika/erika-logo.svg";
 import erikaPrototype from "@/public/erika/erika-prototype.png";
+
+import ecocalypse from "@/public/ecocalypse/ecocalypse-scene-desk.png";
+import ecocalypsePreview from "@/public/ecocalypse/ecocalypse-preview.jpg"
+import ecocalypseEntrance from "@/public/ecocalypse/ecocalypse-scene-entrance.webp";
+import ecocalypsePoster from "@/public/ecocalypse/ecocalypse-natures-revenge-poster.webp";
+import ecocalypseScene from "@/public/ecocalypse/ecocalypse-scene.webp";
+import ecocalypseCollage from "@/public/ecocalypse/ecocalypse-collage.webp";
 
 export const getLinks = () => {
   const t = useTranslations("Links");
@@ -206,11 +212,39 @@ export const getProjectsData = (theme: string) => {
     {
       projectId: "ecocalypse",
       title: "Ecocalypse",
+      date: t("ecocalypse.date"),
+      type: t("ecocalypse.type"),
+      duration: t("ecocalypse.duration"),
       description: t("ecocalypse.description"),
       tags: ["Unity"],
       image: ecocalypse,
-      sectionImage: ecocalypse,
-      sections: [],
+      sectionImage: ecocalypsePreview,
+      sections: [
+        {
+          title: t("ecocalypse.project.title"),
+          text: [t("ecocalypse.project.text.0"), t("ecocalypse.project.text.1"), t("ecocalypse.project.text.2")],
+          image: ecocalypseEntrance,
+        },
+        {
+          title: t("ecocalypse.implementation.title"),
+          text: [t("ecocalypse.implementation.text.0"), t("ecocalypse.implementation.text.1")],
+          image: ecocalypsePoster,
+        },
+        {
+          title: t("ecocalypse.scene.title"),
+          text: [t("ecocalypse.scene.text.0"), t("ecocalypse.scene.text.1")],
+          image: ecocalypseScene,
+        },
+        {
+          title: t("ecocalypse.objects.title"),
+          text: [t("ecocalypse.objects.text.0"), t("ecocalypse.objects.text.1"), t("ecocalypse.objects.text.2"), t("ecocalypse.objects.text.3"), t("ecocalypse.objects.text.4")],
+          image: ecocalypseCollage,
+          cta: {
+            title: t("ecocalypse.objects.cta"),
+            link: "https://drive.google.com/file/d/1cGoZPNDv9JPIMD23VnicUWJK8yOmvcYI/view?usp=sharing"
+          }
+        },
+      ],
     },
     {
       projectId: "vegan-advent",

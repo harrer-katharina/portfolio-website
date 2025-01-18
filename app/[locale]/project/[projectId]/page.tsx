@@ -33,7 +33,10 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
             className="object-cover rounded-lg"
           />
           <div className="absolute inset-0 bg-black/30 rounded-lg"></div>
-          <h1 className="absolute bottom-10 left-10 text-7xl font-bold text-white drop-shadow-lg">
+          <h1
+            className="absolute bottom-10 left-10 font-bold text-white drop-shadow-lg"
+            style={{ fontSize: "clamp(2rem, 5vw, 4rem)" }}
+          >
             {project.title}
           </h1>
         </div>

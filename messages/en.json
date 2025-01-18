@@ -120,7 +120,43 @@
       }
     },
     "ecocalypse": {
-      "description": "Creation of an immersive video game scene in Unity with a focus on worldbuilding and visual storytelling."
+      "description": "Creation of an immersive video game scene in Unity focusing on worldbuilding and visual storytelling.",
+      "date": "June 2024",
+      "type": "Game Design, Worldbuilding, and Storytelling",
+      "duration": "1 week",
+      "project": {
+        "title": "The Project",
+        "text": [
+          "In the second semester of the master’s program, we had the opportunity to participate in one-week workshops on various topics as part of the Summer School. I chose a workshop on 'Environmental Storytelling,' which covered topics like worldbuilding as well as environmental and visual storytelling.",
+          "The project involved creating a static or interactive immersive video game scene using Unity and pre-made assets. The scene was meant to depict a realistic game environment that was both visually appealing and functional for a video game setting. Particular emphasis was placed on accurately applying the principles of environmental storytelling learned during the workshop.",
+          "In this workshop, we worked in small groups to develop the concept for 'Ecocalypse,' a game in which players inhabit a world devastated by a climate catastrophe. The year is 2035. Just one year ago, a disaster occurred that changed everything: within days, the entire rainforest burned down. The result was a collapse of the global climate, which in turn brought down the world order."
+        ]
+      },
+      "implementation": {
+        "title": "The Implementation",
+        "text": [
+          "For the implementation of the project, I took on several tasks, including worldbuilding, storytelling, and placing objects in the room, such as the newspaper articles. Additionally, I was responsible for selecting the necessary low-poly assets for Unity.",
+          "When creating the storyline, we paid special attention to integrating behavioral traces, identity claims, and mood modifiers. These elements had to be cohesive to create an immersive experience. Any inconsistencies in the room, lighting, or sound could break the players’ immersion and disrupt the experience."
+        ]
+      },
+      "scene": {
+        "title": "The Scene",
+        "text": [
+          "The scene is set in a room of an elegant house that was once Joseph’s office. After the unexpected collapse of infrastructure, he barricaded himself there, waiting for the right time to escape to the countryside to reunite with his family.",
+          "The player discovers traces of his daily life and preparations for escape, including personal belongings, notes, and supplies. The room is ransacked and bears the marks of a violent raid in which Joseph was killed for his resources. Now, the intruders are using his supplies, while the room paints a vivid picture of Joseph’s desperate struggle for survival and his tragic demise."
+        ]
+      },
+      "objects": {
+        "title": "The Objects",
+        "text": [
+          "Various objects were carefully placed in the room to tell his story and convey the game’s backstory.",
+          "The walls feature several newspaper articles that provide information about the crisis and global events. A family portrait shows Joseph’s family and hints at a safe haven in the countryside. A city map with a marked escape route illustrates Joseph’s planned journey.",
+          "A wall calendar reveals that the game takes place in January 2035 and that Joseph tried to keep track of time. His detailed daily routine sheds light on how he structured his days to avoid losing his sanity in isolation. On the desk, there is an unfinished letter to Julia, offering insight into Joseph’s thoughts and emotions. Lastly, an advertisement for 'H2-NO' underscores the extreme circumstances of this world, where water has become the most valuable resource.",
+          "These objects provide valuable clues about Joseph’s life and the circumstances leading to his current situation. Through this careful planning and execution, we were able to create an immersive and consistent game scene that effectively utilizes the principles of environmental storytelling.",
+          "If you’re interested in further details about the project, you can view the..."
+        ],
+        "cta": "View Documentation"
+      }
     },
     "veganAdvent": {
       "description": "A digital advent calendar with valuable tips and information for a vegan lifestyle."
