@@ -3,7 +3,11 @@ import { useTranslations } from "next-intl";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 
-import timeparabox from "@/public/time-parabox.png";
+import timeparabox from "@/public/timeParabox/time-parabox.png";
+import timeparaboxPoster from "@/public/timeParabox/timeParabox-poster.png";
+import timeparaboxMockups from "@/public/timeParabox/timeParabox-mockups.png";
+import timeparaboxEpochs from "@/public/timeParabox/timeParabox-epochs.png";
+import timeparaboxFeatures from "@/public/timeParabox/timeParabox-features.png";
 
 import bevry from "@/public/bevry/bevry-mocktail.png";
 import bevryCocktails from "@/public/bevry/bevry-cocktails.png";
@@ -120,12 +124,31 @@ export const getProjectsData = (theme: string) => {
   return [
     {
       projectId: "time-parabox",
-      title: "Time ParaBox",
+      title: "Time Parabox",
+      date: t("timeParabox.date"),
+      type: t("timeParabox.type"),
+      duration: t("timeParabox.duration"),
       description: t("timeParabox.description"),
       tags: ["React Native"],
       image: timeparabox,
-      sectionImage: timeparabox,
-      sections: []
+      sectionImage: timeparaboxPoster,
+      sections: [
+        {
+          title: t("timeParabox.project.title"),
+          text: [t("timeParabox.project.text.0"), t("timeParabox.project.text.1"), t("timeParabox.project.text.2")],
+          image: timeparaboxMockups,
+        },
+        {
+          title: t("timeParabox.implementation.title"),
+          text: [t("timeParabox.implementation.text.0"), t("timeParabox.implementation.text.1")],
+          image: timeparaboxEpochs,
+        },
+        {
+          title: t("timeParabox.myTasks.title"),
+          text: [t("timeParabox.myTasks.text.0"), t("timeParabox.myTasks.text.1")],
+          image: timeparaboxFeatures,
+        },
+      ]
     },
     {
       projectId: "bevry",

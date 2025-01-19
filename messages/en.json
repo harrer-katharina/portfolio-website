@@ -30,7 +30,32 @@
     "type": "Project Type",
     "duration": "Project Duration",
     "timeParabox": {
-      "description": "Interactive puzzle game with escape-box elements and time travel theme, controlled by a native app."
+      "description": "Interactive puzzle game with escape-box elements and a time travel theme, controlled by a native app.",
+      "date": "Oct 2024 - Jan 2025",
+      "type": "App Development",
+      "duration": "4 months",
+      "project": {
+        "title": "The Project",
+        "text": [
+          "Time Parabox is an interactive escape-box game that takes players on an exciting time-travel adventure to resolve paradoxes in history. The journey spans five historical eras – Antiquity, the Middle Ages, the Renaissance, the Industrial Revolution, and World War II.",
+          "Each era is represented by a physical puzzle box featuring elements such as NFC tags, magnetic locks, 3D-printed models, a rotary knob, servo motor, and LED ring.",
+          "A companion app guides players through the puzzles, connecting the physical components with digital interactions. Each puzzle is thematically aligned with its respective era. The ultimate goal is to solve the puzzles, stabilize the timeline, and save the future."
+        ]
+      },
+      "implementation": {
+        "title": "Implementation",
+        "text": [
+          "The development process was structured using agile methodologies. Two-week sprints were organized in Jira, and progress was regularly reviewed in weekly meetings.",
+          "The app was developed using React Native, with React Redux for state management and Expo for simple setup and efficient testing. Communication between the puzzle box and the companion app was facilitated by an ESP microcontroller, which transmitted data via Bluetooth (BLE) between the app and the electronic components of the boxes."
+        ]
+      },
+      "myTasks": {
+        "title": "My Tasks",
+        "text": [
+          "My main responsibility was developing the app using React Native. In addition to general app development, I contributed to the implementation of specific puzzle mechanics.",
+          "For Antiquity, I developed the integration of a digital compass that guided players to help Odysseus find the right path. In the Renaissance era, I implemented an accelerometer mechanic that enabled players to navigate obstacles using Leonardo da Vinci’s flying machine. For the World War II section, I co-designed a puzzle requiring players to decipher Morse codes to obtain the final artifact."
+        ]
+      }
     },
     "bevry": {
       "description": "A web app for cocktail enthusiasts to discover, share, rate, and manage drinks.",

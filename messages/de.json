@@ -30,7 +30,32 @@
     "type": "Projekttyp",
     "duration": "Projektdauer",
     "timeParabox": {
-      "description": "Interaktives Rätselspiel mit Escape-Box-Elementen und Zeitreise-Thematik, gesteuert durch eine native App."
+      "description": "Interaktives Rätselspiel mit Escape-Box-Elementen und Zeitreise-Thematik, gesteuert durch eine native App.",
+      "date": "Okt 2024 - Jan 2025",
+      "type": "Appentwicklung",
+      "duration": "4 Monate",
+      "project": {
+        "title": "Das Projekt",
+        "text": [
+          "Time Parabox ist ein interaktives Escape-Box-Spiel, das Spieler:innen auf eine spannende Zeitreise schickt, um Paradoxe in der Geschichte zu korrigieren. Die Reise führt durch fünf historische Epochen – Antike, Mittelalter, Renaissance, Industrielle Revolution und den Zweiten Weltkrieg.", 
+          "Jede Epoche wird durch eine physische Rätselbox repräsentiert, die unter anderem NFC-Tags, Magnetschlösser, 3D-gedruckte Modelle, einen Drehregler, Servomotor und LED-Ring enthält.",
+          "Eine begleitende App führt die Spieler:innen durch die Rätsel und verknüpft die physischen Elemente mit digitalen Interaktionen. Jedes Rätsel ist thematisch auf die jeweilige Epoche abgestimmt. Ziel ist es, durch das Lösen der Rätsel die Zeitlinie zu stabilisieren und die Zukunft zu retten."
+        ]
+      },
+      "implementation": {
+        "title": "Die Umsetzung",
+        "text": [
+          "Die Entwicklung erfolgte mithilfe agiler Methoden. Zweiwöchige Sprints wurden mit Jira organisiert und der Fortschritt wurde regelmäßig in wöchentlichen Meetings überprüft.",
+          "Die App wurde mit React Native entwickelt, wobei React Redux für die State-Verwaltung und Expo für ein einfaches Setup und effizientes Testing zum Einsatz kamen. Die Kommunikation zwischen der Rätselbox und der begleitenden App wird durch einen ESP-Mikrocontroller ermöglicht, der Daten über Bluetooth (BLE) zwischen der App und den elektronischen Komponenten der Boxen überträgt."
+        ]
+      },
+      "myTasks": {
+        "title": "Meine Aufgaben",
+        "text": [
+          "Meine Hauptverantwortung lag in der Entwicklung der App mit React Native. Neben der allgemeinen App-Entwicklung war ich an der Umsetzung spezifischer Rätselmechaniken beteiligt.",
+          "In der Antike entwickelte ich die Integration eines digitalen Kompasses, der den Spieler:innen half, Odysseus den richtigen Weg zu weisen. Für die Renaissance implementierte ich die Nutzung eines Accelerometers, das es den Spieler:innen ermöglichte, Hindernisse mit Leonardo da Vincis Fluggerät geschickt auszuweichen. Im Abschnitt des Zweiten Weltkriegs gestaltete ich ein Rätsel mit, bei dem Morsecodes entschlüsselt werden mussten, um das letzte Artefakt zu erhalten."
+        ]
+      }
     },
     "bevry": {
       "description": "Eine Web-App für Cocktailfans zum Entdecken, Teilen, Bewerten und Verwalten von Getränken.",
