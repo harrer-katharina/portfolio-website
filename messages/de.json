@@ -159,7 +159,7 @@
     },
     "veganAdvent": {
       "description": "Ein digitaler Adventskalender mit wertvollen Tipps und Infos für ein veganes Leben.",
-      "date": "Oktober 2024",
+      "date": "Okt 2024",
       "type": "Appdesign, Webentwicklung",
       "duration": "2 Wochen",
       "project": {
@@ -181,7 +181,43 @@
       }
     },
     "trilum": {
-      "description": "Analyse und Überarbeitung der Benutzeroberfläche des drahtlosen Pick-by-Light-Systems TRILUM zur Verbesserung der Usability."
+      "description": "Analyse und Überarbeitung der Benutzeroberfläche des drahtlosen Pick-by-Light-Systems TRILUM zur Verbesserung der Usability.",
+      "date": "Sep 2021 - Feb 2022",
+      "type": "Webentwicklung, Webdesign, Usability",
+      "duration": "6 Monate",
+      "project": {
+        "title": "Das Projekt",
+        "text": [
+          "Im Rahmen meiner Bachelorthesis habe ich die grafische Benutzeroberfläche des Pick-by-Light-Systems TRILUM analysiert und überarbeitet. Das System, das von der Fraunhofer-Gesellschaft am Fraunhofer-Institut für Integrierte Schaltungen (IIS) entwickelt wurde, diente als Grundlage meiner Arbeit.",
+          "In Kooperation mit dem Fraunhofer IIS, wo ich nach meinem Pflichtpraktikum als HiWi in der Arbeitsgruppe Supply Chain Services in Nürnberg übernommen wurde, hatte ich die Möglichkeit, meine Bachelorarbeit zu verfassen. Mein Ziel war, die Benutzerfreundlichkeit der Webseite zu verbessern.",
+          "Der Zugriff auf meine Bachelorarbeit ist passwortgeschützt, kontaktiere mich gerne für die Zugangsdaten."
+        ],
+        "cta": "Bachelorarbeit ansehen"
+      },
+      "init": {
+        "title": "Der Ausgangspunkt",
+        "text": [
+          "TRILUM ist ein drahtloses Pick-by-Light-System für Lagerkommissionierung und Montageprozesse. Das Kommissioniersystem leitet Mitarbeiter*innen, die Material aus Regalen entnehmen müssen, per Leuchtsignal zum richtigen Entnahmefach.",
+          "Der Fokus meiner Arbeit lag allerdings auf der, mit dem Oberflächen-Framework Angular entwickelten, Desktopanwendung. Diese wurde zur Koordination von Aufträgen, Lagerbeständen und Mitarbeitern eingesetzt."
+        ],
+        "cta": "Mehr über das System"
+      },
+      "implementation": {
+        "title": "Die Umsetzung",
+        "text": [
+          "Um den Fokus auf die nutzende Person zu legen, wurde das Vorgehensmodell des User-Centered-Designs nach der ISO-Norm 9241/210 angewandt.",
+          "Zunächst wurde die Anwendung analysiert, wobei in dieser Phase auch andere Pick-by-Light-Systeme betrachtet und die Nutzungsanforderungen dokumentiert wurden.",
+          "Um anschließend Usability-Tests konzipieren und durchführen zu können, wurden geeignete Methoden der Usability-Evaluation ausgewählt. Die Nutzer*innen wurden mittels eines Fragebogens befragt, zur Beobachtung des Nutzerverhaltens wurde die Think-Aloud-Methode eingesetzt.",
+          "Auf Basis der Testauswertungen wurden Usability-Probleme identifiziert und Designlösungen zur Verbesserung der Benutzerfreundlichkeit entwickelt. Die Optimierungsvorschläge wurden anschließend priorisiert und im bestehenden System umgesetzt, so dass die Usability-Tests schließlich ein zweites Mal durchgeführt werden konnten."
+        ]
+      },
+      "result": {
+        "title": "Das Ergebnis",
+        "text": [
+          "Die Ergebnisse der Kontrolltests zeigen, dass die Benutzerfreundlichkeit deutlich verbessert werden konnte und die Interaktion mit dem System intuitiver möglich ist. Die Proband*innen nahmen nicht nur die Aufgaben als leichter zu lösen wahr, sondern bewerteten auch die Fragen zu den Interaktionsprinzipien deutlich besser."
+        ],
+        "cta": "Vortragsfolien ansehen"
+      }
     },
     "nakt": {
       "description": "WordPress-Website ohne vorgefertigte Themes oder Plugins. Der Fokus lag auf PHP-Programmierung, ergänzt durch HTML, JavaScript und CSS."
@@ -192,15 +228,15 @@
     "title": "Mein Werdegang",
     "bachelorTitle": "Bachelor of Science - Medieninformatik",
     "bachelorLocation": "TH Nürnberg",
-    "bachelorDescription": "Bachelorarbeit in Kooperation mit Fraunhofer: Analyse und Überarbeitung der Benutzeroberfläche eines Pick-by-Light-Systems zur Verbesserung der Usability am Beispiel des Projekts TRILUM.",
+    "bachelorDescription": "Bachelorarbeit in Kooperation mit Fraunhofer: Analyse und Überarbeitung der Benutzeroberfläche eines Pick-by-Light-Systems zur Verbesserung der Usability am Beispiel des Projekts TRILUM. Abschlussnote: 1,8",
     "bachelorDate": "10/2018 – 03/2022",
-    "job1Title": "Wissenschaftliche Hilfskraft: Bereich Frontendentwicklung",
-    "job1Location": "Fraunhofer IIS, Nürnberg",
-    "job1Description": "Entwicklung mit Vue.js; Durchführung und Auswertung von Objektmessungen bei einem Projekt im Machine Learning Kontext; Erstellung von UI-Prototypen",
-    "job1Date": "01/2021 – 03/2022",
-    "job2Title": "Entwicklerin: Bereich Frontend - Middleware",
+    "job1Title": "Praktikantin, HiWi: Frontendentwicklung",
+    "job1Location": "Fraunhofer IIS, Arbeitsgruppe für Supply Chain Services, Nürnberg",
+    "job1Description": "Dort absolvierte ich zunächst ein Pflichtpraktikum (5 Monate) und wurde anschließend bis zum Ende meines Bachelorstudiums als wissenschaftliche Hilfskraft übernommen. In dieser Zeit war ich in verschiedenen Bereichen tätig: Ich entwickelte mit Vue.js, führte Objektmessungen für ein Machine-Learning-Projekt durch und erstellte UI-Prototypen.",
+    "job1Date": "09/2020 – 03/2022",
+    "job2Title": "Entwicklerin: Frontend - Middleware",
     "job2Location": "edison street GmbH, Roth",
-    "job2Description": "Entwicklung an einer Website, um Kunden ihre Verbrauchs-, Leistungs- und Bewegungsdaten anschaulich anzuzeigen unter Einsatz von React und PHP. Nach dem abgeschlossenen Bachelor arbeitete ich dort Vollzeit (04/22 – 08/23) und während des Masterstudiums Teilzeit (09/23 – 02/25)",
+    "job2Description": "Nach meinem Bachelorabschluss arbeitete ich dort zunächst Vollzeit (1 Jahr, 5 Monate) und während meines Masterstudiums in Teilzeit (1 Jahr, 6 Monate). Meine Aufgaben umfassten die Entwicklung einer Website, die es Kunden ermöglichte, ihre Verbrauchs-, Leistungs- und Bewegungsdaten übersichtlich anzuzeigen, unter Verwendung von React und PHP.",
     "job2Date": "04/2022 – 02/2025",
     "masterTitle": "Dipl.Ing. Interactive Technologies",
     "masterLocation": "FH St. Pölten, Österreich",

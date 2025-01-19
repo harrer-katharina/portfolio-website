@@ -2,7 +2,6 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import trilum from "@/public/trilum-orders-overview.png";
 import nakt from "@/public/nakt-recipe-customizer-desktop.png";
 import timeparabox from "@/public/time-parabox.png";
 
@@ -28,11 +27,17 @@ import ecocalypsePoster from "@/public/ecocalypse/ecocalypse-natures-revenge-pos
 import ecocalypseScene from "@/public/ecocalypse/ecocalypse-scene.webp";
 import ecocalypseCollage from "@/public/ecocalypse/ecocalypse-collage.webp";
 
-import advent from "@/public/advent-light.png";
-import adventDark from "@/public/advent-dark.png";
+import advent from "@/public/veganAdvent/advent-light.png";
+import adventDark from "@/public/veganAdvent/advent-dark.png";
 import veganAdvent from "@/public/veganAdvent/veganAdvent.png";
 import veganAdventPoster from "@/public/veganAdvent/veganAdvent-poster.png";
 import veganAdventApp from "@/public/veganAdvent/veganAdvent-app.png";
+
+import trilum from "@/public/trilum/trilum-orders-overview.png";
+import trilumOrders from "@/public/trilum/trilum-orders-overview.webp";
+import trilumTechStack from "@/public/trilum/trilum-tech-stack.webp";
+import trilumWorkflow from "@/public/trilum/trilum-workflow.webp";
+import trilumUsabilityTests from "@/public/trilum/trilum-usability-tests.webp";
 
 export const getLinks = () => {
   const t = useTranslations("Links");
@@ -284,11 +289,47 @@ export const getProjectsData = (theme: string) => {
     {
       projectId: "trilum",
       title: "TRILUM",
+      date: t("trilum.date"),
+      type: t("trilum.type"),
+      duration: t("trilum.duration"),
       description: t("trilum.description"),
       tags: ["Angluar", "PostgreSQL", "Figma"],
       image: trilum,
-      sectionImage: trilum,
-      sections: [],
+      sectionImage: trilumOrders,
+      sections: [
+        {
+          title: t("trilum.project.title"),
+          text: [t("trilum.project.text.0"), t("trilum.project.text.1"), t("trilum.project.text.2")],
+          image: trilum,
+          cta: {
+            title: t("trilum.project.cta"),
+            link: "https://katharina-harrer.de/projects/trilum/Harrer_Bachelorarbeit.pdf"
+          }
+        },
+        {
+          title: t("trilum.init.title"),
+          text: [t("trilum.init.text.0"), t("trilum.init.text.1")],
+          image: trilumTechStack,
+          cta: {
+            title: t("trilum.init.cta"),
+            link: "https://www.scs.fraunhofer.de/de/referenzen/pbll.html"
+          }
+        },
+        {
+          title: t("trilum.implementation.title"),
+          text: [t("trilum.implementation.text.0"), t("trilum.implementation.text.1"), t("trilum.implementation.text.2"), t("trilum.implementation.text.3")],
+          image: trilumWorkflow,
+        },
+        {
+          title: t("trilum.result.title"),
+          text: [t("trilum.result.text.0")],
+          image: trilumUsabilityTests,
+          cta: {
+            title: t("trilum.result.cta"),
+            link: "https://drive.google.com/file/d/1GiQUaG59pa8_f3yQi-VuC04ypb8uHJ2m/view?usp=sharing"
+          }
+        },
+      ],
     },
     {
       projectId: "nakt",

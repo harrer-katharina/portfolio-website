@@ -63,7 +63,7 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
           {project.duration}
         </div>
       </div>
-      <div className="max-w-6xl mx-auto py-12 space-y-24 sm:space-y-60">
+      <div className="max-w-6xl mx-auto pt-12 sm:pt-32 pb-12 space-y-24 sm:space-y-60">
         {project.sections?.map((section, index) => (
           <section
             key={index}
