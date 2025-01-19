@@ -79,7 +79,7 @@
     },
     "erika": {
       "description": "Eine App als digitale Begleiterin für klimafreundliches Handeln und regionale Aktivitäten.",
-      "date": "März 2024 - Juni 2024",
+      "date": "März - Juni 2024",
       "type": "Nachhaltiges Web- & Appdesign, Prototyping",
       "duration": "4 Monate",
       "project": {
@@ -220,7 +220,25 @@
       }
     },
     "nakt": {
-      "description": "WordPress-Website ohne vorgefertigte Themes oder Plugins. Der Fokus lag auf PHP-Programmierung, ergänzt durch HTML, JavaScript und CSS."
+      "description": "WordPress-Website ohne vorgefertigte Themes oder Plugins. Der Fokus lag auf PHP-Programmierung.",
+      "date": "März - Juni 2021",
+      "type": "WordPress Plugin-Entwicklung, Webentwicklung",
+      "duration": "4 Monate",
+      "project": {
+        "title": "Das Projekt",
+        "text": [
+          "NAKT? Interesse geweckt? NAKT ist der Name einer WordPress-Website, die ich zusammen mit drei Kommiliton*innen im Rahmen eines Studienprojektes im sechsten Semester entwickelt habe. Der Name setzt sich aus den Anfangsbuchstaben unserer Vornamen zusammen.",
+          "Das Besondere an der Website war, dass keine vorgefertigten Themes, Plugins, Shortcodes, etc. zum Einsatz kamen, da diese eigenständig zu programmieren waren. Der Schwerpunkt lag dabei auf der Entwicklung mit PHP, wobei auch HTML, JavaScript und CSS zum Einsatz kamen. Zudem habe ich darauf geachtet, dass die Inhalte sowohl in deutscher als auch in englischer Sprache angezeigt werden können, indem ich eine Lokalisierung implementiert habe."
+        ]
+      },
+      "implementation": {
+        "title": "Die Umsetzung",
+        "text": [
+          "Für das Projekt habe ich ein Plugin 'Rezepte' entwickelt, um dem*der Nutzer*in die Möglichkeit zu geben, eigene Rezepte anzulegen. Außerdem habe ich ein Widget mit verschiedenen Konfigurationsmöglichkeiten programmiert. Es dient dazu, Beiträge nach dem Zufallsprinzip anzuzeigen. Der*Die Nutzer*in hat ferner die Möglichkeit, Nachhaltigkeitstipps einzureichen, hierfür habe ich einen JSON-Export entwickelt.",
+          "Weitere Informationen zum Projekt sowie den kommentierten Quellcode meiner umgesetzten Komponenten findest du auf GitHub."
+        ],
+        "cta": "GitHub-Repo ansehen"
+      }
     },
     "notFound": "Projekt nicht gefunden."
   },

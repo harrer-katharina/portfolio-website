@@ -221,7 +221,25 @@
       }
     },
     "nakt": {
-      "description": "WordPress website without pre-built themes or plugins. The focus was on PHP programming, complemented by HTML, JavaScript, and CSS."
+      "description": "WordPress website without pre-built themes or plugins. The focus was on PHP programming.",
+      "date": "March - June 2021",
+      "type": "WordPress Plugin Development, Web Development",
+      "duration": "4 months",
+      "project": {
+          "title": "The Project",
+          "text": [
+              "NAKT? Interested? NAKT is the name of a WordPress website that I developed together with three classmates as part of a study project in the sixth semester. The name is derived from the first letters of our first names.",
+              "What makes this website special is that no pre-built themes, plugins, shortcodes, etc., were used, as these had to be programmed independently. The focus was on PHP development, although HTML, JavaScript, and CSS were also utilized. I also made sure that the content could be displayed in both German and English by implementing localization."
+          ]
+      },
+      "implementation": {
+          "title": "The Implementation",
+          "text": [
+              "For the project, I developed a 'Recipes' plugin, allowing the user to create their own recipes. I also programmed a widget with various configuration options, which displays posts randomly. The user can also submit sustainability tips, for which I developed a JSON export.",
+              "Further information about the project and the commented source code of my implemented components can be found on GitHub."
+          ],
+          "cta": "View GitHub Repo"
+      }
     },
     "notFound": "Project not found."
   },

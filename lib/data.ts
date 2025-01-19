@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import nakt from "@/public/nakt-recipe-customizer-desktop.png";
+
 import timeparabox from "@/public/time-parabox.png";
 
 import bevry from "@/public/bevry/bevry-mocktail.png";
@@ -38,6 +38,10 @@ import trilumOrders from "@/public/trilum/trilum-orders-overview.webp";
 import trilumTechStack from "@/public/trilum/trilum-tech-stack.webp";
 import trilumWorkflow from "@/public/trilum/trilum-workflow.webp";
 import trilumUsabilityTests from "@/public/trilum/trilum-usability-tests.webp";
+
+import nakt from "@/public/nakt/nakt-recipe-customizer-desktop.png";
+import naktPreview from "@/public/nakt/nakt-preview.png";
+import naktBackend from "@/public/nakt/nakt-recipe-backend.png";
 
 export const getLinks = () => {
   const t = useTranslations("Links");
@@ -334,11 +338,29 @@ export const getProjectsData = (theme: string) => {
     {
       projectId: "nakt",
       title: "NAKT",
+      date: t("nakt.date"),
+      type: t("nakt.type"),
+      duration: t("nakt.duration"),
       description: t("nakt.description"),
       tags: ["WordPress", "PHP", "Html", "JS", "Css"],
       image: nakt,
-      sectionImage: nakt,
-      sections: [],
+      sectionImage: naktPreview,
+      sections: [
+        {
+          title: t("nakt.project.title"),
+          text: [t("nakt.project.text.0"), t("nakt.project.text.1")],
+          image: nakt,
+        },
+        {
+          title: t("nakt.implementation.title"),
+          text: [t("nakt.implementation.text.0"), t("nakt.implementation.text.1")],
+          image: naktBackend,
+          cta: {
+            title: t("nakt.implementation.cta"),
+            link: "https://github.com/katharina-harrer/wp-plugins"
+          }
+        },
+      ],
     },
   ];
 };
