@@ -3,14 +3,14 @@ import { useTranslations } from "next-intl";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 
-import timeparabox from "@/public/timeParabox/time-parabox.png";
-import timeparaboxPoster from "@/public/timeParabox/timeParabox-poster.png";
+import timeparabox from "@/public/timeParabox/time-parabox.svg";
+import timeparaboxPoster from "@/public/timeParabox/timeParabox-poster.svg";
 import timeparaboxMockups from "@/public/timeParabox/timeParabox-mockups.png";
 import timeparaboxEpochs from "@/public/timeParabox/timeParabox-epochs.png";
 import timeparaboxFeatures from "@/public/timeParabox/timeParabox-features.png";
 
 import bevry from "@/public/bevry/bevry-mocktail.png";
-import bevryCocktails from "@/public/bevry/bevry-cocktails.png";
+import bevryCocktails from "@/public/bevry/bevry-cocktails.svg";
 import bevryFeatures from "@/public/bevry/bevry-features.png";
 import bevryThumbnail from "@/public/bevry/bevry-thumbnail.png";
 import bevryBranding from "@/public/bevry/bevry-mockup-drucksorten.png";
@@ -18,7 +18,7 @@ import bevryGroup from "@/public/bevry/bevry-group.jpg";
 import bevryScreens from "@/public/bevry/bevry-kathy-politan.png";
 
 import erika from "@/public/erika/erika-closeup.png";
-import erikaHand from "@/public/erika/erika-hand.png";
+import erikaHand from "@/public/erika/erika-hand.svg";
 import erikaProject from "@/public/erika/erika-project.png";
 import erikaScreens from "@/public/erika/erika-mockups.png";
 import erikaLogo from "@/public/erika/erika-logo.svg";
@@ -38,7 +38,7 @@ import veganAdventPoster from "@/public/veganAdvent/veganAdvent-poster.png";
 import veganAdventApp from "@/public/veganAdvent/veganAdvent-app.png";
 
 import trilum from "@/public/trilum/trilum-orders-overview.png";
-import trilumOrders from "@/public/trilum/trilum-orders-overview.webp";
+import trilumOrders from "@/public/trilum/trilum-overview.png";
 import trilumTechStack from "@/public/trilum/trilum-tech-stack.webp";
 import trilumWorkflow from "@/public/trilum/trilum-workflow.webp";
 import trilumUsabilityTests from "@/public/trilum/trilum-usability-tests.webp";
@@ -47,9 +47,7 @@ import nakt from "@/public/nakt/nakt-recipe-customizer-desktop.png";
 import naktPreview from "@/public/nakt/nakt-preview.png";
 import naktBackend from "@/public/nakt/nakt-recipe-backend.png";
 
-export const getLinks = () => {
-  const t = useTranslations("Links");
-
+export const getLinks = (t: ReturnType<typeof useTranslations>) => {
   return [
     {
       name: "Home",
@@ -124,7 +122,6 @@ export const getProjectsData = (theme: string) => {
   return [
     {
       projectId: "time-parabox",
-      title: "Time Parabox",
       date: t("timeParabox.date"),
       type: t("timeParabox.type"),
       duration: t("timeParabox.duration"),
@@ -137,6 +134,10 @@ export const getProjectsData = (theme: string) => {
           title: t("timeParabox.project.title"),
           text: [t("timeParabox.project.text.0"), t("timeParabox.project.text.1"), t("timeParabox.project.text.2")],
           image: timeparaboxMockups,
+          cta: {
+            title: "",
+            link: ""
+          }
         },
         {
           title: t("timeParabox.implementation.title"),
@@ -152,7 +153,6 @@ export const getProjectsData = (theme: string) => {
     },
     {
       projectId: "bevry",
-      title: "Bevry",
       date: t("bevry.date"),
       type: t("bevry.type"),
       duration: t("bevry.duration"),
@@ -202,7 +202,6 @@ export const getProjectsData = (theme: string) => {
     },
     {
       projectId: "erika",
-      title: "ERIKA",
       date: t("erika.date"),
       type: t("erika.type"),
       duration: t("erika.duration"),

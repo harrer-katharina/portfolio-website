@@ -1,20 +1,14 @@
-import { useTheme } from "@/context/theme-context";
-
 type KLogoProps = {
   height?: number | string;
 };
 
 export default function Icon({ height = 50 }: KLogoProps) {
-  const { theme } = useTheme();
-
   return (
     <svg
       height={height}
       viewBox="0 0 103 100"
       xmlns="http://www.w3.org/2000/svg"
-      style={{
-        fill: theme === "dark" ? "#fff" : "#000",
-      }}
+      className="fill-dark dark:fill-white"
     >
       <path
         fillRule="evenodd"

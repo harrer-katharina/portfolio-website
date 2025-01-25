@@ -55,7 +55,7 @@ export default function Project({
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
-              <Tag index={index} title={tag} />
+              <Tag index={index} title={tag} key={index} />
             ))}
           </ul>
         </div>

@@ -10,18 +10,18 @@ export type SectionName = (ReturnType<typeof getLinks>)[number]["name"];
 
 export type ProjectType = {
     projectId: string;
-    title: string;
-    // date: string;
-    // type: string;
-    // duration: string;
+    title?: string;
+    date: string;
+    type: string;
+    duration: string;
     description: string;
     tags: string[];
     image: StaticImageData | string;
     sectionImage: StaticImageData | string;
-    sections: {
+    sections: Array<{
         title: string;
         text: string[];
         image: StaticImageData | string;
         cta?: CTAType;
-    }[];
+    }>;
 };

@@ -9,22 +9,25 @@ type ButtonProps = {
 
 export default function CTABtn({ title, link }: ButtonProps) {
   return (
-    <motion.div
-      className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 mt-4 text-lg font-medium"
-      initial={{ opacity: 0, y: 100 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{
-        delay: 0.1,
-      }}
-    >
-      <a
-        className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-gray-900 hover:bg-gray-950 text-white dark:bg-white dark:hover:bg-gray-50 dark:text-black"
-        href={link}
-        target="_blank"
+    title &&
+    link && (
+      <motion.div
+        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 mt-4 text-lg font-medium"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.1,
+        }}
       >
-        {title}
-        <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-      </a>
-    </motion.div>
+        <a
+          className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-gray-900 hover:bg-gray-950 text-white dark:bg-white dark:hover:bg-gray-50 dark:text-black"
+          href={link}
+          target="_blank"
+        >
+          {title}
+          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+        </a>
+      </motion.div>
+    )
   );
 }
