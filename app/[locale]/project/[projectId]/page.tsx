@@ -28,9 +28,9 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
             fill={true}
             className="object-cover"
           />
-          {project.title && (
+          {project.showTitle && (
             <h1
-              className="absolute bottom-6 left-10 md:left-20 xl:left-40 font-bold text-white drop-shadow-lg"
+              className="absolute bottom-6 left-10 md:left-20 xl:left-40 text-white drop-shadow-lg font-bricolage"
               style={{ fontSize: "clamp(2rem, 5vw, 4rem)" }}
             >
               {project.title}
@@ -82,7 +82,9 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
                 />
               </div>
               <div className="md:w-1/2 my-auto">
-                <h2 className="text-2xl font-semibold mb-2">{section.title}</h2>
+                <h2 className="text-2xl mb-2 font-bricolage">
+                  {section.title}
+                </h2>
                 {section.text.map((text, idx) => (
                   <p key={idx} className="mb-2">
                     {text}

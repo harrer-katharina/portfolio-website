@@ -24,7 +24,7 @@ export default function Intro() {
       className="flex flex-col lg:flex-row items-center justify-center my-28 sm:my-auto px-8 lg:px-16 md:h-[100vh]"
     >
       <div className="flex flex-col items-start max-w-md lg:mr-16 dark:text-white">
-        <h1 className="text-3xl font-bold">{t("introduction")}</h1>
+        <h1 className="text-3xl font-bricolage">{t("introduction")}</h1>
 
         <motion.span
           initial={{ opacity: 0, scale: 0 }}
@@ -38,7 +38,7 @@ export default function Intro() {
         >
           <div className="flex items-center mb-4 text-5xl !leading-[1.5] sm:text-6xl ">
             <KLogo height={60} />
-            <span className="font-bold text-5xl sm:text-7xl leading-0">
+            <span className="font-bricolage text-5xl sm:text-7xl">
               atharina
             </span>
             <div className="relative ml-2 mb-10">

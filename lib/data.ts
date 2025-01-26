@@ -122,6 +122,8 @@ export const getProjectsData = (theme: string) => {
   return [
     {
       projectId: "time-parabox",
+      title: "Time Parabox",
+      showTitle: false,
       date: t("timeParabox.date"),
       type: t("timeParabox.type"),
       duration: t("timeParabox.duration"),
@@ -153,6 +155,8 @@ export const getProjectsData = (theme: string) => {
     },
     {
       projectId: "bevry",
+      title: "Bevry",
+      showTitle: false,
       date: t("bevry.date"),
       type: t("bevry.type"),
       duration: t("bevry.duration"),
@@ -202,6 +206,8 @@ export const getProjectsData = (theme: string) => {
     },
     {
       projectId: "erika",
+      title: "Erika",
+      showTitle: false,
       date: t("erika.date"),
       type: t("erika.type"),
       duration: t("erika.duration"),
@@ -247,6 +253,7 @@ export const getProjectsData = (theme: string) => {
     {
       projectId: "ecocalypse",
       title: "Ecocalypse",
+      showTitle: true,
       date: t("ecocalypse.date"),
       type: t("ecocalypse.type"),
       duration: t("ecocalypse.duration"),
@@ -284,6 +291,7 @@ export const getProjectsData = (theme: string) => {
     {
       projectId: "vegan-advent",
       title: "vegan advent",
+      showTitle: true,
       date: t("veganAdvent.date"),
       type: t("veganAdvent.type"),
       duration: t("veganAdvent.duration"),
@@ -315,6 +323,7 @@ export const getProjectsData = (theme: string) => {
     {
       projectId: "trilum",
       title: "TRILUM",
+      showTitle: true,
       date: t("trilum.date"),
       type: t("trilum.type"),
       duration: t("trilum.duration"),
@@ -360,6 +369,7 @@ export const getProjectsData = (theme: string) => {
     {
       projectId: "nakt",
       title: "NAKT",
+      showTitle: true,
       date: t("nakt.date"),
       type: t("nakt.type"),
       duration: t("nakt.duration"),
