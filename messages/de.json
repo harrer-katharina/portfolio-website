@@ -16,12 +16,14 @@
   "About": {
     "title": "Über mich",
     "introPart1": "Während meines",
-    "introHighlight1": "Bachelorstudiums in Medieninformatik an der TH Nürnberg",
-    "introPart2": "konnte ich fundierte Kenntnisse in theoretischen Grundlagen, praktischer Informatik und digitalen Medien erwerben. Besonders fasziniert mich die Möglichkeit, dieses Wissen anzuwenden, zu vertiefen und stetig zu erweitern. Daher habe ich mich entschieden, nach meinem Bachelorabschluss den",
-    "introHighlight2": "Masterstudiengang Interactive Technologies mit dem Schwerpunkt Mobile an der FH St. Pölten ",
-    "introPart3": "zu absolvieren. Ich bin leidenschaftlich daran interessiert, neue Technologien zu erlernen, und suche derzeit eine",
-    "introHighlight3": "Teilzeitstelle als Frontend-Entwicklerin.",
-    "hobbiesPart1": "In meiner Freizeit engagiere ich mich für Nachhaltigkeit und genieße das vegane Kochen und Backen. Ich bin gerne in der Natur unterwegs – sei es beim Wandern in den Bergen, Rennradfahren oder Bikepacking, um neue Orte und Länder zu entdecken. Letztes Jahr habe ich beispielsweise mit dem Rad die Strecke von Roth nach Budapest zurückgelegt und Dänemark sowie Schweden erkundet."
+    "introHighlight1": "Bachelorstudiums in Medieninformatik",
+    "introPart2": "an der TH Nürnberg konnte ich fundierte Kenntnisse in Informatik und digitalen Medien erwerben. Nach dem Abschluss wollte ich mich stärker in Richtung Webentwicklung weiterbilden, weshalb ich mich für den",
+    "introHighlight2": "Masterstudiengang Interactive Technologies mit dem Schwerpunkt Mobile",
+    "introPart3": "an der FH St. Pölten entschieden habe.",
+    "introPart4": "Mein Fokus liegt darauf, die Benutzererfahrung (UX) zu verstehen und in benutzerzentrierte Designs umzusetzen. Ich suche nun eine",
+    "introHighlight4": "Teilzeitstelle als Frontend-Entwicklerin",
+    "introPart5": ", um meine technischen Fähigkeiten sowie mein Interesse an UX/UI-Design weiter auszubauen.",
+    "hobbiesPart1": "In meiner Freizeit interessiere ich mich für Nachhaltigkeit und genieße das vegane Kochen und Backen. Ich bin gerne in der Natur unterwegs – sei es beim Wandern in den Bergen, Rennradfahren oder Bikepacking, um neue Orte und Länder zu entdecken. Letztes Jahr habe ich beispielsweise mit dem Rad die Strecke von Roth nach Budapest zurückgelegt und Dänemark sowie Schweden erkundet."
   },
   "Projects": {
     "title": "Meine Projekte",

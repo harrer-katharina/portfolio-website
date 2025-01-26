@@ -11,6 +11,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import KLogo from "./k-logo";
+import SparkLogo from "./spark-logo";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -20,7 +21,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="flex flex-col lg:flex-row items-center justify-center my-auto px-8 lg:px-16 md:h-[100vh]"
+      className="flex flex-col lg:flex-row items-center justify-center my-28 sm:my-auto px-8 lg:px-16 md:h-[100vh]"
     >
       <div className="flex flex-col items-start max-w-md lg:mr-16 dark:text-white">
         <h1 className="text-3xl font-bold">{t("introduction")}</h1>
@@ -40,13 +41,9 @@ export default function Intro() {
             <span className="font-bold text-5xl sm:text-7xl leading-0">
               atharina
             </span>
-            <Image
-              src="/logo-spark.svg"
-              alt="Spark"
-              width={70}
-              height={76}
-              className="mb-8"
-            />
+            <div className="relative ml-2 mb-10">
+              <SparkLogo />
+            </div>
           </div>
         </motion.span>
         <motion.h1

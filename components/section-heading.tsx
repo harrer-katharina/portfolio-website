@@ -1,4 +1,5 @@
 import React from "react";
+import SparkLogo from "./spark-logo";
 
 type SectionHeadingProps = {
   children: React.ReactNode;
@@ -6,8 +7,13 @@ type SectionHeadingProps = {
 
 export default function SectionHeading({ children }: SectionHeadingProps) {
   return (
-    <h2 className="text-3xl font-medium capitalize mb-8 text-center">
-      {children}
-    </h2>
+    <div className="flex justify-center items-center mb-4">
+      <h2 className="text-4xl font-black capitalize text-center mr-2">
+        {children}
+      </h2>
+      <div className="relative mb-10">
+        <SparkLogo />
+      </div>
+    </div>
   );
 }
