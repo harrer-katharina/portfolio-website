@@ -21,7 +21,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="flex flex-col lg:flex-row items-center justify-center my-28 sm:my-auto px-8 lg:px-16 md:h-[100vh]"
+      className="flex flex-col lg:flex-row items-center justify-center py-28 sm:py-auto px-8 lg:px-16 lg:h-[100vh] scroll-mt-24 sm:scroll-mt-0"
     >
       <div className="flex flex-col items-start max-w-md lg:mr-16 dark:text-white">
         <h1 className="text-3xl font-bricolage">{t("introduction")}</h1>
@@ -59,7 +59,7 @@ export default function Intro() {
           </p>
         </motion.h1>
         <motion.div
-          className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+          className="flex sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
@@ -104,13 +104,13 @@ export default function Intro() {
           duration: 0.2,
         }}
       >
-        <div className="relative w-full mt-8 lg:mt-0">
+        <div className="relative overflow-hidden pt-4 lg:pt-28 h-[50vh] sm:h-[100vh] lg:flex lg:items-center lg:justify-center">
           <Image
-            src="/kh-image.png"
+            src="/kharrer.png"
             alt="Katharina"
-            width={477}
+            width={350}
             height={499}
-            className="object-contain"
+            className="object-cover object-bottom"
             priority
           />
         </div>

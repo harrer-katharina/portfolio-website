@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import SectionHeading from "./section-heading";
 import {
   VerticalTimeline,
@@ -39,11 +40,17 @@ export default function Experience() {
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
               date={item.date}
-              icon={item.icon}
-              iconStyle={{
-                background: theme === "light" ? "white" : "#343A47",
-                fontSize: "1.5rem",
-              }}
+              icon={
+                <div className="flex items-center justify-center w-full h-full">
+                  <Image
+                    src={item.icon}
+                    alt={item.title}
+                    width={60}
+                    height={60}
+                    className="rounded-full"
+                  />
+                </div>
+              }
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>

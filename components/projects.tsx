@@ -15,7 +15,7 @@ export default function Projects() {
   const data = getProjectsData(theme);
 
   return (
-    <section ref={ref} id="projects" className="scroll-mt-28 mb-28 relative">
+    <section ref={ref} id="projects" className="scroll-mt-28 relative">
       <SectionHeading>{t("title")}</SectionHeading>
       {data.map((project, index) => (
         <React.Fragment key={index}>
