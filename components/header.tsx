@@ -26,14 +26,14 @@ export default function Header() {
           <Logo />
         </Link>
 
-        <ul className="hidden sm:flex items-center space-x-8 text-sm font-medium text-gray-600 dark:text-gray-300">
+        <ul className="hidden sm:flex items-center space-x-8 text-sm font-medium text-gray-600 dark:text-[#FFD8EC]">
           {getLinks(t).map((link) => (
             <li key={link.hash} className="relative">
               <Link
                 className={clsx(
                   "hover:text-gray-900 dark:hover:text-gray-100 transition",
                   {
-                    "text-gray-900 dark:text-white":
+                    "text-gray-900 dark:text-[#FF96CC]":
                       activeSection === link.name,
                   }
                 )}
@@ -46,7 +46,7 @@ export default function Header() {
                 {link.title}
                 {link.name === activeSection && (
                   <motion.span
-                    className="absolute -bottom-1 left-0 h-[2px] w-full bg-gray-900 dark:bg-gray-50"
+                    className="absolute -bottom-1 left-0 h-[2px] w-full bg-[#FF96CC] dark:bg-[#FFD8EC]"
                     layoutId="activeSection"
                     transition={{
                       type: "spring",
@@ -118,7 +118,7 @@ export default function Header() {
 
       {menuOpen && (
         <motion.div
-          className="md:hidden fixed inset-0 flex flex-col items-center justify-center space-y-6 bg-white text-black dark:bg-gray-900 dark:text-white"
+          className="md:hidden fixed inset-0 flex flex-col items-center justify-center space-y-6 bg-white text-black dark:bg-gray-900 dark:text-[#FFD8EC]"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
@@ -128,20 +128,29 @@ export default function Header() {
             damping: 40,
           }}
         >
-          {getLinks(t).map((link) => (
-            <Link
-              key={link.hash}
-              href={`/${locale}${link.hash}`}
-              className="text-lg font-medium"
-              onClick={() => {
-                setMenuOpen(false);
-                setActiveSection(link.name);
-                setTimeOfLastClick(Date.now());
-              }}
-            >
-              {link.title}
-            </Link>
-          ))}
+          <ul className="flex flex-col items-center space-y-8 text-lg font-medium">
+            {getLinks(t).map((link) => (
+              <li key={link.hash} className="relative">
+                <Link
+                  key={link.hash}
+                  href={`/${locale}${link.hash}`}
+                  className={clsx("text-lg font-medium", {
+                    "dark:text-[#FF96CC]": activeSection === link.name,
+                  })}
+                  onClick={() => {
+                    setMenuOpen(false);
+                    setActiveSection(link.name);
+                    setTimeOfLastClick(Date.now());
+                  }}
+                >
+                  {link.title}
+                  {link.name === activeSection && (
+                    <span className="absolute -bottom-1 left-0 h-[2px] w-full bg-[#FF96CC] dark:bg-[#FFD8EC]"></span>
+                  )}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </motion.div>
       )}
     </header>

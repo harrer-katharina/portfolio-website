@@ -20,7 +20,7 @@ export default function CTABtn({ title, link }: ButtonProps) {
         }}
       >
         <a
-          className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-gray-900 hover:bg-gray-950 text-white dark:bg-white dark:hover:bg-gray-50 dark:text-black"
+          className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-gray-900 hover:bg-gray-950 text-white dark:bg-[#FF96CC] dark:hover:bg-gray-50 dark:text-black"
           href={link}
           target="_blank"
         >

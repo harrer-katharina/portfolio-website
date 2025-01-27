@@ -46,7 +46,7 @@ export default function Project({
     >
       <section
         onClick={showProjectDetails}
-        className="max-w-[42rem] sm:h-[20rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative transition sm:group-even:pl-8 bg-gray-100/60 hover:bg-gray-200/60 dark:text-white dark:bg-white/10 dark:hover:bg-white/20"
+        className="max-w-[42rem] sm:h-[20rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative transition sm:group-even:pl-8 bg-white/75 hover:bg-white dark:text-white dark:bg-white/10 dark:hover:bg-white/20"
       >
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <h3 className="text-2xl font-bricolage">{title}</h3>

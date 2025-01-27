@@ -21,23 +21,21 @@ export default function Experience() {
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>{t("title")}</SectionHeading>
-      <VerticalTimeline lineColor="">
+      <VerticalTimeline lineColor={theme === "light" ? "#fff" : ""}>
         {getExperiencesData().map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                background:
-                  theme === "light" ? "#f3f4f699" : "rgba(255, 255, 255, 0.05)",
+                background: theme === "light" ? "#ffffffbf" : "#ffffff1a",
                 boxShadow: "none",
-                border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
                 padding: "1.3rem 2rem",
               }}
               contentArrowStyle={{
                 borderRight:
                   theme === "light"
-                    ? "0.4rem solid #9ca3af"
-                    : "0.4rem solid rgba(255, 255, 255, 0.5)",
+                    ? "0.4rem solid #ffffffbf"
+                    : "0.4rem solid #ffffff1a",
               }}
               date={item.date}
               icon={
@@ -52,9 +50,11 @@ export default function Experience() {
                 </div>
               }
             >
-              <h3 className="font-semibold capitalize">{item.title}</h3>
+              <h3 className="font-semibold capitalize dark:text-[#FFD8EC]">
+                {item.title}
+              </h3>
               <p className="font-normal !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75 text-justify hyphens-auto">
                 {item.description}
               </p>
             </VerticalTimelineElement>

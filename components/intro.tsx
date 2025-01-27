@@ -3,63 +3,44 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
-
 import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { useSectionInView } from "@/lib/hooks";
+import { useTheme } from "@/context/theme-context";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import KLogo from "./k-logo";
-import SparkLogo from "./spark-logo";
+import Introduction from "./introduction";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
+  const { theme } = useTheme();
   const t = useTranslations("Intro");
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
     <section
       ref={ref}
       id="home"
-      className="flex flex-col lg:flex-row items-center justify-center py-28 sm:py-auto px-8 lg:px-16 lg:h-[100vh] scroll-mt-24 sm:scroll-mt-0"
+      className="flex flex-col-reverse xl:flex-row items-center justify-center py-28 sm:py-auto px-8 lg:px-16 xl:h-[100vh] scroll-mt-24 sm:scroll-mt-0"
     >
       <div className="flex flex-col items-start max-w-md lg:mr-16 dark:text-white">
-        <h1 className="text-3xl font-bricolage">{t("introduction")}</h1>
+        <Introduction className="hidden xl:block" />
 
-        <motion.span
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{
-            type: "spring",
-            stiffness: 125,
-            delay: 0.1,
-            duration: 0.7,
-          }}
-        >
-          <div className="flex items-center mb-4 text-5xl !leading-[1.5] sm:text-6xl ">
-            <KLogo height={60} />
-            <span className="font-bricolage text-5xl sm:text-7xl">
-              atharina
-            </span>
-            <div className="relative ml-2 mb-10">
-              <SparkLogo />
-            </div>
-          </div>
-        </motion.span>
         <motion.h1
-          className="mb-10 mt-4 font-medium !leading-[1.5]"
+          className="mt-2 sm:mt-4 mb-0 sm:mb-10 font-medium !leading-[1.5]"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
           <p className="text-lg font-semibold text-gray-800 mt-2 dark:text-gray-100">
             {t("job")}
           </p>
-          <p className="text-gray-600 mt-4 dark:text-gray-100">
+          <p className="font-normal mt-0 sm:mt-4 text-gray-600 dark:text-gray-100 sm:text-left sm:hypens-manual text-justify hyphens-auto">
             {t("description")}
           </p>
         </motion.h1>
+
         <motion.div
-          className="flex sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+          className="flex sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium mt-4"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
@@ -68,7 +49,7 @@ export default function Intro() {
         >
           <Link
             href="#contact"
-            className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-gray-900 hover:bg-gray-950 text-white dark:bg-white dark:hover:bg-gray-50 dark:text-black"
+            className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-gray-900 hover:bg-gray-950 text-white dark:bg-[#FF96CC] dark:hover:bg-gray-50 dark:text-black"
             onClick={() => {
               setActiveSection("Contact");
               setTimeOfLastClick(Date.now());
@@ -104,13 +85,14 @@ export default function Intro() {
           duration: 0.2,
         }}
       >
-        <div className="relative overflow-hidden pt-4 lg:pt-28 h-[50vh] sm:h-[100vh] lg:flex lg:items-center lg:justify-center">
+        <div className="relative overflow-hidden pt-0 xl:pt-28 xl:flex xl:items-center xl:justify-center sm:h-[100vh]">
+          <Introduction className="xl:hidden" />
           <Image
-            src="/kharrer.png"
+            src="/kharrer-landing.webp"
             alt="Katharina"
-            width={350}
-            height={499}
-            className="object-cover object-bottom"
+            width={600}
+            height={600}
+            className="object-cover object-bottom my-4 xl:my-0"
             priority
           />
         </div>

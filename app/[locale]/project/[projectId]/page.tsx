@@ -42,7 +42,9 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
       <main className="max-w-6xl mx-auto mt-6 pb-24 px-6 space-y-8 scroll-mt-28">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="flex flex-col">
-            <div className="text-lg font-semibold">{t("technologies")}</div>
+            <div className="text-lg font-semibold dark:text-[#FF96CC]">
+              {t("technologies")}
+            </div>
             <ul className="flex flex-wrap gap-2 mt-2">
               {project.tags.map((tag, index) => (
                 <Tag index={index} title={tag} key={index} />
@@ -50,15 +52,21 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
             </ul>
           </div>
           <div className="flex flex-col">
-            <div className="text-lg font-semibold">{t("type")}</div>
+            <div className="text-lg font-semibold dark:text-[#FF96CC]">
+              {t("type")}
+            </div>
             {project.type}
           </div>
           <div className="flex flex-col">
-            <div className="text-lg font-semibold">{t("date")}</div>
+            <div className="text-lg font-semibold dark:text-[#FF96CC]">
+              {t("date")}
+            </div>
             {project.date}
           </div>
           <div className="flex flex-col">
-            <div className="text-lg font-semibold">{t("duration")}</div>
+            <div className="text-lg font-semibold dark:text-[#FF96CC]">
+              {t("duration")}
+            </div>
             {project.duration}
           </div>
         </div>
@@ -82,11 +90,11 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
                 />
               </div>
               <div className="md:w-1/2 my-auto">
-                <h2 className="text-2xl mb-2 font-bricolage">
+                <h2 className="text-2xl mb-2 font-bricolage dark:text-[#FF96CC]">
                   {section.title}
                 </h2>
                 {section.text.map((text, idx) => (
-                  <p key={idx} className="mb-2">
+                  <p key={idx} className="mb-2 text-justify hyphens-auto">
                     {text}
                   </p>
                 ))}
