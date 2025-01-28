@@ -21,7 +21,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="flex flex-col-reverse xl:flex-row items-center justify-center py-28 sm:py-auto px-8 lg:px-16 xl:h-[100vh] scroll-mt-24 sm:scroll-mt-0"
+      className="flex flex-col-reverse xl:flex-row items-center justify-center pt-28 sm:pt-0 sm:py-auto px-8 lg:px-16 xl:h-[100vh] scroll-mt-24 sm:scroll-mt-0"
     >
       <div className="flex flex-col items-start max-w-md lg:mr-16 dark:text-white">
         <Introduction className="hidden xl:block" />
@@ -49,7 +49,7 @@ export default function Intro() {
         >
           <Link
             href="#contact"
-            className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-gray-900 hover:bg-gray-950 text-white dark:bg-[#FF96CC] dark:hover:bg-gray-50 dark:text-black"
+            className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-black text-[#FFD8EC] hover:text-[#FF96CC] dark:bg-[#FF96CC] dark:hover:bg-[#FFD8EC] dark:text-black"
             onClick={() => {
               setActiveSection("Contact");
               setTimeOfLastClick(Date.now());
@@ -60,7 +60,7 @@ export default function Intro() {
           </Link>
 
           <a
-            className="bg-white p-3 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            className="bg-black text-[#FF96CC] hover:text-[#FFD8EC] dark:bg-white/10 dark:text-white/60 p-3 flex items-center gap-2 text-[1.63rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
             href="https://www.linkedin.com/in/katharina-barbara-harrer"
             target="_blank"
           >
@@ -68,7 +68,7 @@ export default function Intro() {
           </a>
 
           <a
-            className="bg-white p-3 text-gray-700 hover:text-gray-950 flex items-center gap-2 text-[1.75rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            className="bg-black text-[#FF96CC] hover:text-[#FFD8EC] dark:bg-white/10 dark:text-white/60 p-3 flex items-center gap-2 text-[1.63rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
             href="https://github.com/harrer-katharina"
             target="_blank"
           >

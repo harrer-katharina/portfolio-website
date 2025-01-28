@@ -50,10 +50,12 @@ export default function Experience() {
                 </div>
               }
             >
-              <h3 className="font-semibold capitalize dark:text-[#FFD8EC]">
+              <h3 className="font-semibold capitalize dark:text-[#FF96CC]">
                 {item.title}
               </h3>
-              <p className="font-normal !mt-0">{item.location}</p>
+              <p className="font-normal !mt-0 dark:text-[#FFD8EC]">
+                {item.location}
+              </p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75 text-justify hyphens-auto">
                 {item.description}
               </p>

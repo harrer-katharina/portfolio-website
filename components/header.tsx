@@ -26,15 +26,14 @@ export default function Header() {
           <Logo />
         </Link>
 
-        <ul className="hidden sm:flex items-center space-x-8 text-sm font-medium text-gray-600 dark:text-[#FFD8EC]">
+        <ul className="hidden sm:flex items-center space-x-8 text-sm font-medium text-black dark:text-[#FFD8EC]">
           {getLinks(t).map((link) => (
             <li key={link.hash} className="relative">
               <Link
                 className={clsx(
-                  "hover:text-gray-900 dark:hover:text-gray-100 transition",
+                  "hover:text-[#FF96CC] dark:hover:text-gray-100 transition",
                   {
-                    "text-gray-900 dark:text-[#FF96CC]":
-                      activeSection === link.name,
+                    "dark:text-[#FF96CC]": activeSection === link.name,
                   }
                 )}
                 href={`/${locale}${link.hash}`}

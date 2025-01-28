@@ -74,7 +74,7 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
           {project.sections?.map((section, index) => (
             <motion.section
               key={index}
-              className={`flex flex-col gap-6 sm:gap-10 ${
+              className={`flex flex-col gap-6 sm:gap-10 xl:h-[100vh] ${
                 index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
               }`}
               initial={{ opacity: 0, y: 100 }}
