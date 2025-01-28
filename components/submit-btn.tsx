@@ -2,9 +2,11 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import { FaPaperPlane } from "react-icons/fa";
 import { experimental_useFormStatus as useFormStatus } from "react-dom";
+import { useVariants } from "@/context/variants-context";
 
 export default function SubmitBtn() {
   const t = useTranslations("Contact");
+  const { setVariant } = useVariants();
   const { pending } = useFormStatus();
 
   return (
@@ -12,6 +14,8 @@ export default function SubmitBtn() {
       type="submit"
       className="bg-black text-[#FFD8EC] hover:text-[#FF96CC] dark:bg-[#FF96CC] dark:hover:bg-[#FFD8EC] dark:text-black group flex items-center justify-center gap-2 h-[3rem] w-[8rem] rounded-full outline-none transition-all focus:scale-110 active:scale-105 disabled:scale-100 disabled:bg-opacity-65"
       disabled={pending}
+      onMouseEnter={() => setVariant("BUTTON")}
+      onMouseLeave={() => setVariant("DEFAULT")}
     >
       {pending ? (
         <div className="h-5 w-5 animate-spin rounded-full border-b-2 border-white"></div>

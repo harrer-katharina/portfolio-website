@@ -5,6 +5,7 @@ import clsx from "clsx";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { useLanguage } from "@/context/language-context";
+import { useVariants } from "@/context/variants-context";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import Logo from "./logo";
 import { getLinks } from "@/lib/data";
@@ -14,6 +15,10 @@ export default function Header() {
     useActiveSectionContext();
   const { locale } = useLanguage();
   const t = useTranslations("Links");
+
+  const { setVariant } = useVariants();
+  const mouseEnter = () => setVariant("BUTTON");
+  const mouseLeave = () => setVariant("DEFAULT");
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -26,7 +31,11 @@ export default function Header() {
           <Logo />
         </Link>
 
-        <ul className="hidden sm:flex items-center space-x-8 text-sm font-medium text-black dark:text-[#FFD8EC]">
+        <ul
+          className="hidden sm:flex items-center space-x-8 text-sm font-medium text-black dark:text-[#FFD8EC]"
+          onMouseEnter={mouseEnter}
+          onMouseLeave={mouseLeave}
+        >
           {getLinks(t).map((link) => (
             <li key={link.hash} className="relative">
               <Link

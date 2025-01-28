@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { useVariants } from "@/context/variants-context";
 import { useLanguage } from "@/context/language-context";
 import { ProjectType } from "../lib/types";
 import Tag from "@/components/tag";
@@ -19,6 +20,7 @@ export default function Project({
   projectId,
 }: ProjectProps) {
   const router = useRouter();
+  const { setVariant } = useVariants();
   const { locale } = useLanguage();
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -31,6 +33,7 @@ export default function Project({
   const { setActiveSection } = useActiveSectionContext();
 
   const showProjectDetails = () => {
+    setVariant("DEFAULT");
     setActiveSection("Projects");
     router.push(`/${locale}/project/${projectId}`);
   };
@@ -43,6 +46,8 @@ export default function Project({
         opacity: opacityProgess,
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
+      onMouseEnter={() => setVariant("PROJECT")}
+      onMouseLeave={() => setVariant("DEFAULT")}
     >
       <section
         onClick={showProjectDetails}

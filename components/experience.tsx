@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import SectionHeading from "./section-heading";
 import {
   VerticalTimeline,
@@ -11,12 +12,15 @@ import "react-vertical-timeline-component/style.min.css";
 import { getExperiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
-import { useTranslations } from "next-intl";
+import { useVariants } from "@/context/variants-context";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const t = useTranslations("Experiences");
   const { theme } = useTheme();
+  const { setVariant } = useVariants();
+  const mouseEnter = () => setVariant("TEXT");
+  const mouseLeave = () => setVariant("DEFAULT");
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
@@ -50,15 +54,17 @@ export default function Experience() {
                 </div>
               }
             >
-              <h3 className="font-semibold capitalize dark:text-[#FF96CC]">
-                {item.title}
-              </h3>
-              <p className="font-normal !mt-0 dark:text-[#FFD8EC]">
-                {item.location}
-              </p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75 text-justify hyphens-auto">
-                {item.description}
-              </p>
+              <div onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
+                <h3 className="font-semibold capitalize dark:text-[#FF96CC]">
+                  {item.title}
+                </h3>
+                <p className="font-normal !mt-0 dark:text-[#FFD8EC]">
+                  {item.location}
+                </p>
+                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75 text-justify hyphens-auto">
+                  {item.description}
+                </p>
+              </div>
             </VerticalTimelineElement>
           </React.Fragment>
         ))}

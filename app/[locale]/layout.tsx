@@ -4,8 +4,10 @@ import { Poppins } from "next/font/google";
 import LanguageContextProvider from "@/context/language-context";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import ThemeContextProvider from "@/context/theme-context";
+import VariantProvider from "@/context/variants-context";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
+import CustomCursor from "@/components/custom-cursor";
 import LanguageSwitch from "@/components/language-switch";
 import { Toaster } from "react-hot-toast";
 import { NextIntlClientProvider } from "next-intl";
@@ -43,21 +45,24 @@ export default async function RootLayout({
         <div className="bg-[#fbe2e3] dark:bg-gray-800 fixed top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
         <div className="bg-[#ffd2e9] dark:bg-gray-800 fixed top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
 
-        <LanguageContextProvider>
-          <ThemeContextProvider>
-            <ActiveSectionContextProvider>
-              <NextIntlClientProvider messages={messages}>
-                <Header />
-                {children}
-              </NextIntlClientProvider>
-              <Footer />
+        <VariantProvider>
+          <LanguageContextProvider>
+            <ThemeContextProvider>
+              <ActiveSectionContextProvider>
+                <NextIntlClientProvider messages={messages}>
+                  <Header />
+                  <CustomCursor />
+                  {children}
+                </NextIntlClientProvider>
+                <Footer />
 
-              <Toaster position="top-right" />
-              <LanguageSwitch />
-              <ThemeSwitch />
-            </ActiveSectionContextProvider>
-          </ThemeContextProvider>
-        </LanguageContextProvider>
+                <Toaster position="top-right" />
+                <LanguageSwitch />
+                <ThemeSwitch />
+              </ActiveSectionContextProvider>
+            </ThemeContextProvider>
+          </LanguageContextProvider>
+        </VariantProvider>
       </body>
     </html>
   );

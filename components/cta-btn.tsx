@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
+import { useVariants } from "@/context/variants-context";
 
 type ButtonProps = {
   title: string;
@@ -8,6 +9,10 @@ type ButtonProps = {
 };
 
 export default function CTABtn({ title, link }: ButtonProps) {
+  const { setVariant } = useVariants();
+  const mouseEnter = () => setVariant("BUTTON");
+  const mouseLeave = () => setVariant("DEFAULT");
+
   return (
     title &&
     link && (
@@ -18,6 +23,8 @@ export default function CTABtn({ title, link }: ButtonProps) {
         transition={{
           delay: 0.1,
         }}
+        onMouseEnter={mouseEnter}
+        onMouseLeave={mouseLeave}
       >
         <a
           className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-gray-900 hover:bg-gray-950 text-[#FFD8EC] hover:text-[#FF96CC] dark:bg-[#FF96CC] dark:hover:bg-[#FFD8EC] dark:text-black"

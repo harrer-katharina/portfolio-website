@@ -8,15 +8,20 @@ import { BsArrowRight } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { useSectionInView } from "@/lib/hooks";
-import { useTheme } from "@/context/theme-context";
+import { useVariants } from "@/context/variants-context";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import Introduction from "./introduction";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
-  const { theme } = useTheme();
   const t = useTranslations("Intro");
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+
+  const { setVariant } = useVariants();
+  const textEnter = () => setVariant("TEXT");
+  const mouseEnter = () => setVariant("BUTTON");
+  const mouseLeave = () => setVariant("DEFAULT");
+
   return (
     <section
       ref={ref}
@@ -30,6 +35,8 @@ export default function Intro() {
           className="mt-2 sm:mt-4 mb-0 sm:mb-10 font-medium !leading-[1.5]"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
+          onMouseEnter={textEnter}
+          onMouseLeave={mouseLeave}
         >
           <p className="text-lg font-semibold text-gray-800 mt-2 dark:text-gray-100">
             {t("job")}
@@ -50,6 +57,8 @@ export default function Intro() {
           <Link
             href="#contact"
             className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-black text-[#FFD8EC] hover:text-[#FF96CC] dark:bg-[#FF96CC] dark:hover:bg-[#FFD8EC] dark:text-black"
+            onMouseEnter={mouseEnter}
+            onMouseLeave={mouseLeave}
             onClick={() => {
               setActiveSection("Contact");
               setTimeOfLastClick(Date.now());
@@ -63,6 +72,8 @@ export default function Intro() {
             className="bg-black text-[#FF96CC] hover:text-[#FFD8EC] dark:bg-white/10 dark:text-white/60 p-3 flex items-center gap-2 text-[1.63rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
             href="https://www.linkedin.com/in/katharina-barbara-harrer"
             target="_blank"
+            onMouseEnter={mouseEnter}
+            onMouseLeave={mouseLeave}
           >
             <FaLinkedinIn />
           </a>
@@ -71,6 +82,8 @@ export default function Intro() {
             className="bg-black text-[#FF96CC] hover:text-[#FFD8EC] dark:bg-white/10 dark:text-white/60 p-3 flex items-center gap-2 text-[1.63rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
             href="https://github.com/harrer-katharina"
             target="_blank"
+            onMouseEnter={mouseEnter}
+            onMouseLeave={mouseLeave}
           >
             <IoLogoGithub />
           </a>
