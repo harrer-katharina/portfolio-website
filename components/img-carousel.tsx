@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useSwipeable } from "react-swipeable";
+import { useVariants } from "@/context/variants-context";
 
 type CarouselProps = {
   images: string[];
@@ -11,6 +12,9 @@ type CarouselProps = {
 
 export default function Carousel({ images }: CarouselProps) {
   const [curr, setCurr] = useState(0);
+  const { setVariant } = useVariants();
+  const mouseEnter = () => setVariant("BUTTON");
+  const mouseLeave = () => setVariant("DEFAULT");
 
   const handlePrev = () =>
     setCurr((curr) => (curr === 0 ? images.length - 1 : curr - 1));
@@ -53,7 +57,11 @@ export default function Carousel({ images }: CarouselProps) {
         ))}
       </div>
 
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2">
+      <div
+        className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2"
+        onMouseEnter={mouseEnter}
+        onMouseLeave={mouseLeave}
+      >
         {images.map((_, i) => (
           <button
             key={i}

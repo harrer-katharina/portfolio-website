@@ -1,6 +1,6 @@
 "use client";
 
-import { ParallaxText } from "./parallax-text";
+import { ParallaxText } from "./ui/parallax-text";
 
 export default function ParallaxSkills() {
   const skills = ["Webdevelopment", "Appdesign", "UX/UI", "Webdesign"];
@@ -13,7 +13,7 @@ export default function ParallaxSkills() {
             className="flex items-center text-xl md:text-7xl font-semibold uppercase tracking-tighter text-black/60 dark:text-white/30"
           >
             {skill}
-            <span className="text-xl md:text-5xl ml-6 mr-3">✦︎</span>
+            <span className="text-base md:text-3xl ml-6 mr-3">✦︎</span>
           </span>
         ))}
       </ParallaxText>
@@ -24,7 +24,7 @@ export default function ParallaxSkills() {
             className="flex items-center text-xl md:text-7xl font-semibold uppercase tracking-tighter text-[#FF96CC]/60 dark:text-[#FF96CC]/30"
           >
             {skill}
-            <span className="text-xl md:text-5xl ml-6 mr-3">✦︎</span>
+            <span className="text-base md:text-3xl ml-6 mr-3">✦︎</span>
           </span>
         ))}
       </ParallaxText>
@@ -35,7 +35,7 @@ export default function ParallaxSkills() {
             className="flex items-center text-xl md:text-7xl font-semibold uppercase tracking-tighter text-black/60 dark:text-white/30"
           >
             {skill}
-            <span className="text-xl md:text-5xl ml-6 mr-3">✦︎</span>
+            <span className="text-base md:text-3xl ml-6 mr-3">✦︎</span>
           </span>
         ))}
       </ParallaxText>

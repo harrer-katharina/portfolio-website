@@ -55,24 +55,24 @@ export const getLinks = (t: ReturnType<typeof useTranslations>) => {
       hash: "#home",
     },
     {
-      name: "About",
-      title: t("about"),
-      hash: "#about",
-    },
-    {
       name: "Projects",
       title: t("projects"),
       hash: "#projects",
     },
     {
-      name: "Skills",
-      title: t("skills"),
-      hash: "#skills",
+      name: "About",
+      title: t("about"),
+      hash: "#about",
     },
     {
       name: "Experience",
       title: t("experience"),
       hash: "#experience",
+    },
+    {
+      name: "Skills",
+      title: t("skills"),
+      hash: "#skills",
     },
     {
       name: "Contact",

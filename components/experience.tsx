@@ -61,7 +61,7 @@ export default function Experience() {
                 <p className="font-normal !mt-0 dark:text-[#FFD8EC]">
                   {item.location}
                 </p>
-                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75 text-justify hyphens-auto">
+                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                   {item.description}
                 </p>
               </div>

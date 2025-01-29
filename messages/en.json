@@ -15,15 +15,8 @@
   },
   "About": {
     "title": "About Me",
-    "introPart1": "During my",
-    "introHighlight1": "Bachelor's degree in Computer Science and Media",
-    "introPart2": "at TH Nürnberg, I gained a strong foundation in computer science and digital media. After graduation, I wanted to further focus on web development, which is why I chose the",
-    "introHighlight2": "Master's program in Interactive Technologies with a focus on Mobile",
-    "introPart3": "at FH St. Pölten.",
-    "introPart4": "My focus is on understanding user experience (UX) and translating it into user-centered designs. I am now looking for a",
-    "introHighlight4": "part-time position as a Frontend Developer",
-    "introPart5": " to further develop my technical skills and my interest in UX/UI design.",
-    "hobbiesPart1": "In my free time, I am committed to sustainability and enjoy vegan cooking and baking. I love being in nature — whether hiking in the mountains, road cycling, or bikepacking to discover new places and countries. Last year, for example, I cycled from Roth to Budapest and explored Denmark and Sweden."
+    "description": "During my Bachelor's degree in Media Informatics at TH Nürnberg, I gained a strong foundation in computer science and digital media. After graduating, I wanted to further specialize in web development, which led me to pursue a Master's degree in Interactive Technologies with a focus on Mobile at FH St. Pölten. My main focus is on understanding user experience (UX) and translating it into user-centered designs. I am currently looking for a part-time position as a front-end developer to further develop my technical skills and deepen my interest in UX/UI design.",
+    "hobbies": "In my free time, I am committed to sustainability and enjoy vegan cooking and baking. I love being in nature — whether hiking in the mountains, road cycling, or bikepacking to discover new places and countries. Last year, for example, I cycled from Roth to Budapest and explored Denmark and Sweden."
   },
   "Projects": {
     "title": "My Projects",
