@@ -60,7 +60,7 @@
       "project": {
         "title": "Das Projekt",
         "text": [
-          "Bevry ist eine Web-App, die im Rahmen meines Masterstudiums zusammen mit vier Kommilitoninnen entstanden ist. Die Anwendung richtet sich an Cocktail-Enthusiast*innen, die gerne neue neue Getränkekreationen ausprobieren und ihre eigenen Rezepte teilen möchten.", 
+          "Bevry ist eine Web-App, die im Rahmen meines Masterstudiums zusammen mit vier Kommilitoninnen entstanden ist. Die Anwendung richtet sich an Cocktail-Enthusiast*innen, die gerne neue Getränkekreationen ausprobieren und ihre eigenen Rezepte teilen möchten.", 
           "Zunächst konzentrierten wir uns auf die grundlegenden Funktionen: das Ansehen, Posten, Liken und Bewerten von Cocktailrezepten."
         ],
         "cta": "App ansehen"
@@ -68,9 +68,9 @@
       "features": {
         "title": "Die Funktionalitäten",
         "text": [
-          "Im zweiten Mastersemester haben wir der App ein neues Design verliehen und zahlreiche neue Funktionen hinzugefügt, um das Nutzererlebnis weiter zu verbessern.", 
-          "Mit der neuen Bar-Inventory-Funktion behalten Nutzer*innen stets den Überblick über ihre vorhandenen Zutaten. Zusätzlich wurden Empfehlungen basierend auf den aktuell im Barbestand vorhandenen Zutaten integriert. Die Einkaufsliste erleichtert das Einkaufen, indem fehlende Zutaten direkt aus dem Rezept hinzugefügt werden können. Zudem haben Nutzer*innen nun die Möglichkeit, eigene Zutaten zu erstellen und Ersatzzutaten hinzuzufügen, um Rezepte noch individueller anzupassen.", 
-          "Für Unterhaltung auf Partys sorgen unsere beiden neuen Minispiele. Zum einen gibt es das Turn-Based Multiplayer-Game 'Spin the Wheel' und zum anderen das Singleplayer-Game 'Mix it Up'."
+          "Im zweiten Mastersemester haben wir der App ein neues Design verliehen und viele neue Funktionen hinzugefügt, um das Nutzererlebnis weiter zu verbessern.", 
+          "Mit der Bar-Inventory-Funktion behalten Nutzer*innen stets den Überblick über ihre vorhandenen Zutaten. Zusätzlich wurden Empfehlungen basierend auf den aktuell im Barbestand vorhandenen Zutaten integriert. Die Einkaufsliste erleichtert das Einkaufen, indem fehlende Zutaten direkt aus dem Rezept hinzugefügt werden können. Zudem gibt es die Möglichkeit, eigene Zutaten zu erstellen und Ersatzzutaten hinzuzufügen, um Rezepte noch individueller anzupassen.", 
+          "Für Unterhaltung auf Partys sorgen unsere beiden Minispiele. Zum einen gibt es das Turn-Based Multiplayer-Game 'Spin the Wheel' und zum anderen das Singleplayer-Game 'Mix it Up'."
         ]
       },
       "branding": {
@@ -81,10 +81,16 @@
         ],
         "cta": "Brandbook ansehen"
       },
-      "implementation": {
-        "title": "Die Umsetzung",
+      "team": {
+        "title": "Agiles Arbeiten im Team",
         "text": [
-          "Wir fünf arbeiteten mit Scrum, um uns zu organisieren. Sprint Planning und Sprint Review fanden alle zwei Wochen während unseres wöchentlichen Meetings statt. Wir nutzten Jira, um Tickets zu erstellen und deren Status auf dem Kanban-Board zu verfolgen.", 
+          "Das Team besteht aus fünf Masterstudierenden der FH St. Pölten: Laura, Sara, Sophia, Vani und mir.",
+          "Wir fünf arbeiteten mit Scrum, um uns zu organisieren. Sprint Planning und Sprint Review fanden alle zwei Wochen während unseres wöchentlichen Meetings statt. Wir nutzten Jira, um Tickets zu erstellen und deren Status auf dem Kanban-Board zu verfolgen."
+        ]
+      },
+      "collaboration": {
+        "title": "Interdisziplinäre Zusammenarbeit",
+        "text": [
           "Wir arbeiteten auch mit Kommiliton*innen aus anderen Masterklassen zusammen, darunter 'Fotografie' für Cocktail-, Marketing- und Portfoliofotos, 'Grafikdesign' für Appdesign und Icons, 'Sound Design' für Soundtracks und Sound Effects für die Minigames und 'Animation' für eine Ladeanimation sowie Animationen innerhalb der Minigames."
         ]
       },
@@ -121,19 +127,18 @@
       "sustainability": {
         "title": "Nachhaltiges Web- & Appdesign",
         "text": [
-          "In allen Lebensbereichen bemühen wir uns um Nachhaltigkeit, doch selten wird bedacht, wie stark das Internet unseren Planeten belastet. Die Kohlenstoffemissionen des Internets entsprechen denen der Luftfahrtindustrie und machen etwa 2 % der globalen Emissionen aus.", 
-          "Bei meiner Recherche zu nachhaltigem Web-, App- und E-Mail-Design bin ich auf zahlreiche Aspekte gestoßen, die zur Nachhaltigkeit beitragen können. Dazu gehören grünes Hosting, SEO, Design, UX und Performance-Optimierung. Beispielsweise tragen die Wahl von Farben und Schriftarten, effizienter Code, minimierte HTTP-Anfragen, optimierte Bilder und die Reduzierung von Drittanbieter-Einbettungen zur Reduktion des CO₂-Fußabdrucks bei.",
-          "Nachhaltiges Webdesign ist nicht nur aus ökologischer Sicht sinnvoll, sondern verbessert auch die Benutzer*innenerfahrung, das Suchmaschinen-Ranking und die Zugänglichkeit, insbesondere in Regionen mit eingeschränktem Internetzugang. Webseiten, die weniger Ressourcen verbrauchen, laden schneller und bieten eine bessere Performance, was die Zufriedenheit der Nutzer*innen erhöht und die Reichweite steigert.",
-          "Die Ergebnisse meiner Recherchen habe ich schließlich in einem Blogartikel zusammengefasst." 
+          "Nachhaltigkeit ist in vielen Lebensbereichen wichtig, doch selten bedenken wir, wie stark das Internet unseren Planeten belastet. Seine CO₂-Emissionen entsprechen denen der Luftfahrt und machen etwa 2 % der globalen Emissionen aus.", 
+          "Bei meiner Recherche zu nachhaltigem Web-, App- und E-Mail-Design stieß ich auf viele Einflussfaktoren, darunter: Hosting, effizienten Code, optimierte Bilder, durchdachtes Design sowie die Wahl von Farben und Schriftarten.",
+          "Nachhaltiges Webdesign ist nicht nur aus ökologischer Sicht sinnvoll, sondern verbessert auch die Benutzer*innenerfahrung, das Suchmaschinen-Ranking und die Zugänglichkeit. Webseiten, die weniger Ressourcen verbrauchen, laden schneller und bieten eine bessere Performance, was die Zufriedenheit der Nutzer*innen erhöht und die Reichweite steigert."
         ],
         "cta": "Blogartikel ansehen"
       },
       "prototyping": {
         "title": "Prototyping",
         "text": [
-          "Darüber hinaus habe ich einen Figma-Prototypen für eine User Story des ERIKA Services erstellt. Dieser Klickdummy visualisiert, wie der Service im Alltag genutzt werden kann, um die Benutzer*innen über aktuelle nachhaltige Initiativen zu informieren.", 
-          "Der Prototyp beinhaltet ein Formular, über das Nutzer*innen eigene Initiativen einreichen können. Nach Prüfung und Freigabe erscheinen diese Initiativen in der Kalender- und Kartenansicht. So können Nutzer*innen nicht nur an Veranstaltungen teilnehmen, sondern auch eigene Ideen einbringen, um ihren ökologischen Handabdruck zu vergrößern.",
-          "In der Kalender- und Kartenansicht können Nutzer*innen alle bevorstehenden Initiativen und Events, wie zum Beispiel den Wochenmarkt oder den bevorstehenden Flohmarkt, einsehen. Jedes Event verfügt über eine Detailansicht mit einer Beschreibung sowie Informationen zu den Terminen und dem Veranstaltungsort. Bei aktivierter GPS-Funktion erhalten Nutzer*innen Benachrichtigungen, wenn sie sich in der Nähe eines Events befinden."
+          "Ich habe einen Figma-Prototypen für eine User Story des ERIKA Services erstellt. Der Klickdummy zeigt, wie der Service genutzt wird, um Nutzer*innen über nachhaltige Initiativen zu informieren.", 
+          "Der Prototyp enthält ein Formular zur Einreichung eigener Initiativen, die nach Prüfung in der Kalender- und Kartenansicht erscheinen. So können Nutzer*innen nicht nur an Veranstaltungen teilnehmen, sondern auch eigene Ideen einbringen, um ihren ökologischen Handabdruck zu vergrößern.",
+          "In der Kalender- und Kartenansicht sind bevorstehende Initiativen und Events sichtbar. Jedes Event bietet eine Detailansicht mit Beschreibung, Terminen und Standortinfos. Bei aktivierter GPS-Funktion erhalten Nutzer*innen Benachrichtigungen, wenn sie sich in der Nähe eines Events befinden."
         ],
         "cta": "Prototyp ansehen"
       }
@@ -146,9 +151,9 @@
       "project": {
         "title": "Das Projekt",
         "text": [
-          "Im zweiten Semester des Masterstudiums hatten wir die Möglichkeit, im Rahmen der Summer School an einwöchigen Workshops zu verschiedenen Themen teilzunehmen. Ich entschied mich für einen Workshop zum Thema 'Environmental Storytelling'. Dort wurden Themen wie Worldbuilding sowie Environmental und Visual Storytelling behandelt.",
-          "Das Projekt umfasste die Erstellung einer statischen oder interaktiven immersiven Videospielszene unter Verwendung von Unity und vorgefertigten Assets. Die Szene sollte einen realistischen Spielort darstellen, der sowohl visuell ansprechend als auch funktional für die Videospielumgebung ist. Besonderes Augenmerk lag dabei auf der korrekten Umsetzung der zuvor erlernten Prinzipien des Environmental Storytelling.",
-          "In diesem Workshop arbeiteten wir in Kleingruppen und entwickelten die Idee zu 'Ecocalypse', einem Spiel, in dem die Spieler*innen in einer Welt leben, die von einer Klimakatastrophe heimgesucht wurde. Es ist das Jahr 2035. Erst vor einem Jahr geschah die Katastrophe, die alles verändert hat. In nur wenigen Tagen brannte der gesamte Regenwald ab. Die Folge: Das Klima kollabierte und damit auch die globale Weltordnung."
+          "Im zweiten Mastersemester konnte ich im Rahmen der Summer School einen einwöchigen Workshop besuchen. Ich wählte Environmental Storytelling, in dem es um Worldbuilding sowie Environmental und Visual Storytelling ging.",
+          "Das Projekt bestand darin, eine statische oder interaktive immersive Videospielszene mit Unity und vorgefertigten Assets zu erstellen. Die Szene sollte realistisch, visuell ansprechend und funktional für eine Spielumgebung sein. Dabei lag der Fokus auf der Anwendung der erlernten Prinzipien des Environmental Storytelling.",
+          "In Kleingruppen entwickelten wir Ecocalypse, ein Spiel, das 2035 nach einer Klimakatastrophe spielt. Ein Jahr zuvor brannte der gesamte Regenwald ab, wodurch das Klima kollabierte und die Weltordnung zusammenbrach."
         ]
       },
       "implementation": {
@@ -168,11 +173,9 @@
       "objects": {
         "title": "Die Gegenstände",
         "text": [
-          "Verschiedene Gegenstände wurden sorgfältig im Raum platziert, um seine Geschichte zu erzählen und die Hintergrundgeschichte des Spiels zu vermitteln.",
-          "An den Wänden befinden sich mehrere Zeitungsartikel, die Informationen zur Krise und den globalen Ereignissen liefern. Ein Familienporträt zeigt Josephs Familie und deutet auf einen sicheren Unterschlupf am Land hin. Eine Stadtkarte mit markierter Fluchtroute verdeutlicht Josephs geplanten Fluchtweg.",
-          "Ein Wandkalender zeigt, dass das Spiel im Januar 2035 spielt und dass Joseph versucht hatte, den Überblick über die Zeit zu bewahren. Seine detaillierte Tagesroutine gibt Aufschluss darüber, wie er seine Tage strukturierte, um in der Isolation nicht den Verstand zu verlieren. Auf dem Schreibtisch liegt ein angefangener Brief an Julia, der Einblicke in Josephs Gedanken und Gefühle gewährt. Schließlich unterstreicht die Werbung für 'H2-NO' die extremen Umstände der Welt, in der Wasser zur kostbarsten Ressource geworden ist.",
-          "Diese Gegenstände liefern wertvolle Hinweise auf Josephs Leben und die Umstände, die zu seiner aktuellen Situation führten. Durch diese sorgfältige Planung und Umsetzung konnten wir eine immersive und konsistente Spielszene schaffen, die die Prinzipien des Environmental Storytelling effektiv nutzt.",
-          "Falls du dich für weitere Details des Projekts interessierst, kannst du dir die..."
+          "Sorgfältig platzierte Objekte erzählen die Geschichte und vermitteln den Hintergrund des Spiels. Zeitungsartikel an den Wänden berichten über die Krise. Ein Familienporträt deutet auf einen Unterschlupf am Land hin. Eine Stadtkarte zeigt Josephs geplante Fluchtroute.",
+          "Ein Wandkalender markiert Januar 2035 und zeigt, wie Joseph versuchte, den Überblick über die Zeit zu bewahren. Seine Tagesroutine spiegelt den Kampf gegen die Isolation wider. Ein angefangener Brief an Julia gibt Einblick in seine Gedanken und Gefühle. Werbung für H2-NO betont die Wasserknappheit und die extremen Lebensbedingungen.",
+          "Diese Elemente schaffen eine immersive Szene, die die Prinzipien des Environmental Storytelling konsequent umsetzt."
         ],
         "cta": "Dokumentation ansehen"
       }

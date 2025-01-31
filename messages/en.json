@@ -70,7 +70,7 @@
         "text": [
           "In the second semester of the master's program, we gave the app a new design and added numerous new features to further improve the user experience.",
           "With the new bar inventory feature, users can always keep track of their existing ingredients. Additionally, recommendations based on the ingredients available in the bar stock were integrated. The shopping list simplifies shopping by allowing missing ingredients to be added directly from the recipe. Users can now also create their own ingredients and add substitute ingredients to make recipes even more personalized.",
-          "For entertainment at parties, our two new mini-games come into play. One is the turn-based multiplayer game 'Spin the Wheel', and the other is the single-player game 'Mix it Up'."
+          "For entertainment at parties, our two mini-games come into play. One is the turn-based multiplayer game 'Spin the Wheel', and the other is the single-player game 'Mix it Up'."
         ]
       },
       "branding": {
@@ -82,13 +82,19 @@
         ],
         "cta": "View Brandbook"
       },
-      "implementation": {
-        "title": "Implementation",
-        "text": [
-          "The five of us worked with Scrum to organize ourselves. Sprint planning and sprint reviews took place every two weeks during our weekly meetings. We used Jira to create tickets and track their status on the Kanban board.",
-          "We also collaborated with fellow students from other master's programs, including 'Photography' for cocktail, marketing, and portfolio photos, 'Graphic Design' for app design and icons, 'Sound Design' for soundtracks and sound effects for the mini-games, and 'Animation' for a loading animation as well as animations within the mini-games."
-        ]
-      },
+      "team": {
+  "title": "Agile Teamwork",
+  "text": [
+    "The team consists of five master's students from FH St. Pölten: Laura, Sara, Sophia, Vani, and me.",
+    "We worked with Scrum to stay organized. Sprint Planning and Sprint Review took place every two weeks during our weekly meetings. We used Jira to create tickets and track their status on the Kanban board."
+  ]
+},
+"collaboration": {
+  "title": "Interdisciplinary Collaboration",
+  "text": [
+    "We also collaborated with students from other master's programs, including 'Photography' for cocktail, marketing, and portfolio photos, 'Graphic Design' for app design and icons, 'Sound Design' for soundtracks and sound effects for the mini-games, and 'Animation' for a loading animation as well as animations within the mini-games."
+  ]
+},
       "myTasks": {
         "title": "My Tasks",
         "text": [
@@ -122,19 +128,18 @@
       "sustainability": {
         "title": "Sustainable Web & App Design",
         "text": [
-          "In all areas of life, we strive for sustainability, but the environmental impact of the internet is often overlooked. The carbon emissions of the internet are equivalent to those of the aviation industry, accounting for about 2% of global emissions.",
-          "In my research on sustainable web, app, and email design, I discovered many aspects that contribute to sustainability. These include green hosting, SEO, design, UX, and performance optimization. For instance, choosing colors and fonts, writing efficient code, minimizing HTTP requests, optimizing images, and reducing third-party integrations can help lower the CO₂ footprint.",
-          "Sustainable web design is not only ecologically beneficial but also improves user experience, search engine ranking, and accessibility, particularly in regions with limited internet access. Websites that consume fewer resources load faster and offer better performance, enhancing user satisfaction and increasing reach.",
-          "I summarized the results of my research in a blog post."
+          "Sustainability is crucial in many aspects of life, yet we rarely consider how much the internet impacts our planet. Its CO₂ emissions are equivalent to those of aviation, accounting for about 2% of global emissions.",
+          "While researching sustainable web, app, and email design, I discovered various key factors, including hosting, efficient code, optimized images, thoughtful design, and the choice of colors and fonts.",
+          "Sustainable web design is not only environmentally beneficial but also enhances user experience, search engine rankings, and accessibility. Websites that consume fewer resources load faster, improving performance, user satisfaction, and overall reach."
         ],
         "cta": "Read Blog Post"
       },
       "prototyping": {
         "title": "Prototyping",
         "text": [
-          "Additionally, I created a Figma prototype for a user story of the ERIKA service. This click dummy visualizes how the service can be used in everyday life to inform users about current sustainable initiatives.",
-          "The prototype includes a form through which users can submit their own initiatives. After review and approval, these initiatives appear in the calendar and map views. This allows users not only to participate in events but also to contribute their own ideas to increase their ecological handprint.",
-          "In the calendar and map views, users can see all upcoming initiatives and events, such as the weekly market or an upcoming flea market. Each event features a detailed view with a description and information about dates and locations. When GPS is enabled, users receive notifications when they are near an event."
+          "I created a Figma prototype for a user story of the ERIKA service. This interactive mockup demonstrates how the service informs users about sustainable initiatives.",
+          "The prototype includes a form for submitting initiatives, which appear in the calendar and map view after review. This allows users not only to participate in events but also to contribute their own ideas, increasing their ecological handprint.",
+          "The calendar and map views display upcoming initiatives and events. Each event has a detailed page with descriptions, dates, and location info. With GPS enabled, users receive notifications when near an event."
         ],
         "cta": "View Prototype"
       }
@@ -147,9 +152,9 @@
       "project": {
         "title": "The Project",
         "text": [
-          "In the second semester of the master’s program, we had the opportunity to participate in one-week workshops on various topics as part of the Summer School. I chose a workshop on 'Environmental Storytelling,' which covered topics like worldbuilding as well as environmental and visual storytelling.",
-          "The project involved creating a static or interactive immersive video game scene using Unity and pre-made assets. The scene was meant to depict a realistic game environment that was both visually appealing and functional for a video game setting. Particular emphasis was placed on accurately applying the principles of environmental storytelling learned during the workshop.",
-          "In this workshop, we worked in small groups to develop the concept for 'Ecocalypse,' a game in which players inhabit a world devastated by a climate catastrophe. The year is 2035. Just one year ago, a disaster occurred that changed everything: within days, the entire rainforest burned down. The result was a collapse of the global climate, which in turn brought down the world order."
+          "In my second master's semester, I participated in a one-week Summer School workshop. I chose Environmental Storytelling, which focused on worldbuilding as well as environmental and visual storytelling.",
+          "The project involved creating a static or interactive immersive video game scene using Unity and pre-made assets. The scene needed to be realistic, visually engaging, and functional for a game environment, with a strong emphasis on applying the principles of environmental storytelling.",
+          "In small teams, we developed Ecocalypse, a game set in 2035 after a climate catastrophe. A year earlier, the entire rainforest had burned down, triggering climate collapse and the breakdown of the global order."
         ]
       },
       "implementation": {
@@ -169,11 +174,9 @@
       "objects": {
         "title": "The Objects",
         "text": [
-          "Various objects were carefully placed in the room to tell his story and convey the game’s backstory.",
-          "The walls feature several newspaper articles that provide information about the crisis and global events. A family portrait shows Joseph’s family and hints at a safe haven in the countryside. A city map with a marked escape route illustrates Joseph’s planned journey.",
-          "A wall calendar reveals that the game takes place in January 2035 and that Joseph tried to keep track of time. His detailed daily routine sheds light on how he structured his days to avoid losing his sanity in isolation. On the desk, there is an unfinished letter to Julia, offering insight into Joseph’s thoughts and emotions. Lastly, an advertisement for 'H2-NO' underscores the extreme circumstances of this world, where water has become the most valuable resource.",
-          "These objects provide valuable clues about Joseph’s life and the circumstances leading to his current situation. Through this careful planning and execution, we were able to create an immersive and consistent game scene that effectively utilizes the principles of environmental storytelling.",
-          "If you’re interested in further details about the project, you can view the..."
+          "Carefully placed objects narrate the game's story and provide background context. Newspaper articles on the walls report on the crisis. A family portrait hints at a rural safe haven. A city map highlights Joseph’s planned escape route.",
+          "A wall calendar marks January 2035, showing Joseph’s attempts to keep track of time. His detailed daily routine reflects his struggle against isolation. An unfinished letter to Julia reveals his thoughts and emotions. An ad for H2-NO underscores extreme water scarcity and the world's dire conditions.",
+          "These elements create an immersive scene that effectively applies the principles of environmental storytelling."
         ],
         "cta": "View Documentation"
       }

@@ -1,18 +1,41 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useRef, useEffect } from "react";
+import Lenis from "@studio-freight/lenis";
+import { useScroll } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { getProjectsData } from "@/lib/data";
+import { ProjectType, ProjectSection } from "@/lib/types";
 import { useTheme } from "@/context/theme-context";
-import CTABtn from "@/components/cta-btn";
 import Tag from "@/components/tag";
+import DetailCards from "@/components/project-detail-card";
 
 const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
   const { theme } = useTheme();
   const t = useTranslations("Projects");
   const data = getProjectsData(theme);
-  const project = data.find((d) => d.projectId === params.projectId);
+
+  const container = useRef(null);
+
+  const { scrollYProgress } = useScroll({
+    target: container,
+
+    offset: ["start start", "end end"],
+  });
+
+  useEffect(() => {
+    const lenis = new Lenis();
+    function raf(time: number): void {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+  });
+
+  const project = data.find(
+    (d) => d.projectId === params.projectId
+  ) as ProjectType & { sections: ProjectSection[] };
 
   if (!project) {
     return <p>{t("notFound")}</p>;
@@ -39,7 +62,7 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
         </div>
         <div className="aspect-[16/9] sm:aspect-[21/6]" />
       </div>
-      <main className="max-w-6xl mx-auto mt-6 pb-24 px-6 space-y-8 scroll-mt-28">
+      <main className="max-w-6xl mx-auto mt-6 px-6 space-y-8 scroll-mt-28">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="flex flex-col">
             <div className="text-lg font-semibold dark:text-[#FF96CC]">
@@ -70,43 +93,20 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
             {project.duration}
           </div>
         </div>
-        <div className="max-w-6xl mx-auto pt-12 sm:pt-32 pb-12 space-y-24 sm:space-y-60">
-          {project.sections?.map((section, index) => (
-            <motion.section
-              key={index}
-              className={`flex flex-col gap-6 sm:gap-10 xl:h-[100vh] ${
-                index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-              }`}
-              initial={{ opacity: 0, y: 100 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
-              viewport={{ once: true, amount: 0.5 }}
-            >
-              <div className="md:w-1/2 my-auto">
-                <Image
-                  src={section.image}
-                  alt={section.title}
-                  className="rounded-lg"
-                />
-              </div>
-              <div className="md:w-1/2 my-auto">
-                <h2 className="text-2xl mb-2 font-bricolage dark:text-[#FF96CC]">
-                  {section.title}
-                </h2>
-                {section.text.map((text, idx) => (
-                  <p key={idx} className="mb-2 text-justify hyphens-auto">
-                    {text}
-                  </p>
-                ))}
-                {section?.cta && (
-                  <CTABtn
-                    title={section.cta.title ?? ""}
-                    link={section.cta.link ?? ""}
-                  />
-                )}
-              </div>
-            </motion.section>
-          ))}
+        <div ref={container} className="space-y-10 lg:space-y-0 pb-8 lg:pb-0">
+          {project.sections?.map((section: ProjectSection, index) => {
+            const targetScale = 1 - (project.sections?.length - index) * 0.05;
+            return (
+              <DetailCards
+                key={index}
+                index={index}
+                section={section}
+                progress={scrollYProgress}
+                range={[index * 0.25, 1]}
+                targetScale={targetScale}
+              />
+            );
+          })}
         </div>
       </main>
     </div>

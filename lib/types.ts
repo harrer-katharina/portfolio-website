@@ -4,13 +4,24 @@ import { StaticImageData } from "next/image";
 type CTAType = {
     title: string;
     link: string;
+    position?: "left" | "right";
 };
 
 export type SectionName = (ReturnType<typeof getLinks>)[number]["name"];
 
+export type ProjectSection = {
+    title: string;
+    text: string[];
+    className?: string;
+    image: StaticImageData | string;
+    imageSize?: string;
+    cta?: CTAType;
+};
+
 export type ProjectType = {
     projectId: string;
-    title?: string;
+    title: string;
+    showTitle: boolean;
     date: string;
     type: string;
     duration: string;
@@ -18,10 +29,5 @@ export type ProjectType = {
     tags: string[];
     image: StaticImageData | string;
     sectionImage: StaticImageData | string;
-    sections: Array<{
-        title: string;
-        text: string[];
-        image: StaticImageData | string;
-        cta?: CTAType;
-    }>;
+    sections: ProjectSection[];
 };

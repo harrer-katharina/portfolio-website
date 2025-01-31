@@ -17,7 +17,7 @@ export default function CTABtn({ title, link }: ButtonProps) {
     title &&
     link && (
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 mt-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center gap-2 md:px-4 mt-0 md:mt-4 mx-auto text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -27,7 +27,7 @@ export default function CTABtn({ title, link }: ButtonProps) {
         onMouseLeave={mouseLeave}
       >
         <a
-          className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-gray-900 hover:bg-gray-950 text-[#FFD8EC] hover:text-[#FF96CC] dark:bg-[#FF96CC] dark:hover:bg-[#FFD8EC] dark:text-black"
+          className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-gray-900 hover:bg-gray-950 text-white hover:text-[#FF96CC] dark:bg-[#FF96CC] dark:hover:bg-[#FFD8EC] dark:text-black"
           href={link}
           target="_blank"
         >

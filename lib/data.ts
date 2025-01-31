@@ -15,12 +15,13 @@ import bevryFeatures from "@/public/bevry/bevry-features.png";
 import bevryThumbnail from "@/public/bevry/bevry-thumbnail.png";
 import bevryBranding from "@/public/bevry/bevry-mockup-drucksorten.png";
 import bevryGroup from "@/public/bevry/bevry-group.jpg";
+import bevrySplash from "@/public/bevry/bevry-cocktail-splash.jpg";
 import bevryScreens from "@/public/bevry/bevry-kathy-politan.png";
 
 import erika from "@/public/erika/erika-closeup.png";
 import erikaHand from "@/public/erika/erika-hand.svg";
-import erikaProject from "@/public/erika/erika-project.png";
-import erikaScreens from "@/public/erika/erika-mockups.png";
+import erikaProject from "@/public/erika/erika-project.svg";
+import erikaScreens from "@/public/erika/erika-mockup-screens.png";
 import erikaLogo from "@/public/erika/erika-logo.svg";
 import erikaPrototype from "@/public/erika/erika-prototype.png";
 
@@ -135,6 +136,7 @@ export const getProjectsData = (theme: string) => {
         {
           title: t("timeParabox.project.title"),
           text: [t("timeParabox.project.text.0"), t("timeParabox.project.text.1"), t("timeParabox.project.text.2")],
+          className: "bg-[#F4F2EE]",
           image: timeparaboxMockups,
           cta: {
             title: "",
@@ -144,11 +146,13 @@ export const getProjectsData = (theme: string) => {
         {
           title: t("timeParabox.implementation.title"),
           text: [t("timeParabox.implementation.text.0"), t("timeParabox.implementation.text.1")],
+          className: "bg-[#EBE7DF]",
           image: timeparaboxEpochs,
         },
         {
           title: t("timeParabox.myTasks.title"),
           text: [t("timeParabox.myTasks.text.0"), t("timeParabox.myTasks.text.1")],
+          className: "bg-[#D8D1C8]",
           image: timeparaboxFeatures,
         },
       ]
@@ -168,6 +172,7 @@ export const getProjectsData = (theme: string) => {
         {
           title: t("bevry.project.title"),
           text: [t("bevry.project.text.0"), t("bevry.project.text.1")],
+          className: "bg-[#FFBF85]",
           image: bevryThumbnail,
           cta: {
             title: t("bevry.project.cta"),
@@ -177,11 +182,14 @@ export const getProjectsData = (theme: string) => {
         {
           title: t("bevry.features.title"),
           text: [t("bevry.features.text.0"), t("bevry.features.text.1"), t("bevry.features.text.2")],
+          className: "bg-[#FFB685]",
           image: bevryFeatures,
         },
+      
         {
           title: t("bevry.branding.title"),
           text: [t("bevry.branding.text.0"), t("bevry.branding.text.1")],
+          className: "bg-[#FFA98B]",
           image: bevryBranding,
           cta: {
             title: t("bevry.branding.cta"),
@@ -189,13 +197,21 @@ export const getProjectsData = (theme: string) => {
           }
         },
         {
-          title: t("bevry.implementation.title"),
-          text: [t("bevry.implementation.text.0"), t("bevry.implementation.text.1")],
+          title: t("bevry.team.title"),
+          text: [t("bevry.team.text.0"), t("bevry.team.text.1")],
+          className: "bg-[#FB9E8F]",
           image: bevryGroup,
         },
         {
+          title: t("bevry.collaboration.title"),
+          text: [t("bevry.collaboration.text.0")],
+          className: "bg-[#F6938F]",
+          image: bevrySplash,
+        },  
+        {
           title: t("bevry.myTasks.title"),
-          text: [t("bevry.myTasks.text.0"), t("bevry.myTasks.text.1")],
+          text: [t("bevry.myTasks.text.0")],
+          className: "bg-[#EF8E99]",
           image: bevryScreens,
           cta: {
             title: t("bevry.myTasks.cta"),
@@ -219,6 +235,7 @@ export const getProjectsData = (theme: string) => {
         {
           title: t("erika.project.title"),
           text: [t("erika.project.text.0"), t("erika.project.text.1")],
+          className: "bg-[#A6D1D4]",
           image: erikaProject,
           cta: {
             title: t("erika.project.cta"),
@@ -228,12 +245,15 @@ export const getProjectsData = (theme: string) => {
         {
           title: t("erika.implementation.title"),
           text: [t("erika.implementation.text.0"), t("erika.implementation.text.1"), t("erika.implementation.text.2")],
+          className: "bg-[#B0D9D3]",
           image: erikaScreens,
         },
         {
           title: t("erika.sustainability.title"),
-          text: [t("erika.sustainability.text.0"), t("erika.sustainability.text.1"),t("erika.sustainability.text.2"), t("erika.sustainability.text.3")],
+          text: [t("erika.sustainability.text.0"), t("erika.sustainability.text.1"),t("erika.sustainability.text.2")],
+          className: "bg-[#BCE1CF]",
           image: erikaLogo,
+          imageSize: "1/3",
           cta: {
             title: t("erika.sustainability.cta"),
             link: "https://mfg.fhstp.ac.at/allgemein/sustainable-webdesign/"
@@ -242,10 +262,12 @@ export const getProjectsData = (theme: string) => {
         {
           title: t("erika.prototyping.title"),
           text: [t("erika.prototyping.text.0"), t("erika.prototyping.text.1"), t("erika.prototyping.text.2")],
+          className: "bg-[#C2E7D0]",
           image: erikaPrototype,
           cta: {
             title: t("erika.prototyping.cta"),
-            link: "https://www.figma.com/proto/e10aY7un7NpT8NdGW9HgAu/ERIKA?page-id=0%3A1&node-id=54-1755&viewport=735%2C324%2C0.06&t=pEKHDE4FGPe4fp6N-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=54%3A3545"
+            link: "https://www.figma.com/proto/e10aY7un7NpT8NdGW9HgAu/ERIKA?page-id=0%3A1&node-id=54-1755&viewport=735%2C324%2C0.06&t=pEKHDE4FGPe4fp6N-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=54%3A3545",
+            position: "right"
           }
         },
       ],
@@ -279,7 +301,7 @@ export const getProjectsData = (theme: string) => {
         },
         {
           title: t("ecocalypse.objects.title"),
-          text: [t("ecocalypse.objects.text.0"), t("ecocalypse.objects.text.1"), t("ecocalypse.objects.text.2"), t("ecocalypse.objects.text.3"), t("ecocalypse.objects.text.4")],
+          text: [t("ecocalypse.objects.text.0"), t("ecocalypse.objects.text.1"), t("ecocalypse.objects.text.2")],
           image: ecocalypseCollage,
           cta: {
             title: t("ecocalypse.objects.cta"),
