@@ -11,6 +11,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useVariants } from "@/context/variants-context";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import Introduction from "./introduction";
+import CTABtn from "./cta-btn";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -54,19 +55,14 @@ export default function Intro() {
             delay: 0.1,
           }}
         >
-          <Link
-            href="#contact"
-            className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-black text-[#FFD8EC] hover:text-[#FF96CC] dark:bg-[#FF96CC] dark:hover:bg-[#FFD8EC] dark:text-black"
-            onMouseEnter={mouseEnter}
-            onMouseLeave={mouseLeave}
+          <CTABtn
+            title={t("cta")}
+            link="#contact"
             onClick={() => {
               setActiveSection("Contact");
               setTimeOfLastClick(Date.now());
             }}
-          >
-            {t("cta")}{" "}
-            <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-          </Link>
+          />
 
           <a
             className="bg-black text-[#FF96CC] hover:text-[#FFD8EC] dark:bg-white/10 dark:text-white/60 p-3 flex items-center gap-2 text-[1.63rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"

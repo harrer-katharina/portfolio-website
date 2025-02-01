@@ -102,10 +102,12 @@ export default function DetailCards({
               </p>
             ))}
             {section?.cta && section?.cta?.position !== "right" && (
-              <CTABtn
-                title={section.cta.title ?? ""}
-                link={section.cta.link ?? ""}
-              />
+              <div className="mt-0 md:mt-4">
+                <CTABtn
+                  title={section.cta.title ?? ""}
+                  link={section.cta.link ?? ""}
+                />
+              </div>
             )}
           </div>
 
@@ -123,7 +125,7 @@ export default function DetailCards({
               />
             </motion.div>
             {section?.cta && section?.cta?.position === "right" && (
-              <span className="mt-4">
+              <span className="pt-10">
                 <CTABtn
                   title={section.cta.title ?? ""}
                   link={section.cta.link ?? ""}

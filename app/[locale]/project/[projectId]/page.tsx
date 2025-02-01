@@ -98,7 +98,7 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
             const targetScale = 1 - (project.sections?.length - index) * 0.05;
             return (
               <DetailCards
-                key={index}
+                key={`card_${index}`}
                 index={index}
                 section={section}
                 progress={scrollYProgress}
