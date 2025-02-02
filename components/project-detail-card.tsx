@@ -58,14 +58,14 @@ export default function DetailCards({
       className="lg:h-[100vh] flex items-center justify-center lg:sticky lg:top-0"
     >
       <motion.div
-        className={`lg:relative flex flex-col justify-center lg:h-[600px] w-full lg:w-[1200px] rounded-2xl px-4 py-8 lg:p-12 shadow-md ${section.className}`} //${section.className ?? "bg-white dark:bg-gray-800"}
+        className={`lg:relative flex flex-col justify-center lg:h-[600px] w-full lg:w-[1200px] rounded-2xl px-4 py-8 lg:p-12 shadow-md ${section.className}`}
         style={{
           scale: isMobile ? 1 : scale,
           top: isMobile ? `` : `calc(-2vh + ${index * 25}px)`,
           backgroundColor:
             section.className && theme === "light"
               ? ""
-              : `hsl(${theme === "dark" ? 231 : 330}, ${theme === "dark" ? 14 : 60}%, ${
+              : `hsl(${theme === "dark" ? 231 : 0}, ${theme === "dark" ? 14 : 0}%, ${
                   isMobile
                     ? theme === "dark"
                       ? 20

@@ -39,7 +39,7 @@ export default function About() {
         <div className="xl:w-1/2 flex justify-center">
           <Transition>
             <img
-              src={"/kharrer-about.jpg"}
+              src={"/kharrer-about.webp"}
               width={400}
               height={400}
               alt={"about.name"}

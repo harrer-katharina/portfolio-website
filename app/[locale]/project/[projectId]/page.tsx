@@ -4,11 +4,11 @@ import { useRef, useEffect } from "react";
 import Lenis from "@studio-freight/lenis";
 import { useScroll } from "framer-motion";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import { getProjectsData } from "@/lib/data";
 import { ProjectType, ProjectSection } from "@/lib/types";
 import { useTheme } from "@/context/theme-context";
 import Tag from "@/components/tag";
+import ProjectIntroImage from "@/components/project-intro-image";
 import DetailCards from "@/components/project-detail-card";
 
 const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
@@ -17,10 +17,8 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
   const data = getProjectsData(theme);
 
   const container = useRef(null);
-
   const { scrollYProgress } = useScroll({
     target: container,
-
     offset: ["start start", "end end"],
   });
 
@@ -42,27 +40,9 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
   }
 
   return (
-    <div>
-      <div className="relative w-full pt-20">
-        <div className="absolute w-full aspect-[16/9] sm:aspect-[21/6]">
-          <Image
-            src={project.sectionImage}
-            alt={project.projectId}
-            fill={true}
-            className="object-cover"
-          />
-          {project.showTitle && (
-            <h1
-              className="absolute bottom-6 left-10 md:left-20 xl:left-40 text-white drop-shadow-lg font-bricolage"
-              style={{ fontSize: "clamp(2rem, 5vw, 4rem)" }}
-            >
-              {project.title}
-            </h1>
-          )}
-        </div>
-        <div className="aspect-[16/9] sm:aspect-[21/6]" />
-      </div>
-      <main className="max-w-6xl mx-auto mt-6 px-6 space-y-8 scroll-mt-28">
+    <main>
+      <ProjectIntroImage project={project} />
+      <div className="max-w-6xl mx-auto mt-6 px-6 space-y-8 scroll-mt-28">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="flex flex-col">
             <div className="text-lg font-semibold dark:text-[#FF96CC]">
@@ -108,8 +88,8 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
             );
           })}
         </div>
-      </main>
-    </div>
+      </div>
+    </main>
   );
 };
 

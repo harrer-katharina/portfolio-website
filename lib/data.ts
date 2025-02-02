@@ -1,52 +1,49 @@
-import React from "react";
 import { useTranslations } from "next-intl";
-import { CgWorkAlt } from "react-icons/cg";
-import { LuGraduationCap } from "react-icons/lu";
 
-import timeparabox from "@/public/timeParabox/time-parabox.svg";
-import timeparaboxPoster from "@/public/timeParabox/timeParabox-poster.svg";
-import timeparaboxMockups from "@/public/timeParabox/timeParabox-mockups.png";
-import timeparaboxEpochs from "@/public/timeParabox/timeParabox-epochs.png";
-import timeparaboxFeatures from "@/public/timeParabox/timeParabox-features.png";
+import timeparabox from "@/public/timeParabox/time-parabox.webp";
+import timeparaboxPoster from "@/public/timeParabox/timeParabox-poster.webp";
+import timeparaboxMockups from "@/public/timeParabox/timeParabox-mockup.webp";
+import timeparaboxEpochs from "@/public/timeParabox/timeParabox-epoch.webp";
+import timeparaboxFeatures from "@/public/timeParabox/timeParabox-feature.webp";
 
-import bevry from "@/public/bevry/bevry-mocktail.png";
-import bevryCocktails from "@/public/bevry/bevry-cocktails.svg";
-import bevryFeatures from "@/public/bevry/bevry-features.png";
-import bevryThumbnail from "@/public/bevry/bevry-thumbnail.png";
-import bevryBranding from "@/public/bevry/bevry-mockup-drucksorten.png";
+import bevry from "@/public/bevry/bevry-mocktail.webp";
+import bevrySplash from "@/public/bevry/bevry-cocktail-splash.webp";
+import bevryFeatures from "@/public/bevry/bevry-features.webp";
+import bevryThumbnail from "@/public/bevry/bevry-thumbnail.webp";
+import bevryBranding from "@/public/bevry/bevry-mockup-drucksorten.webp";
 import bevryGroup from "@/public/bevry/bevry-group.jpg";
-import bevrySplash from "@/public/bevry/bevry-cocktail-splash.jpg";
-import bevryScreens from "@/public/bevry/bevry-kathy-politan.png";
+import bevryCheers from "@/public/bevry/bevry-cheers.webp";
+import bevryScreens from "@/public/bevry/bevry-kathy-politan.webp";
 
-import erika from "@/public/erika/erika-closeup.png";
-import erikaHand from "@/public/erika/erika-hand.svg";
-import erikaProject from "@/public/erika/erika-project.svg";
-import erikaScreens from "@/public/erika/erika-mockup-screens.png";
-import erikaLogo from "@/public/erika/erika-logo.svg";
-import erikaPrototype from "@/public/erika/erika-prototype.png";
+import erika from "@/public/erika/erika-closeup.webp";
+import erikaHand from "@/public/erika/erika-hand.webp";
+import erikaProject from "@/public/erika/erika-project.webp";
+import erikaScreens from "@/public/erika/erika-mockup-screens.webp";
+import erikaLogo from "@/public/erika/erika-logo.webp";
+import erikaPrototype from "@/public/erika/erika-prototype.webp";
 
-import ecocalypse from "@/public/ecocalypse/ecocalypse-scene-desk.png";
-import ecocalypsePreview from "@/public/ecocalypse/ecocalypse-preview.jpg"
+import ecocalypse from "@/public/ecocalypse/ecocalypse-scene-desk.webp";
+import ecocalypsePreview from "@/public/ecocalypse/ecocalypse-preview.webp"
 import ecocalypseEntrance from "@/public/ecocalypse/ecocalypse-scene-entrance.webp";
 import ecocalypsePoster from "@/public/ecocalypse/ecocalypse-natures-revenge-poster.webp";
 import ecocalypseScene from "@/public/ecocalypse/ecocalypse-scene.webp";
 import ecocalypseCollage from "@/public/ecocalypse/ecocalypse-collage.webp";
 
-import advent from "@/public/veganAdvent/advent-light.png";
-import adventDark from "@/public/veganAdvent/advent-dark.png";
-import veganAdvent from "@/public/veganAdvent/veganAdvent.png";
-import veganAdventPoster from "@/public/veganAdvent/veganAdvent-poster.png";
-import veganAdventApp from "@/public/veganAdvent/veganAdvent-app.png";
+import advent from "@/public/veganAdvent/advent-light.webp";
+import adventDark from "@/public/veganAdvent/advent-dark.webp";
+import veganAdvent from "@/public/veganAdvent/veganAdvent.webp";
+import veganAdventPoster from "@/public/veganAdvent/veganAdvent-poster.webp";
+import veganAdventApp from "@/public/veganAdvent/veganAdvent-app.webp";
 
-import trilum from "@/public/trilum/trilum-orders-overview.png";
-import trilumOrders from "@/public/trilum/trilum-overview.png";
+import trilum from "@/public/trilum/trilum-orders-overview.webp";
+import trilumOrders from "@/public/trilum/trilum-overview.webp";
 import trilumTechStack from "@/public/trilum/trilum-tech-stack.webp";
 import trilumWorkflow from "@/public/trilum/trilum-workflow.webp";
 import trilumUsabilityTests from "@/public/trilum/trilum-usability-tests.webp";
 
-import nakt from "@/public/nakt/nakt-recipe-customizer-desktop.png";
-import naktPreview from "@/public/nakt/nakt-preview.png";
-import naktBackend from "@/public/nakt/nakt-recipe-backend.png";
+import nakt from "@/public/nakt/nakt-recipe-customizer-desktop.webp";
+import naktPreview from "@/public/nakt/nakt-preview.webp";
+import naktBackend from "@/public/nakt/nakt-recipe-backend.webp";
 
 export const getLinks = (t: ReturnType<typeof useTranslations>) => {
   return [
@@ -167,7 +164,7 @@ export const getProjectsData = (theme: string) => {
       description: t("bevry.description"),
       tags: ["NestJs", "Vue.js", "Adobe InDesign", "Adobe Photoshop"],
       image: bevry,
-      sectionImage: bevryCocktails,
+      sectionImage: bevrySplash,
       sections: [
         {
           title: t("bevry.project.title"),
@@ -206,7 +203,7 @@ export const getProjectsData = (theme: string) => {
           title: t("bevry.collaboration.title"),
           text: [t("bevry.collaboration.text.0")],
           className: "bg-[#F6938F]",
-          image: bevrySplash,
+          image: bevryCheers,
         },  
         {
           title: t("bevry.myTasks.title"),
