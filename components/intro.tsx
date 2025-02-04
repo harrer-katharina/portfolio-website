@@ -1,10 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import { BsArrowRight } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { useSectionInView } from "@/lib/hooks";

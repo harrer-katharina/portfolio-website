@@ -13,30 +13,34 @@ export default function ProjectIntroImage({
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
-    offset: ["start start", "end start"],
+    offset: ["start end", "end start"],
   });
-  const y = useTransform(scrollYProgress, [0, 1], ["0vh", "150vh"]);
+  const y = useTransform(scrollYProgress, [0, 1], ["-10vh", "10vh"]);
 
   return (
-    <div className="relative w-full pt-20">
-      <div className="lg:h-screen overflow-hidden">
-        <motion.div style={{ y }} className="relative lg:h-[92vh]">
-          <div className="w-full aspect-[16/9]">
-            <Image
-              src={project.sectionImage}
-              alt={project.projectId}
-              fill
-              className="object-cover"
-            />
-            {project.showTitle && (
-              <h1
-                className="absolute bottom-6 left-10 md:left-20 xl:left-40 text-white drop-shadow-lg font-bricolage"
-                style={{ fontSize: "clamp(2rem, 5vw, 4rem)" }}
-              >
-                {project.title}
-              </h1>
-            )}
-          </div>
+    <div
+      ref={container}
+      className="relative flex items-center justify-center overflow-hidden aspect-[14/10] md:aspect-[5/2]"
+      style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
+    >
+      {project.showTitle && (
+        <div className="relative z-10 p-20 mix-blend-difference text-white w-full h-full flex justify-bottom">
+          <p
+            className="absolute bottom-6 left-10 md:left-20 xl:left-40 text-[5vw] uppercase font-bricolage mix-blend-difference"
+            style={{ fontSize: "clamp(2rem, 5vw, 4rem)" }}
+          >
+            {project.title}
+          </p>
+        </div>
+      )}
+      <div className="fixed left-0 aspect-[16/9] w-full">
+        <motion.div style={{ y }} className="relative w-full h-full">
+          <Image
+            src={project.sectionImage}
+            alt={project.projectId}
+            fill
+            className="object-cover"
+          />
         </motion.div>
       </div>
     </div>

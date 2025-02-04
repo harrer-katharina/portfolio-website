@@ -74,7 +74,7 @@ export default function CTABtn({ title, link, onClick }: ButtonProps) {
     title &&
     link && (
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center md:text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
