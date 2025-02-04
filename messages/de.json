@@ -269,20 +269,33 @@
     "title": "Mein Werdegang",
     "bachelorTitle": "Bachelor of Science - Medieninformatik",
     "bachelorLocation": "TH Nürnberg",
-    "bachelorDescription": "Bachelorarbeit in Kooperation mit Fraunhofer: Analyse und Überarbeitung der Benutzeroberfläche eines Pick-by-Light-Systems zur Verbesserung der Usability am Beispiel des Projekts TRILUM. Abschlussnote: 1,8",
+    "bachelorDescription": [
+      "Bachelorarbeit in Kooperation mit Fraunhofer: Analyse und Überarbeitung der Benutzeroberfläche eines Pick-by-Light-Systems zur Verbesserung der Usability am Beispiel des Projekts TRILUM.", 
+      "Abschlussnote: 1,8"
+    ],
     "bachelorDate": "10/2018 – 03/2022",
     "job1Title": "Praktikantin, HiWi: Frontendentwicklung",
     "job1Location": "Fraunhofer IIS, Arbeitsgruppe für Supply Chain Services, Nürnberg",
-    "job1Description": "Dort absolvierte ich zunächst ein Pflichtpraktikum (5 Monate) und wurde anschließend bis zum Ende meines Bachelorstudiums als wissenschaftliche Hilfskraft übernommen. In dieser Zeit war ich in verschiedenen Bereichen tätig: Ich entwickelte mit Vue.js, führte Objektmessungen für ein Machine-Learning-Projekt durch und erstellte UI-Prototypen.",
+    "job1Description": [
+      "Absolvierung eines fünfmonatigen Pflichtpraktikums im Bereich Frontend-Entwicklung.", 
+      "Anschließende Übernahme als wissenschaftliche Hilfskraft bis zum Ende des Bachelorstudiums.", 
+      "Entwicklung von Benutzeroberflächen mit Vue.js, Durchführung von Objektmessungen für ein Machine-Learning-Projekt, Erstellung von UI-Prototypen."],
     "job1Date": "09/2020 – 03/2022",
-    "job2Title": "Entwicklerin: Frontend - Middleware",
+    "job2Title": "Entwicklerin: Frontend – Middleware",
     "job2Location": "edison street GmbH, Roth",
-    "job2Description": "Nach meinem Bachelorabschluss arbeitete ich dort zunächst Vollzeit (1 Jahr, 5 Monate) und während meines Masterstudiums in Teilzeit (1 Jahr, 6 Monate). Meine Aufgaben umfassten die Entwicklung einer Website, die es Kunden ermöglichte, ihre Verbrauchs-, Leistungs- und Bewegungsdaten übersichtlich anzuzeigen, unter Verwendung von React und PHP.",
+    "job2Description": [
+      "Vollzeit-Tätigkeit (1 Jahr, 5 Monate) nach dem Bachelorabschluss.",
+      "Teilzeit-Beschäftigung (1 Jahr, 6 Monate) während des Masterstudiums.", 
+      "Entwicklung einer Webanwendung, die Kunden eine übersichtliche Darstellung ihrer Verbrauchs- und Leistungsdaten ermöglicht – unter Verwendung von React und PHP."
+    ],
     "job2Date": "04/2022 – 02/2025",
     "masterTitle": "Dipl.Ing. Interactive Technologies",
     "masterLocation": "FH St. Pölten, Österreich",
-    "masterDescription": "Masterstudiengang Interactive Technologies, Schwerpunkt Mobile",
-    "masterDate": "09/2023 - dato"
+    "masterDescription": [
+      "Schwerpunkt: Mobile (Web- & Appentwicklung)", 
+      "Masterarbeit: Green Booking – Designinterventionen zur Unterstützung umweltbe-wusster Entscheidungen in einer Reisebuchungs-App."
+    ],
+    "masterDate": "09/2023 – dato"
   },
   "Skills": {
     "title": "Meine Kenntnisse"

@@ -61,9 +61,14 @@ export default function Experience() {
                 <p className="font-normal !mt-0 dark:text-[#FFD8EC]">
                   {item.location}
                 </p>
-                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                  {item.description}
-                </p>
+                {item.description?.map((desc, index) => (
+                  <p
+                    key={index}
+                    className="!mt-1 !font-normal text-gray-700 dark:text-white/75"
+                  >
+                    ✦︎ {desc}
+                  </p>
+                ))}
               </div>
             </VerticalTimelineElement>
           </React.Fragment>
