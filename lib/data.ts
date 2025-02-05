@@ -87,7 +87,7 @@ export const getExperiencesData = () => {
     {
       title: t("bachelorTitle"),
       location: t("bachelorLocation"),
-      description: [t("bachelorDescription.0"), t("bachelorDescription.1")],
+      description: [t("bachelorDescription.0"), t("bachelorDescription.1"), t("bachelorDescription.2")],
       icon: "/experience/th-nuernberg-ohm-logo.png",
       date: t("bachelorDate"),
     },

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import clsx from "clsx";
 import { motion } from "framer-motion";
-import { BsArrowRight } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 import { useVariants } from "@/context/variants-context";
 
