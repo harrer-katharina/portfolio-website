@@ -33,7 +33,7 @@ export default function Header() {
         </Link>
 
         <ul
-          className="hidden sm:flex items-center space-x-8 text-sm font-medium text-black dark:text-[#FFD8EC]"
+          className="hidden sm:flex items-center space-x-8 text-sm font-medium"
           onMouseEnter={mouseEnter}
           onMouseLeave={mouseLeave}
         >

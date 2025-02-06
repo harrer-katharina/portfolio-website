@@ -23,7 +23,7 @@ export default function Experience() {
   const mouseLeave = () => setVariant("DEFAULT");
 
   return (
-    <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
+    <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>{t("title")}</SectionHeading>
       <VerticalTimeline lineColor={theme === "light" ? "#fff" : ""}>
         {getExperiencesData().map((item, index) => (
@@ -54,7 +54,11 @@ export default function Experience() {
                 </div>
               }
             >
-              <div onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
+              <div
+                onMouseEnter={mouseEnter}
+                onMouseLeave={mouseLeave}
+                ref={index === 0 ? ref : null}
+              >
                 <h3 className="font-semibold capitalize dark:text-[#FF96CC]">
                   {item.title}
                 </h3>

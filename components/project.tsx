@@ -7,10 +7,11 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { useVariants } from "@/context/variants-context";
 import { useLanguage } from "@/context/language-context";
-import { ProjectType } from "../lib/types";
+import { useSectionInView } from "@/lib/hooks";
+import { ProjectType } from "@/lib/types";
 import Tag from "@/components/tag";
 
-type ProjectProps = ProjectType;
+type ProjectProps = ProjectType & { index: number };
 
 export default function Project({
   title,
@@ -18,13 +19,15 @@ export default function Project({
   tags,
   image,
   projectId,
+  index,
 }: ProjectProps) {
   const router = useRouter();
   const { setVariant } = useVariants();
   const { locale } = useLanguage();
-  const ref = useRef<HTMLDivElement>(null);
+  const { ref } = useSectionInView("Projects", 0.5);
+  const container = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
-    target: ref,
+    target: container,
     offset: ["0 1", "1.33 1"],
   });
 
@@ -40,7 +43,7 @@ export default function Project({
 
   return (
     <motion.div
-      ref={ref}
+      ref={container}
       style={{
         scale: scaleProgess,
         opacity: opacityProgess,
@@ -50,6 +53,7 @@ export default function Project({
       onMouseLeave={() => setVariant("DEFAULT")}
     >
       <section
+        ref={index === 0 ? ref : null}
         onClick={showProjectDetails}
         className="max-w-[42rem] sm:h-[20rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative transition sm:group-even:pl-8 bg-white/75 hover:bg-white dark:text-white dark:bg-white/10 dark:hover:bg-white/20"
       >
@@ -70,17 +74,17 @@ export default function Project({
           alt="Project I worked on"
           quality={95}
           className="sm:absolute sm:block px-5 sm:px-0 top-8 -right-24 w-[28.25rem] rounded-t-lg
-        sm:transition 
-        sm:group-hover:scale-[1.04]
-        sm:group-hover:-translate-x-3
-        sm:group-hover:translate-y-3
-        sm:group-hover:-rotate-2
+            sm:transition 
+            sm:group-hover:scale-[1.04]
+            sm:group-hover:-translate-x-3
+            sm:group-hover:translate-y-3
+            sm:group-hover:-rotate-2
 
-        sm:group-even:group-hover:translate-x-3
-        sm:group-even:group-hover:translate-y-3
-        sm:group-even:group-hover:rotate-2
+            sm:group-even:group-hover:translate-x-3
+            sm:group-even:group-hover:translate-y-3
+            sm:group-even:group-hover:rotate-2
 
-        sm:group-even:right-[initial] group-even:-left-24"
+            sm:group-even:right-[initial] group-even:-left-24"
         />
       </section>
     </motion.div>

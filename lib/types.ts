@@ -4,7 +4,7 @@ import { StaticImageData } from "next/image";
 type CTAType = {
     title: string;
     link: string;
-    position?: "left" | "right";
+    position?: string;
 };
 
 export type SectionName = (ReturnType<typeof getLinks>)[number]["name"];

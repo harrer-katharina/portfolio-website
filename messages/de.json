@@ -262,8 +262,7 @@
         ],
         "cta": "GitHub-Repo ansehen"
       }
-    },
-    "notFound": "Projekt nicht gefunden."
+    }
   },
   "Experiences": {
     "title": "Mein Werdegang",
@@ -294,7 +293,7 @@
     "masterLocation": "FH St. Pölten, Österreich",
     "masterDescription": [
       "Schwerpunkt: Mobile (Web- & Appentwicklung)", 
-      "Masterarbeit: Green Booking – Designinterventionen zur Unterstützung umweltbe-wusster Entscheidungen in einer Reisebuchungs-App."
+      "Masterarbeit: Green Booking – Designinterventionen zur Unterstützung umweltbewusster Entscheidungen in einer Reisebuchungs-App."
     ],
     "masterDate": "09/2023 – dato"
   },

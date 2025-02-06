@@ -1,4 +1,5 @@
 import createMiddleware from 'next-intl/middleware';
+import { NextResponse } from 'next/server';
 
 const middleware = createMiddleware({
   locales: ['en', 'de'],
@@ -6,9 +7,15 @@ const middleware = createMiddleware({
 });
 
 export default function Middleware(req: any) {
+  const { pathname } = req.nextUrl;
+
+  if (!pathname.startsWith('/de') && !pathname.startsWith('/en')) {
+    return NextResponse.redirect(new URL(`/de${pathname}`, req.url));
+  }
+
   return middleware(req);
 }
 
 export const config = {
-  matcher: ['/', '/:locale(en|de)/:path*'],
+  matcher: ['/((?!api|_next|.*\\..*).*)'],
 };

@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useEffect } from "react";
+import { notFound } from "next/navigation";
 import Lenis from "@studio-freight/lenis";
 import { useScroll } from "framer-motion";
 import { useTranslations } from "next-intl";
@@ -36,7 +37,7 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
   ) as ProjectType & { sections: ProjectSection[] };
 
   if (!project) {
-    return <p>{t("notFound")}</p>;
+    return notFound();
   }
 
   return (
