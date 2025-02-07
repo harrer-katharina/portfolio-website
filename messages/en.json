@@ -9,13 +9,13 @@
   },
   "Intro": {
     "introduction": "Hey, I am",
-    "job": "Frontenddeveloper",
-    "description": "I am currently pursuing my master's degree in Interactive Technologies, bringing my passion for creative development and design into every project.",
+    "job": "Frontend & UX with Passion",
+    "description": "I love bringing digital experiences to life through code & design – currently deepening my expertise in the Master’s program for Interactive Technologies.",
     "cta": "Contact"
   },
   "About": {
     "title": "About Me",
-    "description": "During my Bachelor's degree in Media Informatics at TH Nürnberg, I gained a strong foundation in computer science and digital media. After graduating, I wanted to further specialize in web development, which led me to pursue a Master's degree in Interactive Technologies with a focus on Mobile at FH St. Pölten. My main focus is on understanding user experience (UX) and translating it into user-centered designs. I am currently looking for a part-time position as a front-end developer to further develop my technical skills and deepen my interest in UX/UI design.",
+    "description": "During my Bachelor's degree in Media Informatics at TH Nürnberg, I gained a strong foundation in computer science and digital media. After graduating, I wanted to further specialize in web development, which led me to pursue a Master's degree in Interactive Technologies with a focus on Mobile at FH St. Pölten. My main focus is on understanding user experience (UX) and translating it into user-centered designs. I am currently looking for a part-time position to further develop my technical skills and deepen my interest in UI design.",
     "hobbies": "In my free time, I am committed to sustainability and enjoy vegan cooking and baking. I love being in nature — whether hiking in the mountains, road cycling, or bikepacking to discover new places and countries. Last year, for example, I cycled from Roth to Budapest and explored Denmark and Sweden."
   },
   "Projects": {
@@ -288,7 +288,7 @@
     "job2Description": [
       "Full-time position (1 year, 5 months) after completing the bachelor's degree.",
       "Part-time employment (1 year, 6 months) during the master's program.",
-      "Development of a web application that allows customers to clearly visualize their consumption and performance data – using React and PHP."
+      "Development of a web application that allows customers to clearly visualize their consumption and performance data."
     ],
   "job2Date": "04/2022 – 02/2025",
     "masterTitle": "Dipl.Ing. Interactive Technologies",
@@ -303,9 +303,9 @@
     "title": "My skills"
   },
   "Contact": {
-    "title": "Contact me",
-    "description1": "Please contact me directly at",
-    "description2": "or through this form.",
+    "title": "Get in Touch!",
+    "description1": "You can reach me directly at",
+    "description2": "or via the contact form.",
     "emailPlaceholder": "Your email",
     "messagePlaceholder": "Your message",
     "submit": "Submit",

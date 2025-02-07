@@ -2,7 +2,7 @@
 
 import React from "react";
 import nodemailer from "nodemailer";
-import { validateString, getErrorMessage } from "@/lib/utils";
+import { validateString } from "@/lib/utils";
 import ContactFormEmail from "@/email/contact-form-email";
 import { render } from "@react-email/render";
 
@@ -12,14 +12,13 @@ export const sendEmail = async (formData: FormData) => {
   const message = formData.get("message") as string;
 
   if (!senderEmail || !message) {
-    return { error: "Invalid FormData structure" };
+    return { error: "Bitte fülle alle Felder aus." };
   }
-
   if (!validateString(senderEmail, 500)) {
-    return { error: "Invalid sender email" };
+    return { error: "Die E-Mail-Adresse ist ungültig." };
   }
   if (!validateString(message, 5000)) {
-    return { error: "Invalid message" };
+    return { error: "Die Nachricht ist zu lang." };
   }
 
   const emailHtml = await render(
@@ -28,7 +27,6 @@ export const sendEmail = async (formData: FormData) => {
       senderEmail,
     })
   );
-
 
   const transporter = nodemailer.createTransport({
     host: process.env.EMAIL_HOST, 
@@ -51,7 +49,9 @@ export const sendEmail = async (formData: FormData) => {
     });
 
     return { success: true, info };
-  } catch (error: unknown) {
-    return { error: getErrorMessage(error) };
+  } catch (error) {
+    return { 
+      error: "Es gab ein Problem beim Senden der Nachricht. Bitte kontaktiere mich unter hello@katharina-harrer.de oder versuche es später erneut." 
+    };
   }
 };

@@ -3,9 +3,15 @@
 import { ParallaxText } from "./ui/parallax-text";
 
 export default function ParallaxSkills() {
-  const skills = ["Webdevelopment", "Appdesign", "UX/UI", "Webdesign"];
+  const skills = [
+    "Webdevelopment",
+    "Appdesign",
+    "Frontend",
+    "UX/UI",
+    "Webdesign",
+  ];
   return (
-    <section className="w-full py-16">
+    <section className="w-full pt-24 pb-20">
       <ParallaxText baseVelocity={-5}>
         {skills.map((skill, index) => (
           <span

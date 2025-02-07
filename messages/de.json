@@ -9,13 +9,13 @@
   },
   "Intro": {
     "introduction": "Hey, ich bin",
-    "job": "Frontendentwicklerin",
-    "description": "Ich absolviere derzeit meinen Master in Interactive Technologies und bringe meine Leidenschaft für kreatives Entwickeln und Design in jedes Projekt ein.",
+    "job": "Frontend & UX mit Leidenschaft", 
+    "description": "Ich liebe es, digitale Erlebnisse durch Code & Design zum Leben zu erwecken – aktuell vertiefe ich mein Wissen im Master Interactive Technologies.",
     "cta": "Kontakt"
   },
   "About": {
     "title": "Über mich",
-    "description": "Während meines Bachelorstudiums in Medieninformatik an der TH Nürnberg konnte ich fundierte Kenntnisse in Informatik und digitalen Medien erwerben. Nach dem Abschluss wollte ich mich stärker in Richtung Webentwicklung weiterbilden, weshalb ich mich für den Masterstudiengang Interactive Technologies mit dem Schwerpunkt Mobile an der FH St. Pölten entschieden habe. Mein Fokus liegt darauf, die Benutzererfahrung (UX) zu verstehen und in benutzerzentrierte Designs umzusetzen. Aktuell bin ich auf der Suche nach einer Teilzeitstelle als Frontend-Entwicklerin, um meine technischen Fähigkeiten sowie mein Interesse an UX/UI-Design weiter auszubauen.",
+    "description": "Während meines Bachelorstudiums in Medieninformatik an der TH Nürnberg konnte ich fundierte Kenntnisse in Informatik und digitalen Medien erwerben. Nach dem Abschluss wollte ich mich stärker in Richtung Webentwicklung weiterbilden, weshalb ich mich für den Masterstudiengang Interactive Technologies mit dem Schwerpunkt Mobile an der FH St. Pölten entschieden habe. Mein Fokus liegt darauf, die Benutzererfahrung (UX) zu verstehen und in benutzerzentrierte Designs umzusetzen. Aktuell bin ich auf der Suche nach einer Teilzeitstelle, um meine technischen Fähigkeiten sowie mein Interesse an UI-Design weiter auszubauen.",
     "hobbies": "In meiner Freizeit interessiere ich mich für Nachhaltigkeit und genieße das vegane Kochen und Backen. Ich bin gerne in der Natur unterwegs – sei es beim Wandern in den Bergen, Rennradfahren oder Bikepacking, um neue Orte und Länder zu entdecken. Letztes Jahr habe ich beispielsweise mit dem Rad die Strecke von Roth nach Budapest zurückgelegt und Dänemark sowie Schweden erkundet."
   },
   "Projects": {
@@ -286,7 +286,7 @@
     "job2Description": [
       "Vollzeit-Tätigkeit (1 Jahr, 5 Monate) nach dem Bachelorabschluss.",
       "Teilzeit-Beschäftigung (1 Jahr, 6 Monate) während des Masterstudiums.", 
-      "Entwicklung einer Webanwendung, die Kunden eine übersichtliche Darstellung ihrer Verbrauchs- und Leistungsdaten ermöglicht – unter Verwendung von React und PHP."
+      "Entwicklung einer Webanwendung, die Kunden eine übersichtliche Darstellung ihrer Verbrauchs- und Leistungsdaten ermöglicht."
     ],
     "job2Date": "04/2022 – 02/2025",
     "masterTitle": "Dipl.Ing. Interactive Technologies",
@@ -301,9 +301,9 @@
     "title": "Meine Kenntnisse"
   },
   "Contact": {
-    "title": "Kontaktiere mich",
-    "description1": "Bitte kontaktiere mich direkt unter",
-    "description2": "oder über dieses Formular.",
+    "title": "Schreib mir!",
+    "description1": "Du erreichst mich direkt unter",
+    "description2": "oder über das Kontaktformular.",
     "emailPlaceholder": "Deine E-Mail",
     "messagePlaceholder": "Deine Nachricht",
     "submit": "Absenden",

@@ -87,6 +87,7 @@ export const getExperiencesData = () => {
     {
       title: t("bachelorTitle"),
       location: t("bachelorLocation"),
+      link: "https://www.th-nuernberg.de/",
       description: [t("bachelorDescription.0"), t("bachelorDescription.1"), t("bachelorDescription.2")],
       icon: "/experience/th-nuernberg-ohm-logo.png",
       date: t("bachelorDate"),
@@ -94,6 +95,8 @@ export const getExperiencesData = () => {
     {
       title: t("job1Title"),
       location: t("job1Location"),
+      link: "https://www.scs.fraunhofer.de/",
+      tags: ["Vue.js", "Figma"],
       description: [t("job1Description.0"), t("job1Description.1"), t("job1Description.2")],
       icon: "/experience/fraunhofer-logo.jpeg",
       date: t("job1Date"),
@@ -101,6 +104,8 @@ export const getExperiencesData = () => {
     {
       title: t("job2Title"),
       location: t("job2Location"),
+      link: "https://www.edisonstreet.com/",
+      tags: ["React", "PHP", "Figma", "LaTeX"],
       description: [t("job2Description.0"), t("job2Description.1"), t("job2Description.2")],  
       icon: "/experience/edisonstreet-logo.jpg",
       date: t("job2Date"),
@@ -108,6 +113,7 @@ export const getExperiencesData = () => {
     {
       title: t("masterTitle"),
       location: t("masterLocation"),
+      link: "https://www.fhstp.ac.at/",
       description: [t("masterDescription.0"), t("masterDescription.1")],
       icon: "/experience/fh-st-pölten-logo.webp",
       date: t("masterDate"),

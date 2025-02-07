@@ -26,7 +26,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="flex flex-col-reverse xl:flex-row items-center justify-center pt-28 sm:pt-0 sm:py-auto px-8 lg:px-16 xl:h-[100vh] scroll-mt-24 sm:scroll-mt-0"
+      className="flex flex-col-reverse xl:flex-row items-center justify-center mt-28 xl:mt-0 sm:py-auto px-8 lg:px-16 xl:h-[100vh] scroll-mt-24 sm:scroll-mt-0"
     >
       <div className="flex flex-col items-start max-w-md lg:mr-16 dark:text-white">
         <Introduction className="hidden xl:block" />
@@ -93,7 +93,7 @@ export default function Intro() {
           duration: 0.2,
         }}
       >
-        <div className="relative overflow-hidden pt-0 xl:pt-28 xl:flex xl:items-center xl:justify-center sm:h-[100vh]">
+        <div className="relative overflow-hidden pt-0 xl:pt-28 xl:flex xl:items-center xl:justify-center xl:h-[100vh]">
           <Introduction className="xl:hidden" />
           <Image
             src="/kharrer-landing.webp"
