@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { useTranslations } from "next-intl";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
@@ -14,6 +14,7 @@ export default function Contact() {
   const { ref } = useSectionInView("Contact");
   const t = useTranslations("Contact");
   const { setVariant } = useVariants();
+  const [isChecked, setIsChecked] = useState(false);
   const mouseEnter = () => setVariant("TEXT");
   const mouseLeave = () => setVariant("DEFAULT");
 
@@ -21,7 +22,7 @@ export default function Contact() {
     <motion.section
       id="contact"
       ref={ref}
-      className="mb-10 w-[min(100%,38rem)] h-[100vh] flex flex-col justify-center text-center scroll-mt-10 sm:scroll-mt-0"
+      className="mb-10 w-[min(100%,38rem)] h-[100vh] flex flex-col scroll-mt-10 sm:scroll-mt-0"
       initial={{
         opacity: 0,
       }}
@@ -38,7 +39,7 @@ export default function Contact() {
       <SectionHeading>{t("title")}</SectionHeading>
 
       <div onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
-        <p className="text-gray-700 -mt-6 dark:text-white/80">
+        <p className="justify-center text-center text-gray-700 -mt-6 dark:text-white/80">
           {t("description1")}{" "}
           <a className="underline" href="mailto:hello@katharina-harrer.de">
             hello@katharina-harrer.de
@@ -50,6 +51,10 @@ export default function Contact() {
           className="mt-10 flex flex-col dark:text-black"
           onSubmit={async (e) => {
             e.preventDefault();
+            if (!isChecked) {
+              toast.error(t("checkboxError"));
+              return;
+            }
             const formData = new FormData(e.currentTarget);
             const { error } = await sendEmail(formData);
 
@@ -76,6 +81,16 @@ export default function Contact() {
             maxLength={5000}
             placeholder={t("messagePlaceholder")}
           />
+          <h3 className="font-semibold dark:text-[#FF96CC]">{t("consent")}</h3>
+          <label className="pb-4 flex items-center gap-2 text-sm text-gray-700 dark:text-white/80">
+            <input
+              type="checkbox"
+              className="w-10 h-10"
+              checked={isChecked}
+              onChange={() => setIsChecked(!isChecked)}
+            />
+            {t("dsgvo")}
+          </label>
           <SubmitBtn />
         </form>
       </div>

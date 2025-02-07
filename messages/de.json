@@ -306,6 +306,9 @@
     "description2": "oder über das Kontaktformular.",
     "emailPlaceholder": "Deine E-Mail",
     "messagePlaceholder": "Deine Nachricht",
+    "consent": "Einwilligung zur Datenverarbeitung",
+    "dsgvo": "Ich stimme zu, dass meine persönlichen Daten gemäß der Datenschutzerklärung verarbeitet und gespeichert werden. Die Daten werden ausschließlich für die Bearbeitung meiner Anfrage verwendet.",
+    "checkboxError": "Bitte stimme der Datenverarbeitung zu.",
     "submit": "Absenden",
     "success": "E-Mail erfolgreich gesendet!"
   },

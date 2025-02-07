@@ -308,6 +308,9 @@
     "description2": "or via the contact form.",
     "emailPlaceholder": "Your email",
     "messagePlaceholder": "Your message",
+    "consent": "Consent to data processing",
+    "dsgvo": "I agree that my personal data will be processed and stored in accordance with the privacy policy. The data will only be used to process my request.",
+    "checkboxError": "Please agree to the data processing.",
     "submit": "Submit",
     "success": "Email sent successfully!"
   },
