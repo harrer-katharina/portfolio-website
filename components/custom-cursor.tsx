@@ -53,7 +53,7 @@ function CustomCursor() {
 
   return (
     <motion.div
-      className="fixed top-0 left-0 bg-white mix-blend-difference z-50 rounded-full pointer-events-none grid place-items-center hidden sm:block"
+      className="fixed top-0 left-0 bg-white mix-blend-difference z-50 rounded-full pointer-events-none grid place-items-center hidden md:block"
       variants={variants}
       animate={variant}
       style={{

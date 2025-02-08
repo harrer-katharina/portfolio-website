@@ -85,13 +85,13 @@ export default function Contact() {
           <label className="pb-4 flex items-center gap-2 text-sm text-gray-700 dark:text-white/80">
             <input
               type="checkbox"
-              className="w-10 h-10"
+              className="w-8 md:w-10 h-8 md:h-10"
               checked={isChecked}
               onChange={() => setIsChecked(!isChecked)}
             />
             {t("dsgvo")}
           </label>
-          {/* <SubmitBtn /> */}
+          <SubmitBtn />
         </form>
       </div>
     </motion.section>
