@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import { useVariants } from "@/context/variants-context";
@@ -38,11 +39,11 @@ export default function About() {
         </div>
         <div className="xl:w-1/2 flex justify-center">
           <Transition>
-            <img
+            <Image
               src={"/kharrer-about.webp"}
               width={400}
               height={400}
-              alt={"about.name"}
+              alt={"Katharina Harrer"}
               className="rounded-xl max-md:aspect-square object-cover"
             />
           </Transition>

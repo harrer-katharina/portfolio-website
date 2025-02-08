@@ -15,7 +15,7 @@ import DetailCards from "@/components/project-detail-card";
 const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
   const { theme } = useTheme();
   const t = useTranslations("Projects");
-  const data = getProjectsData(theme);
+  const data = getProjectsData(theme, t);
 
   const container = useRef(null);
   const { scrollYProgress } = useScroll({

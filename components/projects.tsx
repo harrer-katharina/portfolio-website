@@ -10,7 +10,7 @@ import Project from "./project";
 export default function Projects() {
   const t = useTranslations("Projects");
   const { theme } = useTheme();
-  const data = getProjectsData(theme);
+  const data = getProjectsData(theme, t);
 
   return (
     <section id="projects" className="scroll-mt-28 relative">

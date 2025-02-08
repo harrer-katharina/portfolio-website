@@ -91,7 +91,7 @@ export default function Contact() {
             />
             {t("dsgvo")}
           </label>
-          <SubmitBtn />
+          {/* <SubmitBtn /> */}
         </form>
       </div>
     </motion.section>

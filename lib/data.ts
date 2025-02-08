@@ -80,9 +80,7 @@ export const getLinks = (t: ReturnType<typeof useTranslations>) => {
   ];
 };
 
-export const getExperiencesData = () => {
-  const t = useTranslations("Experiences");
-
+export const getExperiencesData = (t: (key: string) => string) => {
   return [
     {
       title: t("bachelorTitle"),
@@ -121,8 +119,7 @@ export const getExperiencesData = () => {
   ];
 };
 
-export const getProjectsData = (theme: string) => {
-  const t = useTranslations("Projects");
+export const getProjectsData = (theme: string, t: (key: string) => string) => {
   return [
     {
       projectId: "time-parabox",
