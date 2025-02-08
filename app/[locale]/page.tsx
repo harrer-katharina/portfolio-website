@@ -22,8 +22,8 @@ export default function Home() {
         <Experience />
         <Skills />
         <Contact />
-        <Footer />
       </div>
+      <Footer />
     </main>
   );
 }

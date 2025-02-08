@@ -6,6 +6,8 @@ import { useTranslations } from "next-intl";
 import { useLanguage } from "@/context/language-context";
 import { useVariants } from "@/context/variants-context";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import Logo from "./logo";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -13,37 +15,63 @@ export default function Footer() {
 
   const { locale } = useLanguage();
   const { setActiveSection } = useActiveSectionContext();
-
   const { setVariant } = useVariants();
+
   const mouseEnter = () => setVariant("BUTTON");
   const mouseLeave = () => setVariant("DEFAULT");
 
   return (
-    <footer className="mb-10 px-4 text-center">
-      <div
-        className="flex justify-center space-x-4 mb-2"
-        onMouseEnter={mouseEnter}
-        onMouseLeave={mouseLeave}
-      >
-        <Link
-          href={`/${locale}/legal-disclosure`}
-          onClick={() => setActiveSection("")}
-          className="hover:text-gray-700 dark:hover:text-[#FF96CC]"
-        >
-          {t_dsgvo("legal-disclosure")}
-        </Link>
-        <Link
-          href={`/${locale}/privacy-policy`}
-          onClick={() => setActiveSection("")}
-          className="hover:text-gray-700 dark:hover:text-[#FF96CC]"
-        >
-          {t_dsgvo("privacy-policy")}
-        </Link>
+    <footer
+      className="bg-black text-white dark:text-white dark:bg-gray-900 py-8 px-4 mt-10"
+      onMouseEnter={mouseEnter}
+      onMouseLeave={mouseLeave}
+    >
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="flex items-center space-x-4">
+          <a
+            href="https://github.com/harrer-katharina"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="text-2xl hover:text-[#FF96CC] transition" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/katharina-barbara-harrer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="text-2xl hover:text-[#FF96CC] transition" />
+          </a>
+          <a href="mailto:hello@katharina-harrer.de">
+            <FaEnvelope className="text-2xl hover:text-[#FF96CC] transition" />
+          </a>
+        </div>
+
+        <div className="flex space-x-6 text-sm">
+          <Link
+            href={`/${locale}/legal-disclosure`}
+            onClick={() => setActiveSection("")}
+            className="hover:text-[#FF96CC] transition"
+          >
+            {t_dsgvo("legal-disclosure")}
+          </Link>
+          <Link
+            href={`/${locale}/privacy-policy`}
+            onClick={() => setActiveSection("")}
+            className="hover:text-[#FF96CC] transition"
+          >
+            {t_dsgvo("privacy-policy")}
+          </Link>
+        </div>
+
+        <p className="text-xs md:w-[20%] text-gray-300 text-center">
+          {t("description")}
+        </p>
       </div>
-      <small className="mb-2 block text-xs text-gray-500">
-        &copy; 2025 Katharina Harrer
-      </small>
-      <p className="text-xs text-gray-500">{t("description")}</p>
+
+      <p className="text-center text-xs mt-10">
+        &copy; {new Date().getFullYear()} Katharina Harrer
+      </p>
     </footer>
   );
 }

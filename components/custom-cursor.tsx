@@ -1,7 +1,7 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { motion, useMotionValue, useSpring, Variants } from "framer-motion";
-import { useEffect } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 import { useVariants } from "@/context/variants-context";
 
@@ -14,6 +14,17 @@ function CustomCursor() {
   const springConfig = { damping: 25, stiffness: 100 };
   const cursorXSpring = useSpring(cursorX, springConfig);
   const cursorYSpring = useSpring(cursorY, springConfig);
+  const [showCursor, setShowCursor] = useState(true);
+
+  const isTouchDevice = () => {
+    return "ontouchstart" in window || navigator.maxTouchPoints > 0;
+  };
+
+  useEffect(() => {
+    if (isTouchDevice()) {
+      setShowCursor(false);
+    }
+  }, []);
 
   useEffect(() => {
     const moveCursor = (e: MouseEvent) => {
@@ -51,9 +62,9 @@ function CustomCursor() {
     },
   };
 
-  return (
+  return !showCursor ? null : (
     <motion.div
-      className="fixed top-0 left-0 bg-white mix-blend-difference z-50 rounded-full pointer-events-none grid place-items-center hidden md:block"
+      className="fixed top-0 left-0 bg-white mix-blend-difference z-50 rounded-full pointer-events-none grid place-items-center"
       variants={variants}
       animate={variant}
       style={{

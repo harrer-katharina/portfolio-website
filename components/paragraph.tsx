@@ -43,7 +43,7 @@ const Word: React.FC<{
   const step = amount / children.length;
 
   return (
-    <span className="relative mr-3 mt-3">
+    <span className="relative mr-2 mt-3">
       {children.split("").map((char, i) => {
         const start = range[0] + i * step;
         const end = range[0] + (i + 1) * step;

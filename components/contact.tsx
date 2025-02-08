@@ -22,7 +22,7 @@ export default function Contact() {
     <motion.section
       id="contact"
       ref={ref}
-      className="mb-10 w-[min(100%,38rem)] h-[100vh] flex flex-col scroll-mt-28"
+      className="pb-10 w-[min(100%,38rem)] min-h-[100vh] flex flex-col scroll-mt-28"
       initial={{
         opacity: 0,
       }}
