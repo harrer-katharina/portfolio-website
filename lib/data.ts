@@ -45,7 +45,7 @@ import nakt from "@/public/nakt/nakt-recipe-customizer-desktop.webp";
 import naktPreview from "@/public/nakt/nakt-preview.webp";
 import naktBackend from "@/public/nakt/nakt-recipe-backend.webp";
 
-export const getLinks = (t: ReturnType<typeof useTranslations>) => {
+export const getLinks = (t: (key: string) => string) => {
   return [
     {
       name: "Home",
