@@ -27,7 +27,7 @@ export default function About() {
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
-      className="max-w-[100rem] mb-28 sm:mb-40 px-0 md:px-32 scroll-mt-28 sm:scroll-mt-8"
+      className="max-w-[100rem] mb-28 px-0 md:px-32 scroll-mt-28 sm:scroll-mt-8"
     >
       <div className="flex flex-col-reverse xl:flex-row items-center justify-center gap-6 xl:gap-0 min-h-screen">
         <div className="xl:w-1/2">

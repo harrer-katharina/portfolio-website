@@ -83,7 +83,7 @@ export default function CTABtn({ title, link, onClick }: ButtonProps) {
         onMouseLeave={mouseLeave}
       >
         <Link
-          className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-gray-900 hover:bg-gray-950 text-white dark:bg-[#FF96CC] dark:text-black"
+          className="group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition bg-black hover:bg-gray-900 text-white dark:bg-[#FF96CC] dark:text-black"
           href={link}
           target={link.startsWith("#") ? "_self" : "_blank"}
           onClick={onClick}

@@ -53,14 +53,14 @@ export const getLinks = (t: (key: string) => string) => {
       hash: "#home",
     },
     {
-      name: "Projects",
-      title: t("projects"),
-      hash: "#projects",
-    },
-    {
       name: "About",
       title: t("about"),
       hash: "#about",
+    },
+    {
+      name: "Projects",
+      title: t("projects"),
+      hash: "#projects",
     },
     {
       name: "Experience",

@@ -16,9 +16,9 @@ export default function Home() {
       <div className="flex flex-col items-center px-4">
         <Intro />
         <ParallaxSkills />
-        <Projects />
         <About />
         <AboutHobbys />
+        <Projects />
         <Experience />
         <Skills />
         <Contact />
