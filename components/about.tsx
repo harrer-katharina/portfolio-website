@@ -44,7 +44,7 @@ export default function About() {
               width={400}
               height={400}
               alt={"Katharina Harrer"}
-              className="rounded-xl max-md:aspect-square object-cover"
+              className="rounded-xl max-md:aspect-[7/8] object-cover"
             />
           </Transition>
         </div>
