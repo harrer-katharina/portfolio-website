@@ -5,6 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useSwipeable } from "react-swipeable";
 import { useVariants } from "@/context/variants-context";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 type CarouselProps = {
   images: string[];
@@ -32,6 +33,23 @@ export default function Carousel({ images }: CarouselProps) {
       {...handlers}
       className="relative overflow-hidden sm:max-w-[60%] lg:max-w-[66%] mx-auto rounded-lg"
     >
+      <button
+        onMouseEnter={mouseEnter}
+        onMouseLeave={mouseLeave}
+        onClick={handlePrev}
+        className="hidden sm:flex absolute left-4 top-1/2 -translate-y-1/2 p-3 bg-white/40 hover:bg-white transition rounded-full z-10"
+      >
+        <FaChevronLeft className="text-gray-800 text-xl" />
+      </button>
+
+      <button
+        onMouseEnter={mouseEnter}
+        onMouseLeave={mouseLeave}
+        onClick={handleNext}
+        className="hidden sm:flex absolute right-4 top-1/2 -translate-y-1/2 p-3 bg-white/40 hover:bg-white transition rounded-full z-10"
+      >
+        <FaChevronRight className="text-gray-800 text-xl" />
+      </button>
       <div
         className="flex transition-transform ease-out duration-500"
         style={{ transform: `translateX(-${curr * 100}%)` }}
