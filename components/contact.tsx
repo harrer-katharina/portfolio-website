@@ -14,7 +14,11 @@ export default function Contact() {
   const { ref } = useSectionInView("Contact");
   const t = useTranslations("Contact");
   const { setVariant } = useVariants();
+
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   const [isChecked, setIsChecked] = useState(false);
+
   const mouseEnter = () => setVariant("TEXT");
   const mouseLeave = () => setVariant("DEFAULT");
 
@@ -64,6 +68,10 @@ export default function Contact() {
             }
 
             toast.success(t("success"));
+
+            setEmail("");
+            setMessage("");
+            setIsChecked(false);
           }}
         >
           <input
@@ -73,6 +81,8 @@ export default function Contact() {
             required
             maxLength={500}
             placeholder={t("emailPlaceholder")}
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
           <textarea
             className="h-52 p-4 my-3 rounded-lg borderBlack transition-all dark:placeholder-gray-600 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-90 dark:outline-none"
@@ -80,6 +90,8 @@ export default function Contact() {
             required
             maxLength={5000}
             placeholder={t("messagePlaceholder")}
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
           />
           <h3 className="font-semibold dark:text-[#FF96CC]">{t("consent")}</h3>
           <label className="pb-4 flex items-center gap-2 text-sm text-gray-700 dark:text-white/80">
