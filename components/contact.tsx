@@ -15,6 +15,7 @@ export default function Contact() {
   const t = useTranslations("Contact");
   const { setVariant } = useVariants();
 
+  const [isPending, setIsPending] = useState(false);
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [isChecked, setIsChecked] = useState(false);
@@ -55,12 +56,14 @@ export default function Contact() {
           className="mt-10 flex flex-col dark:text-black"
           onSubmit={async (e) => {
             e.preventDefault();
+            setIsPending(true);
             if (!isChecked) {
               toast.error(t("checkboxError"));
               return;
             }
             const formData = new FormData(e.currentTarget);
             const { error } = await sendEmail(formData);
+            setIsPending(false);
 
             if (error) {
               toast.error(error);
@@ -103,7 +106,7 @@ export default function Contact() {
             />
             {t("dsgvo")}
           </label>
-          <SubmitBtn />
+          <SubmitBtn isPending={isPending} />
         </form>
       </div>
     </motion.section>
