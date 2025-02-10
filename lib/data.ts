@@ -360,7 +360,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           image: trilum,
           cta: {
             title: t("trilum.project.cta"),
-            link: "https://katharina-harrer.de/projects/trilum/Harrer_Bachelorarbeit.pdf"
+            link: "https://drive.google.com/file/d/1G3HIAdD7QrI6R-QKIR5ho8WuN532FTM3/view?usp=sharing"
           }
         },
         {

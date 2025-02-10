@@ -101,14 +101,15 @@ export default function DetailCards({
                 {text}
               </p>
             ))}
-            {section?.cta && section?.cta?.position !== "right" && (
-              <div className="mt-0 md:mt-4">
-                <CTABtn
-                  title={section.cta.title ?? ""}
-                  link={section.cta.link ?? ""}
-                />
-              </div>
-            )}
+            {section?.cta &&
+              (isMobile || section?.cta?.position !== "right") && (
+                <div className="mt-0 md:mt-4">
+                  <CTABtn
+                    title={section.cta.title ?? ""}
+                    link={section.cta.link ?? ""}
+                  />
+                </div>
+              )}
           </div>
 
           <div
@@ -124,14 +125,16 @@ export default function DetailCards({
                 className="object-cover"
               />
             </motion.div>
-            {section?.cta && section?.cta?.position === "right" && (
-              <span className="pt-10">
-                <CTABtn
-                  title={section.cta.title ?? ""}
-                  link={section.cta.link ?? ""}
-                />
-              </span>
-            )}
+            {section?.cta &&
+              !isMobile &&
+              section?.cta?.position === "right" && (
+                <span className="pt-10">
+                  <CTABtn
+                    title={section.cta.title ?? ""}
+                    link={section.cta.link ?? ""}
+                  />
+                </span>
+              )}
           </div>
         </div>
       </motion.div>
