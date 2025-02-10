@@ -23,7 +23,7 @@ export default function About() {
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
-      className="max-w-[100rem] mb-2 sm:mb-40 px-0 md:px-32 sm:pt-28 scroll-mt-8 min-h-screen"
+      className="max-w-[100rem] mb-2 sm:mb-40 px-0 md:px-32 sm:pt-28 scroll-mt-28 md:scroll-mt-8 min-h-screen"
     >
       <div className="flex flex-col xl:flex-row items-center justify-center gap-6 xl:gap-0">
         <div className="xl:w-1/2 leading-relaxed text-center text-justify hyphens-auto md:text-left">

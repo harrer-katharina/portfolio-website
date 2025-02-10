@@ -20,7 +20,7 @@ export default function Contact() {
   const [message, setMessage] = useState("");
   const [isChecked, setIsChecked] = useState(false);
 
-  const mouseEnter = () => setVariant("TEXT");
+  const mouseEnter = () => setVariant("BUTTON");
   const mouseLeave = () => setVariant("DEFAULT");
 
   return (
