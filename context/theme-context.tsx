@@ -25,12 +25,10 @@ export default function ThemeContextProvider({
       setTheme("dark");
       window.localStorage.setItem("theme", "dark");
       document.documentElement.classList.add("dark");
-      void document.documentElement.offsetHeight;
     } else {
       setTheme("light");
       window.localStorage.setItem("theme", "light");
       document.documentElement.classList.remove("dark");
-      void document.documentElement.offsetHeight;
     }
   };
 

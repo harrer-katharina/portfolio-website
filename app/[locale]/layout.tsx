@@ -47,7 +47,7 @@ export default async function RootLayout({
       <body
         className={`${poppins.className} overflow-x-hidden w-screen relative text-gray-950 dark:text-gray-50 dark:text-opacity-90`}
       >
-        <div className="fixed inset-0 -z-10 bg-gray-50 dark:bg-gray-950 transition-colors duration-300"></div>
+        <div className="fixed inset-0 -z-10 bg-gray-50 dark:bg-gray-950"></div>
         <VariantProvider>
           <LanguageContextProvider>
             <ThemeContextProvider>
