@@ -12,6 +12,7 @@ import { Toaster } from "react-hot-toast";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
+import Footer from "@/components/footer";
 
 const poppins = Poppins({
   weight: ["400", "500", "600"],
@@ -49,6 +50,7 @@ export default async function RootLayout({
                   <Header />
                   <CustomCursor />
                   {children}
+                  <Footer />
                 </NextIntlClientProvider>
                 <Toaster position="top-right" />
                 <LanguageSwitch />

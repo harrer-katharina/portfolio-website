@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import SectionHeading from "@/components/section-heading";
-import Footer from "@/components/footer";
 
 export default function PrivacyPolicy() {
   const t = useTranslations("DSGVO");
@@ -11,77 +10,61 @@ export default function PrivacyPolicy() {
       <div className="bg-[#ffd2e9] dark:bg-gray-800 fixed top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
       <div className="flex flex-col justify-center text-justify hyphens-auto m-auto py-28 px-8 lg:px-16 max-w-[50rem]">
         <SectionHeading>{t("privacy-policy")}</SectionHeading>
-        <h1 className="text-3xl font-bricolage dark:text-white">
+        <h1 className="mb-4 text-3xl font-bricolage dark:text-white">
           {t("data-overview")}
         </h1>
-        <br />
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("general-information")}
         </h1>
-        <p>{t("general-information-text")}</p>
-        <br />
+        <p className="mb-4">{t("general-information-text")}</p>
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("data-collection")}
         </h1>
-        <p>
+        <p className="mb-4">
           <strong>{t("data-collection-responsible")}</strong>
           <br />
           {t("data-collection-responsible-text")}
         </p>
-        <br />
-        <p>
+        <p className="mb-4">
           <strong>{t("data-collection-how")}</strong>
           <br />
           {t("data-collection-how-text")}
         </p>
-        <br />
-        <p>
+        <p className="mb-4">
           <strong>{t("data-usage")}</strong>
           <br />
           {t("data-usage-text")}
         </p>
-        <br />
-        <p>
+        <p className="mb-20">
           <strong>{t("data-rights")}</strong>
           <br />
           {t("data-rights-text")}
         </p>
-        <br />
-        <br />
-        <br />
         <h1 className="text-3xl font-bricolage dark:text-white">
           {t("hosting")}
         </h1>
-        <br />
         <p>{t("hosting-provider")}</p>
-        <p>
+        <p className="mb-4">
           HOSTINGER operations, UAB | Švitrigailos str. 34 | 03230 Vilnius,
           Lithuania
         </p>
-        <br />
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("external-hosting")}
         </h1>
         <p>{t("external-hosting-text.0")}</p>
         <p>{t("external-hosting-text.1")}</p>
-        <p>{t("external-hosting-text.2")}</p>
-        <br />
+        <p className="mb-4">{t("external-hosting-text.2")}</p>
         <strong>{t("processor-agreement")}</strong>
-        <p>{t("processor-agreement-text")}</p>
-        <br />
-        <br />
-        <br />
-        <h1 className="text-3xl font-bricolage dark:text-white">
+        <p className="mb-20">{t("processor-agreement-text")}</p>
+        <h1 className="mb-4 text-3xl font-bricolage dark:text-white">
           {t("general-obligations")}
         </h1>
-        <br />
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("data-protection")}
         </h1>
         <p>{t("data-protection2-text.0")}</p>
         <p>{t("data-protection2-text.1")}</p>
-        <p>{t("data-protection2-text.2")}</p>
-        <br />
+        <p className="mb-4">{t("data-protection2-text.2")}</p>
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("responsible-office")}
         </h1>
@@ -94,49 +77,43 @@ export default function PrivacyPolicy() {
             hello@katharina-harrer.de
           </a>
         </p>
-        <p>{t("responsible-office-text.1")}</p>
-        <br />
+        <p className="mb-4">{t("responsible-office-text.1")}</p>
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("storage-duration")}
         </h1>
-        <p>{t("storage-duration-text")}</p>
-        <br />
+        <p className="mb-4">{t("storage-duration-text")}</p>
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("legal-basis")}
         </h1>
-        <p>{t("legal-basis-text")}</p>
-        <br />
+        <p className="mb-4">{t("legal-basis-text")}</p>
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("data-recipients")}
         </h1>
-        <p>{t("data-recipients-text")}</p>
-        <br />
+        <p className="mb-4">{t("data-recipients-text")}</p>
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("withdrawal-consent")}
         </h1>
-        <p>{t("withdrawal-consent-text")}</p>
-        <br />
+        <p className="mb-4">{t("withdrawal-consent-text")}</p>
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("objection-right")}
         </h1>
         <p>{t("objection-right-text.0")}</p>
-        <p>{t("objection-right-text.1")}</p>
-        <br />
+        <p className="mb-4">{t("objection-right-text.1")}</p>
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("complaint-right")}
         </h1>
-        <p>{t("complaint-right-text")}</p>
-        <br />
+        <p className="mb-4">{t("complaint-right-text")}</p>
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("data-portability")}
         </h1>
-        <p>{t("data-portability-text")}</p>
-        <br />
+        <p className="mb-4">{t("data-portability-text")}</p>
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("right-to-information-correction-deletion")}
         </h1>
-        <p> {t("right-to-information-correction-deletion-text")}</p>
-        <br />
+        <p className="mb-4">
+          {" "}
+          {t("right-to-information-correction-deletion-text")}
+        </p>
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("right-to-restrict-processing")}
         </h1>
@@ -147,26 +124,20 @@ export default function PrivacyPolicy() {
           <li>{t("right-to-restrict-processing-cases.2")}</li>
           <li>{t("right-to-restrict-processing-cases.3")}</li>
         </ul>
-        <p>{t("right-to-restrict-processing-note")}</p>
-        <br />
+        <p className="mb-4">{t("right-to-restrict-processing-note")}</p>
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("ssl-tls-encryption")}
         </h1>
-        <p>{t("ssl-tls-encryption-text")}</p>
-        <br />
-        <br />
-        <br />
-        <h1 className="text-3xl font-bricolage dark:text-white">
+        <p className="mb-20">{t("ssl-tls-encryption-text")}</p>
+        <h1 className="mb-4 text-3xl font-bricolage dark:text-white">
           {t("data-collection-website")}
         </h1>
-        <br />
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("contact-form")}
         </h1>
         <p>{t("contact-form-text.0")}</p>
         <p>{t("contact-form-text.1")}</p>
-        <p>{t("contact-form-text.2")}</p>
-        <br />
+        <p className="mb-4">{t("contact-form-text.2")}</p>
         <h1 className="text-2xl font-bricolage dark:text-white">
           {t("email-phone-fax-inquiry")}
         </h1>
@@ -178,7 +149,6 @@ export default function PrivacyPolicy() {
           <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>
         </p>
       </div>
-      <Footer />
     </main>
   );
 }
