@@ -19,26 +19,26 @@ export default function PrivacyPolicy() {
           </a>
         </p>
 
-        <h1 className="text-3xl font-bricolage dark:text-white">
+        <h1 className="text-3xl font-extrabold dark:text-white">
           {t("disclaimer")}
         </h1>
 
-        <h1 className="text-2xl font-bricolage dark:text-white">
+        <h1 className="text-2xl font-extrabold dark:text-white">
           {t("liability-content")}
         </h1>
         <p className="mb-4">{t("liability-content-text")}</p>
 
-        <h1 className="text-2xl font-bricolage dark:text-white">
+        <h1 className="text-2xl font-extrabold dark:text-white">
           {t("liability-links")}
         </h1>
         <p className="mb-4">{t("liability-links-text")}</p>
 
-        <h1 className="text-2xl font-bricolage dark:text-white">
+        <h1 className="text-2xl font-extrabold dark:text-white">
           {t("copyright")}
         </h1>
         <p className="mb-4">{t("copyright-text")}</p>
 
-        <h1 className="text-2xl font-bricolage dark:text-white">
+        <h1 className="text-2xl font-extrabold dark:text-white">
           {t("data-protection")}
         </h1>
         <p>

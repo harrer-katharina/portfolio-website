@@ -48,11 +48,6 @@ import naktBackend from "@/public/nakt/nakt-recipe-backend.webp";
 export const getLinks = (t: (key: string) => string) => {
   return [
     {
-      name: "Home",
-      title: t("home"),
-      hash: "#home",
-    },
-    {
       name: "About",
       title: t("about"),
       hash: "#about",

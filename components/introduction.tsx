@@ -10,7 +10,7 @@ export default function Introduction({ className = "" }) {
   const t = useTranslations("Intro");
   return (
     <div className={className}>
-      <h1 className="text-3xl font-bricolage dark:text-white">
+      <h1 className="text-3xl font-extrabold dark:text-white">
         {t("introduction")}
       </h1>
       <motion.span
@@ -23,12 +23,14 @@ export default function Introduction({ className = "" }) {
           duration: 0.7,
         }}
       >
-        <div className="flex items-center mb-0 sm:mb-4 text-5xl !leading-[1.5] sm:text-6xl">
-          <KLogo height={60} />
-          <span className="font-bricolage text-5xl sm:text-7xl dark:text-white">
-            atharina
-          </span>
-          <div className="relative ml-2 mb-10">
+        <div className="flex mb-0 sm:mb-4 [@media(max-width:370px)]:mt-4">
+          <div className="flex items-end">
+            <KLogo height={60} />
+            <span className="font-black text-5xl sm:text-7xl dark:text-white relative top-2 md:top-3">
+              atharina
+            </span>
+          </div>
+          <div className="relative ml-2 mb-8 hidden [@media(min-width:370px)]:block">
             <SparkLogo />
           </div>
         </div>

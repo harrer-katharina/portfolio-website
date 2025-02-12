@@ -33,7 +33,7 @@ export default function Header() {
         </Link>
 
         <ul
-          className="hidden sm:flex items-center space-x-8 text-sm font-medium"
+          className="hidden sm:flex items-center space-x-8 text-sm uppercase font-medium"
           onMouseEnter={mouseEnter}
           onMouseLeave={mouseLeave}
         >
@@ -137,7 +137,7 @@ export default function Header() {
             damping: 40,
           }}
         >
-          <ul className="flex flex-col items-center space-y-8 text-lg font-medium">
+          <ul className="flex flex-col items-center space-y-8 text-lg uppercase font-medium">
             {getLinks(t).map((link) => (
               <li key={link.hash} className="relative">
                 <Link

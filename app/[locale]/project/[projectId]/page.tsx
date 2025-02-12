@@ -46,7 +46,7 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
       <div className="max-w-6xl mx-auto mt-6 px-6 space-y-8 scroll-mt-28">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="flex flex-col">
-            <p className="sm:hidden text-3xl mb-4 uppercase font-bricolage">
+            <p className="sm:hidden text-3xl mb-4 uppercase font-black">
               {project.title}
             </p>
             <div className="text-lg font-semibold dark:text-[#FF96CC]">

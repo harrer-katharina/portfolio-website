@@ -76,7 +76,7 @@ export default function DetailCards({
                 }%)`,
         }}
       >
-        <h2 className="lg:hidden text-2xl font-bold">{section.title}</h2>
+        <h2 className="lg:hidden text-2xl font-extrabold">{section.title}</h2>
         <div className="flex flex-col-reverse lg:flex-row items-center mt-4 lg:mt-0 gap-2 lg:gap-12">
           <div
             className={clsx(
@@ -86,7 +86,7 @@ export default function DetailCards({
             onMouseEnter={mouseEnter}
             onMouseLeave={mouseLeave}
           >
-            <h2 className="hidden lg:block text-2xl font-bold mb-4">
+            <h2 className="hidden lg:block text-2xl font-extrabold mb-4">
               {section.title}
             </h2>
             {section.text.map((text, idx) => (
@@ -94,7 +94,7 @@ export default function DetailCards({
                 key={idx}
                 className={`mb-2 lg:text-justify hyphens-auto leading-relaxed ${
                   idx === 0
-                    ? "first-letter:text-2xl first-letter:font-bold"
+                    ? "first-letter:text-2xl first-letter:font-semibold"
                     : ""
                 }`}
               >

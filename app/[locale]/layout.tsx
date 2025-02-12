@@ -15,7 +15,7 @@ import { notFound } from "next/navigation";
 import Footer from "@/components/footer";
 
 const poppins = Poppins({
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600", "800", "900"],
   subsets: ["latin", "latin-ext"],
 });
 
