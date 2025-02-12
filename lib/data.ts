@@ -422,14 +422,16 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
 export const skillsData = [
   "HTML",
   "CSS",
+  "Tailwind",
   "JavaScript",
   "TypeScript",
   "React",
-  "Vue.js",
   "Next.js",
-  "NestJs",
+  "Vue.js",
   "Figma",
+  "WordPress",
+  "NestJs",
+  "PHP",
+  "SQL",
   "Git",
-  "Tailwind",
-  "PostgreSQL"
 ] as const;

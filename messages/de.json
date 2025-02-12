@@ -32,9 +32,9 @@
       "project": {
         "title": "Das Projekt",
         "text": [
-          "Time Parabox ist ein interaktives Escape-Box-Spiel, das Spieler:innen auf eine spannende Zeitreise schickt, um Paradoxe in der Geschichte zu korrigieren. Die Reise führt durch fünf historische Epochen – Antike, Mittelalter, Renaissance, Industrielle Revolution und den Zweiten Weltkrieg.", 
+          "Time Parabox ist ein interaktives Escape-Box-Spiel, das Spieler*innen auf eine spannende Zeitreise schickt, um Paradoxe in der Geschichte zu korrigieren. Die Reise führt durch fünf historische Epochen – Antike, Mittelalter, Renaissance, Industrielle Revolution und den Zweiten Weltkrieg.", 
           "Jede Epoche wird durch eine physische Rätselbox repräsentiert, die unter anderem NFC-Tags, Magnetschlösser, 3D-gedruckte Modelle, einen Drehregler, Servomotor und LED-Ring enthält.",
-          "Eine begleitende App führt die Spieler:innen durch die Rätsel und verknüpft die physischen Elemente mit digitalen Interaktionen. Jedes Rätsel ist thematisch auf die jeweilige Epoche abgestimmt. Ziel ist es, durch das Lösen der Rätsel die Zeitlinie zu stabilisieren und die Zukunft zu retten."
+          "Eine begleitende App führt die Spieler*innen durch die Rätsel und verknüpft die physischen Elemente mit digitalen Interaktionen. Jedes Rätsel ist thematisch auf die jeweilige Epoche abgestimmt. Ziel ist es, durch das Lösen der Rätsel die Zeitlinie zu stabilisieren und die Zukunft zu retten."
         ]
       },
       "implementation": {
@@ -48,7 +48,7 @@
         "title": "Meine Aufgaben",
         "text": [
           "Meine Hauptverantwortung lag in der Entwicklung der App mit React Native. Neben der allgemeinen App-Entwicklung war ich an der Umsetzung spezifischer Rätselmechaniken beteiligt.",
-          "In der Antike entwickelte ich die Integration eines digitalen Kompasses, der den Spieler:innen half, Odysseus den richtigen Weg zu weisen. Für die Renaissance implementierte ich die Nutzung eines Accelerometers, das es den Spieler:innen ermöglichte, Hindernisse mit Leonardo da Vincis Fluggerät geschickt auszuweichen. Im Abschnitt des Zweiten Weltkriegs gestaltete ich ein Rätsel mit, bei dem Morsecodes entschlüsselt werden mussten, um das letzte Artefakt zu erhalten."
+          "In der Antike entwickelte ich die Integration eines digitalen Kompasses, der den Spieler*innen half, Odysseus den richtigen Weg zu weisen. Für die Renaissance implementierte ich die Nutzung eines Accelerometers, das es den Spieler*innen ermöglichte, Hindernisse mit Leonardo da Vincis Fluggerät geschickt auszuweichen. Im Abschnitt des Zweiten Weltkriegs gestaltete ich ein Rätsel mit, bei dem Morsecodes entschlüsselt werden mussten, um das letzte Artefakt zu erhalten."
         ]
       }
     },
