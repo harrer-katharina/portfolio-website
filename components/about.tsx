@@ -43,6 +43,7 @@ export default function About() {
               src={"/kharrer-about.webp"}
               width={400}
               height={400}
+              quality={100}
               alt={"Katharina Harrer"}
               className="rounded-xl max-md:aspect-[7/8] object-cover"
             />

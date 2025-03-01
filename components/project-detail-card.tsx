@@ -9,7 +9,7 @@ import { useVariants } from "@/context/variants-context";
 import { ProjectSection } from "@/lib/types";
 import CTABtn from "@/components/cta-btn";
 
-export default function DetailCards({
+export default function DetailCard({
   index,
   section,
   progress,
@@ -122,6 +122,7 @@ export default function DetailCards({
               <Image
                 src={section.image}
                 alt={section.title}
+                quality={90}
                 className="object-cover"
               />
             </motion.div>

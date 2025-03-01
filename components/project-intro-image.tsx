@@ -39,7 +39,8 @@ export default function ProjectIntroImage({
             src={project.sectionImage}
             alt={project.projectId}
             fill
-            className="object-cover"
+            className="object-cover md:object-contain"
+            quality={100}
           />
         </motion.div>
       </div>

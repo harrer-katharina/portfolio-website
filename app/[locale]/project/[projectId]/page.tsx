@@ -10,7 +10,7 @@ import { ProjectType, ProjectSection } from "@/lib/types";
 import { useTheme } from "@/context/theme-context";
 import Tag from "@/components/tag";
 import ProjectIntroImage from "@/components/project-intro-image";
-import DetailCards from "@/components/project-detail-card";
+import DetailCard from "@/components/project-detail-card";
 
 const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
   const { theme } = useTheme();
@@ -77,11 +77,11 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
             {project.duration}
           </div>
         </div>
-        <div ref={container} className="space-y-10 lg:space-y-0 pb-8 lg:pb-16">
+        <div ref={container} className="space-y-6 lg:space-y-0 pb-8 lg:pb-16">
           {project.sections?.map((section: ProjectSection, index) => {
             const targetScale = 1 - (project.sections?.length - index) * 0.05;
             return (
-              <DetailCards
+              <DetailCard
                 key={`card_${index}`}
                 index={index}
                 section={section}
