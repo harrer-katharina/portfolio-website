@@ -391,7 +391,12 @@
     "right-to-restrict-processing-note": "If you have restricted the processing of your personal data, these data may only be processed – apart from their storage – with your consent or for the establishment, exercise, or defense of legal claims or for the protection of the rights of another natural or legal person or for reasons of important public interest of the European Union or a Member State.",
     "ssl-tls-encryption": "SSL and TLS Encryption",
     "ssl-tls-encryption-text": "For security reasons and to protect the transmission of confidential content, such as orders or inquiries you send to us as the website operator, this site uses SSL or TLS encryption. You can recognize an encrypted connection by the fact that the browser's address bar changes from 'http://' to 'https://' and by the lock symbol in your browser bar. When SSL or TLS encryption is activated, the data you transmit to us cannot be read by third parties.",
-    "data-collection-website": "4. Data Collection on This Website",
+    "data-collection-website": "4. Data Collection on this Website",
+    "cookies": "Language-related Cookies",
+    "cookie-text": [
+      "Our website stores your preferred language setting in a cookie to provide a consistent user experience. This cookie is stored for one year to ensure that you automatically see your preferred language when visiting the website again.",
+      "The legal basis for storing this cookie is our legitimate interest under Art. 6 (1) lit. f GDPR, as it improves the usability of the website. If you do not wish for this functional cookie to be stored, you can adjust your browser’s cookie settings or manually delete the cookie."
+    ],
     "contact-form": "Contact Form",
     "contact-form-text": [
       "If you send us inquiries via the contact form, your details from the inquiry form, including the contact details you provide there, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We do not share this data without your consent.",

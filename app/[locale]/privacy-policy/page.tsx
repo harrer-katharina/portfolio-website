@@ -133,6 +133,11 @@ export default function PrivacyPolicy() {
           {t("data-collection-website")}
         </h1>
         <h1 className="text-2xl font-extrabold dark:text-white">
+          {t("cookies")}
+        </h1>
+        <p>{t("cookie-text.0")}</p>
+        <p className="mb-4">{t("cookie-text.1")}</p>
+        <h1 className="text-2xl font-extrabold dark:text-white">
           {t("contact-form")}
         </h1>
         <p>{t("contact-form-text.0")}</p>

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useState, useEffect } from "react";
+import Cookies from "js-cookie";
 
 type Locale = "en" | "de";
 
@@ -18,21 +19,22 @@ type LanguageContextProviderProps = {
 export default function LanguageContextProvider({
   children,
 }: LanguageContextProviderProps) {
-  const [locale, setLocale] = useState<Locale>("en");
+  const [locale, setLocale] = useState<Locale>("de");
 
   useEffect(() => {
-    const storedLocale = window.localStorage.getItem("locale") as Locale | null;
-    if (storedLocale) {
+    const storedLocale = Cookies.get("NEXT_LOCALE") as Locale | undefined;
+    if (storedLocale && storedLocale !== locale) {
       setLocale(storedLocale);
     }
   }, []);
 
-  useEffect(() => {
-    window.localStorage.setItem("locale", locale);
-  }, [locale]);
+  const updateLocale = (newLocale: Locale) => {
+    setLocale(newLocale);
+    Cookies.set("NEXT_LOCALE", newLocale, { expires: 365, path: "/" });
+  };
 
   return (
-    <LanguageContext.Provider value={{ locale, setLocale }}>
+    <LanguageContext.Provider value={{ locale, setLocale: updateLocale }}>
       {children}
     </LanguageContext.Provider>
   );
@@ -40,12 +42,10 @@ export default function LanguageContextProvider({
 
 export function useLanguage() {
   const context = useContext(LanguageContext);
-
-  if (context === null) {
+  if (!context) {
     throw new Error(
       "useLanguage must be used within a LanguageContextProvider"
     );
   }
-
   return context;
 }

@@ -8,12 +8,19 @@ const middleware = createMiddleware({
 
 export default function Middleware(req: any) {
   const { pathname } = req.nextUrl;
+  const cookieLocale = req.cookies.get("NEXT_LOCALE")?.value;
 
   if (!pathname.startsWith('/de') && !pathname.startsWith('/en')) {
-    return NextResponse.redirect(new URL(`/de${pathname}`, req.url));
+    const redirectLocale = cookieLocale || "de";
+    return NextResponse.redirect(new URL(`/${redirectLocale}${pathname}`, req.url));
   }
 
-  return middleware(req);
+  const res = middleware(req);
+  if (cookieLocale !== pathname.split("/")[1]) {
+    res.cookies.set("NEXT_LOCALE", pathname.split("/")[1], { maxAge: 60 * 60 * 24 * 365 });
+  }
+
+  return res;
 }
 
 export const config = {

@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
@@ -17,11 +17,11 @@ import { useVariants } from "@/context/variants-context";
 import Tag from "@/components/tag";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Experience");
+  const { ref, inView } = useSectionInView("Experience");
   const t = useTranslations("Experiences");
   const { theme } = useTheme();
-  const [clientTheme, setClientTheme] = React.useState<string | null>(null);
-  React.useEffect(() => {
+  const [clientTheme, setClientTheme] = useState<string | null>(null);
+  useEffect(() => {
     setClientTheme(theme);
   }, [theme]);
 
@@ -36,6 +36,7 @@ export default function Experience() {
         {getExperiencesData(t).map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
+              visible={inView}
               contentStyle={{
                 background: clientTheme === "light" ? "#ffffffbf" : "#ffffff1a",
                 boxShadow: "none",

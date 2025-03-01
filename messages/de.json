@@ -390,6 +390,11 @@
     "ssl-tls-encryption": "SSL- bzw. TLS-Verschlüsselung",
     "ssl-tls-encryption-text": "Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw. TLSVerschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://“ auf „https://“ wechselt und an dem Schloss-Symbol in Ihrer Browserzeile. Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.",
     "data-collection-website": "4. Datenerfassung auf dieser Website",
+    "cookies": "Sprachbezogene Cookies",
+    "cookie-text": [
+      "Unsere Website speichert Ihre bevorzugte Spracheinstellung in einem Cookie, um Ihnen eine konsistente Benutzererfahrung zu bieten. Dieses Cookie wird für ein Jahr gespeichert und stellt sicher, dass Sie beim nächsten Besuch der Website automatisch Ihre bevorzugte Sprache sehen.",
+      "Rechtsgrundlage für die Speicherung dieses Cookies ist unser berechtigtes Interesse gemäß Art. 6 Abs. 1 lit. f DSGVO, da es der Benutzerfreundlichkeit der Website dient. Falls Sie die Speicherung dieses funktionalen Cookies nicht wünschen, können Sie die Cookie-Einstellungen in Ihrem Browser anpassen oder das Cookie manuell löschen."
+    ],
     "contact-form": "Kontaktformular",
     "contact-form-text": [
       "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.",
