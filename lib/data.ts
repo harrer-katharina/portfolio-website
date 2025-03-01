@@ -31,7 +31,7 @@ import ecocalypseCollage from "@/public/ecocalypse/ecocalypse-collage.webp";
 
 import advent from "@/public/veganAdvent/advent-light.webp";
 import adventDark from "@/public/veganAdvent/advent-dark.webp";
-import veganAdvent from "@/public/veganAdvent/veganAdvent.webp";
+import veganAdvent from "@/public/veganAdvent/veganAdvent-preview.webp";
 import veganAdventPoster from "@/public/veganAdvent/veganAdvent-poster.webp";
 import veganAdventApp from "@/public/veganAdvent/veganAdvent-app.webp";
 

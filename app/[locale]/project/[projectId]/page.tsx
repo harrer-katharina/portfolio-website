@@ -11,6 +11,7 @@ import { useTheme } from "@/context/theme-context";
 import Tag from "@/components/tag";
 import ProjectIntroImage from "@/components/project-intro-image";
 import DetailCard from "@/components/project-detail-card";
+import PrevNextNav from "@/components/prev-next-navigation";
 
 const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
   const { theme } = useTheme();
@@ -93,6 +94,7 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
           })}
         </div>
       </div>
+      <PrevNextNav data={data} projectId={params.projectId} />
     </main>
   );
 };
