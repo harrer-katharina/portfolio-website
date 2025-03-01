@@ -314,6 +314,8 @@
   "DSGVO": {
     "legal-disclosure": "Impressum",
     "operator": "Webseitenbetreiber",
+    "residence": "Wohnort",
+    "residence-text": "91154 Roth, Deutschland",
     "email": "E-Mail",
     "disclaimer": "Haftungsausschluss",
     "liability-content": "Haftung für Inhalte",

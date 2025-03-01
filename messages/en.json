@@ -316,6 +316,8 @@
   "DSGVO": {
     "legal-disclosure": "Imprint",
     "operator": "Website Operator",
+    "residence": "Residence",
+    "residence-text": "91154 Roth, Germany",
     "email": "Email",
     "disclaimer": "Disclaimer",
     "liability-content": "Liability for Content",

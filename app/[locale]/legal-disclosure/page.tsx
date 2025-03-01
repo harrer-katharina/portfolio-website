@@ -13,6 +13,9 @@ export default function PrivacyPolicy() {
         <p className="mb-4">
           <strong>{t("operator")}: </strong>Katharina Harrer
           <br />
+          <strong>{t("residence")}: </strong>
+          {t("residence-text")}
+          <br />
           <strong>{t("email")}: </strong>
           <a className="underline" href="mailto:hello@katharina-harrer.de">
             hello@katharina-harrer.de
