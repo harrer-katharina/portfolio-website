@@ -100,7 +100,7 @@ export default function Intro() {
             alt="Katharina"
             width={600}
             height={600}
-            quality={100}
+            quality={90}
             className="object-cover object-bottom my-4 xl:my-0"
           />
         </div>

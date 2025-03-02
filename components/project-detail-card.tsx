@@ -122,7 +122,6 @@ export default function DetailCard({
               <Image
                 src={section.image}
                 alt={section.title}
-                quality={90}
                 className="object-cover"
               />
             </motion.div>

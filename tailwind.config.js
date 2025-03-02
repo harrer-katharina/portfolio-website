@@ -16,8 +16,11 @@ module.exports = {
   },
   safelist: [
     "bg-[#F4F2EE]",
+    "bg-[#F0EDE7]",
     "bg-[#EBE7DF]",
+    "bg-[#E5E1DB]",
     "bg-[#D8D1C8]",
+    "bg-[#D1C9BF]",
 
     "bg-[#FFBF85]",
     "bg-[#FFB685]",
@@ -26,11 +29,11 @@ module.exports = {
     "bg-[#F6938F]",
     "bg-[#EF8E99]",
 
-    "bg-[#EDE9FF]",
-    "bg-[#A6D1D4]",
-    "bg-[#B0D9D3]",
-    "bg-[#BCE1CF]",
-    "bg-[#C2E7D0]",
+    "bg-[#A3CDD0]",
+    "bg-[#A9D3CF]",
+    "bg-[#AFD8CE]",
+    "bg-[#B5DCCD]",
+    "bg-[#C1E5CC]",
   ],
   plugins: [],
   darkMode: "class",

@@ -31,9 +31,21 @@
       "project": {
         "title": "The Project",
         "text": [
-          "Time Parabox is an interactive escape-box game that takes players on an exciting time-travel adventure to resolve paradoxes in history. The journey spans five historical eras – Antiquity, the Middle Ages, the Renaissance, the Industrial Revolution, and World War II.",
-          "Each era is represented by a physical puzzle box featuring elements such as NFC tags, magnetic locks, 3D-printed models, a rotary knob, servo motor, and LED ring.",
+          "Time Parabox is an interactive escape-box game that takes players on an exciting time-travel adventure to resolve paradoxes in history. The journey spans five historical eras – Antiquity, the Middle Ages, the Renaissance, the Industrial Revolution, and World War II."
+        ]
+      },
+      "concept": {
+        "title": "The Concept",
+        "text": [
+         "Each era is represented by a physical puzzle box featuring elements such as NFC tags, magnetic locks, 3D-printed models, a rotary knob, servo motor, and LED ring.",
           "A companion app guides players through the puzzles, connecting the physical components with digital interactions. Each puzzle is thematically aligned with its respective era. The ultimate goal is to solve the puzzles, stabilize the timeline, and save the future."
+        ]
+      },
+      "story": {
+        "title": "The Storyline",
+        "text": [
+          "In a future where time has fallen apart, your future self sends you a mysterious box through a portal. Inside, clues reveal a distorted past—history’s greatest moments have been altered. The steam engine was never invented, Odysseus never returned home. Only you can fix the chaos.",
+          "Guided by messages from your future self, you travel through different eras, solving puzzles and collecting artifacts to restore the correct timeline. But in the end, the greatest revelation awaits: the mysterious person who set you on this journey... is you."
         ]
       },
       "implementation": {
@@ -48,6 +60,13 @@
         "text": [
           "My main responsibility was developing the app using React Native. In addition to general app development, I contributed to the implementation of specific puzzle mechanics.",
           "For Antiquity, I developed the integration of a digital compass that guided players to help Odysseus find the right path. In the Renaissance era, I implemented an accelerometer mechanic that enabled players to navigate obstacles using Leonardo da Vinci’s flying machine. For the World War II section, I co-designed a puzzle requiring players to decipher Morse codes to obtain the final artifact."
+        ]
+      },
+      "presentation": {
+        "title": "The Presentation",
+        "text": [
+          "Together with a fellow student, I organized the presentation of Time Parabox at the project exhibition of FH St. Pölten. We designed the exhibition booth, created postcards, stickers, flyers, and posters, and developed the logo along with a cohesive corporate design.",
+          "Additionally, we created a social media concept for LinkedIn and Instagram to enhance the project’s visibility. Our goal was to develop a consistent and engaging presentation that sparks curiosity and encourages visitors to experience the game firsthand."
         ]
       }
     },
@@ -111,10 +130,15 @@
       "project": {
         "title": "The Project",
         "text": [
-          "In the second semester of my master's program, I had the opportunity to work on a research project affiliated with the program's research institute. I chose the ERIKA project. The goal of the project is to develop the ERIKA app, which serves as a digital companion for climate-conscious actions in everyday life.",
-          "The app aims to promote climate-friendly behavior and highlight regional activities in the Waidhofen a/d Ybbs area. The focus is not only on sustainable content but also on sustainable aspects in the development and design of the app, ensuring a holistic implementation of the concept of sustainability."
+          "In the second semester of my master's program, I had the opportunity to work on a research project affiliated with the program's research institute. I chose the ERIKA project. The goal of the project is to develop the ERIKA app, which serves as a digital companion for climate-conscious actions in everyday life."
         ],
         "cta": "View Project"
+      },
+      "app": {
+        "title": "The App",
+        "text": [
+          "The app aims to promote climate-friendly behavior and highlight regional activities in the Waidhofen a/d Ybbs area. The focus is not only on sustainable content but also on sustainable aspects in the development and design of the app, ensuring a holistic implementation of the concept of sustainability."
+        ]
       },
       "implementation": {
         "title": "The Implementation",

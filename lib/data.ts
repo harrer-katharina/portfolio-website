@@ -1,10 +1,11 @@
-import { useTranslations } from "next-intl";
-
 import timeparabox from "@/public/timeParabox/time-parabox.webp";
 import timeparaboxPoster from "@/public/timeParabox/timeParabox-poster.webp";
+import timeparaboxApp from "@/public/timeParabox/timeParabox-app.webp";
 import timeparaboxMockups from "@/public/timeParabox/timeParabox-mockup.webp";
+import timeparaboxStory from "@/public/timeParabox/timeParabox-storyline.png";
 import timeparaboxEpochs from "@/public/timeParabox/timeParabox-epoch.webp";
 import timeparaboxFeatures from "@/public/timeParabox/timeParabox-feature.webp";
+import timeparaboxVernissage from "@/public/timeParabox/timeParabox-vernissage.webp";
 
 import bevry from "@/public/bevry/bevry-mocktail.webp";
 import bevrySplash from "@/public/bevry/bevry-cocktail-splash.webp";
@@ -16,7 +17,8 @@ import bevryCheers from "@/public/bevry/bevry-cheers.webp";
 import bevryScreens from "@/public/bevry/bevry-kathy-politan.webp";
 
 import erika from "@/public/erika/erika-closeup.webp";
-import erikaHand from "@/public/erika/erika-hand.webp";
+import erikaHand from "@/public/erika/erika-thumbnail.webp";
+import erikaMockup from "@/public/erika/erika-app.webp";
 import erikaProject from "@/public/erika/erika-project.webp";
 import erikaScreens from "@/public/erika/erika-mockup-screens.webp";
 import erikaLogo from "@/public/erika/erika-logo.webp";
@@ -130,18 +132,30 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       sections: [
         {
           title: t("timeParabox.project.title"),
-          text: [t("timeParabox.project.text.0"), t("timeParabox.project.text.1"), t("timeParabox.project.text.2")],
+          text: [t("timeParabox.project.text.0")],
           className: "bg-[#F4F2EE]",
-          image: timeparaboxMockups,
+          image: timeparaboxApp,
           cta: {
             title: "",
             link: ""
           }
         },
         {
+          title: t("timeParabox.concept.title"),
+          text: [t("timeParabox.concept.text.0"), t("timeParabox.concept.text.1")],
+          className: "bg-[#F0EDE7]",
+          image: timeparaboxMockups,
+        },
+        {
+          title: t("timeParabox.story.title"),
+          text: [t("timeParabox.story.text.0"), t("timeParabox.story.text.1")],
+          className: "bg-[#EBE7DF]",
+          image: timeparaboxStory,
+        },
+        {
           title: t("timeParabox.implementation.title"),
           text: [t("timeParabox.implementation.text.0"), t("timeParabox.implementation.text.1")],
-          className: "bg-[#EBE7DF]",
+          className: "bg-[#E5E1DB]",
           image: timeparaboxEpochs,
         },
         {
@@ -149,6 +163,12 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("timeParabox.myTasks.text.0"), t("timeParabox.myTasks.text.1")],
           className: "bg-[#D8D1C8]",
           image: timeparaboxFeatures,
+        },
+        {
+          title: t("timeParabox.presentation.title"),
+          text: [t("timeParabox.presentation.text.0"), t("timeParabox.presentation.text.1")],
+          className: "bg-[#D1C9BF]",
+          image: timeparaboxVernissage,
         },
       ]
     },
@@ -218,7 +238,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
     {
       projectId: "erika",
       title: "Erika",
-      showTitle: false,
+      showTitle: true,
       date: t("erika.date"),
       type: t("erika.type"),
       duration: t("erika.duration"),
@@ -229,24 +249,30 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       sections: [
         {
           title: t("erika.project.title"),
-          text: [t("erika.project.text.0"), t("erika.project.text.1")],
-          className: "bg-[#A6D1D4]",
-          image: erikaProject,
+          text: [t("erika.project.text.0")],
+          className: "bg-[#C1E5CC]",
+          image: erikaMockup,
           cta: {
             title: t("erika.project.cta"),
             link: "https://erika.fhstp.ac.at/"
           }
         },
         {
+          title: t("erika.app.title"),
+          text: [t("erika.app.text.0")],
+          className: "bg-[#B5DCCD]",
+          image: erikaProject,
+        },
+        {
           title: t("erika.implementation.title"),
           text: [t("erika.implementation.text.0"), t("erika.implementation.text.1"), t("erika.implementation.text.2")],
-          className: "bg-[#B0D9D3]",
+          className: "bg-[#AFD8CE]",
           image: erikaScreens,
         },
         {
           title: t("erika.sustainability.title"),
           text: [t("erika.sustainability.text.0"), t("erika.sustainability.text.1"),t("erika.sustainability.text.2")],
-          className: "bg-[#BCE1CF]",
+          className: "bg-[#A9D3CF]",
           image: erikaLogo,
           imageSize: "1/3",
           cta: {
@@ -257,7 +283,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
         {
           title: t("erika.prototyping.title"),
           text: [t("erika.prototyping.text.0"), t("erika.prototyping.text.1"), t("erika.prototyping.text.2")],
-          className: "bg-[#C2E7D0]",
+          className: "bg-[#A3CDD0]",
           image: erikaPrototype,
           cta: {
             title: t("erika.prototyping.cta"),
