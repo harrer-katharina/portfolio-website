@@ -213,7 +213,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           }
         },
         {
-          title: t("bevry.branding.title"),
+          title: t("bevry.brandbook.title"),
           text: [],
           className: "bg-[#FFA98B]",
           image: "",
