@@ -24,7 +24,7 @@ export default function ProjectIntroImage({
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
       {project.showTitle && (
-        <div className="relative z-10 p-20 mix-blend-difference text-white w-full h-full flex justify-bottom">
+        <div className="hidden sm:block relative z-10 p-20 mix-blend-difference text-white w-full h-full flex justify-bottom">
           <p
             className="absolute bottom-6 left-10 md:left-20 xl:left-40 text-[5vw] uppercase font-black mix-blend-difference"
             style={{ fontSize: "clamp(2rem, 5vw, 4rem)" }}

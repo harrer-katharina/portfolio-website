@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import clsx from "clsx";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useSwipeable } from "react-swipeable";
@@ -9,9 +10,10 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 type CarouselProps = {
   images: string[];
+  showButtons?: boolean;
 };
 
-export default function Carousel({ images }: CarouselProps) {
+export default function Carousel({ images, showButtons }: CarouselProps) {
   const [curr, setCurr] = useState(0);
   const { setVariant } = useVariants();
   const mouseEnter = () => setVariant("BUTTON");
@@ -37,18 +39,28 @@ export default function Carousel({ images }: CarouselProps) {
         onMouseEnter={mouseEnter}
         onMouseLeave={mouseLeave}
         onClick={handlePrev}
-        className="hidden sm:flex absolute left-4 top-1/2 -translate-y-1/2 p-3 bg-white/40 hover:bg-white transition rounded-full z-10"
+        className={clsx(
+          "absolute left-2 sm:left-4 p-2 sm:p-3 top-1/2 -translate-y-1/2 bg-white/40 hover:bg-white transition rounded-full z-10",
+          {
+            "hidden sm:flex": !showButtons,
+          }
+        )}
       >
-        <FaChevronLeft className="text-gray-800 text-xl" />
+        <FaChevronLeft className="text-gray-800 text-xs sm:text-xl" />
       </button>
 
       <button
         onMouseEnter={mouseEnter}
         onMouseLeave={mouseLeave}
         onClick={handleNext}
-        className="hidden sm:flex absolute right-4 top-1/2 -translate-y-1/2 p-3 bg-white/40 hover:bg-white transition rounded-full z-10"
+        className={clsx(
+          "absolute right-2 sm:right-4 p-2 sm:p-3 top-1/2 -translate-y-1/2 bg-white/40 hover:bg-white transition rounded-full z-10",
+          {
+            "hidden sm:flex": !showButtons,
+          }
+        )}
       >
-        <FaChevronRight className="text-gray-800 text-xl" />
+        <FaChevronRight className="text-gray-800 text-xs sm:text-xl" />
       </button>
       <div
         className="flex transition-transform ease-out duration-500"
@@ -68,6 +80,7 @@ export default function Carousel({ images }: CarouselProps) {
                 alt={`Slide ${index}`}
                 width={450}
                 height={600}
+                quality={100}
                 className="object-cover w-full h-auto"
               />
             </div>
@@ -75,19 +88,21 @@ export default function Carousel({ images }: CarouselProps) {
         ))}
       </div>
 
-      <div
-        className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2"
-        onMouseEnter={mouseEnter}
-        onMouseLeave={mouseLeave}
-      >
-        {images.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => setCurr(i)}
-            className={`transition-all w-3 h-3 rounded-full ${curr === i ? "bg-white p-2" : "bg-white/50"}`}
-          />
-        ))}
-      </div>
+      {images.length < 7 && (
+        <div
+          className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2"
+          onMouseEnter={mouseEnter}
+          onMouseLeave={mouseLeave}
+        >
+          {images.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => setCurr(i)}
+              className={`transition-all w-3 h-3 rounded-full ${curr === i ? "bg-white p-2" : "bg-white/50"}`}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }

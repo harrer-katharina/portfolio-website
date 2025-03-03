@@ -189,7 +189,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
         {
           title: t("bevry.project.title"),
           text: [t("bevry.project.text.0"), t("bevry.project.text.1")],
-          className: "bg-[#FFBF85]",
+          className: "bg-[#FFC38D]",
           image: bevryThumbnail,
           cta: {
             title: t("bevry.project.cta"),
@@ -199,19 +199,24 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
         {
           title: t("bevry.features.title"),
           text: [t("bevry.features.text.0"), t("bevry.features.text.1"), t("bevry.features.text.2")],
-          className: "bg-[#FFB685]",
+          className: "bg-[#FFB889]",
           image: bevryFeatures,
         },
-      
         {
           title: t("bevry.branding.title"),
           text: [t("bevry.branding.text.0"), t("bevry.branding.text.1")],
-          className: "bg-[#FFA98B]",
+          className: "bg-[#FFB084]",
           image: bevryBranding,
           cta: {
             title: t("bevry.branding.cta"),
             link: "https://drive.google.com/file/d/1EBQXIvsGwTVECHbXja0FkFjYMyWmaNPS/view"
           }
+        },
+        {
+          title: t("bevry.branding.title"),
+          text: [],
+          className: "bg-[#FFA98B]",
+          image: "",
         },
         {
           title: t("bevry.team.title"),

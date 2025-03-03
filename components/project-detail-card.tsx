@@ -8,6 +8,7 @@ import { useTheme } from "@/context/theme-context";
 import { useVariants } from "@/context/variants-context";
 import { ProjectSection } from "@/lib/types";
 import CTABtn from "@/components/cta-btn";
+import Carousel from "@/components/img-carousel";
 
 export default function DetailCard({
   index,
@@ -38,6 +39,17 @@ export default function DetailCard({
   const scale = useTransform(progress, range, [1, targetScale]);
 
   const [isMobile, setIsMobile] = useState(false);
+  const [images, setImages] = useState<string[]>([]);
+
+  useEffect(() => {
+    const loadImages = async () => {
+      const response = await fetch("/api");
+      const data = await response.json();
+      setImages(data.images);
+    };
+
+    loadImages();
+  }, []);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -76,67 +88,75 @@ export default function DetailCard({
                 }%)`,
         }}
       >
-        <h2 className="lg:hidden text-2xl font-extrabold">{section.title}</h2>
-        <div className="flex flex-col-reverse lg:flex-row items-center mt-4 lg:mt-0 gap-2 lg:gap-12">
-          <div
-            className={clsx(
-              "w-full",
-              section.imageSize ? `lg:w-2/3` : "lg:w-1/2"
-            )}
-            onMouseEnter={mouseEnter}
-            onMouseLeave={mouseLeave}
-          >
-            <h2 className="hidden lg:block text-2xl font-extrabold mb-4">
+        {section.image !== "" ? (
+          <>
+            <h2 className="lg:hidden text-2xl font-extrabold">
               {section.title}
             </h2>
-            {section.text.map((text, idx) => (
-              <p
-                key={idx}
-                className={`mb-2 lg:text-justify hyphens-auto leading-relaxed ${
-                  idx === 0
-                    ? "first-letter:text-2xl first-letter:font-semibold"
-                    : ""
-                }`}
+            <div className="flex flex-col-reverse lg:flex-row items-center mt-4 lg:mt-0 gap-2 lg:gap-12">
+              <div
+                className={clsx(
+                  "w-full",
+                  section.imageSize ? `lg:w-2/3` : "lg:w-1/2"
+                )}
+                onMouseEnter={mouseEnter}
+                onMouseLeave={mouseLeave}
               >
-                {text}
-              </p>
-            ))}
-            {section?.cta &&
-              (isMobile || section?.cta?.position !== "right") && (
-                <div className="mt-0 md:mt-4">
-                  <CTABtn
-                    title={section.cta.title ?? ""}
-                    link={section.cta.link ?? ""}
-                  />
-                </div>
-              )}
-          </div>
+                <h2 className="hidden lg:block text-2xl font-extrabold mb-4">
+                  {section.title}
+                </h2>
+                {section.text.map((text, idx) => (
+                  <p
+                    key={idx}
+                    className={`mb-2 lg:text-justify hyphens-auto leading-relaxed ${
+                      idx === 0
+                        ? "first-letter:text-2xl first-letter:font-semibold"
+                        : ""
+                    }`}
+                  >
+                    {text}
+                  </p>
+                ))}
+                {section?.cta &&
+                  (isMobile || section?.cta?.position !== "right") && (
+                    <div className="mt-0 md:mt-4">
+                      <CTABtn
+                        title={section.cta.title ?? ""}
+                        link={section.cta.link ?? ""}
+                      />
+                    </div>
+                  )}
+              </div>
 
-          <div
-            className={clsx(
-              "relative w-full h-full rounded-2xl overflow-hidden flex flex-col justify-center items-center",
-              section.imageSize ? `lg:w-1/3` : "lg:w-1/2"
-            )}
-          >
-            <motion.div style={{ scale: imageScale }}>
-              <Image
-                src={section.image}
-                alt={section.title}
-                className="object-cover"
-              />
-            </motion.div>
-            {section?.cta &&
-              !isMobile &&
-              section?.cta?.position === "right" && (
-                <span className="pt-10">
-                  <CTABtn
-                    title={section.cta.title ?? ""}
-                    link={section.cta.link ?? ""}
+              <div
+                className={clsx(
+                  "relative w-full h-full rounded-2xl overflow-hidden flex flex-col justify-center items-center",
+                  section.imageSize ? `lg:w-1/3` : "lg:w-1/2"
+                )}
+              >
+                <motion.div style={{ scale: imageScale }}>
+                  <Image
+                    src={section.image}
+                    alt={section.title}
+                    className="object-cover"
                   />
-                </span>
-              )}
-          </div>
-        </div>
+                </motion.div>
+                {section?.cta &&
+                  !isMobile &&
+                  section?.cta?.position === "right" && (
+                    <span className="pt-10">
+                      <CTABtn
+                        title={section.cta.title ?? ""}
+                        link={section.cta.link ?? ""}
+                      />
+                    </span>
+                  )}
+              </div>
+            </div>
+          </>
+        ) : (
+          images.length > 0 && <Carousel images={images} showButtons={true} />
+        )}
       </motion.div>
     </div>
   );
