@@ -101,18 +101,18 @@
         "cta": "View Brandbook"
       },
       "team": {
-  "title": "Agile Teamwork",
-  "text": [
-    "The team consists of five master's students from FH St. Pölten: Laura, Sara, Sophia, Vani, and me.",
-    "We worked with Scrum to stay organized. Sprint Planning and Sprint Review took place every two weeks during our weekly meetings. We used Jira to create tickets and track their status on the Kanban board."
-  ]
-},
-"collaboration": {
-  "title": "Interdisciplinary Collaboration",
-  "text": [
-    "We also collaborated with students from other master's programs, including 'Photography' for cocktail, marketing, and portfolio photos, 'Graphic Design' for app design and icons, 'Sound Design' for soundtracks and sound effects for the mini-games, and 'Animation' for a loading animation as well as animations within the mini-games."
-  ]
-},
+        "title": "Agile Teamwork",
+        "text": [
+          "The team consists of five master's students from FH St. Pölten: Laura, Sara, Sophia, Vani, and me.",
+          "We worked with Scrum to stay organized. Sprint Planning and Sprint Review took place every two weeks during our weekly meetings. We used Jira to create tickets and track their status on the Kanban board."
+        ]
+      },
+      "collaboration": {
+        "title": "Interdisciplinary Collaboration",
+        "text": [
+          "We also collaborated with students from other master's programs, including 'Photography' for cocktail, marketing, and portfolio photos, 'Graphic Design' for app design and icons, 'Sound Design' for soundtracks and sound effects for the mini-games, and 'Animation' for a loading animation as well as animations within the mini-games."
+        ]
+      },
       "myTasks": {
         "title": "My Tasks",
         "text": [
@@ -212,10 +212,16 @@
       "project": {
         "title": "The Project",
         "text": [
-          "The idea behind this advent calendar was to present new information or helpful tips about veganism each day in December. I intentionally chose not to include a feature that checks the current day, ensuring that the website's content is always accessible as part of the 'Print to Mobile' project for my master's program at FH St. Pölten. My goal was not only to share recipes but also to raise awareness of the benefits of a vegan lifestyle.",
-          "Additionally, there is a poster with 24 numbered QR codes. Each day in December, users can scan the QR code for the respective day to access the corresponding advent door."
+          "The idea behind this advent calendar was to present new information or helpful tips about veganism each day in December. I intentionally chose not to include a feature that checks the current day, ensuring that the website's content is always accessible as part of the 'Print to Mobile' project for my master's program at FH St. Pölten. My goal was not only to share recipes but also to raise awareness of the benefits of a vegan lifestyle."
         ],
         "cta": "View App"
+      },
+      "poster": {
+        "title": "The Poster",
+        "text": [
+          "Additionally, there is a poster with 24 numbered QR codes. Each day in December, users can scan the QR code for the respective day to access the corresponding advent door."
+        ],
+        "cta": "View Poster"
       },
       "implementation": {
         "title": "The Implementation",

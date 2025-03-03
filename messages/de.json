@@ -211,10 +211,16 @@
       "project": {
         "title": "Das Projekt",
         "text": [
-          "Die Idee für diesen Adventskalender war es, jeden Tag im Dezember eine neue Information oder einen hilfreichen Tipp zum Thema Veganismus zu präsentieren. Dabei habe ich bewusst auf die Funktion verzichtet, den aktuellen Tag zu überprüfen, damit die Inhalte der Webseite im Rahmen des 'Print to Mobile' Projekts meiner Masterklasse an der FH St. Pölten immer zugänglich sind. Mein Ziel ist es, nicht nur Rezepte zu teilen, sondern auch das Bewusstsein für die Vorteile eines veganen Lebensstils zu stärken.",
-          "Zusätzlich gibt es ein Poster, auf dem insgesamt 24 nummerierte QR-Codes abgebildet sind. Jeden Tag im Dezember kann der QR-Code des aktuellen Tages eingescannt werden, um direkt zum jeweiligen Türchen zu gelangen."
+          "Die Idee für diesen Adventskalender war es, jeden Tag im Dezember eine neue Information oder einen hilfreichen Tipp zum Thema Veganismus zu präsentieren. Dabei habe ich bewusst auf die Funktion verzichtet, den aktuellen Tag zu überprüfen, damit die Inhalte der Webseite im Rahmen des 'Print to Mobile' Projekts meiner Masterklasse an der FH St. Pölten immer zugänglich sind. Mein Ziel ist es, nicht nur Rezepte zu teilen, sondern auch das Bewusstsein für die Vorteile eines veganen Lebensstils zu stärken."
         ],
         "cta": "App ansehen"
+      },
+      "poster": {
+        "title": "Das Poster",
+        "text": [
+          "Zusätzlich gibt es ein Poster, auf dem insgesamt 24 nummerierte QR-Codes abgebildet sind. Jeden Tag im Dezember kann der QR-Code des aktuellen Tages eingescannt werden, um direkt zum jeweiligen Türchen zu gelangen."
+        ],
+        "cta": "Poster ansehen"
       },
       "implementation": {
         "title": "Die Umsetzung",

@@ -71,7 +71,7 @@ export default function DetailCard({
                       ? 20
                       : 95
                     : theme === "dark"
-                      ? 20 + index * 3.5
+                      ? 20 + index * 2
                       : 95 + index * 2
                 }%)`,
         }}

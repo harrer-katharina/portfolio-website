@@ -3,6 +3,7 @@ import timeparaboxPoster from "@/public/timeParabox/timeParabox-poster.webp";
 import timeparaboxApp from "@/public/timeParabox/timeParabox-app.webp";
 import timeparaboxMockups from "@/public/timeParabox/timeParabox-mockup.webp";
 import timeparaboxStory from "@/public/timeParabox/timeParabox-storyline.png";
+import timeparaboxStoryDark from "@/public/timeParabox/timeParabox-storyline-darkmode.png";
 import timeparaboxEpochs from "@/public/timeParabox/timeParabox-epoch.webp";
 import timeparaboxFeatures from "@/public/timeParabox/timeParabox-feature.webp";
 import timeparaboxVernissage from "@/public/timeParabox/timeParabox-vernissage.webp";
@@ -33,7 +34,8 @@ import ecocalypseCollage from "@/public/ecocalypse/ecocalypse-collage.webp";
 
 import advent from "@/public/veganAdvent/advent-light.webp";
 import adventDark from "@/public/veganAdvent/advent-dark.webp";
-import veganAdvent from "@/public/veganAdvent/veganAdvent-preview.webp";
+import veganAdvent from "@/public/veganAdvent/veganAdvent-app-mockup.webp";
+import veganAdventAppMockup from "@/public/veganAdvent/veganAdvent-mockup.webp";
 import veganAdventPoster from "@/public/veganAdvent/veganAdvent-poster.webp";
 import veganAdventApp from "@/public/veganAdvent/veganAdvent-app.webp";
 
@@ -150,7 +152,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("timeParabox.story.title"),
           text: [t("timeParabox.story.text.0"), t("timeParabox.story.text.1")],
           className: "bg-[#EBE7DF]",
-          image: timeparaboxStory,
+          image: theme === "light" ? timeparaboxStory : timeparaboxStoryDark,
         },
         {
           title: t("timeParabox.implementation.title"),
@@ -345,11 +347,20 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       sections: [
         {
           title: t("veganAdvent.project.title"),
-          text: [t("veganAdvent.project.text.0"), t("veganAdvent.project.text.1")],
-          image: veganAdventPoster,
+          text: [t("veganAdvent.project.text.0")],
+          image: veganAdventAppMockup,
           cta: {
             title: t("veganAdvent.project.cta"),
             link: "https://it231508.students.fhstp.ac.at/adventcalendar"
+          }
+        },
+        {
+          title: t("veganAdvent.poster.title"),
+          text: [t("veganAdvent.poster.text.0")],
+          image: veganAdventPoster,
+          cta: {
+            title: t("veganAdvent.poster.cta"),
+            link: "https://drive.google.com/file/d/1uu6m9OcNwpwe_QN5euQJ_9m91DBxdzxK/view?usp=sharing"
           }
         },
         {
