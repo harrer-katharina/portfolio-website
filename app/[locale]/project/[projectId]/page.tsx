@@ -10,6 +10,7 @@ import { ProjectType, ProjectSection } from "@/lib/types";
 import { useTheme } from "@/context/theme-context";
 import Tag from "@/components/tag";
 import ProjectIntroImage from "@/components/project-intro-image";
+import ProjectDetailText from "@/components/project-detail-text";
 import DetailCard from "@/components/project-detail-card";
 import PrevNextNav from "@/components/prev-next-navigation";
 
@@ -46,37 +47,10 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
       <ProjectIntroImage project={project} />
       <div className="max-w-6xl mx-auto mt-6 px-6 space-y-8 scroll-mt-28">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-          <div className="flex flex-col">
-            <p className="sm:hidden text-3xl mb-4 uppercase font-black">
-              {project.title}
-            </p>
-            <div className="text-lg font-semibold dark:text-[#FF96CC]">
-              {t("technologies")}
-            </div>
-            <ul className="flex flex-wrap gap-2 mt-2">
-              {project.tags.map((tag, index) => (
-                <Tag index={index} title={tag} key={index} />
-              ))}
-            </ul>
-          </div>
-          <div className="flex flex-col">
-            <div className="text-lg font-semibold dark:text-[#FF96CC]">
-              {t("type")}
-            </div>
-            {project.type}
-          </div>
-          <div className="flex flex-col">
-            <div className="text-lg font-semibold dark:text-[#FF96CC]">
-              {t("date")}
-            </div>
-            {project.date}
-          </div>
-          <div className="flex flex-col">
-            <div className="text-lg font-semibold dark:text-[#FF96CC]">
-              {t("duration")}
-            </div>
-            {project.duration}
-          </div>
+          <p className="sm:hidden text-3xl uppercase font-black">
+            {project.title}
+          </p>
+          <ProjectDetailText project={project} />
         </div>
         <div ref={container} className="space-y-6 lg:space-y-0 pb-8 lg:pb-16">
           {project.sections?.map((section: ProjectSection, index) => {
