@@ -42,13 +42,15 @@ export default function DetailCard({
   const [images, setImages] = useState<string[]>([]);
 
   useEffect(() => {
-    const loadImages = async () => {
-      const response = await fetch("/api");
-      const data = await response.json();
-      setImages(data.images);
-    };
+    if (section.image === "") {
+      const loadImages = async () => {
+        const response = await fetch("/api");
+        const data = await response.json();
+        setImages(data.images);
+      };
 
-    loadImages();
+      loadImages();
+    }
   }, []);
 
   useEffect(() => {

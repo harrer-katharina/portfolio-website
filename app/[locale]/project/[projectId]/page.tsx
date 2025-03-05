@@ -8,7 +8,6 @@ import { useTranslations } from "next-intl";
 import { getProjectsData } from "@/lib/data";
 import { ProjectType, ProjectSection } from "@/lib/types";
 import { useTheme } from "@/context/theme-context";
-import Tag from "@/components/tag";
 import ProjectIntroImage from "@/components/project-intro-image";
 import ProjectDetailText from "@/components/project-detail-text";
 import DetailCard from "@/components/project-detail-card";
