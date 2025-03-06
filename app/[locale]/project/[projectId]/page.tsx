@@ -44,14 +44,14 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
   return (
     <main>
       <ProjectIntroImage project={project} />
-      <div className="max-w-6xl mx-auto mt-6 px-6 space-y-8 scroll-mt-28">
+      <div className="max-w-6xl mx-auto mt-6 px-3 sm:px-6 space-y-8 scroll-mt-28">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <p className="sm:hidden text-3xl uppercase font-black">
             {project.title}
           </p>
           <ProjectDetailText project={project} />
         </div>
-        <div ref={container} className="space-y-6 lg:space-y-0 pb-8 lg:pb-16">
+        <div ref={container} className="space-y-6 lg:space-y-0 pb-6 lg:pb-16">
           {project.sections?.map((section: ProjectSection, index) => {
             const targetScale = 1 - (project.sections?.length - index) * 0.05;
             return (
