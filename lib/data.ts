@@ -82,21 +82,12 @@ export const getLinks = (t: (key: string) => string) => {
 export const getExperiencesData = (t: (key: string) => string) => {
   return [
     {
-      title: t("bachelorTitle"),
-      location: t("bachelorLocation"),
-      link: "https://www.th-nuernberg.de/",
-      description: [t("bachelorDescription.0"), t("bachelorDescription.1"), t("bachelorDescription.2")],
-      icon: "/experience/th-nuernberg-ohm-logo.png",
-      date: t("bachelorDate"),
-    },
-    {
-      title: t("job1Title"),
-      location: t("job1Location"),
-      link: "https://www.scs.fraunhofer.de/",
-      tags: ["Vue.js", "Figma"],
-      description: [t("job1Description.0"), t("job1Description.1"), t("job1Description.2")],
-      icon: "/experience/fraunhofer-logo.jpeg",
-      date: t("job1Date"),
+      title: t("masterTitle"),
+      location: t("masterLocation"),
+      link: "https://www.fhstp.ac.at/",
+      description: [t("masterDescription.0"), t("masterDescription.1")],
+      icon: "/experience/fh-st-pölten-logo.webp",
+      date: t("masterDate"),
     },
     {
       title: t("job2Title"),
@@ -108,12 +99,21 @@ export const getExperiencesData = (t: (key: string) => string) => {
       date: t("job2Date"),
     },
     {
-      title: t("masterTitle"),
-      location: t("masterLocation"),
-      link: "https://www.fhstp.ac.at/",
-      description: [t("masterDescription.0"), t("masterDescription.1")],
-      icon: "/experience/fh-st-pölten-logo.webp",
-      date: t("masterDate"),
+      title: t("job1Title"),
+      location: t("job1Location"),
+      link: "https://www.scs.fraunhofer.de/",
+      tags: ["Vue.js", "Figma"],
+      description: [t("job1Description.0"), t("job1Description.1"), t("job1Description.2")],
+      icon: "/experience/fraunhofer-logo.jpeg",
+      date: t("job1Date"),
+    },
+    {
+      title: t("bachelorTitle"),
+      location: t("bachelorLocation"),
+      link: "https://www.th-nuernberg.de/",
+      description: [t("bachelorDescription.0"), t("bachelorDescription.1"), t("bachelorDescription.2")],
+      icon: "/experience/th-nuernberg-ohm-logo.png",
+      date: t("bachelorDate"),
     },
   ];
 };
