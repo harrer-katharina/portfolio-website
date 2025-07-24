@@ -23,6 +23,96 @@
     "technologies": "Technologien",
     "type": "Projekttyp",
     "duration": "Projektdauer",
+    "wegweiser": {
+      "description": "Reisebuchungs-App, um umweltbewusste Entscheidungen im Buchungsprozess zu fördern.",
+      "date": "Feb - Juli 2025",
+      "type": "Appdesign, Prototyping, UX Testing",
+      "duration": "6 Monate",
+      "project": {
+        "title": "Das Projekt",
+        "text": [
+          "Im Rahmen meiner Masterarbeit habe ich untersucht, wie Reisebuchungs-Apps gestaltet werden können, um nachhaltige Entscheidungen im Buchungsprozess zu fördern. Ziel war es, Designansätze zu entwickeln, die Nutzer*innen zu umweltbewussteren Entscheidungen motivieren, ohne dabei die Nutzungserfahrung zu verschlechtern. Dazu habe ich einen interaktiven Prototyp entwickelt, der verschiedene Designinterventionen integriert.",
+          "Die Arbeit entstand am Masterstudiengang Interactive Technologies an der FH St. Pölten, Masterklasse Mobile."
+        ],
+        "cta": "Prototyp ansehen"
+      },
+      "problem": {
+        "title": "Das Problem",
+        "text": [
+          "Der globale Tourismus verursacht rund 8,8 % der weltweiten Treibhausgasemissionen – mit einem jährlichen Anstieg von 3,5 % zwischen 2009 und 2019. Den größten Anteil daran haben Verkehr und Mobilität (49–75 %), gefolgt von Unterkünften mit etwa 21 %. Zusammen machen diese beiden Bereiche den Großteil der tourismusbedingten Emissionen aus.",
+          "Trotz dieses erheblichen Beitrags zur Klimabelastung werden nachhaltige Reiseoptionen auf gängigen Buchungsplattformen bislang kaum sichtbar gemacht. Zwar zeigen viele Reisende Interesse an umweltfreundlicheren Alternativen, doch oft fehlen klare Informationen oder intuitive Zugänge.",
+          "Deshalb stellt sich die Frage, wie digitale Plattformen Reisende besser unterstützen können – durch eine motivierende und zugleich freiwillige Entscheidungsumgebung."
+        ]
+      },
+      "research": {
+        "title": "Die Forschungsschwerpunkte",
+        "text": [
+          "Die Arbeit verbindet ökologische Nachhaltigkeit im Tourismus mit persuasivem Design. Im Mittelpunkt stand die Frage, wie Nutzer*innen durch digitale Lenkungsstrategien wie Nudging und Gamification zu nachhaltigeren Entscheidungen bewegt werden können.",
+          "Darüber hinaus lag ein Schwerpunkt auf der User Experience: Wie lassen sich Nachhaltigkeit und positive Nutzungserlebnisse in Einklang bringen? Daraus ergeben sich folgende Forschungsschwerpunkte:",
+          "- Welche Nachhaltigkeitsstrategien werden in Buchungsplattformen bereits umgesetzt?",
+          "- Welche Lenkungsstrategien fördern nachhaltige Entscheidungen auf Buchungsplattformen?",
+          "- Welche Wirkung haben die Designinterventionen des Prototyps auf die Nutzer*innen?"
+        ]
+      },
+      "concept": {
+        "title": "Die Reiseplanung",
+        "text": [
+          "Zu Beginn der Arbeit wurde eine umfassende Literaturübersicht erstellt, um zentrale Aspekte nachhaltigen Reisens sowie relevante Lenkungsstrategien wie Nudging und Gamification theoretisch zu fundieren. Anschließend wurden bestehende Buchungsplattformen analysiert, um Gestaltungspotenziale für nachhaltigkeitsbezogene Interventionen zu identifizieren.",
+          "Ein qualitativer Workshop lieferte Einblicke in reale Entscheidungsprozesse und diente als Basis für die Konzeption eines Prototyps. Der daraufhin entwickelte Prototyp bildet vier realitätsnahe Buchungsszenarien ab. Zur Evaluation kamen sowohl moderierte Think-Aloud-Tests (n = 10) als auch ein unmoderierter Online-Test (n = 100) zum Einsatz, deren Ergebnisse in die Finalisierung des Konzepts einflossen. Die Arbeit leitet schließlich konkrete Gestaltungsempfehlungen für nachhaltige Reisebuchungsplattformen ab."
+        ]
+      },
+      "prototyping": {
+        "title": "Das Prototyping",
+        "text": [
+          "Zur Entwicklung der App wurde ein Prototyping-Ansatz gewählt, um die Gestaltung der Designinterventionen zu erproben und weiterzuentwickeln. Die Umsetzung erfolgte in Figma. Zunächst entstand ein Low-Fidelity-Prototyp, der sich auf Struktur, Inhalte und Interaktionen konzentrierte, ohne durch visuelles Design abzulenken.",
+          "Darauf aufbauend wurde ein High-Fidelity-Prototyp umgesetzt, der ein konsistentes visuelles Erscheinungsbild, realitätsnahe Inhalte und eine modulare Komponentenstruktur vereint. Der Prototyp bildet vier eigenständige Buchungsszenarien ab und ermöglicht so eine gezielte Evaluation der eingesetzten Designstrategien."
+        ],
+        "cta": "Lo-Fi-Prototyp ansehen"
+      },
+      "interventions": {
+        "title": "Die Designinterventionen",
+        "text": [
+          "Auf Grundlage der Forschungsergebnisse wurden vier Buchungsszenarien entwickelt – vom Onboarding über die Auswahl von Transportmitteln und Unterkünften bis hin zur Inspiration für das Reiseziel. In jedem dieser Schritte kamen Designinterventionen zum Einsatz, die nachhaltige Entscheidungen unterstützen sollen.",
+          "Dazu zählen unter anderem CO₂-Vergleiche bei Verkehrsmitteln, visuelle Hervorhebungen besonders nachhaltiger Unterkünfte anhand definierter Kriterien, ein Treuepunktsystem, realistische Darstellungen von Flugzeit und Gesamtkosten, sowie standardisierte Sortierungen und Empfehlungen."
+        ]
+      },
+      "branding": {
+        "title": "Das Branding",
+        "text": [
+          "Das visuelle Erscheinungsbild zielt darauf ab, Orientierung zu bieten, Vertrauen zu schaffen und nachhaltige Entscheidungen intuitiv zu unterstützen. Das Logo kombiniert ein stilisiertes Blatt mit einem Pfad und steht symbolisch für Nachhaltigkeit und Orientierung. Farblich dominieren dunkle Petroltöne, ergänzt durch frische Akzente in Mint.",
+          "Die typografische Gestaltung, die Auswahl der Bildsprache sowie eine gezielte Farbcodierung – etwa zur Darstellung von Emissionen – unterstützen ein einheitliches, modernes Erscheinungsbild. Wichtig war mir, dass die App nicht wie eine rein ökologische Nischenlösung wirkt, sondern wie ein attraktives, modernes Buchungsangebot – mit einem klaren Mehrwert für umweltbewusste Reisende."
+        ],
+        "cta": "Guidelines ansehen"
+      },
+      "onlineTests": {
+        "title": "Die unmoderierten Usertests",
+        "text": [
+          "Zur Evaluation des Prototyps wurde ein unmoderierter Online-Test mit 100 Teilnehmenden durchgeführt. Mithilfe der Plattform Useberry konnten die Nutzungsszenarien realitätsnah getestet und das Entscheidungsverhalten im Buchungsprozess erfasst werden. Das Tool ermöglichte zudem eine Auswertung durch Heatmaps, User Flows und Screen Recordings. Die Nutzer*innen interagierten dabei anonym mit dem Prototyp, wodurch authentischere Entscheidungen möglich waren.",
+          "Kurze Zwischenfragen und der User Experience Questionnaire (UEQ) lieferten ergänzende Einblicke in die Wirkung der Interventionen und die Nutzungserfahrung."
+        ]
+      },
+      "thinkAloud": {
+        "title": "Die Think-Aloud-Tests",
+        "text": [
+          "Um die Nutzer*innenperspektive besser zu verstehen fanden zusätzlich moderierte Tests mit zehn Teilnehmenden statt. In diesen Sessions sprachen Nutzer*innen ihre Gedanken laut aus, während sie durch den Prototypen navigierten. Dadurch konnten tiefere Einblicke in Entscheidungsprozesse und das intuitive Verständnis von Icons, Labels und Interventionen gewonnen werden.",
+          "Die qualitativen Daten lieferten wertvolle Hinweise darauf, welche Elemente als hilfreich, aufdringlich oder missverständlich wahrgenommen wurden – ein zentraler Input für das Feintuning des Prototyps."
+        ]
+      },
+      "results": {
+        "title": "Die Ergebnisse",
+        "text": [
+          "Die User Experience wurde durchweg positiv bewertet: Sowohl im unmoderierten als auch im moderierten Test lagen alle UEQ-Werte klar im positiven Bereich. Die Mehrheit der Teilnehmenden entschied sich zudem für nachhaltige Optionen – vor allem dann, wenn diese preislich konkurrenzfähig waren.",
+          "Die Ergebnisse zeigen, dass visuell ansprechende und niedrigschwellige Designstrategien das Entscheidungsverhalten zugunsten nachhaltiger Alternativen beeinflussen können, ohne die Nutzungserfahrung maßgeblich zu beeinträchtigen. Dazu zählen beispielsweise vergleichende Emissionsangaben, Belohnungssysteme oder positive Hervorhebungen nachhaltiger Optionen. Rote Hervorhebungen wurden von einigen Testpersonen als wertend und potenziell zu aufdringlich empfunden. Insbesondere solche Ansätze, die Nachhaltigkeit mit persönlichen Vorteilen verknüpfen, wurden als förderlich erlebt."
+        ]
+      },
+      "challenges": {
+        "title": "Die Herausforderungen",
+        "text": [
+          "Eine zentrale Herausforderung bestand darin, Nachhaltigkeit sichtbar zu machen, ohne Nutzer*innen das Gefühl zu geben, manipuliert oder bevormundet zu werden. Zu starke, wertende Darstellungen – etwa durch rote Warnhinweise – können Reaktanz auslösen und langfristig das Vertrauen in die Plattform untergraben. Ziel war daher eine Gestaltung, die zu bewussteren Entscheidungen anregt, ohne Druck auszuüben – denn nur Plattformen, die gerne genutzt werden, können langfristig Wirkung entfalten.",
+          "Im Rahmen der Umsetzung habe ich viel über den effizienten Einsatz von Figma, komponentenbasiertes Design, zentrale Variablen und Styles gelernt – ebenso wie über die Erstellung interaktiver Prototypen mit Animationen. Zudem konnte ich Useberry als Tool zur Testdurchführung und Analyse intensiv kennenlernen."
+        ]
+      }
+    },
     "weidlich": {
       "description": "Website für einen Notar a. D. zur Präsentation seiner Vortragstätigkeit, Publikationen und beruflichen Laufbahn.",
       "date": "Juli 2024 - Juli 2025",
@@ -118,7 +208,7 @@
           "Ich habe dabei das Logo, die Geschäftsdrucksorten (Visitenkarten, Briefpapiere, Briefumschläge), Sticker, Website-Designs und Mockups angefertigt.", 
           "Wirf doch mal einen Blick in das Brandbook!" 
         ],
-        "cta": "Brandbook herunterladen"
+        "cta": "Brandbook ansehen"
       },
       "brandbook": {
         "title": "Das Brandbook"

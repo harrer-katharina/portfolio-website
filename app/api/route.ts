@@ -2,12 +2,27 @@ import fs from 'fs';
 import path from 'path';
 
 export async function GET() {
-  const imagesDirectory = path.join(process.cwd(), 'public/bevry/brandbook');
-  const filenames = fs.readdirSync(imagesDirectory);
+  const baseDir = path.join(process.cwd(), 'public');
+  const brandbooks = ['wegweiser', 'bevry'];
+  const result: Record<string, string[]> = {};
 
-  const images = filenames.filter((filename) => filename.endsWith('.webp')).map((filename) => `/bevry/brandbook/${filename}`);
+  
+  for (const brand of brandbooks) {
+    const brandbookDir = path.join(baseDir, brand, 'brandbook');
+    let filenames: string[] = [];
 
-  return new Response(JSON.stringify({ images }), {
+    if (fs.existsSync(brandbookDir)) {
+      filenames = fs.readdirSync(brandbookDir).filter((filename) =>
+        filename.endsWith('.png')
+      );
+    }
+
+    result[brand] = filenames.map(
+      (filename) => `/${brand}/brandbook/${filename}`
+    );
+  }
+
+  return new Response(JSON.stringify(result), {
     headers: { 'Content-Type': 'application/json' },
   });
 }

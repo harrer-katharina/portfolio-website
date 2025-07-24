@@ -1,3 +1,20 @@
+import wegweiser from "@/public/wegweiser/wegweiser-preview.webp";
+import wegweiserPlane from "@/public/wegweiser/wegweiser-plane.webp";
+import wegweiserMockup from "@/public/wegweiser/wegweiser-mockup.webp";
+import wegweiserEmissions from "@/public/wegweiser/wegweiser-emissions.webp";
+import wegweiserEmissionsDark from "@/public/wegweiser/wegweiser-emissions-dark.webp";
+import wegweiserGamification from "@/public/wegweiser/wegweiser-treueprogramm.webp";
+import wegweiserReiseplanung from "@/public/wegweiser/wegweiser-reiseplanung.webp";
+import wegweiserLofi from "@/public/wegweiser/wegweiser-lofi.webp";
+import wegweiserHifi from "@/public/wegweiser/wegweiser-hifi.webp";
+import wegweiserLogo from "@/public/wegweiser/wegweiser-logo.webp";
+import wegweiserLogoDark from "@/public/wegweiser/wegweiser-logo-dark.webp";
+import wegweiserUseberry from "@/public/wegweiser/wegweiser-useberry.webp";
+import wegweiserExcercise from "@/public/wegweiser/wegweiser-excercise.webp";
+import wegweiserUeq from "@/public/wegweiser/wegweiser-ueq.webp";
+import wegweiserUeqDark from "@/public/wegweiser/wegweiser-ueq-dark.webp";
+import wegweiserHotel from "@/public/wegweiser/wegweiser-hotel.webp";
+
 import weidlich from "@/public/dr-weidlich/website-preview.webp";
 import weidlichBusinessCards from "@/public/dr-weidlich/business-cards.webp";
 import weidlichWebsiteMockup from "@/public/dr-weidlich/website-mockup.webp";
@@ -166,6 +183,110 @@ export const getExperiencesData = (t: (key: string) => string) => {
 
 export const getProjectsData = (theme: string, t: (key: string) => string) => {
   return [
+    {
+      projectId: "wegweiser",
+      title: "Wegweiser",
+      showTitle: true,
+      date: t("wegweiser.date"),
+      type: t("wegweiser.type"),
+      duration: t("wegweiser.duration"),
+      description: t("wegweiser.description"),
+      tags: ["Figma", "Useberry"],
+      image: wegweiser,
+      sectionImage: wegweiserPlane,
+      sections: [
+        {
+          title: t("wegweiser.project.title"),
+          text: [t("wegweiser.project.text.0"), t("wegweiser.project.text.1")],
+          className: "bg-[#C3E6C3]",
+          image: wegweiserMockup,
+          cta: {
+            title: t("wegweiser.project.cta"),
+            link: "https://www.figma.com/proto/S0Qw8J37oW2tqsQ4Z8zHFp/Wegweiser-Prototyp?page-id=0%3A1&node-id=1812-17049&p=f&viewport=2314%2C3786%2C0.25&t=EGEinzUgtU9q5SbF-1&scaling=contain&content-scaling=fixed&starting-point-node-id=1812%3A17049"
+          }
+        },
+        {
+          title: t("wegweiser.problem.title"),
+          text: [t("wegweiser.problem.text.0"), t("wegweiser.problem.text.1"), t("wegweiser.problem.text.2")],
+          className: "bg-[#CBEBCB]",
+          image: theme === "light" ? wegweiserEmissions : wegweiserEmissionsDark,
+        },
+        {
+          title: t("wegweiser.research.title"),
+          text: [t("wegweiser.research.text.0"), t("wegweiser.research.text.1"), t("wegweiser.research.text.2"), t("wegweiser.research.text.3"), t("wegweiser.research.text.4")],
+          className: "bg-[#D8F0D8]",
+          image: wegweiserGamification,
+        },
+        {
+          title: t("wegweiser.concept.title"),
+          text: [t("wegweiser.concept.text.0"), t("wegweiser.concept.text.1")],
+          className: "bg-[#D3EED3]",
+          image: wegweiserReiseplanung,
+        },
+        {
+          title: t("wegweiser.prototyping.title"),
+          text: [t("wegweiser.prototyping.text.0"), t("wegweiser.prototyping.text.1")],
+          className:   "bg-[#DCF1DC]",
+          image: wegweiserLofi,
+          cta: {
+            title: t("wegweiser.prototyping.cta"),
+            link: "https://www.figma.com/proto/4S2TZpeqYYlSbFCEKR8ngC/wegweiserapp?page-id=0%3A1&node-id=72-79940&p=f&viewport=728%2C824%2C0.13&t=gSK4aPhltc7LKfwT-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=72%3A79940"
+          }
+        },
+        {
+          title: t("wegweiser.interventions.title"),
+          text: [t("wegweiser.interventions.text.0"), t("wegweiser.interventions.text.1")],
+          className: "bg-[#D9F0D9]",
+          image: wegweiserHifi,
+        },
+        {
+          title: t("wegweiser.branding.title"),
+          text: [t("wegweiser.branding.text.0"), t("wegweiser.branding.text.1")],
+          className: "bg-[#E1F4E1]",
+          image: theme === "light" ? wegweiserLogo : wegweiserLogoDark,
+          cta: {
+            title: t("wegweiser.branding.cta"),
+            link: "https://drive.google.com/file/d/1hRpP2D-IXTZfvWAHtTCllIeyVkC0Q0RO/view"
+          }
+        },
+        {
+          title: t("bevry.brandbook.title"),
+          text: [],
+          className: "bg-[#E5F5E5]",
+          image: "",
+        },
+        {
+          title: t("wegweiser.onlineTests.title"),
+          text: [t("wegweiser.onlineTests.text.0"), t("wegweiser.onlineTests.text.1")],
+          className: "bg-[#E8F6E8]",
+          image: wegweiserUseberry,
+        },
+        {
+          title: t("wegweiser.thinkAloud.title"),
+          text: [t("wegweiser.thinkAloud.text.0"), t("wegweiser.thinkAloud.text.1")],
+          className: "bg-[#ECF7EC]",
+          image: wegweiserExcercise,
+        },
+        {
+          title: t("wegweiser.results.title"),
+          text: [t("wegweiser.results.text.0"), t("wegweiser.results.text.1")],
+          className: "bg-[#F1F9F1]",
+          image: theme === "light" ? wegweiserUeq : wegweiserUeqDark,
+        },
+        {
+          title: t("wegweiser.challenges.title"),
+          text: [t("wegweiser.challenges.text.0"), t("wegweiser.challenges.text.1")],
+          className: "bg-[#F3F9F3]",
+          image: wegweiserHotel,
+        },
+         {
+          title: "",
+          text: [],
+          className: "bg-[#000000]",
+          image: "video",
+        },
+      ]
+    },
     {
       projectId: "dr-weidlich",
       title: "Dr. Weidlich",

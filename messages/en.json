@@ -23,6 +23,96 @@
     "technologies": "Technologies",
     "type": "Project Type",
     "duration": "Project Duration",
+    "wegweiser": {
+      "description": "Travel booking app designed to support environmentally conscious decisions throughout the booking process.",
+      "date": "Feb – July 2025",
+      "type": "App Design, Prototyping, UX Testing",
+      "duration": "6 months",
+      "project": {
+        "title": "The Project",
+        "text": [
+          "As part of my master’s thesis, I explored how travel booking apps can be designed to encourage more sustainable decisions. The goal was to develop design approaches that motivate users to make more environmentally conscious decisions without worsening the user experience. To do this, I created an interactive prototype integrating various design interventions.",
+          "The project was part of the Interactive Technologies master's program at FH St. Pölten, in the Mobile specialization."
+        ],
+        "cta": "View prototype"
+      },
+      "problem": {
+        "title": "The Problem",
+        "text": [
+          "Global tourism is responsible for around 8.8% of worldwide greenhouse gas emissions – with an annual increase of 3.5% between 2009 and 2019. The largest share comes from transport and mobility (49–75%), followed by accommodation (around 21%). Together, these two areas account for the majority of tourism-related emissions.",
+          "Despite this significant climate impact, sustainable travel options are rarely made visible on mainstream booking platforms. Many travelers are interested in greener alternatives, but often lack clear information or intuitive access points.",
+          "This raises the question of how digital platforms can better support travelers – through a motivating yet voluntary decision-making environment."
+        ]
+      },
+      "research": {
+        "title": "The Research Focus",
+        "text": [
+          "This work combines ecological sustainability in tourism with persuasive design. At its core was the question of how users can be nudged toward more sustainable decisions through digital strategies such as nudging and gamification.",
+          "Another focus was on the user experience: How can sustainability and positive usability be aligned? This led to the following research questions:",
+          "- What sustainability strategies are already being implemented on booking platforms?",
+          "- Which nudging strategies effectively promote sustainable decisions on booking platforms?",
+          "- How do the prototype’s design interventions affect users?"
+        ]
+      },
+      "concept": {
+        "title": "Planning the Journey",
+        "text": [
+          "The project began with an extensive literature review to establish a theoretical foundation on sustainable travel and relevant behavioral strategies like nudging and gamification. This was followed by an analysis of existing booking platforms to identify design opportunities for sustainability-focused interventions.",
+          "A qualitative workshop provided insights into real-life decision-making and served as a basis for developing the prototype. The prototype developed as a result depicts four realistic booking scenarios. For evaluation, both moderated think-aloud tests (n = 10) and an unmoderated online test (n = 100) were conducted. Their findings informed the final design of the prototype. Finally, the study derives specific design recommendations for sustainable travel booking platforms."
+        ]
+      },
+      "prototyping": {
+        "title": "The Prototyping",
+        "text": [
+          "A prototyping approach was used to test and refine the design interventions. The prototype was created in Figma. Initially, a low-fidelity version focused on layout, content, and core interactions—without being influenced by visual design.",
+          "This was followed by a high-fidelity prototype that combined a consistent visual identity, realistic content, and a modular component structure. It includes four distinct booking scenarios to allow targeted evaluation of the applied design strategies."
+        ],
+        "cta": "View Lo-Fi prototype"
+      },
+      "interventions": {
+        "title": "The Design Interventions",
+        "text": [
+          "Based on the research findings, four booking scenarios were developed – from onboarding to selecting transport, accommodation, and travel inspiration. Each step integrates design interventions aimed at encouraging sustainable decisions.",
+          "Examples include CO₂ comparisons for transportation, visual highlighting of sustainable accommodations based on defined criteria, a loyalty points system, realistic representations of flight time and total cost, as well as standardized sorting and recommendation features."
+        ]
+      },
+      "branding": {
+        "title": "The Branding",
+        "text": [
+          "The visual identity is designed to provide orientation, build trust, and intuitively support sustainable choices. The logo combines a stylized leaf and path to symbolize sustainability and direction. The color scheme features dark petrol tones complemented by fresh mint accents.",
+          "Typography, imagery, and a purposeful use of color – such as emission indicators – support a coherent, modern appearance. My goal was to create an app that doesn’t feel like a niche eco-product, but rather like a contemporary booking platform with clear added value for environmentally conscious travelers."
+        ],
+        "cta": "View guidelines"
+      },
+      "onlineTests": {
+        "title": "The Unmoderated User Tests",
+        "text": [
+          "To evaluate the prototype, an unmoderated online test with 100 participants was conducted. Using the platform Useberry, the booking scenarios were tested in realistic conditions and user decisions were tracked. The tool also enabled detailed analysis via heatmaps, user flows, and screen recordings. Since participants interacted anonymously with the clickable prototype, more authentic choices were possible.",
+          "Short in-between questions and the User Experience Questionnaire (UEQ) provided additional insights into the interventions’ impact and the overall user experience."
+        ]
+      },
+      "thinkAloud": {
+        "title": "The Think-Aloud Tests",
+        "text": [
+          "To gain a deeper understanding of the user perspective, ten moderated think-aloud tests were conducted. During these sessions, participants verbalized their thoughts while navigating the prototype. This allowed insights into their decision-making and their intuitive interpretation of icons, labels, and design cues.",
+          "The qualitative data revealed which elements were perceived as helpful, intrusive, or unclear – providing valuable input for refining the prototype."
+        ]
+      },
+      "results": {
+        "title": "The Results",
+        "text": [
+          "The user experience was consistently rated positively: All UEQ results in both test settings were clearly within the positive range. Most participants chose sustainable options—especially when these were competitively priced.",
+          "The results show that visually appealing and low-threshold design strategies can influence decision-making behavior in favor of sustainable alternatives without significantly impairing the user experience. These include, for example, comparative emissions information, reward systems or positive highlighting of sustainable options. Red highlights were perceived by some test subjects as judgmental and potentially too intrusive. In particular, approaches that link sustainability with personal benefits were perceived as beneficial."
+        ]
+      },
+      "challenges": {
+        "title": "The Challenges",
+        "text": [
+          "One of the key challenges was to make sustainability visible without users feeling manipulated or patronized. Strongly judgmental elements – such as red warning labels – can trigger resistance and damage long-term trust. The goal was to nudge users toward better choices without pressure – because only platforms that users enjoy will have long-term impact.",
+          "During implementation, I gained hands-on experience with Figma, component-based design, global styles and variables, and building interactive prototypes with animations. I also became familiar with Useberry as a tool for test execution and analysis."
+        ]
+      }
+    },
     "weidlich": {
       "description": "Website for a retired notary to present his lectures, publications, and professional background.",
       "date": "July 2024 – July 2025",

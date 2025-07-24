@@ -12,6 +12,7 @@ import Carousel from "@/components/img-carousel";
 
 export default function DetailCard({
   index,
+  projectId,
   section,
   progress,
   range,
@@ -19,6 +20,7 @@ export default function DetailCard({
   scaleCards,
 }: {
   index: number;
+  projectId: string;
   section: ProjectSection;
   progress: any;
   range: any;
@@ -29,6 +31,7 @@ export default function DetailCard({
   const { setVariant } = useVariants();
   const mouseEnter = () => setVariant("TEXT");
   const mouseLeave = () => setVariant("DEFAULT");
+  const cardOverlay = projectId === "wegweiser" || projectId === "bevry";
 
   const container = useRef(null);
 
@@ -53,7 +56,7 @@ export default function DetailCard({
       const loadImages = async () => {
         const response = await fetch("/api");
         const data = await response.json();
-        setImages(data.images);
+        setImages(data[projectId] || []);
       };
 
       loadImages();
@@ -104,7 +107,15 @@ export default function DetailCard({
         <h2 className="lg:hidden text-2xl font-extrabold mb-4 dark:text-[var(--secondary-color)]">
           {section.title}
         </h2>
-        {section.image !== "" ? (
+        {section.image === "video" ? (
+          <div className="relative w-full pb-[56.25%] h-0">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/jz14P2H0EPE"
+              allowFullScreen
+            ></iframe>
+          </div>
+        ) : section.image !== "" ? (
           <div className="flex flex-col-reverse lg:flex-row items-center lg:mt-0 gap-2 lg:gap-12">
             <div
               style={{
