@@ -187,6 +187,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       projectId: "wegweiser",
       title: "Wegweiser",
       showTitle: true,
+      scaleCards: false,
       date: t("wegweiser.date"),
       type: t("wegweiser.type"),
       duration: t("wegweiser.duration"),
@@ -279,11 +280,11 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           className: "bg-[#F3F9F3]",
           image: wegweiserHotel,
         },
-         {
+        {
           title: "",
           text: [],
           className: "bg-[#000000]",
-          image: "video",
+          image: "https://www.youtube.com/embed/jz14P2H0EPE",
         },
       ]
     },
@@ -470,6 +471,12 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("bevry.learnings.text.0"), t("bevry.learnings.text.1"), t("bevry.learnings.text.2")],
           className: "bg-[#FFA98B]",
           image: bevryCheers,
+        },
+        {
+          title: "",
+          text: [],
+          className: "bg-[#000000]",
+          image: "https://www.youtube.com/embed/AzWRLqcKHQo",
         },
       ],
     },

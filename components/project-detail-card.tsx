@@ -107,11 +107,12 @@ export default function DetailCard({
         <h2 className="lg:hidden text-2xl font-extrabold mb-4 dark:text-[var(--secondary-color)]">
           {section.title}
         </h2>
-        {section.image === "video" ? (
+        {typeof section.image === "string" &&
+        section.image.includes("youtube") ? (
           <div className="relative w-full pb-[56.25%] h-0">
             <iframe
               className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/jz14P2H0EPE"
+              src={section.image}
               allowFullScreen
             ></iframe>
           </div>
