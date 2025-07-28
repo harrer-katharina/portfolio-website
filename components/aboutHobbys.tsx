@@ -14,8 +14,8 @@ export default function About() {
   const mouseLeave = () => setVariant("DEFAULT");
 
   const hobbyImages = [
-    "/hobby/hungary-budapest.webp",
     "/hobby/dolomites-south-tyrol.webp",
+    "/hobby/hungary-budapest.webp",
     "/hobby/goeteborg-sweden.webp",
     "/hobby/vienna-austria.webp",
     "/hobby/hiking-karersee-latemar.webp",
