@@ -1,3 +1,12 @@
+import weidlich from "@/public/dr-weidlich/website-preview.webp";
+import weidlichBusinessCards from "@/public/dr-weidlich/business-cards.webp";
+import weidlichWebsiteMockup from "@/public/dr-weidlich/website-mockup.webp";
+import weidlichSmartphone from "@/public/dr-weidlich/smartphone.webp";
+import weidlichSmartphoneMockup from "@/public/dr-weidlich/smartphone-mockup.webp";
+import weidlichServices from "@/public/dr-weidlich/services.webp";
+import weidlichContact from "@/public/dr-weidlich/website-contact.webp";
+import weidlichShooting from "@/public/dr-weidlich/shooting.webp";
+
 import timeparabox from "@/public/timeParabox/time-parabox.webp";
 import timeparaboxPoster from "@/public/timeParabox/timeParabox-poster.webp";
 import timeparaboxApp from "@/public/timeParabox/timeParabox-app.webp";
@@ -121,6 +130,54 @@ export const getExperiencesData = (t: (key: string) => string) => {
 export const getProjectsData = (theme: string, t: (key: string) => string) => {
   return [
     {
+      projectId: "dr-weidlich",
+      title: "Dr. Weidlich",
+      showTitle: false,
+      date: t("weidlich.date"),
+      type: t("weidlich.type"),
+      duration: t("weidlich.duration"),
+      description: t("weidlich.description"),
+      tags: ["WordPress", "Figma"],
+      image: weidlich,
+      sectionImage: weidlichWebsiteMockup,
+      sections: [
+        {
+          title: t("weidlich.project.title"),
+          text: [t("weidlich.project.text.0"),t("weidlich.project.text.1")],
+          image: weidlichSmartphoneMockup,
+          cta: {
+            title: "Website ansehen",
+            link: "https://dr-dietmar-weidlich.de"
+          }
+        },
+        {
+          title: t("weidlich.features.title"),
+          text: [t("weidlich.features.text.0"), t("weidlich.features.text.1")],
+          image: weidlichServices,
+        },
+        {
+          title: t("weidlich.branding.title"),
+          text: [t("weidlich.branding.text.0"), t("weidlich.branding.text.1")],
+          image: weidlichBusinessCards,
+        },
+        {
+          title: t("weidlich.photography.title"),
+          text: [t("weidlich.photography.text.0"), t("weidlich.photography.text.1")],
+          image: weidlichShooting,
+        },
+        {
+          title: t("weidlich.customer.title"),
+          text: [t("weidlich.customer.text.0"), t("weidlich.customer.text.1")],
+          image: weidlichSmartphone,
+        },
+        {
+          title: t("weidlich.learnings.title"),
+          text: [t("weidlich.learnings.text.0"), t("weidlich.learnings.text.1"), t("weidlich.learnings.text.2")],
+          image: weidlichContact,
+        },
+      ]
+    },
+    {
       projectId: "time-parabox",
       title: "Time Parabox",
       showTitle: false,
@@ -138,8 +195,8 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           className: "bg-[#F4F2EE]",
           image: timeparaboxApp,
           cta: {
-            title: "",
-            link: ""
+            title: "GitHub-Repository ansehen",
+            link: "https://github.com/Time-Parabox/time-parabox"
           }
         },
         {
@@ -457,6 +514,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
 };
 
 export const skillsData = [
+  "Figma",
   "HTML",
   "CSS",
   "Tailwind",
@@ -465,7 +523,6 @@ export const skillsData = [
   "React",
   "Next.js",
   "Vue.js",
-  "Figma",
   "WordPress",
   "NestJs",
   "PHP",

@@ -23,6 +23,56 @@
     "technologies": "Technologien",
     "type": "Projekttyp",
     "duration": "Projektdauer",
+    "weidlich": {
+      "description": "Website für einen Notar a. D. zur Präsentation seiner Vortragstätigkeit, Publikationen und beruflichen Laufbahn.",
+      "date": "Juli 2024 - Juli 2025",
+      "type": "WordPress-Entwicklung, SEO, Webdesign, Corporate Branding",
+      "duration": "1 Jahr",
+      "project": {
+        "title": "Das Projekt",
+        "text": [
+          "Für Dr. Dietmar Weidlich wurde eine Website entwickelt, die ihn und seine berufliche Expertise auch nach dem Ausscheiden aus dem aktiven Notardienst professionell präsentiert. Als Notar a. D. bleibt Dr. Weidlich weiterhin fachlich aktiv – etwa durch Notarvertretungen, Publikationen, Fachbeiträge und seine Vortragstätigkeit. Die Website richtet sich daher nicht an klassische Mandant*innen, sondern vor allem an Veranstalter*innen die ihn als Referenten anfragen möchten.",
+          "Die Inhalte wurden so aufgebaut, dass sie bereits während der aktiven Notartätigkeit genutzt werden konnten, aber zum geplanten Ruhestand Ende Juli 2025 flexibel anpassbar waren."
+        ]
+      },
+      "features": {
+        "title": "Die Funktionalitäten",
+        "text": [
+          "Die Website basiert auf dem Content-Management-System WordPress und umfasst fünf Unterseiten (Vorstellung, Publikationen, Vortragstätigkeit, Notarvertretungen, Kontakt), die Interessierten einen fundierten Überblick über die Person, seine Expertise und seine Tätigkeiten bieten.",
+          "Sie enthält ein DSGVO-konformes Kontaktformular mit SMTP-Anbindung für eine zuverlässige E-Mail-Kommunikation. Zur Performance-Optimierung wurden Caching-Funktionen eingesetzt, Google Fonts lokal eingebunden und die Seite für mobile Endgeräte sowie verschiedene Bildschirmgrößen responsiv gestaltet. Zudem wurden SEO-Maßnahmen umgesetzt. Auch Hosting, Domainverwaltung und die Einrichtung einer professionellen E-Mail-Adresse wurden im Rahmen des Projekts übernommen." 
+        
+        ]
+      },
+      "branding": {
+        "title": "Das Branding",
+        "text": [
+          "Im Rahmen des Projekts wurde auch das visuelle Erscheinungsbild entwickelt. Dazu zählen ein minimalistisches Logo, ein stimmiges Farbkonzept, das Webdesign sowie Visitenkarten.  Die Visitenkarten enthalten einen QR-Code, der direkt zur Website führt, sowie weitere Kontaktmöglichkeiten.",
+          "Die Hauptfarben – ein tiefes Petrolblau und ein helleres Cyanblau – vermitteln Seriosität und Professionalität. In Kombination mit runden grafischen Elementen entsteht ein moderner und klarer Look. Schriftwahl und Layout unterstützen eine aufgeräumte, strukturierte und vertrauenswürdige Wirkung."
+        ]
+      },
+      "photography": {
+        "title": "Die Bildsprache",
+        "text": [
+          "Die Bildauswahl entstand in enger Zusammenarbeit mit dem Kunden: Wir haben uns im damaligen Notarbüro getroffen und mit professioneller Lichtausstattung ein eigenes Fotoshooting umgesetzt.",
+          "Die meisten auf der Website verwendeten Bilder – inklusive Porträts und Abbildungen seiner Fachbücher – sind eigens für dieses Projekt fotografiert worden. Dadurch wirkt die Seite persönlich und authentisch."
+        ]
+      },
+      "customer": {
+        "title": "Die Kundenbetreuung",
+        "text": [
+          "Von Anfang an war das Projekt von engem Austausch geprägt. Wir haben uns regelmäßig getroffen, um Layoutideen, Struktur und Inhalte gemeinsam abzustimmen.",
+          "Ich habe zunächst eine erste Version für die Phase vor dem Ruhestand erstellt – mit der Option, sie zum geplanten Zeitpunkt flexibel umzustellen. So konnte z. B. der Bereich „Notarstätigkeit“ zu „Notarvertretungen“ überführt und das Wording sowie Impressum/Datenschutzhinweise entsprechend angepasst werden."
+        ]
+      },
+      "learnings": {
+        "title": "Die Learnings",
+        "text": [
+          "Dieses Projekt war vor allem durch den Aspekt der Kundenarbeit geprägt. Ich habe gelernt, wie wichtig es ist, den Kunden fachlich gut zu beraten, aber gleichzeitig seine individuellen Wünsche ernst zu nehmen und beides in eine gute Lösung zu überführen.",
+          "Neu war für mich außerdem die Arbeit mit WordPress im Sinne einer klassischen CMS-Nutzung. Zwar hatte ich bereits Erfahrungen mit WordPress gesammelt, damals jedoch ausschließlich mit selbst entwickelten Themes und Plugins. Dieses Projekt war das erste, bei dem ich eine Website vollständig ohne eigene Programmierung realisiert habe.",
+          "Auch das Thema SEO war Neuland für mich z. B. in Bezug auf strukturierte Daten, OpenGraph und Sitemaps. Außerdem habe ich erlebt, wie viel Verantwortung, Organisation und Iteration dazugehört, wenn man ein Projekt im Alleingang für eine reale Person umsetzt."
+        ]
+      }
+    },
     "timeParabox": {
       "description": "Interaktives Rätselspiel mit Escape-Box-Elementen und Zeitreise-Thematik, gesteuert durch eine native App.",
       "date": "Okt 2024 - Jan 2025",
@@ -71,7 +121,7 @@
       }
     },
     "bevry": {
-      "description": "Eine Web-App für Cocktailfans zum Entdecken, Teilen, Bewerten und Verwalten von Getränken.",
+      "description": "Web-App für Cocktailfans zum Entdecken, Teilen, Bewerten und Verwalten von Getränken.",
       "date": "Nov 2023 - Juli 2024",
       "type": "Webentwicklung, Corporate Branding",
       "duration": "9 Monate",
@@ -125,7 +175,7 @@
       }
     },
     "erika": {
-      "description": "Eine App als digitale Begleiterin für klimafreundliches Handeln und regionale Aktivitäten.",
+      "description": "App als digitale Begleiterin für klimafreundliches Handeln und regionale Aktivitäten.",
       "date": "März - Juni 2024",
       "type": "Nachhaltiges Web- & Appdesign, Prototyping",
       "duration": "4 Monate",
@@ -170,7 +220,7 @@
       }
     },
     "ecocalypse": {
-      "description": "Erstellung einer immersiven Videospielszene in Unity mit Fokus auf Worldbuilding und Visual Storytelling.",
+      "description": "Immersive Videospielszene mit Fokus auf Worldbuilding und Visual Storytelling.",
       "date": "Juni 2024",
       "type": "Gamedesign, Worldbuilding und Storytelling",
       "duration": "1 Woche",
@@ -207,7 +257,7 @@
       }
     },
     "veganAdvent": {
-      "description": "Ein digitaler Adventskalender mit wertvollen Tipps und Infos für ein veganes Leben.",
+      "description": "Digitaler Adventskalender mit wertvollen Tipps und Infos für ein veganes Leben.",
       "date": "Okt 2024",
       "type": "Appdesign, Webentwicklung",
       "duration": "2 Wochen",
