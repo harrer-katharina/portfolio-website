@@ -45,8 +45,10 @@ import advent from "@/public/veganAdvent/advent-light.webp";
 import adventDark from "@/public/veganAdvent/advent-dark.webp";
 import veganAdvent from "@/public/veganAdvent/veganAdvent-app-mockup.webp";
 import veganAdventAppMockup from "@/public/veganAdvent/veganAdvent-mockup.webp";
+import veganAdventMotivation from "@/public/veganAdvent/veganAdvent-motivation.webp";
 import veganAdventPoster from "@/public/veganAdvent/veganAdvent-poster.webp";
 import veganAdventApp from "@/public/veganAdvent/veganAdvent-app.webp";
+import veganAdventMockups from "@/public/veganAdvent/veganAdvent-mockups.webp";
 
 import trilum from "@/public/trilum/trilum-orders-overview.webp";
 import trilumOrders from "@/public/trilum/trilum-overview.webp";
@@ -146,7 +148,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("weidlich.project.text.0"),t("weidlich.project.text.1")],
           image: weidlichSmartphoneMockup,
           cta: {
-            title: "Website ansehen",
+            title: t("weidlich.project.cta"),
             link: "https://dr-dietmar-weidlich.de"
           }
         },
@@ -403,22 +405,27 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       type: t("veganAdvent.type"),
       duration: t("veganAdvent.duration"),
       description: t("veganAdvent.description"),
-      tags: ["React", "Tailwind"],
+      tags: ["React", "Tailwind CSS"],
       image: theme === "light" ? advent : adventDark,
       sectionImage: veganAdvent,
       sections: [
         {
-          title: t("veganAdvent.project.title"),
-          text: [t("veganAdvent.project.text.0")],
+          title: t("veganAdvent.background.title"),
+          text: [t("veganAdvent.background.text.0"), t("veganAdvent.background.text.1")],
           image: veganAdventAppMockup,
           cta: {
-            title: t("veganAdvent.project.cta"),
-            link: "https://it231508.students.fhstp.ac.at/adventcalendar"
+            title: t("veganAdvent.background.cta"),
+            link: "https://advent.katharina-harrer.de/"
           }
         },
         {
+          title: t("veganAdvent.project.title"),
+          text: [t("veganAdvent.project.text.0"), t("veganAdvent.project.text.1")],
+          image: veganAdventMotivation,
+        },
+        {
           title: t("veganAdvent.poster.title"),
-          text: [t("veganAdvent.poster.text.0")],
+          text: [t("veganAdvent.poster.text.0"), t("veganAdvent.poster.text.1")],
           image: veganAdventPoster,
           cta: {
             title: t("veganAdvent.poster.cta"),
@@ -431,8 +438,13 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           image: veganAdventApp,
           cta: {
             title: t("veganAdvent.implementation.cta"),
-            link: "https://github.com/katharina-harrer/advent-calendar"
+            link: "https://github.com/harrer-katharina/advent-calendar"
           }
+        },
+        {
+          title: t("veganAdvent.challenges.title"),
+          text: [t("veganAdvent.challenges.text.0"), t("veganAdvent.challenges.text.1")],
+          image: veganAdventMockups,
         },
       ],
     },
@@ -517,7 +529,7 @@ export const skillsData = [
   "Figma",
   "HTML",
   "CSS",
-  "Tailwind",
+  "Tailwind CSS",
   "JavaScript",
   "TypeScript",
   "React",

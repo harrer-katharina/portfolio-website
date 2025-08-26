@@ -33,7 +33,8 @@
         "text": [
           "Für Dr. Dietmar Weidlich wurde eine Website entwickelt, die ihn und seine berufliche Expertise auch nach dem Ausscheiden aus dem aktiven Notardienst professionell präsentiert. Als Notar a. D. bleibt Dr. Weidlich weiterhin fachlich aktiv – etwa durch Notarvertretungen, Publikationen, Fachbeiträge und seine Vortragstätigkeit. Die Website richtet sich daher nicht an klassische Mandant*innen, sondern vor allem an Veranstalter*innen die ihn als Referenten anfragen möchten.",
           "Die Inhalte wurden so aufgebaut, dass sie bereits während der aktiven Notartätigkeit genutzt werden konnten, aber zum geplanten Ruhestand Ende Juli 2025 flexibel anpassbar waren."
-        ]
+        ],
+        "cta": "Website ansehen"
       },
       "features": {
         "title": "Die Funktionalitäten",
@@ -259,30 +260,46 @@
     "veganAdvent": {
       "description": "Digitaler Adventskalender mit wertvollen Tipps und Infos für ein veganes Leben.",
       "date": "Okt 2024",
-      "type": "Appdesign, Webentwicklung",
+      "type": "UI-Design, Webentwicklung",
       "duration": "2 Wochen",
+      "background": {
+        "title": "Hintergrund",
+        "text": [
+          "Dieses sogenannte Print2Mobile-Projekt wurde im Rahmen des Masterstudiengangs Interactive Technologies an der FH St. Pölten umgesetzt. Ziel war es, Nutzer*innen von einem physischen Medium mithilfe eines QR-Codes nahtlos in die digitale Welt zu begleiten.",
+          "Besonders wichtig ist dabei die Einhaltung bestimmter Gestaltungs- und Usability-Regeln, damit der Übergang verständlich, niederschwellig und für alle Endgeräte geeignet ist. Mein Ansatz war es, dieses Konzept in Form eines digitalen Adventskalenders umzusetzen."
+        ],
+        "cta": "Web-App ansehen"
+      },
       "project": {
         "title": "Das Projekt",
         "text": [
-          "Die Idee für diesen Adventskalender war es, jeden Tag im Dezember eine neue Information oder einen hilfreichen Tipp zum Thema Veganismus zu präsentieren. Dabei habe ich bewusst auf die Funktion verzichtet, den aktuellen Tag zu überprüfen, damit die Inhalte der Webseite im Rahmen des 'Print to Mobile' Projekts meiner Masterklasse an der FH St. Pölten immer zugänglich sind. Mein Ziel ist es, nicht nur Rezepte zu teilen, sondern auch das Bewusstsein für die Vorteile eines veganen Lebensstils zu stärken."
-        ],
-        "cta": "App ansehen"
+          "Die Idee des Adventskalenders war es, vom 1. bis 24. Dezember jeden Tag einen Tipp oder eine Information rund um das Thema Veganismus bereitzustellen. Anders als bei klassischen Adventskalendern habe ich bewusst darauf verzichtet, den Zugriff auf einzelne Tage zu beschränken. So bleiben die Inhalte im Sinne der Lehrveranstaltung jederzeit verfügbar, da Nutzer*innen unabhängig vom Datum auf alle Inhalte zugreifen können.",
+          "Ziel des Projekts war es, nicht nur Rezepte zu teilen, sondern auch das Bewusstsein für die Vorteile eines veganen Lebensstils zu fördern und leicht verständliche Informationen zu vermitteln."
+        ]
       },
       "poster": {
         "title": "Das Poster",
         "text": [
-          "Zusätzlich gibt es ein Poster, auf dem insgesamt 24 nummerierte QR-Codes abgebildet sind. Jeden Tag im Dezember kann der QR-Code des aktuellen Tages eingescannt werden, um direkt zum jeweiligen Türchen zu gelangen."
+          "Kernstück des Print-Teils ist ein Poster, auf dem 24 nummerierte QR-Codes abgebildet sind. Durch das Scannen eines Codes gelangt man direkt zum jeweiligen Türchen im digitalen Adventskalender.",
+          "Alternativ zum Poster lassen sich die Codes auch ausschneiden und individuell in einen physischen Adventskalender integrieren."
         ],
         "cta": "Poster ansehen"
       },
       "implementation": {
         "title": "Die Umsetzung",
         "text": [
-          "Für die Erstellung der Webapplikation habe ich React und Tailwind CSS verwendet. Das interaktive Säulendiagramm in Türchen 2 habe ich mit ApexCharts erstellt.",
-          "Auf der Website können Nutzer*innen zwischen Light Mode, Dark Mode und dem systemweiten Anzeigemodus wechseln. Dabei ändern sich auch die Farben des SVGs auf der Startseite entsprechend.",
-          "Weitere Informationen zum Projekt sowie den kommentierten Quellcode meiner umgesetzten Komponenten findest du auf GitHub."
+          "Die Webanwendung wurde mit React und Tailwind CSS entwickelt. Für Türchen 2 habe ich ein interaktives Diagramm mit ApexCharts eingebunden.",
+          "Darüber hinaus bietet die App einen Light/Dark/System-Mode, der sich an den Einstellungen des Betriebssystems orientiert und im Local Storage gespeichert wird. Nicht nur Hintergrund- und Textfarben, sondern auch die SVG-Grafik auf der Startseite passen sich dynamisch an den gewählten Modus an.",
+          "Weitere Informationen zum Projekt und den Quellcode findest du auf GitHub."
         ],
         "cta": "GitHub-Repo ansehen"
+      },
+      "challenges": {
+        "title": "Die Herausforderungen",
+        "text": [
+          "Besonders spannend war, dass ich im Rahmen dieses Projekts erstmals mit Tailwind CSS gearbeitet habe. Der Einstieg war erstaunlich einfach, und die Arbeit mit Variablen insbesondere für Dark- und Light-Mode hat mir sehr gefallen. Auch die Implementierung des Themeswitchers war eine neue Erfahrung, die sich als unkompliziert und zugleich lehrreich herausgestellt hat.",
+          "Eine weitere Herausforderung bestand darin, die „10 Regeln für QR-Codes“ einzuhalten. Außerdem war das Generieren von 24 individuellen QR-Codes für das Poster aufwendig, dennoch hat mich die Idee überzeugt, da dadurch ein direkter und spielerischer Zugang zur Web-App ermöglicht wird."
+        ]
       }
     },
     "trilum": {

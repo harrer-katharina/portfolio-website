@@ -33,7 +33,8 @@
         "text": [
           "A website was developed for Dr. Dietmar Weidlich to professionally showcase his expertise even after retiring from active notary service. As a retired notary, Dr. Weidlich continues to be professionally active – offering notary representations, publishing legal texts, and speaking at events.",
           "The website is not intended for acquiring new clients, but rather addresses event organizers interested in booking him as a speaker. The content was designed to be usable during his active service and easily adaptable for his retirement starting end of July 2025."
-        ]
+        ],
+        "cta": "View Website"
       },
       "features": {
         "title": "Key Features",
@@ -259,30 +260,46 @@
     "veganAdvent": {
       "description": "Digital advent calendar with valuable tips and information for a vegan lifestyle.",
       "date": "Oct 2024",
-      "type": "App Design, Web Development",
+      "type": "UI-Design, Web Development",
       "duration": "2 weeks",
+      "background": {
+        "title": "Background",
+        "text": [
+          "This so-called Print2Mobile project was carried out as part of the Master's degree program Interactive Technologies at FH St. Pölten. The goal was to seamlessly guide users from a physical medium into the digital world with the help of a QR code.",
+          "Particularly important here is compliance with certain design and usability rules to ensure that the transition is clear, accessible, and suitable for all devices. My approach was to implement this concept in the form of a digital advent calendar."
+        ],
+        "cta": "View Web App"
+      },
       "project": {
         "title": "The Project",
         "text": [
-          "The idea behind this advent calendar was to present new information or helpful tips about veganism each day in December. I intentionally chose not to include a feature that checks the current day, ensuring that the website's content is always accessible as part of the 'Print to Mobile' project for my master's program at FH St. Pölten. My goal was not only to share recipes but also to raise awareness of the benefits of a vegan lifestyle."
-        ],
-        "cta": "View App"
+          "The idea behind the Advent calendar was to provide a daily tip or piece of information about veganism from December 1st to 24th. Unlike traditional advent calendars, I deliberately chose not to restrict access to individual days. This way, the content remains available at all times in line with the course requirements, since users can access all content regardless of the date.",
+          "The goal of the project was not only to share recipes, but also to raise awareness of the benefits of a vegan lifestyle and to provide easy-to-understand information."
+        ]
       },
       "poster": {
         "title": "The Poster",
         "text": [
-          "Additionally, there is a poster with 24 numbered QR codes. Each day in December, users can scan the QR code for the respective day to access the corresponding advent door."
+          "The centerpiece of the print part is a poster showing 24 numbered QR codes. By scanning one of the codes, users are taken directly to the corresponding door in the digital advent calendar.",
+          "As an alternative to the poster, the codes can also be cut out and individually integrated into a physical advent calendar."
         ],
         "cta": "View Poster"
       },
       "implementation": {
-        "title": "The Implementation",
+        "title": "Implementation",
         "text": [
-          "I developed the web application using React and Tailwind CSS. The interactive bar chart in door 2 was created with ApexCharts.",
-          "On the website, users can switch between Light Mode, Dark Mode, and the system’s default display mode. The colors of the SVG on the homepage also adapt to the selected mode.",
-          "More information about the project and the commented source code for my implemented components can be found on GitHub."
+          "The web application was developed with React and Tailwind CSS. For door 2, I integrated an interactive chart using ApexCharts.",
+          "In addition, the app offers a Light/Dark/System mode that adapts to the operating system settings and is stored in Local Storage. Not only background and text colors, but also the SVG graphic on the homepage dynamically adjust to the selected mode.",
+          "Further information about the project and the source code can be found on GitHub."
         ],
         "cta": "View GitHub Repo"
+      },
+      "challenges": {
+        "title": "Challenges",
+        "text": [
+          "What was particularly exciting was that I worked with Tailwind CSS for the first time in this project. Getting started was surprisingly easy, and I really enjoyed working with variables, especially for Dark and Light mode. Implementing the theme switcher was also a new experience that turned out to be straightforward yet instructive.",
+          "Another challenge was to follow the '10 rules for QR codes'. In addition, generating 24 individual QR codes for the poster was time-consuming. Nevertheless, I was convinced by the idea, as it provides a direct and playful access to the web app."
+        ]
       }
     },
     "trilum": {
