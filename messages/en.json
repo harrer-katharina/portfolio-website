@@ -14,8 +14,8 @@
   },
   "About": {
     "title": "About Me",
-    "description": "During my Bachelor's degree in Media Informatics at TH Nürnberg, I gained a strong foundation in computer science and digital media. After graduating, I wanted to further specialize in web development, which led me to pursue a Master's degree in Interactive Technologies with a focus on Mobile at FH St. Pölten. My main focus is on understanding user experience (UX) and translating it into user-centered designs. I am currently looking for a part-time position to further develop my technical skills and deepen my interest in UI design.",
-    "hobbies": "In my free time, I am committed to sustainability and enjoy vegan cooking and baking. I love being in nature — whether hiking in the mountains, road cycling, or bikepacking to discover new places and countries. Last year, for example, I cycled from Roth to Budapest and explored Denmark and Sweden."
+    "description": "During my Bachelor's degree in Media Informatics at TH Nürnberg, I gained a strong foundation in computer science and digital media. After graduating, I wanted to further specialize in web development, which led me to pursue a Master's degree in Interactive Technologies with a focus on Mobile at FH St. Pölten. My main focus is on understanding user experience (UX) and translating it into user-centered designs.",
+    "hobbies": "In my free time, I like to explore topics around sustainability and enjoy trying out new vegan recipes. I love spending time outdoors – whether it’s running, hiking in the mountains, cycling, or going on bikepacking trips to discover new places and countries. Last year, for example, I cycled from Roth to Budapest and also explored Denmark and Sweden. For me, it’s the perfect way to leave everyday life behind and dive into new adventures."
   },
   "Projects": {
     "title": "My Projects",
@@ -280,7 +280,7 @@
       "poster": {
         "title": "The Poster",
         "text": [
-          "The centerpiece of the print part is a poster showing 24 numbered QR codes. By scanning one of the codes, users are taken directly to the corresponding door in the digital advent calendar.",
+          "The centerpiece of the Print2Mobile project is a poster showing 24 numbered QR codes. By scanning one of the codes, users are taken directly to the corresponding door in the digital advent calendar.",
           "As an alternative to the poster, the codes can also be cut out and individually integrated into a physical advent calendar."
         ],
         "cta": "View Poster"
@@ -295,7 +295,7 @@
         "cta": "View GitHub Repo"
       },
       "challenges": {
-        "title": "Challenges",
+        "title": "Learnings",
         "text": [
           "What was particularly exciting was that I worked with Tailwind CSS for the first time in this project. Getting started was surprisingly easy, and I really enjoyed working with variables, especially for Dark and Light mode. Implementing the theme switcher was also a new experience that turned out to be straightforward yet instructive.",
           "Another challenge was to follow the '10 rules for QR codes'. In addition, generating 24 individual QR codes for the poster was time-consuming. Nevertheless, I was convinced by the idea, as it provides a direct and playful access to the web app."

@@ -14,8 +14,8 @@
   },
   "About": {
     "title": "Über mich",
-    "description": "Während meines Bachelorstudiums in Medieninformatik an der TH Nürnberg konnte ich fundierte Kenntnisse in Informatik und digitalen Medien erwerben. Nach dem Abschluss wollte ich mich stärker in Richtung Webentwicklung weiterbilden, weshalb ich mich für den Masterstudiengang Interactive Technologies mit dem Schwerpunkt Mobile an der FH St. Pölten entschieden habe. Mein Fokus liegt darauf, die Benutzererfahrung (UX) zu verstehen und in benutzerzentrierte Designs umzusetzen. Aktuell bin ich auf der Suche nach einer Teilzeitstelle, um meine technischen Fähigkeiten sowie mein Interesse an UI-Design weiter auszubauen.",
-    "hobbies": "In meiner Freizeit interessiere ich mich für Nachhaltigkeit und genieße das vegane Kochen und Backen. Ich bin gerne in der Natur unterwegs – sei es beim Wandern in den Bergen, Rennradfahren oder Bikepacking, um neue Orte und Länder zu entdecken. Letztes Jahr habe ich beispielsweise mit dem Rad die Strecke von Roth nach Budapest zurückgelegt und Dänemark sowie Schweden erkundet."
+    "description": "Während meines Bachelorstudiums in Medieninformatik an der TH Nürnberg konnte ich fundierte Kenntnisse in Informatik und digitalen Medien erwerben. Nach dem Abschluss wollte ich mich stärker in Richtung Webentwicklung weiterbilden, weshalb ich mich für den Masterstudiengang Interactive Technologies mit dem Schwerpunkt Mobile an der FH St. Pölten entschieden habe. Mein Fokus liegt darauf, die Benutzererfahrung (UX) zu verstehen und in benutzerzentrierte Designs umzusetzen.",
+    "hobbies": "In meiner Freizeit setze ich mich mit Nachhaltigkeit auseinander und probiere gerne neue vegane Rezepte aus. Am liebsten bin ich draußen unterwegs – beim Joggen, Wandern in den Bergen, auf dem Rennrad oder beim Bikepacking, um neue Orte und Länder zu entdecken. So habe ich im letzten Jahr etwa die Strecke von Roth nach Budapest mit dem Rad zurückgelegt und zudem Dänemark und Schweden erkundet. Für mich die ideale Möglichkeit, den Alltag hinter mir zu lassen und neue Abenteuer zu erleben."
   },
   "Projects": {
     "title": "Meine Projekte",
@@ -280,7 +280,7 @@
       "poster": {
         "title": "Das Poster",
         "text": [
-          "Kernstück des Print-Teils ist ein Poster, auf dem 24 nummerierte QR-Codes abgebildet sind. Durch das Scannen eines Codes gelangt man direkt zum jeweiligen Türchen im digitalen Adventskalender.",
+          "Kernstück des Print2Mobile-Projekts ist ein Poster, auf dem 24 nummerierte QR-Codes abgebildet sind. Durch das Scannen eines Codes gelangt man direkt zum jeweiligen Türchen im digitalen Adventskalender.",
           "Alternativ zum Poster lassen sich die Codes auch ausschneiden und individuell in einen physischen Adventskalender integrieren."
         ],
         "cta": "Poster ansehen"
@@ -295,7 +295,7 @@
         "cta": "GitHub-Repo ansehen"
       },
       "challenges": {
-        "title": "Die Herausforderungen",
+        "title": "Die Learnings",
         "text": [
           "Besonders spannend war, dass ich im Rahmen dieses Projekts erstmals mit Tailwind CSS gearbeitet habe. Der Einstieg war erstaunlich einfach, und die Arbeit mit Variablen insbesondere für Dark- und Light-Mode hat mir sehr gefallen. Auch die Implementierung des Themeswitchers war eine neue Erfahrung, die sich als unkompliziert und zugleich lehrreich herausgestellt hat.",
           "Eine weitere Herausforderung bestand darin, die „10 Regeln für QR-Codes“ einzuhalten. Außerdem war das Generieren von 24 individuellen QR-Codes für das Poster aufwendig, dennoch hat mich die Idee überzeugt, da dadurch ein direkter und spielerischer Zugang zur Web-App ermöglicht wird."

@@ -29,7 +29,7 @@ export default function About() {
         <div className="xl:w-1/2 leading-relaxed text-center text-justify hyphens-auto md:text-left">
           <Transition
             viewport={{ once: true }}
-            className="md:text-4xl tracking-tighter"
+            className="md:text-4xl"
             onMouseEnter={mouseEnter}
             onMouseLeave={mouseLeave}
           >
