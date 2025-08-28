@@ -270,7 +270,44 @@
         "title": "Learnings",
         "text": [
           "Through this project I was able to deepen my knowledge of Vue.js and gain a stronger understanding of how frontend and backend interact. Working with external APIs such as Google Maps and the PokéAPI was also an exciting experience.",
-          "On top of that, I gained valuable practical experience in team collaboration and version control with Git. Overall, the project was a rewarding combination of technical learning and creative implementation."
+          "On top of that, I gained valuable practical experience in team collaboration and version control with Git. Overall, the project was a rewarding combination of technical learning and creative implementation.",
+          "Disclaimer: All Pokémon shown in this project belong to their respective rights holders (Nintendo, Game Freak, Creatures) and are used here solely for demonstration purposes as part of a study project."
+        ]
+      }
+    },
+    "museumverse": {
+      "description": "Audio guide app that uses AI to create personalized and dynamically generated museum experiences.",
+      "date": "Oct 2024 – Apr 2025",
+      "type": "Business Planning, UI Design",
+      "duration": "7 months",
+      "project": {
+        "title": "The Project",
+        "text": [
+          "As part of the master’s course in Business Planning, I worked with four fellow students to develop a complete business plan. The goal was to design an innovative business idea and demonstrate its feasibility through a proof of concept.",
+          "Our idea was an audio guide app that uses artificial intelligence to enable personalized and dynamically generated museum experiences. With our app MuseumVerse, museums can be experienced digitally."
+        ]
+      },
+      "idea": {
+        "title": "The Idea",
+        "text": [
+          "The key feature of the app is hyper-personalization, ensuring that every museum visitor receives tailored audio guide content in real time, which continuously adapts to visitor behavior throughout the museum tour.",
+          "The onboarding begins with a short interactive questionnaire that captures interests, goals, and demographic data to create a visitor profile. Based on this, a personalized audio guide and a matching tour are generated – making each museum visit a unique experience.",
+          "Another feature is interactivity, enabled through a chat function. Visitors can engage in playful and informative dialogues not only with the narrator of the guide, but also with artists or even with the exhibits themselves."
+        ]
+      },
+      "poc": {
+        "title": "The Proof of Concept",
+        "text": [
+          "During the project, we had regular mentoring sessions where we received feedback on our business idea and refined our strategy. In addition, we pitched our idea several times in front of a jury – a valuable exercise in presenting complex content concisely and responding convincingly to critical questions.",
+          "To make the idea tangible, a teammate and I developed an interactive Figma prototype. It showcases the onboarding with questionnaire, the generation of individual tours, the chat function, and the personalized presentation of exhibits including additional information."
+        ],
+        "cta": "View Prototype"
+      },
+      "learnings": {
+        "title": "The Learnings",
+        "text": [
+          "Through this project, I gained insights into creating business plans and, for the first time, approached a product from a business perspective. This included considering how it could become financially profitable, which business models might apply, and which subplans (e.g., personnel, finance, sales planning, as well as profit and loss statement) make up a complete business plan.",
+          "The project showed me the importance of thinking about technical feasibility, user experience, and economic viability together."
         ]
       }
     },

@@ -1,11 +1,3 @@
-import pgmon from "@/public/pgmon/pgmon-pikachu-app.webp";
-import pgmonMockup from "@/public/pgmon/pgmon-preview.webp";
-import pgmonLoadingBall from "@/public/pgmon/pgmon-loadingball.webp";
-import pgmonMareep from "@/public/pgmon/pgmon-mareep.webp";
-import pgmonOcillery from "@/public/pgmon/pgmon-octillery.webp";
-import pgmonPikachu from "@/public/pgmon/pgmon-pikachu.webp";
-import pgmonRegister from "@/public/pgmon/pgmon-register.webp";
-
 import weidlich from "@/public/dr-weidlich/website-preview.webp";
 import weidlichBusinessCards from "@/public/dr-weidlich/business-cards.webp";
 import weidlichWebsiteMockup from "@/public/dr-weidlich/website-mockup.webp";
@@ -43,7 +35,22 @@ import erikaScreens from "@/public/erika/erika-mockup-screens.webp";
 import erikaLogo from "@/public/erika/erika-logo.webp";
 import erikaPrototype from "@/public/erika/erika-prototype.webp";
 
-import ecocalypse from "@/public/ecocalypse/ecocalypse-scene-desk.webp";
+import pgmon from "@/public/pgmon/pgmon-app.webp";
+import pgmonMockup from "@/public/pgmon/pgmon-preview.webp";
+import pgmonLoadingBall from "@/public/pgmon/pgmon-loadingball.webp";
+import pgmonMareep from "@/public/pgmon/pgmon-mareep.webp";
+import pgmonOcillery from "@/public/pgmon/pgmon-octillery.webp";
+import pgmonPikachu from "@/public/pgmon/pgmon-pikachu.webp";
+import pgmonRegister from "@/public/pgmon/pgmon-register.webp";
+
+import museumverse from "@/public/museumVerse/museumverse-lady-jane.webp";
+import museumverseMockup from "@/public/museumVerse/museumverse-preview.webp";
+import museumverseAudioGuide from "@/public/museumVerse/museumverse-audioguide.webp";
+import museumverseDelaroche from "@/public/museumVerse/museumverse-paul-delaroche.webp";
+import museumverseTour from "@/public/museumVerse/museumverse-tour.webp";
+import museumverseOnboarding from "@/public/museumVerse/museumverse-onboarding.webp";
+
+import ecocalypse from "@/public/ecocalypse/ecocalypse-scene-desk.webp"; 
 import ecocalypsePreview from "@/public/ecocalypse/ecocalypse-preview.webp"
 import ecocalypseEntrance from "@/public/ecocalypse/ecocalypse-scene-entrance.webp";
 import ecocalypsePoster from "@/public/ecocalypse/ecocalypse-natures-revenge-poster.webp";
@@ -443,8 +450,46 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
         },
         {
           title: t("pgmon.learnings.title"),
-          text: [t("pgmon.learnings.text.0"), t("pgmon.learnings.text.1")],
+          text: [t("pgmon.learnings.text.0"), t("pgmon.learnings.text.1"), t("pgmon.learnings.text.2")],
           image: pgmonLoadingBall,
+        },
+      ]
+    },
+    {
+      projectId: "museumverse",
+      title: "MuseumVerse",
+      showTitle: true,
+      date: t("museumverse.date"),
+      type: t("museumverse.type"),
+      duration: t("museumverse.duration"),
+      description: t("museumverse.description"),
+      tags: ["Figma"],
+      image: museumverse,
+      sectionImage: museumverseMockup,
+      sections: [
+        {
+          title: t("museumverse.project.title"),
+          text: [t("museumverse.project.text.0"), t("museumverse.project.text.1")],
+          image: museumverseAudioGuide,
+        },
+        {
+          title: t("museumverse.idea.title"),
+          text: [t("museumverse.idea.text.0"), t("museumverse.idea.text.1"), t("museumverse.idea.text.2")],
+          image: museumverseDelaroche,
+        },
+        {
+          title: t("museumverse.poc.title"),
+          text: [t("museumverse.poc.text.0"), t("museumverse.poc.text.1")],
+          image: museumverseTour,
+          cta: {
+            title: t("museumverse.poc.cta"),
+            link: "https://www.figma.com/proto/292flCMtEB5hhqUMwXY16V/Portfolio?page-id=323%3A1929&node-id=323-5616&p=f&viewport=-4591%2C-3600%2C0.5&t=oOEA1BM1K6WuFM3e-9&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=323%3A5574"
+          }
+        },
+        {
+          title: t("museumverse.learnings.title"),
+          text: [t("museumverse.learnings.text.0"), t("museumverse.learnings.text.1")],
+          image: museumverseOnboarding,
         },
       ]
     },

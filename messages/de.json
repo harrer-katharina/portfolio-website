@@ -270,7 +270,44 @@
         "title": "Die Learnings",
         "text": [
           "Durch das Projekt konnte ich meine Kenntnisse in Vue.js vertiefen und habe ein besseres Verständnis für das Zusammenspiel von Frontend und Backend gewonnen. Auch der Umgang mit externen APIs, wie Google Maps und der PokéAPI, war eine spannende Erfahrung.",
-          "Darüber hinaus habe ich wertvolle Praxiserfahrung in der Teamorganisation mit Git gesammelt. Insgesamt war das Projekt eine gelungene Mischung aus technischer Weiterbildung und kreativer Umsetzung."
+          "Darüber hinaus habe ich wertvolle Praxiserfahrung in der Teamorganisation mit Git gesammelt. Insgesamt war das Projekt eine gelungene Mischung aus technischer Weiterbildung und kreativer Umsetzung.",
+          "Disclaimer: Alle in diesem Projekt gezeigten Pokémon gehören ihren jeweiligen Rechteinhabern (Nintendo, Game Freak, Creatures) und werden hier ausschließlich zu Demonstrationszwecken im Rahmen eines Studienprojekts verwendet."
+        ]
+      }
+    },
+    "museumverse": {
+      "description": "Audioguide-App, die durch den Einsatz von KI personalisierte und dynamisch generierte Museumerlebnisse ermöglicht.",
+      "date": "Okt 2024 - Apr 2025",
+      "type": "Businessplanung, UI-Design",
+      "duration": "7 Monate",
+      "project": {
+        "title": "Das Projekt",
+        "text": [
+          "Im Rahmen des Masterkurses Businessplanung habe ich gemeinsam mit vier Kommiliton*innen einen vollständigen Businessplan entwickelt. Ziel war es, eine innovative Geschäftsidee zu entwerfen und deren Umsetzbarkeit durch einen Proof of Concept aufzuzeigen.",
+          "Unsere Idee war eine Audioguide-App, die durch den Einsatz von Künstlicher Intelligenz personalisierte und dynamisch generierte Museumerlebnisse ermöglicht. Mit unserer App MuseumVerse sollen Museen digital erlebbar gemacht werden."
+        ]
+      },
+      "idea": {
+        "title": "Die Idee",
+        "text": [
+          "Das zentrale Merkmal der App ist die Hyperpersonalisierung, die dafür sorgt, dass jede*r Museumsbesucher*in maßgeschneiderte Audioguide-Inhalte in Echtzeit erhält, die sich auch im Laufe des Museumsbesuchs an das Besucher*innenverhalten anpasst.",
+          "Der Einstieg erfolgt über einen kurzen interaktiven Fragebogen, der Interessen, Ziele und demographische Daten erfasst und daraus ein Besucher*innenprofil erstellt. Auf dieser Basis wird ein persönlicher Audioguide samt passendem Rundgang generiert – so wird jeder Museumsbesuch zu einem einzigartigen Erlebnis.",
+          "Ein weiteres Merkmal ist die Interaktivität, die über eine Chatfunktion ermöglicht wird. Besucher*innen können damit nicht nur mit dem*der Erzähler*in des Guides, sondern auch mit Künstler*innen oder sogar mit den Exponaten selbst in einen spielerisch-informativen Dialog treten."
+        ]
+      },
+      "poc": {
+        "title": "Das Proof of Concept",
+        "text": [
+          "Während des Projekts hatten wir regelmäßige Mentoring-Gespräche, in denen wir Feedback zu unserer Geschäftsidee erhielten und unsere Strategie weiterentwickeln konnten. Zusätzlich stellten wir unsere Idee in mehreren Pitches vor einer Jury vor – eine wertvolle Übung, um komplexe Inhalte prägnant zu präsentieren und auf kritische Nachfragen überzeugend zu reagieren.",
+          "Um die Idee greifbar zu machen, entwickelten eine Teamkollegin und ich einen interaktiven Figma-Prototypen. Dieser zeigt exemplarisch das Onboarding mit Fragebogen, die Generierung individueller Rundgänge, die Chat-Funktion, sowie die personalisierte Darstellung von Exponaten mitsamt Zusatzinformationen."
+        ],
+        "cta": "Prototyp ansehen"
+      },
+      "learnings": {
+        "title": "Die Learnings",
+        "text": [
+          "Durch das Projekt konnte ich Einblicke in die Erstellung von Businessplänen gewinnen und habe mich zum ersten Mal aus einer Business-Perspektive mit einem Produkt auseinandergesetzt. Also damit, wie es finanziell profitabel werden kann, welche Geschäftsmodelle in Frage kommen und welche Teilpläne (z. B. Personal-, Finanz- oder Absatzplanung sowie Gewinn- und Verlustrechnung) ein vollständiger Businessplan umfasst.",
+          "Das Projekt hat mir gezeigt, wie wichtig es ist, technische Machbarkeit, Nutzer*innenerlebnis und wirtschaftliche Tragfähigkeit gemeinsam zu denken."
         ]
       }
     },     
