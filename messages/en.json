@@ -232,6 +232,48 @@
         ]
       }
     },
+    "pgmon": {
+      "description": "Community app for sharing Pokémon sightings with map view and playful UI elements.",
+      "date": "Oct 2023 – Jan 2024",
+      "type": "Full-Stack Development, UI Design",
+      "duration": "4 months",
+      "project": {
+        "title": "The Project",
+        "text": [
+          "As part of my first Master’s semester, I developed a web application together with two fellow students in the courses Advanced Web Programming and Business Application Development. The project, called PGMon+ (Pokémon GO Monitor Add), serves as a playful extension to the popular Pokémon GO app.",
+          "The goal was to allow players to share Pokémon sightings via an interactive map, making it easier for others to find them. While some core features were predefined, we had creative freedom to extend the functionality on both the frontend and backend."
+        ]
+      },
+      "features": {
+        "title": "Features",
+        "text": [
+          "The application enables users to log Pokémon sightings on a map and view the findings of other players nearby. A registered account is required for submitting entries, while the overview map remains accessible to everyone.",
+          "In addition, the app includes user management as well as light and dark mode. By combining Material Design Lite with custom components, we created a modern and intuitive interface."
+        ]
+      },
+      "implementation": {
+        "title": "Technical Implementation",
+        "text": [
+          "The frontend was developed with Vue.js and built using Vite. Pinia was used for global state management.",
+          "The backend is based on Spring Boot and provides a REST API that handles all user, login, and sighting data. Communication between frontend and backend is managed via Axios.",
+          "Furthermore, Maven was used as the build tool and JUnit for automated testing."
+        ]
+      },
+      "role": {
+        "title": "My Role in the Project",
+        "text": [
+          "In addition to implementing several backend endpoints, I was mainly responsible for integrating Google Maps, implementing snackbar notifications and input validations, as well as developing custom input components. I also ensured a fully responsive design throughout the application.",
+          "Creative additions such as an animated 'PokeSpinner' loading indicator or playful feedback in the registration form – featuring the Pokémon 'Diglett' emerging from the ground upon correct password input – added unique character to the app. These features made the application not only functional, but also engaging and highly user-friendly."
+        ]
+      },
+      "learnings": {
+        "title": "Learnings",
+        "text": [
+          "Through this project I was able to deepen my knowledge of Vue.js and gain a stronger understanding of how frontend and backend interact. Working with external APIs such as Google Maps and the PokéAPI was also an exciting experience.",
+          "On top of that, I gained valuable practical experience in team collaboration and version control with Git. Overall, the project was a rewarding combination of technical learning and creative implementation."
+        ]
+      }
+    },
     "veganAdvent": {
       "description": "Digital advent calendar with valuable tips and information for a vegan lifestyle.",
       "date": "Oct 2024",

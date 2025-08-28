@@ -232,6 +232,48 @@
         ]
       }
     },
+    "pgmon": {
+      "description": "Community-App für Pokémon-Sichtungen mit Kartenansicht und spielerischen Elementen.",
+      "date": "Okt 2023 - Jan 2024",
+      "type": "Full-Stack-Entwicklung, UI-Design",
+      "duration": "4 Monate",
+      "project": {
+        "title": "Das Projekt",
+        "text": [
+          "Im Rahmen meines ersten Mastersemesters habe ich in zwei Lehrveranstaltungen – Advanced Web Programming und Business Application Development – gemeinsam mit zwei Kommiliton*innen eine Webanwendung entwickelt. Das Projekt trägt den Namen PGMon+ (Pokémon GO Monitor Add) und dient als spielerische Erweiterung für die beliebte Pokémon GO App. ",
+          "Ziel war es, Pokémon-Sichtungen über eine interaktive Karte zu teilen und so anderen Spieler*innen die Suche zu erleichtern. Während ein Teil der Funktionen bereits vorgegeben war, konnten wir sowohl im Backend als auch im Frontend kreativ werden und eigene Ideen einbringen."
+        ]
+      },
+      "features": {
+        "title": "Die Features",
+        "text": [
+          "Die Anwendung ermöglicht es Nutzer*innen, Pokémon-Sichtungen auf einer Karte einzutragen und die Funde anderer Spieler*innen in der Umgebung einzusehen. Dafür ist ein registrierter Account notwendig, während die Übersichtskarte allen zugänglich bleibt.",
+          "Ergänzend dazu gibt es eine Benutzerverwaltung, sowie einen Light- und Dark-Mode. Durch den Einsatz von Material Design Lite und eigenen Komponenten konnten wir ein modernes, leicht bedienbares Interface gestalten."
+        ]
+      },
+      "implementation": {
+        "title": "Die technische Umsetzung",
+        "text": [
+          "Das Frontend wurde mit Vue.js entwickelt und mithilfe von Vite gebaut. Für das globale State-Management kam Pinia zum Einsatz.",
+          "Das Backend basiert auf Spring Boot und stellt eine REST-API bereit, über die sämtliche Nutzer-, Login- und Sichtungsdaten verarbeitet werden. Die Kommunikation zwischen Frontend und Backend erfolgt über Axios.",
+          "Zusätzlich wurden Maven als Build-Tool und JUnit für automatisierte Tests verwendet."
+        ]
+      },
+      "role": {
+        "title": "Meine Rolle im Projekt",
+        "text": [
+          "Neben der Umsetzung einzelner Backend-Endpoints war ich insbesondere für die Integration von Google Maps, die Implementierung von Snackbar-Meldungen, Validierungen sowie die Entwicklung eigener Input-Komponenten verantwortlich. Darüber hinaus sorgte ich für ein durchgängig responsives Design.",
+          "Kreative Erweiterungen wie ein animierter „PokeSpinner“ als Ladeindikator oder ein verspieltes Feedback im Registrierungsformular – in Form des Pokémons „Digda“, das bei korrekter Passworteingabe aus dem Boden erscheint – verliehen der App zusätzlichen Charakter. Diese Features machten die Anwendung nicht nur funktional, sondern auch einzigartig und besonders nutzerfreundlich."
+        ]
+      },
+      "learnings": {
+        "title": "Die Learnings",
+        "text": [
+          "Durch das Projekt konnte ich meine Kenntnisse in Vue.js vertiefen und habe ein besseres Verständnis für das Zusammenspiel von Frontend und Backend gewonnen. Auch der Umgang mit externen APIs, wie Google Maps und der PokéAPI, war eine spannende Erfahrung.",
+          "Darüber hinaus habe ich wertvolle Praxiserfahrung in der Teamorganisation mit Git gesammelt. Insgesamt war das Projekt eine gelungene Mischung aus technischer Weiterbildung und kreativer Umsetzung."
+        ]
+      }
+    },     
     "veganAdvent": {
       "description": "Digitaler Adventskalender mit wertvollen Tipps und Infos für ein veganes Leben.",
       "date": "Okt 2024",

@@ -1,3 +1,11 @@
+import pgmon from "@/public/pgmon/pgmon-pikachu-app.webp";
+import pgmonMockup from "@/public/pgmon/pgmon-preview.webp";
+import pgmonLoadingBall from "@/public/pgmon/pgmon-loadingball.webp";
+import pgmonMareep from "@/public/pgmon/pgmon-mareep.webp";
+import pgmonOcillery from "@/public/pgmon/pgmon-octillery.webp";
+import pgmonPikachu from "@/public/pgmon/pgmon-pikachu.webp";
+import pgmonRegister from "@/public/pgmon/pgmon-register.webp";
+
 import weidlich from "@/public/dr-weidlich/website-preview.webp";
 import weidlichBusinessCards from "@/public/dr-weidlich/business-cards.webp";
 import weidlichWebsiteMockup from "@/public/dr-weidlich/website-mockup.webp";
@@ -398,6 +406,45 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           className: "bg-[#D1C9BF]",
           image: timeparaboxVernissage,
           imageSize: "60%",
+        },
+      ]
+    },
+    {
+      projectId: "pgmon",
+      title: "PGMon+",
+      showTitle: true,
+      date: t("pgmon.date"),
+      type: t("pgmon.type"),
+      duration: t("pgmon.duration"),
+      description: t("pgmon.description"),
+      tags: ["Vue.js", "Vite", "Java", "Spring Boot"],
+      image: pgmon,
+      sectionImage: pgmonMockup,
+      sections: [
+        {
+          title: t("pgmon.project.title"),
+          text: [t("pgmon.project.text.0"),t("pgmon.project.text.1")],
+          image: pgmonOcillery
+        },
+        {
+          title: t("pgmon.features.title"),
+          text: [t("pgmon.features.text.0"), t("pgmon.features.text.1")],
+          image: pgmonMareep,
+        },
+        {
+          title: t("pgmon.implementation.title"),
+          text: [t("pgmon.implementation.text.0"), t("pgmon.implementation.text.1"), t("pgmon.implementation.text.2")],
+          image: pgmonPikachu,
+        },
+        {
+          title: t("pgmon.role.title"),
+          text: [t("pgmon.role.text.0"), t("pgmon.role.text.1")],
+          image: pgmonRegister,
+        },
+        {
+          title: t("pgmon.learnings.title"),
+          text: [t("pgmon.learnings.text.0"), t("pgmon.learnings.text.1")],
+          image: pgmonLoadingBall,
         },
       ]
     },
