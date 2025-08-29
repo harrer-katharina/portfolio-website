@@ -113,10 +113,21 @@
           "We worked with Scrum to stay organized. Sprint Planning and Sprint Review took place every two weeks during our weekly meetings. We used Jira to create tickets and track their status on the Kanban board."
         ]
       },
+      "wireframes": {
+        "title": "The Wireframes",
+        "text": [
+          "In the first step, low-fidelity wireframes were created to plan the basic structure and user flow of the app.",
+          "These wireframes were later transformed into high-fidelity wireframes and served as the basis for the final app design."
+        ]
+      },
       "collaboration": {
         "title": "Interdisciplinary Collaboration",
         "text": [
-          "We also collaborated with students from other master's programs, including 'Photography' for cocktail, marketing, and portfolio photos, 'Graphic Design' for app design and icons, 'Sound Design' for soundtracks and sound effects for the mini-games, and 'Animation' for a loading animation as well as animations within the mini-games."
+          "We also collaborated with students from other master's programs, including:",
+          "'Photography' for cocktail, marketing and portfolio photos",
+          "'Graphic Design' for app design and icons",
+          "'Sound Design' for soundtracks and sound effects for the mini-games",
+          "'Animation' for a loading animation as well as animations within the mini-games"
         ]
       },
       "myTasks": {

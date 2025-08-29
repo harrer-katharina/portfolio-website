@@ -113,10 +113,21 @@
           "Wir fünf arbeiteten mit Scrum, um uns zu organisieren. Sprint Planning und Sprint Review fanden alle zwei Wochen während unseres wöchentlichen Meetings statt. Wir nutzten Jira, um Tickets zu erstellen und deren Status auf dem Kanban-Board zu verfolgen."
         ]
       },
+      "wireframes": {
+        "title": "Die Wireframes",
+        "text": [
+          "Im ersten Schritt wurden Low-Fidelity-Wireframes erstellt, um die grundlegende Struktur und Benutzerführung der App zu planen.",
+          "Diese Wireframes wurden später in High-Fidelity-Wireframes überführt und dienten als Grundlage für das finale App-Design."
+        ]
+      },
       "collaboration": {
         "title": "Interdisziplinäre Zusammenarbeit",
         "text": [
-          "Wir arbeiteten auch mit Kommiliton*innen aus anderen Masterklassen zusammen, darunter 'Fotografie' für Cocktail-, Marketing- und Portfoliofotos, 'Grafikdesign' für Appdesign und Icons, 'Sound Design' für Soundtracks und Sound Effects für die Minigames und 'Animation' für eine Ladeanimation sowie Animationen innerhalb der Minigames."
+          "Wir arbeiteten auch mit vier Mitstudierenden aus anderen Masterklassen zusammen, darunter:",
+          "'Fotografie' für Cocktail-, Marketing- und Portfoliofotos",
+          "'Grafikdesign' für Appdesign und Icons",
+          "'Sound Design' für Soundtracks und Sound Effects für die Minigames",
+          "'Animation' für eine Ladeanimation sowie Animationen innerhalb der Minigames"
         ]
       },
       "myTasks": {

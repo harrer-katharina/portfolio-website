@@ -22,6 +22,7 @@ import bevrySplash from "@/public/bevry/bevry-cocktail-splash.webp";
 import bevryFeatures from "@/public/bevry/bevry-features.webp";
 import bevryThumbnail from "@/public/bevry/bevry-thumbnail.webp";
 import bevryBranding from "@/public/bevry/bevry-mockup-drucksorten.webp";
+import bevryWireframes from "@/public/bevry/bevry-wireframes.webp";
 import bevryGroup from "@/public/bevry/bevry-group.jpg";
 import bevryCheers from "@/public/bevry/bevry-cheers.webp";
 import bevryScreens from "@/public/bevry/bevry-kathy-politan.webp";
@@ -196,6 +197,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("bevry.project.text.0"), t("bevry.project.text.1")],
           className: "bg-[#FFC38D]",
           image: bevryThumbnail,
+          imageSize: "66%",
           cta: {
             title: t("bevry.project.cta"),
             link: "https://www.bevry.app/"
@@ -212,6 +214,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("bevry.branding.text.0"), t("bevry.branding.text.1")],
           className: "bg-[#FFB084]",
           image: bevryBranding,
+          imageSize: "66%",
           cta: {
             title: t("bevry.branding.cta"),
             link: "https://drive.google.com/file/d/1EBQXIvsGwTVECHbXja0FkFjYMyWmaNPS/view"
@@ -224,22 +227,32 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           image: "",
         },
         {
+          title: t("bevry.wireframes.title"),
+          text: [t("bevry.wireframes.text.0"), t("bevry.wireframes.text.1")],
+          className: "bg-[#FFB889]",
+          image: bevryWireframes,
+          imageSize: "75%",
+        },
+        {
           title: t("bevry.team.title"),
           text: [t("bevry.team.text.0"), t("bevry.team.text.1")],
           className: "bg-[#FB9E8F]",
           image: bevryGroup,
+          imageSize: "55%",
         },
         {
           title: t("bevry.collaboration.title"),
-          text: [t("bevry.collaboration.text.0")],
+          text: [t("bevry.collaboration.text.0"), t("bevry.collaboration.text.1"), t("bevry.collaboration.text.2"), t("bevry.collaboration.text.3"), t("bevry.collaboration.text.4")],
           className: "bg-[#F6938F]",
           image: bevryCheers,
+          imageSize: "66%",
         },  
         {
           title: t("bevry.myTasks.title"),
           text: [t("bevry.myTasks.text.0")],
           className: "bg-[#EF8E99]",
           image: bevryScreens,
+          imageSize: "66%",
           cta: {
             title: t("bevry.myTasks.cta"),
             link: "https://mfg.fhstp.ac.at/allgemein/bevry-semesterprojekt-sose24/"
@@ -286,7 +299,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("erika.sustainability.text.0"), t("erika.sustainability.text.1"),t("erika.sustainability.text.2")],
           className: "bg-[#A9D3CF]",
           image: erikaLogo,
-          imageSize: "1/3",
+          imageSize: "33%",
           cta: {
             title: t("erika.sustainability.cta"),
             link: "https://mfg.fhstp.ac.at/allgemein/sustainable-webdesign/"

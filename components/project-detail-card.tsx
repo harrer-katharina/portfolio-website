@@ -72,7 +72,10 @@ export default function DetailCard({
       className="lg:h-[100vh] flex items-center justify-center lg:sticky lg:top-0"
     >
       <motion.div
-        className={`lg:relative flex flex-col justify-center lg:h-[600px] w-full lg:w-[1200px] rounded-2xl px-3 sm:px-4 py-6 sm:py-8 lg:p-12 shadow-md ${section.className}`}
+        className={clsx(
+          "lg:relative flex flex-col justify-center lg:h-[600px] w-full lg:w-[1200px] rounded-2xl px-3 sm:px-4 py-6 sm:py-8 lg:p-12 shadow-md",
+          section.className
+        )}
         style={{
           scale: isMobile ? 1 : scale,
           top: isMobile ? `` : `calc(-2vh + ${index * 25}px)`,
@@ -96,10 +99,11 @@ export default function DetailCard({
         {section.image !== "" ? (
           <div className="flex flex-col-reverse lg:flex-row items-center lg:mt-0 gap-2 lg:gap-12">
             <div
-              className={clsx(
-                "w-full",
-                section.imageSize ? `lg:w-2/3` : "lg:w-1/2"
-              )}
+              style={{
+                flexBasis: section.imageSize
+                  ? `${100 - parseInt(section.imageSize)}%`
+                  : "50%",
+              }}
               onMouseEnter={mouseEnter}
               onMouseLeave={mouseLeave}
             >
@@ -130,10 +134,8 @@ export default function DetailCard({
             </div>
 
             <div
-              className={clsx(
-                "relative w-full h-full rounded-2xl overflow-hidden flex flex-col justify-center items-center",
-                section.imageSize ? `lg:w-1/3` : "lg:w-1/2"
-              )}
+              className="relative h-full rounded-2xl overflow-hidden flex flex-col justify-center items-center"
+              style={{ flexBasis: section.imageSize ?? "50%" }}
             >
               <motion.div style={{ scale: imageScale }}>
                 <Image
