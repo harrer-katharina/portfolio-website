@@ -73,53 +73,6 @@
         ]
       }
     },
-    "timeParabox": {
-      "description": "Interactive puzzle game with escape-box elements and a time travel theme, controlled by a native app.",
-      "date": "Oct 2024 - Jan 2025",
-      "type": "App Development",
-      "duration": "4 months",
-      "project": {
-        "title": "The Project",
-        "text": [
-          "Time Parabox is an interactive escape-box game that takes players on an exciting time-travel adventure to resolve paradoxes in history. The journey spans five historical eras – Antiquity, the Middle Ages, the Renaissance, the Industrial Revolution, and World War II."
-        ]
-      },
-      "concept": {
-        "title": "The Concept",
-        "text": [
-         "Each era is represented by a physical puzzle box featuring elements such as NFC tags, magnetic locks, 3D-printed models, a rotary knob, servo motor, and LED ring.",
-          "A companion app guides players through the puzzles, connecting the physical components with digital interactions. Each puzzle is thematically aligned with its respective era. The ultimate goal is to solve the puzzles, stabilize the timeline, and save the future."
-        ]
-      },
-      "story": {
-        "title": "The Storyline",
-        "text": [
-          "In a future where time has fallen apart, your future self sends you a mysterious box through a portal. Inside, clues reveal a distorted past—history’s greatest moments have been altered. The steam engine was never invented, Odysseus never returned home. Only you can fix the chaos.",
-          "Guided by messages from your future self, you travel through different eras, solving puzzles and collecting artifacts to restore the correct timeline. But in the end, the greatest revelation awaits: the mysterious person who set you on this journey... is you."
-        ]
-      },
-      "implementation": {
-        "title": "Implementation",
-        "text": [
-          "The development process was structured using agile methodologies. Two-week sprints were organized in Jira, and progress was regularly reviewed in weekly meetings.",
-          "The app was developed using React Native, with React Redux for state management and Expo for simple setup and efficient testing. Communication between the puzzle box and the companion app was facilitated by an ESP microcontroller, which transmitted data via Bluetooth (BLE) between the app and the electronic components of the boxes."
-        ]
-      },
-      "myTasks": {
-        "title": "My Tasks",
-        "text": [
-          "My main responsibility was developing the app using React Native. In addition to general app development, I contributed to the implementation of specific puzzle mechanics.",
-          "For Antiquity, I developed the integration of a digital compass that guided players to help Odysseus find the right path. In the Renaissance era, I implemented an accelerometer mechanic that enabled players to navigate obstacles using Leonardo da Vinci’s flying machine. For the World War II section, I co-designed a puzzle requiring players to decipher Morse codes to obtain the final artifact."
-        ]
-      },
-      "presentation": {
-        "title": "The Presentation",
-        "text": [
-          "Together with a fellow student, I organized the presentation of Time Parabox at the project exhibition of FH St. Pölten. We designed the exhibition booth, created postcards, stickers, flyers, and posters, and developed the logo along with a cohesive corporate design.",
-          "Additionally, we created a social media concept for LinkedIn and Instagram to enhance the project’s visibility. Our goal was to develop a consistent and engaging presentation that sparks curiosity and encourages visitors to experience the game firsthand."
-        ]
-      }
-    },
     "bevry": {
       "description": "Web app for cocktail enthusiasts to discover, share, rate and manage drinks.",
       "date": "Nov 2023 - July 2024",
@@ -220,41 +173,51 @@
         "cta": "View Prototype"
       }
     },
-    "ecocalypse": {
-      "description": "Immersive video game scene focusing on worldbuilding and visual storytelling.",
-      "date": "June 2024",
-      "type": "Game Design, Worldbuilding, and Storytelling",
-      "duration": "1 week",
+    "timeParabox": {
+      "description": "Interactive puzzle game with escape-box elements and a time travel theme, controlled by a native app.",
+      "date": "Oct 2024 - Jan 2025",
+      "type": "App Development",
+      "duration": "4 months",
       "project": {
         "title": "The Project",
         "text": [
-          "In my second master's semester, I participated in a one-week Summer School workshop. I chose Environmental Storytelling, which focused on worldbuilding as well as environmental and visual storytelling.",
-          "The project involved creating a static or interactive immersive video game scene using Unity and pre-made assets. The scene needed to be realistic, visually engaging, and functional for a game environment, with a strong emphasis on applying the principles of environmental storytelling.",
-          "In small teams, we developed Ecocalypse, a game set in 2035 after a climate catastrophe. A year earlier, the entire rainforest had burned down, triggering climate collapse and the breakdown of the global order."
+          "Time Parabox is an interactive escape-box game that takes players on an exciting time-travel adventure to resolve paradoxes in history. The journey spans five historical eras – Antiquity, the Middle Ages, the Renaissance, the Industrial Revolution, and World War II."
+        ]
+      },
+      "concept": {
+        "title": "The Concept",
+        "text": [
+         "Each era is represented by a physical puzzle box featuring elements such as NFC tags, magnetic locks, 3D-printed models, a rotary knob, servo motor, and LED ring.",
+          "A companion app guides players through the puzzles, connecting the physical components with digital interactions. Each puzzle is thematically aligned with its respective era. The ultimate goal is to solve the puzzles, stabilize the timeline, and save the future."
+        ]
+      },
+      "story": {
+        "title": "The Storyline",
+        "text": [
+          "In a future where time has fallen apart, your future self sends you a mysterious box through a portal. Inside, clues reveal a distorted past—history’s greatest moments have been altered. The steam engine was never invented, Odysseus never returned home. Only you can fix the chaos.",
+          "Guided by messages from your future self, you travel through different eras, solving puzzles and collecting artifacts to restore the correct timeline. But in the end, the greatest revelation awaits: the mysterious person who set you on this journey... is you."
         ]
       },
       "implementation": {
-        "title": "The Implementation",
+        "title": "Implementation",
         "text": [
-          "For the implementation of the project, I took on several tasks, including worldbuilding, storytelling, and placing objects in the room, such as the newspaper articles. Additionally, I was responsible for selecting the necessary low-poly assets for Unity.",
-          "When creating the storyline, we paid special attention to integrating behavioral traces, identity claims, and mood modifiers. These elements had to be cohesive to create an immersive experience. Any inconsistencies in the room, lighting, or sound could break the players’ immersion and disrupt the experience."
+          "The development process was structured using agile methodologies. Two-week sprints were organized in Jira, and progress was regularly reviewed in weekly meetings.",
+          "The app was developed using React Native, with React Redux for state management and Expo for simple setup and efficient testing. Communication between the puzzle box and the companion app was facilitated by an ESP microcontroller, which transmitted data via Bluetooth (BLE) between the app and the electronic components of the boxes."
         ]
       },
-      "scene": {
-        "title": "The Scene",
+      "myTasks": {
+        "title": "My Tasks",
         "text": [
-          "The scene is set in a room of an elegant house that was once Joseph’s office. After the unexpected collapse of infrastructure, he barricaded himself there, waiting for the right time to escape to the countryside to reunite with his family.",
-          "The player discovers traces of his daily life and preparations for escape, including personal belongings, notes, and supplies. The room is ransacked and bears the marks of a violent raid in which Joseph was killed for his resources. Now, the intruders are using his supplies, while the room paints a vivid picture of Joseph’s desperate struggle for survival and his tragic demise."
+          "My main responsibility was developing the app using React Native. In addition to general app development, I contributed to the implementation of specific puzzle mechanics.",
+          "For Antiquity, I developed the integration of a digital compass that guided players to help Odysseus find the right path. In the Renaissance era, I implemented an accelerometer mechanic that enabled players to navigate obstacles using Leonardo da Vinci’s flying machine. For the World War II section, I co-designed a puzzle requiring players to decipher Morse codes to obtain the final artifact."
         ]
       },
-      "objects": {
-        "title": "The Objects",
+      "presentation": {
+        "title": "The Presentation",
         "text": [
-          "Carefully placed objects narrate the game's story and provide background context. Newspaper articles on the walls report on the crisis. A family portrait hints at a rural safe haven. A city map highlights Joseph’s planned escape route.",
-          "A wall calendar marks January 2035, showing Joseph’s attempts to keep track of time. His detailed daily routine reflects his struggle against isolation. An unfinished letter to Julia reveals his thoughts and emotions. An ad for H2-NO underscores extreme water scarcity and the world's dire conditions.",
-          "These elements create an immersive scene that effectively applies the principles of environmental storytelling."
-        ],
-        "cta": "View Documentation"
+          "Together with a fellow student, I organized the presentation of Time Parabox at the project exhibition of FH St. Pölten. We designed the exhibition booth, created postcards, stickers, flyers, and posters, and developed the logo along with a cohesive corporate design.",
+          "Additionally, we created a social media concept for LinkedIn and Instagram to enhance the project’s visibility. Our goal was to develop a consistent and engaging presentation that sparks curiosity and encourages visitors to experience the game firsthand."
+        ]
       }
     },
     "veganAdvent": {
@@ -300,6 +263,43 @@
           "What was particularly exciting was that I worked with Tailwind CSS for the first time in this project. Getting started was surprisingly easy, and I really enjoyed working with variables, especially for Dark and Light mode. Implementing the theme switcher was also a new experience that turned out to be straightforward yet instructive.",
           "Another challenge was to follow the '10 rules for QR codes'. In addition, generating 24 individual QR codes for the poster was time-consuming. Nevertheless, I was convinced by the idea, as it provides a direct and playful access to the web app."
         ]
+      }
+    },
+    "ecocalypse": {
+      "description": "Immersive video game scene focusing on worldbuilding and visual storytelling.",
+      "date": "June 2024",
+      "type": "Game Design, Worldbuilding, and Storytelling",
+      "duration": "1 week",
+      "project": {
+        "title": "The Project",
+        "text": [
+          "In my second master's semester, I participated in a one-week Summer School workshop. I chose Environmental Storytelling, which focused on worldbuilding as well as environmental and visual storytelling.",
+          "The project involved creating a static or interactive immersive video game scene using Unity and pre-made assets. The scene needed to be realistic, visually engaging, and functional for a game environment, with a strong emphasis on applying the principles of environmental storytelling.",
+          "In small teams, we developed Ecocalypse, a game set in 2035 after a climate catastrophe. A year earlier, the entire rainforest had burned down, triggering climate collapse and the breakdown of the global order."
+        ]
+      },
+      "implementation": {
+        "title": "The Implementation",
+        "text": [
+          "For the implementation of the project, I took on several tasks, including worldbuilding, storytelling, and placing objects in the room, such as the newspaper articles. Additionally, I was responsible for selecting the necessary low-poly assets for Unity.",
+          "When creating the storyline, we paid special attention to integrating behavioral traces, identity claims, and mood modifiers. These elements had to be cohesive to create an immersive experience. Any inconsistencies in the room, lighting, or sound could break the players’ immersion and disrupt the experience."
+        ]
+      },
+      "scene": {
+        "title": "The Scene",
+        "text": [
+          "The scene is set in a room of an elegant house that was once Joseph’s office. After the unexpected collapse of infrastructure, he barricaded himself there, waiting for the right time to escape to the countryside to reunite with his family.",
+          "The player discovers traces of his daily life and preparations for escape, including personal belongings, notes, and supplies. The room is ransacked and bears the marks of a violent raid in which Joseph was killed for his resources. Now, the intruders are using his supplies, while the room paints a vivid picture of Joseph’s desperate struggle for survival and his tragic demise."
+        ]
+      },
+      "objects": {
+        "title": "The Objects",
+        "text": [
+          "Carefully placed objects narrate the game's story and provide background context. Newspaper articles on the walls report on the crisis. A family portrait hints at a rural safe haven. A city map highlights Joseph’s planned escape route.",
+          "A wall calendar marks January 2035, showing Joseph’s attempts to keep track of time. His detailed daily routine reflects his struggle against isolation. An unfinished letter to Julia reveals his thoughts and emotions. An ad for H2-NO underscores extreme water scarcity and the world's dire conditions.",
+          "These elements create an immersive scene that effectively applies the principles of environmental storytelling."
+        ],
+        "cta": "View Documentation"
       }
     },
     "trilum": {
@@ -373,12 +373,12 @@
       "Final grade: 1.8"
     ],
     "bachelorDate": "10/2018 – 03/2022",
-    "job1Title": "Intern, Research Assistant: Frontend Development",
+    "job1Title": "Frontend Developer: Research Assistant, Intern",
     "job1Location": "Fraunhofer IIS, Supply Chain Services Group, Nürnberg",
     "job1Description": [
       "Completion of a five-month mandatory internship in frontend development.",
       "Subsequent employment as a student research assistant until the end of the bachelor's degree.",
-      "Development of user interfaces with Vue.js, conducting object measurements for a machine learning project, and creating UI prototypes."
+      "Development of user interfaces with Vue.js, conducting object measurements for a machine learning project and creating UI prototypes."
     ],
     "job1Date": "09/2020 – 03/2022",
     "job2Title": "Developer: Frontend - Middleware",
@@ -386,10 +386,10 @@
     "job2Description": [
       "Full-time position (1 year, 5 months) after completing the bachelor's degree.",
       "Part-time employment (1 year, 6 months) during the master's program.",
-      "Development of a web application that allows customers to clearly visualize their consumption and performance data."
+      "Development and Design of a web application that allows customers to clearly visualize their consumption and performance data."
     ],
   "job2Date": "04/2022 – 02/2025",
-    "masterTitle": "Dipl.Ing. Interactive Technologies",
+    "masterTitle": "Dipl.-Ing. Interactive Technologies",
     "masterLocation": "FH St. Pölten, Austria",
     "masterDescription": [
       "Focus: Mobile (web & app development)",

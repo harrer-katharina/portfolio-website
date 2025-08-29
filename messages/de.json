@@ -74,53 +74,6 @@
         ]
       }
     },
-    "timeParabox": {
-      "description": "Interaktives Rätselspiel mit Escape-Box-Elementen und Zeitreise-Thematik, gesteuert durch eine native App.",
-      "date": "Okt 2024 - Jan 2025",
-      "type": "Appentwicklung",
-      "duration": "4 Monate",
-      "project": {
-        "title": "Das Projekt",
-        "text": [
-          "Time Parabox ist ein interaktives Escape-Box-Spiel, das Spieler*innen auf eine spannende Zeitreise schickt, um Paradoxe in der Geschichte zu korrigieren. Die Reise führt durch fünf historische Epochen – Antike, Mittelalter, Renaissance, Industrielle Revolution und den Zweiten Weltkrieg." 
-        ]
-      },
-      "concept": {
-        "title": "Das Konzept",
-        "text": [
-          "Jede Epoche wird durch eine physische Rätselbox repräsentiert, die unter anderem NFC-Tags, Magnetschlösser, 3D-gedruckte Modelle, einen Drehregler, Servomotor und LED-Ring enthält.",
-          "Eine begleitende App führt die Spieler*innen durch die Rätsel und verknüpft die physischen Elemente mit digitalen Interaktionen. Jedes Rätsel ist thematisch auf die jeweilige Epoche abgestimmt. Ziel ist es, durch das Lösen der Rätsel die Zeitlinie zu stabilisieren und die Zukunft zu retten."
-        ]
-      },
-      "story": {
-        "title": "Die Storyline",
-        "text": [
-          "In einer Zukunft, in der die Zeit aus den Fugen geraten ist, schickt dein zukünftiges Ich eine mysteriöse Box durch ein Portal direkt zu dir. In der Box verborgen: Hinweise auf eine verzerrte Vergangenheit. Große Momente der Geschichte wurden verändert – die Dampfmaschine nie erfunden, Odysseus nie heimgekehrt. Nur du kannst das Zeitchaos rückgängig machen.",
-          "Geführt von Nachrichten deines zukünftigen Ichs, reist du durch die Epochen, löst Rätsel und sammelst Artefakte, um die korrekte Timeline wiederherzustellen. Doch am Ende wartet die größte Enthüllung: Die geheimnisvolle Person, die dich auf diese Reise geschickt hat … bist du selbst."
-        ]
-      },
-      "implementation": {
-        "title": "Die Umsetzung",
-        "text": [
-          "Die Entwicklung erfolgte mithilfe agiler Methoden. Zweiwöchige Sprints wurden mit Jira organisiert und der Fortschritt wurde regelmäßig in wöchentlichen Meetings überprüft.",
-          "Die App wurde mit React Native entwickelt, wobei React Redux für die State-Verwaltung und Expo für ein einfaches Setup und effizientes Testing zum Einsatz kamen. Die Kommunikation zwischen der Rätselbox und der begleitenden App wird durch einen ESP-Mikrocontroller ermöglicht, der Daten über Bluetooth (BLE) zwischen der App und den elektronischen Komponenten der Boxen überträgt."
-        ]
-      },
-      "myTasks": {
-        "title": "Meine Aufgaben",
-        "text": [
-          "Meine Hauptverantwortung lag in der Entwicklung der App mit React Native. Neben der allgemeinen App-Entwicklung war ich an der Umsetzung spezifischer Rätselmechaniken beteiligt.",
-          "In der Antike entwickelte ich die Integration eines digitalen Kompasses, der den Spieler*innen half, Odysseus den richtigen Weg zu weisen. Für die Renaissance implementierte ich die Nutzung eines Accelerometers, das es den Spieler*innen ermöglichte, Hindernisse mit Leonardo da Vincis Fluggerät geschickt auszuweichen. Im Abschnitt des Zweiten Weltkriegs gestaltete ich ein Rätsel mit, bei dem Morsecodes entschlüsselt werden mussten, um das letzte Artefakt zu erhalten."
-        ]
-      },
-      "presentation": {
-        "title": "Die Präsentation",
-        "text": [
-          "Gemeinsam mit einer Kommilitonin habe ich die Präsentation von Time Parabox bei der Projektevernissage der FH St. Pölten organisiert. Wir haben das Standdesign entwickelt sowie eine Slideshow, Postkarten, Sticker, Flyer und Poster gestaltet. Außerdem haben wir das Logo und ein einheitliches Corporate Design entworfen.",
-          "Zusätzlich haben wir ein Social-Media-Konzept für LinkedIn und Instagram erstellt, um die Sichtbarkeit des Projekts zu erhöhen. Unser Ziel war es, ein stimmiges und ansprechendes Gesamtkonzept zu schaffen, das die Besucher*innen neugierig macht und zum Ausprobieren des Spiels einlädt."
-        ]
-      }
-    },
     "bevry": {
       "description": "Web-App für Cocktailfans zum Entdecken, Teilen, Bewerten und Verwalten von Getränken.",
       "date": "Nov 2023 - Juli 2024",
@@ -220,41 +173,51 @@
         "cta": "Prototyp ansehen"
       }
     },
-    "ecocalypse": {
-      "description": "Immersive Videospielszene mit Fokus auf Worldbuilding und Visual Storytelling.",
-      "date": "Juni 2024",
-      "type": "Gamedesign, Worldbuilding und Storytelling",
-      "duration": "1 Woche",
+    "timeParabox": {
+      "description": "Interaktives Rätselspiel mit Escape-Box-Elementen und Zeitreise-Thematik, gesteuert durch eine native App.",
+      "date": "Okt 2024 - Jan 2025",
+      "type": "Appentwicklung",
+      "duration": "4 Monate",
       "project": {
         "title": "Das Projekt",
         "text": [
-          "Im zweiten Mastersemester konnte ich im Rahmen der Summer School einen einwöchigen Workshop besuchen. Ich wählte Environmental Storytelling, in dem es um Worldbuilding sowie Environmental und Visual Storytelling ging.",
-          "Das Projekt bestand darin, eine statische oder interaktive immersive Videospielszene mit Unity und vorgefertigten Assets zu erstellen. Die Szene sollte realistisch, visuell ansprechend und funktional für eine Spielumgebung sein. Dabei lag der Fokus auf der Anwendung der erlernten Prinzipien des Environmental Storytelling.",
-          "In Kleingruppen entwickelten wir Ecocalypse, ein Spiel, das 2035 nach einer Klimakatastrophe spielt. Ein Jahr zuvor brannte der gesamte Regenwald ab, wodurch das Klima kollabierte und die Weltordnung zusammenbrach."
+          "Time Parabox ist ein interaktives Escape-Box-Spiel, das Spieler*innen auf eine spannende Zeitreise schickt, um Paradoxe in der Geschichte zu korrigieren. Die Reise führt durch fünf historische Epochen – Antike, Mittelalter, Renaissance, Industrielle Revolution und den Zweiten Weltkrieg." 
+        ]
+      },
+      "concept": {
+        "title": "Das Konzept",
+        "text": [
+          "Jede Epoche wird durch eine physische Rätselbox repräsentiert, die unter anderem NFC-Tags, Magnetschlösser, 3D-gedruckte Modelle, einen Drehregler, Servomotor und LED-Ring enthält.",
+          "Eine begleitende App führt die Spieler*innen durch die Rätsel und verknüpft die physischen Elemente mit digitalen Interaktionen. Jedes Rätsel ist thematisch auf die jeweilige Epoche abgestimmt. Ziel ist es, durch das Lösen der Rätsel die Zeitlinie zu stabilisieren und die Zukunft zu retten."
+        ]
+      },
+      "story": {
+        "title": "Die Storyline",
+        "text": [
+          "In einer Zukunft, in der die Zeit aus den Fugen geraten ist, schickt dein zukünftiges Ich eine mysteriöse Box durch ein Portal direkt zu dir. In der Box verborgen: Hinweise auf eine verzerrte Vergangenheit. Große Momente der Geschichte wurden verändert – die Dampfmaschine nie erfunden, Odysseus nie heimgekehrt. Nur du kannst das Zeitchaos rückgängig machen.",
+          "Geführt von Nachrichten deines zukünftigen Ichs, reist du durch die Epochen, löst Rätsel und sammelst Artefakte, um die korrekte Timeline wiederherzustellen. Doch am Ende wartet die größte Enthüllung: Die geheimnisvolle Person, die dich auf diese Reise geschickt hat … bist du selbst."
         ]
       },
       "implementation": {
         "title": "Die Umsetzung",
         "text": [
-          "Für die Umsetzung des Projekts übernahm ich mehrere Aufgaben, darunter das Worldbuilding, das Storytelling und das Erstellen der platzierten Gegenstände im Raum, wie bspw. die Zeitungsartikel. Zudem war ich für die Auswahl der benötigten Low Poly Assets für Unity verantwortlich.", 
-          "Bei der Erstellung der Storyline legten wir besonderen Wert auf die Integration von Behavioral Traces, Identity Claims und Mood Modifiers. Diese Elemente mussten stimmig sein, um ein immersives Erlebnis zu schaffen. Unstimmigkeiten im Raum, bei der Beleuchtung oder dem Sound könnten die Spieler*innen aus der Szene reißen und das Erlebnis zerstören."
+          "Die Entwicklung erfolgte mithilfe agiler Methoden. Zweiwöchige Sprints wurden mit Jira organisiert und der Fortschritt wurde regelmäßig in wöchentlichen Meetings überprüft.",
+          "Die App wurde mit React Native entwickelt, wobei React Redux für die State-Verwaltung und Expo für ein einfaches Setup und effizientes Testing zum Einsatz kamen. Die Kommunikation zwischen der Rätselbox und der begleitenden App wird durch einen ESP-Mikrocontroller ermöglicht, der Daten über Bluetooth (BLE) zwischen der App und den elektronischen Komponenten der Boxen überträgt."
         ]
       },
-      "scene": {
-        "title": "Die Szene",
+      "myTasks": {
+        "title": "Meine Aufgaben",
         "text": [
-          "Die Szene spielt in einem Zimmer eines eleganten Wohnhauses, das früher Josephs Büro war. Nach dem unerwarteten Kollaps der Infrastruktur hatte er sich hier verschanzt und auf den richtigen Zeitpunkt gewartet, um zu seiner Familie aufs Land zu flüchten.",
-          "Der*Die Spieler*in entdecken Spuren seines täglichen Lebens und seiner Vorbereitungen auf die Flucht, darunter persönliche Gegenstände, Notizen und Vorräte. Der Raum ist verwüstet und trägt noch die Spuren eines gewaltsamen Überfalls, bei dem Joseph ermordet wurde, um an seine Ressourcen zu gelangen. Jetzt nutzen die Eindringlinge seine Vorräte, während der Raum ein eindrückliches Bild von Josephs verzweifeltem Überlebenskampf und seinem tragischen Ende vermittelt." 
+          "Meine Hauptverantwortung lag in der Entwicklung der App mit React Native. Neben der allgemeinen App-Entwicklung war ich an der Umsetzung spezifischer Rätselmechaniken beteiligt.",
+          "In der Antike entwickelte ich die Integration eines digitalen Kompasses, der den Spieler*innen half, Odysseus den richtigen Weg zu weisen. Für die Renaissance implementierte ich die Nutzung eines Accelerometers, das es den Spieler*innen ermöglichte, Hindernisse mit Leonardo da Vincis Fluggerät geschickt auszuweichen. Im Abschnitt des Zweiten Weltkriegs gestaltete ich ein Rätsel mit, bei dem Morsecodes entschlüsselt werden mussten, um das letzte Artefakt zu erhalten."
         ]
       },
-      "objects": {
-        "title": "Die Gegenstände",
+      "presentation": {
+        "title": "Die Präsentation",
         "text": [
-          "Sorgfältig platzierte Objekte erzählen die Geschichte und vermitteln den Hintergrund des Spiels. Zeitungsartikel an den Wänden berichten über die Krise. Ein Familienporträt deutet auf einen Unterschlupf am Land hin. Eine Stadtkarte zeigt Josephs geplante Fluchtroute.",
-          "Ein Wandkalender markiert Januar 2035 und zeigt, wie Joseph versuchte, den Überblick über die Zeit zu bewahren. Seine Tagesroutine spiegelt den Kampf gegen die Isolation wider. Ein angefangener Brief an Julia gibt Einblick in seine Gedanken und Gefühle. Werbung für H2-NO betont die Wasserknappheit und die extremen Lebensbedingungen.",
-          "Diese Elemente schaffen eine immersive Szene, die die Prinzipien des Environmental Storytelling konsequent umsetzt."
-        ],
-        "cta": "Dokumentation ansehen"
+          "Gemeinsam mit einer Kommilitonin habe ich die Präsentation von Time Parabox bei der Projektevernissage der FH St. Pölten organisiert. Wir haben das Standdesign entwickelt sowie eine Slideshow, Postkarten, Sticker, Flyer und Poster gestaltet. Außerdem haben wir das Logo und ein einheitliches Corporate Design entworfen.",
+          "Zusätzlich haben wir ein Social-Media-Konzept für LinkedIn und Instagram erstellt, um die Sichtbarkeit des Projekts zu erhöhen. Unser Ziel war es, ein stimmiges und ansprechendes Gesamtkonzept zu schaffen, das die Besucher*innen neugierig macht und zum Ausprobieren des Spiels einlädt."
+        ]
       }
     },
     "veganAdvent": {
@@ -300,6 +263,43 @@
           "Besonders spannend war, dass ich im Rahmen dieses Projekts erstmals mit Tailwind CSS gearbeitet habe. Der Einstieg war erstaunlich einfach, und die Arbeit mit Variablen insbesondere für Dark- und Light-Mode hat mir sehr gefallen. Auch die Implementierung des Themeswitchers war eine neue Erfahrung, die sich als unkompliziert und zugleich lehrreich herausgestellt hat.",
           "Eine weitere Herausforderung bestand darin, die „10 Regeln für QR-Codes“ einzuhalten. Außerdem war das Generieren von 24 individuellen QR-Codes für das Poster aufwendig, dennoch hat mich die Idee überzeugt, da dadurch ein direkter und spielerischer Zugang zur Web-App ermöglicht wird."
         ]
+      }
+    },
+    "ecocalypse": {
+      "description": "Immersive Videospielszene mit Fokus auf Worldbuilding und Visual Storytelling.",
+      "date": "Juni 2024",
+      "type": "Gamedesign, Worldbuilding und Storytelling",
+      "duration": "1 Woche",
+      "project": {
+        "title": "Das Projekt",
+        "text": [
+          "Im zweiten Mastersemester konnte ich im Rahmen der Summer School einen einwöchigen Workshop besuchen. Ich wählte Environmental Storytelling, in dem es um Worldbuilding sowie Environmental und Visual Storytelling ging.",
+          "Das Projekt bestand darin, eine statische oder interaktive immersive Videospielszene mit Unity und vorgefertigten Assets zu erstellen. Die Szene sollte realistisch, visuell ansprechend und funktional für eine Spielumgebung sein. Dabei lag der Fokus auf der Anwendung der erlernten Prinzipien des Environmental Storytelling.",
+          "In Kleingruppen entwickelten wir Ecocalypse, ein Spiel, das 2035 nach einer Klimakatastrophe spielt. Ein Jahr zuvor brannte der gesamte Regenwald ab, wodurch das Klima kollabierte und die Weltordnung zusammenbrach."
+        ]
+      },
+      "implementation": {
+        "title": "Die Umsetzung",
+        "text": [
+          "Für die Umsetzung des Projekts übernahm ich mehrere Aufgaben, darunter das Worldbuilding, das Storytelling und das Erstellen der platzierten Gegenstände im Raum, wie bspw. die Zeitungsartikel. Zudem war ich für die Auswahl der benötigten Low Poly Assets für Unity verantwortlich.", 
+          "Bei der Erstellung der Storyline legten wir besonderen Wert auf die Integration von Behavioral Traces, Identity Claims und Mood Modifiers. Diese Elemente mussten stimmig sein, um ein immersives Erlebnis zu schaffen. Unstimmigkeiten im Raum, bei der Beleuchtung oder dem Sound könnten die Spieler*innen aus der Szene reißen und das Erlebnis zerstören."
+        ]
+      },
+      "scene": {
+        "title": "Die Szene",
+        "text": [
+          "Die Szene spielt in einem Zimmer eines eleganten Wohnhauses, das früher Josephs Büro war. Nach dem unerwarteten Kollaps der Infrastruktur hatte er sich hier verschanzt und auf den richtigen Zeitpunkt gewartet, um zu seiner Familie aufs Land zu flüchten.",
+          "Der*Die Spieler*in entdecken Spuren seines täglichen Lebens und seiner Vorbereitungen auf die Flucht, darunter persönliche Gegenstände, Notizen und Vorräte. Der Raum ist verwüstet und trägt noch die Spuren eines gewaltsamen Überfalls, bei dem Joseph ermordet wurde, um an seine Ressourcen zu gelangen. Jetzt nutzen die Eindringlinge seine Vorräte, während der Raum ein eindrückliches Bild von Josephs verzweifeltem Überlebenskampf und seinem tragischen Ende vermittelt." 
+        ]
+      },
+      "objects": {
+        "title": "Die Gegenstände",
+        "text": [
+          "Sorgfältig platzierte Objekte erzählen die Geschichte und vermitteln den Hintergrund des Spiels. Zeitungsartikel an den Wänden berichten über die Krise. Ein Familienporträt deutet auf einen Unterschlupf am Land hin. Eine Stadtkarte zeigt Josephs geplante Fluchtroute.",
+          "Ein Wandkalender markiert Januar 2035 und zeigt, wie Joseph versuchte, den Überblick über die Zeit zu bewahren. Seine Tagesroutine spiegelt den Kampf gegen die Isolation wider. Ein angefangener Brief an Julia gibt Einblick in seine Gedanken und Gefühle. Werbung für H2-NO betont die Wasserknappheit und die extremen Lebensbedingungen.",
+          "Diese Elemente schaffen eine immersive Szene, die die Prinzipien des Environmental Storytelling konsequent umsetzt."
+        ],
+        "cta": "Dokumentation ansehen"
       }
     },
     "trilum": {
@@ -373,22 +373,22 @@
       "Abschlussnote: 1,8"
     ],
     "bachelorDate": "10/2018 – 03/2022",
-    "job1Title": "Praktikantin, HiWi: Frontendentwicklung",
+    "job1Title": "Frontendentwicklerin: HiWi, Praktikantin",
     "job1Location": "Fraunhofer IIS, Arbeitsgruppe für Supply Chain Services, Nürnberg",
     "job1Description": [
       "Absolvierung eines fünfmonatigen Pflichtpraktikums im Bereich Frontend-Entwicklung.", 
       "Anschließende Übernahme als wissenschaftliche Hilfskraft bis zum Ende des Bachelorstudiums.", 
-      "Entwicklung mit Vue.js, Durchführung von Objektmessungen für ein Machine-Learning-Projekt, Erstellung von UI-Prototypen."],
+      "Entwicklung mit Vue.js, Durchführung von Objektmessungen für ein Machine-Learning-Projekt und Erstellung von UI-Prototypen."],
     "job1Date": "09/2020 – 03/2022",
     "job2Title": "Entwicklerin: Frontend – Middleware",
     "job2Location": "edison street GmbH, Roth",
     "job2Description": [
       "Vollzeit-Tätigkeit (1 Jahr, 5 Monate) nach dem Bachelorabschluss.",
       "Teilzeit-Beschäftigung (1 Jahr, 6 Monate) während des Masterstudiums.", 
-      "Entwicklung einer Webanwendung, die Kunden eine übersichtliche Darstellung ihrer Verbrauchs- und Leistungsdaten ermöglicht."
+      "Entwicklung und Design einer Webanwendung, die Kunden eine übersichtliche Darstellung ihrer Verbrauchs- und Leistungsdaten ermöglicht."
     ],
     "job2Date": "04/2022 – 02/2025",
-    "masterTitle": "Dipl.Ing. Interactive Technologies",
+    "masterTitle": "Dipl.-Ing. Interactive Technologies",
     "masterLocation": "FH St. Pölten, Österreich",
     "masterDescription": [
       "Schwerpunkt: Mobile (Web- & Appentwicklung)", 

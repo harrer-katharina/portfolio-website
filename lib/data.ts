@@ -104,7 +104,7 @@ export const getExperiencesData = (t: (key: string) => string) => {
       title: t("job2Title"),
       location: t("job2Location"),
       link: "https://www.edisonstreet.com/",
-      tags: ["React", "PHP", "Figma", "LaTeX"],
+      tags: ["React", "PHP", "Figma"],
       description: [t("job2Description.0"), t("job2Description.1"), t("job2Description.2")],  
       icon: "/experience/edisonstreet-logo.jpg",
       date: t("job2Date"),
@@ -113,7 +113,7 @@ export const getExperiencesData = (t: (key: string) => string) => {
       title: t("job1Title"),
       location: t("job1Location"),
       link: "https://www.scs.fraunhofer.de/",
-      tags: ["Vue.js", "Figma"],
+      tags: ["Vue.js", "Angular", "Figma"],
       description: [t("job1Description.0"), t("job1Description.1"), t("job1Description.2")],
       icon: "/experience/fraunhofer-logo.jpeg",
       date: t("job1Date"),
@@ -176,60 +176,6 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("weidlich.learnings.title"),
           text: [t("weidlich.learnings.text.0"), t("weidlich.learnings.text.1"), t("weidlich.learnings.text.2")],
           image: weidlichContact,
-        },
-      ]
-    },
-    {
-      projectId: "time-parabox",
-      title: "Time Parabox",
-      showTitle: false,
-      date: t("timeParabox.date"),
-      type: t("timeParabox.type"),
-      duration: t("timeParabox.duration"),
-      description: t("timeParabox.description"),
-      tags: ["React Native"],
-      image: timeparabox,
-      sectionImage: timeparaboxPoster,
-      sections: [
-        {
-          title: t("timeParabox.project.title"),
-          text: [t("timeParabox.project.text.0")],
-          className: "bg-[#F4F2EE]",
-          image: timeparaboxApp,
-          cta: {
-            title: "GitHub-Repository ansehen",
-            link: "https://github.com/Time-Parabox/time-parabox"
-          }
-        },
-        {
-          title: t("timeParabox.concept.title"),
-          text: [t("timeParabox.concept.text.0"), t("timeParabox.concept.text.1")],
-          className: "bg-[#F0EDE7]",
-          image: timeparaboxMockups,
-        },
-        {
-          title: t("timeParabox.story.title"),
-          text: [t("timeParabox.story.text.0"), t("timeParabox.story.text.1")],
-          className: "bg-[#EBE7DF]",
-          image: theme === "light" ? timeparaboxStory : timeparaboxStoryDark,
-        },
-        {
-          title: t("timeParabox.implementation.title"),
-          text: [t("timeParabox.implementation.text.0"), t("timeParabox.implementation.text.1")],
-          className: "bg-[#E5E1DB]",
-          image: timeparaboxEpochs,
-        },
-        {
-          title: t("timeParabox.myTasks.title"),
-          text: [t("timeParabox.myTasks.text.0"), t("timeParabox.myTasks.text.1")],
-          className: "bg-[#D8D1C8]",
-          image: timeparaboxFeatures,
-        },
-        {
-          title: t("timeParabox.presentation.title"),
-          text: [t("timeParabox.presentation.text.0"), t("timeParabox.presentation.text.1")],
-          className: "bg-[#D1C9BF]",
-          image: timeparaboxVernissage,
         },
       ]
     },
@@ -360,42 +306,58 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       ],
     },
     {
-      projectId: "ecocalypse",
-      title: "Ecocalypse",
-      showTitle: true,
-      date: t("ecocalypse.date"),
-      type: t("ecocalypse.type"),
-      duration: t("ecocalypse.duration"),
-      description: t("ecocalypse.description"),
-      tags: ["Unity"],
-      image: ecocalypse,
-      sectionImage: ecocalypsePreview,
+      projectId: "time-parabox",
+      title: "Time Parabox",
+      showTitle: false,
+      date: t("timeParabox.date"),
+      type: t("timeParabox.type"),
+      duration: t("timeParabox.duration"),
+      description: t("timeParabox.description"),
+      tags: ["React Native"],
+      image: timeparabox,
+      sectionImage: timeparaboxPoster,
       sections: [
         {
-          title: t("ecocalypse.project.title"),
-          text: [t("ecocalypse.project.text.0"), t("ecocalypse.project.text.1"), t("ecocalypse.project.text.2")],
-          image: ecocalypseEntrance,
-        },
-        {
-          title: t("ecocalypse.implementation.title"),
-          text: [t("ecocalypse.implementation.text.0"), t("ecocalypse.implementation.text.1")],
-          image: ecocalypsePoster,
-        },
-        {
-          title: t("ecocalypse.scene.title"),
-          text: [t("ecocalypse.scene.text.0"), t("ecocalypse.scene.text.1")],
-          image: ecocalypseScene,
-        },
-        {
-          title: t("ecocalypse.objects.title"),
-          text: [t("ecocalypse.objects.text.0"), t("ecocalypse.objects.text.1"), t("ecocalypse.objects.text.2")],
-          image: ecocalypseCollage,
+          title: t("timeParabox.project.title"),
+          text: [t("timeParabox.project.text.0")],
+          className: "bg-[#F4F2EE]",
+          image: timeparaboxApp,
           cta: {
-            title: t("ecocalypse.objects.cta"),
-            link: "https://drive.google.com/file/d/1cGoZPNDv9JPIMD23VnicUWJK8yOmvcYI/view?usp=sharing"
+            title: "GitHub-Repository ansehen",
+            link: "https://github.com/Time-Parabox/time-parabox"
           }
         },
-      ],
+        {
+          title: t("timeParabox.concept.title"),
+          text: [t("timeParabox.concept.text.0"), t("timeParabox.concept.text.1")],
+          className: "bg-[#F0EDE7]",
+          image: timeparaboxMockups,
+        },
+        {
+          title: t("timeParabox.story.title"),
+          text: [t("timeParabox.story.text.0"), t("timeParabox.story.text.1")],
+          className: "bg-[#EBE7DF]",
+          image: theme === "light" ? timeparaboxStory : timeparaboxStoryDark,
+        },
+        {
+          title: t("timeParabox.implementation.title"),
+          text: [t("timeParabox.implementation.text.0"), t("timeParabox.implementation.text.1")],
+          className: "bg-[#E5E1DB]",
+          image: timeparaboxEpochs,
+        },
+        {
+          title: t("timeParabox.myTasks.title"),
+          text: [t("timeParabox.myTasks.text.0"), t("timeParabox.myTasks.text.1")],
+          className: "bg-[#D8D1C8]",
+          image: timeparaboxFeatures,
+        },
+        {
+          title: t("timeParabox.presentation.title"),
+          text: [t("timeParabox.presentation.text.0"), t("timeParabox.presentation.text.1")],
+          className: "bg-[#D1C9BF]",
+          image: timeparaboxVernissage,
+        },
+      ]
     },
     {
       projectId: "vegan-advent",
@@ -445,6 +407,44 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("veganAdvent.challenges.title"),
           text: [t("veganAdvent.challenges.text.0"), t("veganAdvent.challenges.text.1")],
           image: veganAdventMockups,
+        },
+      ],
+    },
+    {
+      projectId: "ecocalypse",
+      title: "Ecocalypse",
+      showTitle: true,
+      date: t("ecocalypse.date"),
+      type: t("ecocalypse.type"),
+      duration: t("ecocalypse.duration"),
+      description: t("ecocalypse.description"),
+      tags: ["Unity"],
+      image: ecocalypse,
+      sectionImage: ecocalypsePreview,
+      sections: [
+        {
+          title: t("ecocalypse.project.title"),
+          text: [t("ecocalypse.project.text.0"), t("ecocalypse.project.text.1"), t("ecocalypse.project.text.2")],
+          image: ecocalypseEntrance,
+        },
+        {
+          title: t("ecocalypse.implementation.title"),
+          text: [t("ecocalypse.implementation.text.0"), t("ecocalypse.implementation.text.1")],
+          image: ecocalypsePoster,
+        },
+        {
+          title: t("ecocalypse.scene.title"),
+          text: [t("ecocalypse.scene.text.0"), t("ecocalypse.scene.text.1")],
+          image: ecocalypseScene,
+        },
+        {
+          title: t("ecocalypse.objects.title"),
+          text: [t("ecocalypse.objects.text.0"), t("ecocalypse.objects.text.1"), t("ecocalypse.objects.text.2")],
+          image: ecocalypseCollage,
+          cta: {
+            title: t("ecocalypse.objects.cta"),
+            link: "https://drive.google.com/file/d/1cGoZPNDv9JPIMD23VnicUWJK8yOmvcYI/view?usp=sharing"
+          }
         },
       ],
     },

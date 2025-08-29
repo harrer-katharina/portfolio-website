@@ -73,7 +73,7 @@ export default function Experience() {
                 <Link
                   href={item.link}
                   target={"_blank"}
-                  className="font-normal !mt-0 dark:text-[#FFD8EC] hover:text-[#FF96CC]"
+                  className="font-normal !mt-0 dark:text-[#FFD8EC] text-[#A83E75] hover:text-[#FF96CC]"
                 >
                   {item.location}
                 </Link>
