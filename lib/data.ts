@@ -234,6 +234,17 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           imageSize: "75%",
         },
         {
+          title: t("bevry.myTasks.title"),
+          text: [t("bevry.myTasks.text.0")],
+          className: "bg-[#EF8E99]",
+          image: bevryScreens,
+          imageSize: "66%",
+          cta: {
+            title: t("bevry.myTasks.cta"),
+            link: "https://mfg.fhstp.ac.at/allgemein/bevry-semesterprojekt-sose24/"
+          }
+        },
+        {
           title: t("bevry.team.title"),
           text: [t("bevry.team.text.0"), t("bevry.team.text.1")],
           className: "bg-[#FB9E8F]",
@@ -246,17 +257,6 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           className: "bg-[#F6938F]",
           image: bevryCheers,
           imageSize: "66%",
-        },  
-        {
-          title: t("bevry.myTasks.title"),
-          text: [t("bevry.myTasks.text.0")],
-          className: "bg-[#EF8E99]",
-          image: bevryScreens,
-          imageSize: "66%",
-          cta: {
-            title: t("bevry.myTasks.cta"),
-            link: "https://mfg.fhstp.ac.at/allgemein/bevry-semesterprojekt-sose24/"
-          }
         },
       ],
     },
@@ -545,10 +545,10 @@ export const skillsData = [
   "Tailwind CSS",
   "JavaScript",
   "TypeScript",
+  "WordPress",
   "React",
   "Next.js",
   "Vue.js",
-  "WordPress",
   "NestJs",
   "PHP",
   "SQL",

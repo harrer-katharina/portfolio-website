@@ -12,12 +12,14 @@ import Carousel from "@/components/img-carousel";
 
 export default function DetailCard({
   index,
+  projectId,
   section,
   progress,
   range,
   targetScale,
 }: {
   index: number;
+  projectId: string;
   section: ProjectSection;
   progress: any;
   range: any;
@@ -27,6 +29,7 @@ export default function DetailCard({
   const { setVariant } = useVariants();
   const mouseEnter = () => setVariant("TEXT");
   const mouseLeave = () => setVariant("DEFAULT");
+  const cardOverlay = projectId === "bevry";
 
   const container = useRef(null);
 
@@ -36,7 +39,10 @@ export default function DetailCard({
   });
 
   const imageScale = useTransform(scrollYProgress, [0, 0.75], [2, 1]);
-  const scale = useTransform(progress, range, [1, targetScale]);
+  const scale = useTransform(progress, range, [
+    1,
+    cardOverlay ? 1 : targetScale,
+  ]);
 
   const [isMobile, setIsMobile] = useState(false);
   const [images, setImages] = useState<string[]>([]);
@@ -73,12 +79,13 @@ export default function DetailCard({
     >
       <motion.div
         className={clsx(
-          "lg:relative flex flex-col justify-center lg:h-[600px] w-full lg:w-[1200px] rounded-2xl px-3 sm:px-4 py-6 sm:py-8 lg:p-12 shadow-md",
-          section.className
+          "lg:relative flex flex-col justify-center lg:h-[600px] w-full lg:w-[1200px] rounded-2xl px-3 sm:px-4 shadow-md",
+          section.className,
+          images?.length > 0 && !isMobile ? "" : "py-6 lg:p-12 sm:py-8"
         )}
         style={{
           scale: isMobile ? 1 : scale,
-          top: isMobile ? `` : `calc(-2vh + ${index * 25}px)`,
+          top: isMobile || cardOverlay ? `` : `calc(-2vh + ${index * 25}px)`,
           backgroundColor:
             section.className && theme === "light"
               ? ""
@@ -157,7 +164,9 @@ export default function DetailCard({
             </div>
           </div>
         ) : (
-          images.length > 0 && <Carousel images={images} showButtons={true} />
+          images?.length > 0 && (
+            <Carousel images={images} showButtons={true} isMobile={isMobile} />
+          )
         )}
       </motion.div>
     </div>

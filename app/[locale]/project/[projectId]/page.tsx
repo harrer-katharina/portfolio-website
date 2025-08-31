@@ -58,6 +58,7 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
               <DetailCard
                 key={`card_${index}`}
                 index={index}
+                projectId={params.projectId}
                 section={section}
                 progress={scrollYProgress}
                 range={[index * 0.25, 1]}
