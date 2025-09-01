@@ -13,7 +13,11 @@ import ProjectDetailText from "@/components/project-detail-text";
 import DetailCard from "@/components/project-detail-card";
 import PrevNextNav from "@/components/prev-next-navigation";
 
-const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
+const ProjectDetail = ({
+  params,
+}: {
+  params: { projectId: string; scaleCards: boolean };
+}) => {
   const { theme } = useTheme();
   const t = useTranslations("Projects");
   const data = getProjectsData(theme, t);
@@ -58,11 +62,11 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
               <DetailCard
                 key={`card_${index}`}
                 index={index}
-                projectId={params.projectId}
                 section={section}
                 progress={scrollYProgress}
-                range={[index * 0.25, 1]}
+                range={[index * 0.2, 1]}
                 targetScale={targetScale}
+                scaleCards={project.scaleCards}
               />
             );
           })}

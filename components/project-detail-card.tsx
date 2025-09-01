@@ -12,24 +12,23 @@ import Carousel from "@/components/img-carousel";
 
 export default function DetailCard({
   index,
-  projectId,
   section,
   progress,
   range,
   targetScale,
+  scaleCards,
 }: {
   index: number;
-  projectId: string;
   section: ProjectSection;
   progress: any;
   range: any;
   targetScale: any;
+  scaleCards: boolean;
 }) {
   const { theme } = useTheme();
   const { setVariant } = useVariants();
   const mouseEnter = () => setVariant("TEXT");
   const mouseLeave = () => setVariant("DEFAULT");
-  const cardOverlay = projectId === "bevry";
 
   const container = useRef(null);
 
@@ -41,7 +40,7 @@ export default function DetailCard({
   const imageScale = useTransform(scrollYProgress, [0, 0.75], [2, 1]);
   const scale = useTransform(progress, range, [
     1,
-    cardOverlay ? 1 : targetScale,
+    scaleCards ? targetScale : 1,
   ]);
 
   const [isMobile, setIsMobile] = useState(false);
@@ -79,13 +78,13 @@ export default function DetailCard({
     >
       <motion.div
         className={clsx(
-          "lg:relative flex flex-col justify-center lg:h-[600px] w-full lg:w-[1200px] rounded-2xl px-3 sm:px-4 shadow-md",
+          "lg:relative flex flex-col justify-center lg:h-[700px] w-full rounded-2xl px-3 sm:px-4 shadow-md",
           section.className,
           images?.length > 0 && !isMobile ? "" : "py-6 lg:p-12 sm:py-8"
         )}
         style={{
           scale: isMobile ? 1 : scale,
-          top: isMobile || cardOverlay ? `` : `calc(-2vh + ${index * 25}px)`,
+          top: isMobile || !scaleCards ? `` : `calc(-2vh + ${index * 25}px)`,
           backgroundColor:
             section.className && theme === "light"
               ? ""
@@ -148,6 +147,7 @@ export default function DetailCard({
                 <Image
                   src={section.image}
                   alt={section.title}
+                  unoptimized
                   className="object-cover"
                 />
               </motion.div>

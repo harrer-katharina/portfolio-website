@@ -114,9 +114,10 @@
         ]
       },
       "wireframes": {
-        "title": "Die Wireframes",
+        "title": "Das App Design",
         "text": [
-          "Im ersten Schritt wurden Low-Fidelity-Wireframes erstellt, um die grundlegende Struktur und Benutzerführung der App zu planen.",
+          "Zu Beginn führten wir eine Analyse vergleichbarer Apps durch, um relevante Funktionen, Inhalte, Informationsarchitektur und Designansätze zu identifizieren und daraus die Grundlage für unsere eigene App-Strategie abzuleiten.",
+          "Im zweiten Schritt wurden Low-Fidelity-Wireframes erstellt, um die grundlegende Struktur und Benutzerführung der App zu planen.",
           "Diese Wireframes wurden später in High-Fidelity-Wireframes überführt und dienten als Grundlage für das finale App-Design."
         ]
       },

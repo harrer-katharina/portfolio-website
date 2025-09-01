@@ -114,8 +114,9 @@
         ]
       },
       "wireframes": {
-        "title": "The Wireframes",
+        "title": "The App Design",
         "text": [
+          "At the beginning, we conducted an analysis of comparable apps to identify relevant features, content, information architecture, and design approaches, which formed the basis for our own app strategy.",
           "In the first step, low-fidelity wireframes were created to plan the basic structure and user flow of the app.",
           "These wireframes were later transformed into high-fidelity wireframes and served as the basis for the final app design."
         ]

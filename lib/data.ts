@@ -136,6 +136,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       projectId: "dr-weidlich",
       title: "Dr. Weidlich",
       showTitle: false,
+      scaleCards: true,
       date: t("weidlich.date"),
       type: t("weidlich.type"),
       duration: t("weidlich.duration"),
@@ -148,6 +149,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("weidlich.project.title"),
           text: [t("weidlich.project.text.0"),t("weidlich.project.text.1")],
           image: weidlichSmartphoneMockup,
+          imageSize: "55%",
           cta: {
             title: t("weidlich.project.cta"),
             link: "https://dr-dietmar-weidlich.de"
@@ -157,26 +159,31 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("weidlich.features.title"),
           text: [t("weidlich.features.text.0"), t("weidlich.features.text.1")],
           image: weidlichServices,
+          imageSize: "60%",
         },
         {
           title: t("weidlich.branding.title"),
           text: [t("weidlich.branding.text.0"), t("weidlich.branding.text.1")],
           image: weidlichBusinessCards,
+          imageSize: "60%",
         },
         {
           title: t("weidlich.photography.title"),
           text: [t("weidlich.photography.text.0"), t("weidlich.photography.text.1")],
           image: weidlichShooting,
+          imageSize: "60%",
         },
         {
           title: t("weidlich.customer.title"),
           text: [t("weidlich.customer.text.0"), t("weidlich.customer.text.1")],
           image: weidlichSmartphone,
+          imageSize: "60%",
         },
         {
           title: t("weidlich.learnings.title"),
           text: [t("weidlich.learnings.text.0"), t("weidlich.learnings.text.1"), t("weidlich.learnings.text.2")],
           image: weidlichContact,
+          imageSize: "55%",
         },
       ]
     },
@@ -184,6 +191,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       projectId: "bevry",
       title: "Bevry",
       showTitle: false,
+      scaleCards: false,
       date: t("bevry.date"),
       type: t("bevry.type"),
       duration: t("bevry.duration"),
@@ -208,6 +216,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("bevry.features.text.0"), t("bevry.features.text.1"), t("bevry.features.text.2")],
           className: "bg-[#FFB889]",
           image: bevryFeatures,
+          imageSize: "60%",
         },
         {
           title: t("bevry.branding.title"),
@@ -228,15 +237,15 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
         },
         {
           title: t("bevry.wireframes.title"),
-          text: [t("bevry.wireframes.text.0"), t("bevry.wireframes.text.1")],
-          className: "bg-[#FFB889]",
+          text: [t("bevry.wireframes.text.0"), t("bevry.wireframes.text.1"), t("bevry.wireframes.text.2")],
+          className: "bg-[#FB9E8F]",
           image: bevryWireframes,
-          imageSize: "75%",
+          imageSize: "70%",
         },
         {
           title: t("bevry.myTasks.title"),
           text: [t("bevry.myTasks.text.0")],
-          className: "bg-[#EF8E99]",
+          className: "bg-[#FFB084]",
           image: bevryScreens,
           imageSize: "66%",
           cta: {
@@ -247,14 +256,14 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
         {
           title: t("bevry.team.title"),
           text: [t("bevry.team.text.0"), t("bevry.team.text.1")],
-          className: "bg-[#FB9E8F]",
+          className: "bg-[#FFB889]",
           image: bevryGroup,
-          imageSize: "55%",
+          imageSize: "60%",
         },
         {
           title: t("bevry.collaboration.title"),
           text: [t("bevry.collaboration.text.0"), t("bevry.collaboration.text.1"), t("bevry.collaboration.text.2"), t("bevry.collaboration.text.3"), t("bevry.collaboration.text.4")],
-          className: "bg-[#F6938F]",
+          className: "bg-[#FFC38D]",
           image: bevryCheers,
           imageSize: "66%",
         },
@@ -264,6 +273,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       projectId: "erika",
       title: "Erika",
       showTitle: true,
+      scaleCards: true,
       date: t("erika.date"),
       type: t("erika.type"),
       duration: t("erika.duration"),
@@ -277,6 +287,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("erika.project.text.0")],
           className: "bg-[#C1E5CC]",
           image: erikaMockup,
+          imageSize: "66%",
           cta: {
             title: t("erika.project.cta"),
             link: "https://erika.fhstp.ac.at/"
@@ -287,19 +298,21 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("erika.app.text.0")],
           className: "bg-[#B5DCCD]",
           image: erikaProject,
+          imageSize: "66%",
         },
         {
           title: t("erika.implementation.title"),
           text: [t("erika.implementation.text.0"), t("erika.implementation.text.1"), t("erika.implementation.text.2")],
           className: "bg-[#AFD8CE]",
           image: erikaScreens,
+          imageSize: "66%",
         },
         {
           title: t("erika.sustainability.title"),
           text: [t("erika.sustainability.text.0"), t("erika.sustainability.text.1"),t("erika.sustainability.text.2")],
           className: "bg-[#A9D3CF]",
           image: erikaLogo,
-          imageSize: "33%",
+          imageSize: "40%",
           cta: {
             title: t("erika.sustainability.cta"),
             link: "https://mfg.fhstp.ac.at/allgemein/sustainable-webdesign/"
@@ -310,6 +323,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("erika.prototyping.text.0"), t("erika.prototyping.text.1"), t("erika.prototyping.text.2")],
           className: "bg-[#A3CDD0]",
           image: erikaPrototype,
+          imageSize: "60%",
           cta: {
             title: t("erika.prototyping.cta"),
             link: "https://www.figma.com/proto/e10aY7un7NpT8NdGW9HgAu/ERIKA?page-id=0%3A1&node-id=54-1755&viewport=735%2C324%2C0.06&t=pEKHDE4FGPe4fp6N-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=54%3A3545",
@@ -322,6 +336,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       projectId: "time-parabox",
       title: "Time Parabox",
       showTitle: false,
+      scaleCards: true,
       date: t("timeParabox.date"),
       type: t("timeParabox.type"),
       duration: t("timeParabox.duration"),
@@ -335,6 +350,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("timeParabox.project.text.0")],
           className: "bg-[#F4F2EE]",
           image: timeparaboxApp,
+          imageSize: "66%",
           cta: {
             title: "GitHub-Repository ansehen",
             link: "https://github.com/Time-Parabox/time-parabox"
@@ -345,30 +361,35 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("timeParabox.concept.text.0"), t("timeParabox.concept.text.1")],
           className: "bg-[#F0EDE7]",
           image: timeparaboxMockups,
+          imageSize: "70%",
         },
         {
           title: t("timeParabox.story.title"),
           text: [t("timeParabox.story.text.0"), t("timeParabox.story.text.1")],
           className: "bg-[#EBE7DF]",
           image: theme === "light" ? timeparaboxStory : timeparaboxStoryDark,
+          imageSize: "60%",
         },
         {
           title: t("timeParabox.implementation.title"),
           text: [t("timeParabox.implementation.text.0"), t("timeParabox.implementation.text.1")],
           className: "bg-[#E5E1DB]",
           image: timeparaboxEpochs,
+          imageSize: "60%",
         },
         {
           title: t("timeParabox.myTasks.title"),
           text: [t("timeParabox.myTasks.text.0"), t("timeParabox.myTasks.text.1")],
           className: "bg-[#D8D1C8]",
           image: timeparaboxFeatures,
+          imageSize: "66%",
         },
         {
           title: t("timeParabox.presentation.title"),
           text: [t("timeParabox.presentation.text.0"), t("timeParabox.presentation.text.1")],
           className: "bg-[#D1C9BF]",
           image: timeparaboxVernissage,
+          imageSize: "60%",
         },
       ]
     },
@@ -376,6 +397,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       projectId: "vegan-advent",
       title: "vegan advent",
       showTitle: true,
+      scaleCards: true,
       date: t("veganAdvent.date"),
       type: t("veganAdvent.type"),
       duration: t("veganAdvent.duration"),
@@ -388,6 +410,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("veganAdvent.background.title"),
           text: [t("veganAdvent.background.text.0"), t("veganAdvent.background.text.1")],
           image: veganAdventAppMockup,
+          imageSize: "60%",
           cta: {
             title: t("veganAdvent.background.cta"),
             link: "https://advent.katharina-harrer.de/"
@@ -397,11 +420,13 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("veganAdvent.project.title"),
           text: [t("veganAdvent.project.text.0"), t("veganAdvent.project.text.1")],
           image: veganAdventMotivation,
+          imageSize: "60%",
         },
         {
           title: t("veganAdvent.poster.title"),
           text: [t("veganAdvent.poster.text.0"), t("veganAdvent.poster.text.1")],
           image: veganAdventPoster,
+          imageSize: "66%",
           cta: {
             title: t("veganAdvent.poster.cta"),
             link: "https://drive.google.com/file/d/1uu6m9OcNwpwe_QN5euQJ_9m91DBxdzxK/view?usp=sharing"
@@ -411,6 +436,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("veganAdvent.implementation.title"),
           text: [t("veganAdvent.implementation.text.0"), t("veganAdvent.implementation.text.1"), t("veganAdvent.implementation.text.2")],
           image: veganAdventApp,
+          imageSize: "60%",
           cta: {
             title: t("veganAdvent.implementation.cta"),
             link: "https://github.com/harrer-katharina/advent-calendar"
@@ -420,6 +446,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("veganAdvent.challenges.title"),
           text: [t("veganAdvent.challenges.text.0"), t("veganAdvent.challenges.text.1")],
           image: veganAdventMockups,
+          imageSize: "60%",
         },
       ],
     },
@@ -427,6 +454,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       projectId: "ecocalypse",
       title: "Ecocalypse",
       showTitle: true,
+      scaleCards: true,
       date: t("ecocalypse.date"),
       type: t("ecocalypse.type"),
       duration: t("ecocalypse.duration"),
@@ -439,21 +467,25 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("ecocalypse.project.title"),
           text: [t("ecocalypse.project.text.0"), t("ecocalypse.project.text.1"), t("ecocalypse.project.text.2")],
           image: ecocalypseEntrance,
+          imageSize: "60%",
         },
         {
           title: t("ecocalypse.implementation.title"),
           text: [t("ecocalypse.implementation.text.0"), t("ecocalypse.implementation.text.1")],
           image: ecocalypsePoster,
+          imageSize: "58%",
         },
         {
           title: t("ecocalypse.scene.title"),
           text: [t("ecocalypse.scene.text.0"), t("ecocalypse.scene.text.1")],
           image: ecocalypseScene,
+          imageSize: "60%",
         },
         {
           title: t("ecocalypse.objects.title"),
           text: [t("ecocalypse.objects.text.0"), t("ecocalypse.objects.text.1"), t("ecocalypse.objects.text.2")],
           image: ecocalypseCollage,
+          imageSize: "59%",
           cta: {
             title: t("ecocalypse.objects.cta"),
             link: "https://drive.google.com/file/d/1cGoZPNDv9JPIMD23VnicUWJK8yOmvcYI/view?usp=sharing"
@@ -465,6 +497,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       projectId: "trilum",
       title: "TRILUM",
       showTitle: true,
+      scaleCards: true,
       date: t("trilum.date"),
       type: t("trilum.type"),
       duration: t("trilum.duration"),
@@ -477,6 +510,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("trilum.project.title"),
           text: [t("trilum.project.text.0"), t("trilum.project.text.1"), t("trilum.project.text.2")],
           image: trilum,
+          imageSize: "55%",
           cta: {
             title: t("trilum.project.cta"),
             link: "https://drive.google.com/file/d/1G3HIAdD7QrI6R-QKIR5ho8WuN532FTM3/view?usp=sharing"
@@ -486,6 +520,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("trilum.init.title"),
           text: [t("trilum.init.text.0"), t("trilum.init.text.1")],
           image: trilumTechStack,
+          imageSize: "60%",
           cta: {
             title: t("trilum.init.cta"),
             link: "https://www.scs.fraunhofer.de/de/referenzen/pbll.html"
@@ -500,6 +535,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("trilum.result.title"),
           text: [t("trilum.result.text.0")],
           image: trilumUsabilityTests,
+          imageSize: "60%",
           cta: {
             title: t("trilum.result.cta"),
             link: "https://drive.google.com/file/d/1GiQUaG59pa8_f3yQi-VuC04ypb8uHJ2m/view?usp=sharing"
@@ -511,6 +547,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       projectId: "nakt",
       title: "NAKT",
       showTitle: true,
+      scaleCards: true,
       date: t("nakt.date"),
       type: t("nakt.type"),
       duration: t("nakt.duration"),
@@ -523,11 +560,13 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("nakt.project.title"),
           text: [t("nakt.project.text.0"), t("nakt.project.text.1")],
           image: nakt,
+          imageSize: "60%",
         },
         {
           title: t("nakt.implementation.title"),
           text: [t("nakt.implementation.text.0"), t("nakt.implementation.text.1")],
           image: naktBackend,
+          imageSize: "60%",
           cta: {
             title: t("nakt.implementation.cta"),
             link: "https://github.com/katharina-harrer/wp-plugins"
