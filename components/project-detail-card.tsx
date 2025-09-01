@@ -69,7 +69,7 @@ export default function DetailCard({
       window.addEventListener("resize", handleResize);
       return () => window.removeEventListener("resize", handleResize);
     }
-  }, []);
+  }, [theme]);
 
   return (
     <div
