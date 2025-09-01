@@ -431,27 +431,32 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
         {
           title: t("pgmon.project.title"),
           text: [t("pgmon.project.text.0"),t("pgmon.project.text.1")],
-          image: pgmonOcillery
+          image: pgmonOcillery,
+          imageSize: "55%",
         },
         {
           title: t("pgmon.features.title"),
           text: [t("pgmon.features.text.0"), t("pgmon.features.text.1")],
           image: pgmonMareep,
+          imageSize: "70%",
         },
         {
           title: t("pgmon.implementation.title"),
           text: [t("pgmon.implementation.text.0"), t("pgmon.implementation.text.1"), t("pgmon.implementation.text.2")],
           image: pgmonPikachu,
+          imageSize: "60%",
         },
         {
           title: t("pgmon.role.title"),
           text: [t("pgmon.role.text.0"), t("pgmon.role.text.1")],
           image: pgmonRegister,
+          imageSize: "60%",
         },
         {
           title: t("pgmon.learnings.title"),
           text: [t("pgmon.learnings.text.0"), t("pgmon.learnings.text.1"), t("pgmon.learnings.text.2")],
           image: pgmonLoadingBall,
+          imageSize: "55%",
         },
       ]
     },
@@ -471,16 +476,19 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("museumverse.project.title"),
           text: [t("museumverse.project.text.0"), t("museumverse.project.text.1")],
           image: museumverseAudioGuide,
+          imageSize: "66%",
         },
         {
           title: t("museumverse.idea.title"),
           text: [t("museumverse.idea.text.0"), t("museumverse.idea.text.1"), t("museumverse.idea.text.2")],
           image: museumverseDelaroche,
+          imageSize: "55%",
         },
         {
           title: t("museumverse.poc.title"),
           text: [t("museumverse.poc.text.0"), t("museumverse.poc.text.1")],
           image: museumverseTour,
+          imageSize: "55%",
           cta: {
             title: t("museumverse.poc.cta"),
             link: "https://www.figma.com/proto/292flCMtEB5hhqUMwXY16V/Portfolio?page-id=323%3A1929&node-id=323-5616&p=f&viewport=-4591%2C-3600%2C0.5&t=oOEA1BM1K6WuFM3e-9&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=323%3A5574"
@@ -490,6 +498,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("museumverse.learnings.title"),
           text: [t("museumverse.learnings.text.0"), t("museumverse.learnings.text.1")],
           image: museumverseOnboarding,
+          imageSize: "55%",
         },
       ]
     },
