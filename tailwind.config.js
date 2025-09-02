@@ -20,7 +20,6 @@ module.exports = {
     "bg-[#EBE7DF]",
     "bg-[#E5E1DB]",
     "bg-[#D8D1C8]",
-    "bg-[#D1C9BF]",
 
     "bg-[#FFC38D]",
     "bg-[#FFB889]",

@@ -243,43 +243,64 @@
       "project": {
         "title": "The Project",
         "text": [
-          "Time Parabox is an interactive escape-box game that takes players on an exciting time-travel adventure to resolve paradoxes in history. The journey spans five historical eras – Antiquity, the Middle Ages, the Renaissance, the Industrial Revolution, and World War II."
+          "Time Parabox is an interactive escape box game that takes players on an exciting time-travel journey to repair paradoxes in history.",
+          "The adventure leads through five historical eras – Antiquity, the Middle Ages, the Renaissance, the Industrial Revolution, and World War II.",
+          "The project was carried out within the Master’s program 'Mobile' by a team of ten students. Development followed agile methods, with two-week sprints organized via Jira and weekly meetings to track progress."
         ]
       },
       "concept": {
         "title": "The Concept",
         "text": [
-         "Each era is represented by a physical puzzle box featuring elements such as NFC tags, magnetic locks, 3D-printed models, a rotary knob, servo motor, and LED ring.",
-          "A companion app guides players through the puzzles, connecting the physical components with digital interactions. Each puzzle is thematically aligned with its respective era. The ultimate goal is to solve the puzzles, stabilize the timeline, and save the future."
+          "Each era is represented by a physical puzzle box that incorporates NFC tags, magnetic locks, 3D-printed models, a rotary encoder, servomotors, and an LED ring.",
+          "An accompanying mobile app guides players through the puzzles and connects the physical components with digital interactions. Every puzzle is tailored to the historical era it represents. The ultimate goal is to stabilize the timeline and save the future."
         ]
       },
       "story": {
         "title": "The Storyline",
         "text": [
-          "In a future where time has fallen apart, your future self sends you a mysterious box through a portal. Inside, clues reveal a distorted past—history’s greatest moments have been altered. The steam engine was never invented, Odysseus never returned home. Only you can fix the chaos.",
-          "Guided by messages from your future self, you travel through different eras, solving puzzles and collecting artifacts to restore the correct timeline. But in the end, the greatest revelation awaits: the mysterious person who set you on this journey... is you."
+          "In a future where time has fallen apart, your future self sends a mysterious box through a portal straight to you. Hidden inside are clues about a distorted past: great moments of history have been altered – the steam engine was never invented, Odysseus never returned home. Only you can set time back on track.",
+          "Guided by messages from your future self, you travel through eras, solve puzzles, and collect artifacts to restore the timeline. But in the end, the greatest revelation awaits: the mysterious person who sent you on this journey… is you."
         ]
       },
-      "implementation": {
-        "title": "Implementation",
+      "app": {
+        "title": "The App",
         "text": [
-          "The development process was structured using agile methodologies. Two-week sprints were organized in Jira, and progress was regularly reviewed in weekly meetings.",
-          "The app was developed using React Native, with React Redux for state management and Expo for simple setup and efficient testing. Communication between the puzzle box and the companion app was facilitated by an ESP microcontroller, which transmitted data via Bluetooth (BLE) between the app and the electronic components of the boxes."
+          "Before development began, low-fidelity wireframes were created to define the structure, navigation, and user flows of the app. These early sketches helped align the puzzle mechanics with the digital interface.",
+          "Next, the lo-fi drafts were refined into high-fidelity wireframes. These hi-fi screens formed the foundation for implementation and ensured a smooth handover between design and development.",
+          "The app was developed with React Native, using React Redux for state management and Expo for setup and testing. Native smartphone sensors such as the accelerometer and microphone were integrated to enable specific puzzle interactions."
+        ]
+      },
+      "architecture": {
+        "title": "The System Architecture",
+        "text": [
+          "Communication between the app and the puzzle boxes is managed by an ESP32 microcontroller, which acts as the central hub. Using Bluetooth Low Energy (BLE), it exchanges data between the app and the electronic components inside the boxes.",
+          "This made it possible to directly synchronize interactions such as scanning artifacts, unlocking boxes, controlling the LED ring, or triggering sensors with the digital game state."
+        ]
+      },
+      "box": {
+        "title": "The Box Design",
+        "text": [
+          "At the heart of the project is a main box that contains several smaller puzzle boxes. These incorporate a variety of electronic and mechanical components, including NFC tags, magnetic locks, 3D-printed models, a rotary encoder, servomotors, and an LED ring.",
+          "To bring each era to life, we designed and produced 3D-printed artifacts, each embedded with an NFC chip. Players received these artifacts as rewards for solving puzzles and needed them at the end to unlock the final box. The objects were printed in the university’s Makers’ Lab, hand-painted, and integrated into the game."
         ]
       },
       "myTasks": {
         "title": "My Tasks",
         "text": [
-          "My main responsibility was developing the app using React Native. In addition to general app development, I contributed to the implementation of specific puzzle mechanics.",
-          "For Antiquity, I developed the integration of a digital compass that guided players to help Odysseus find the right path. In the Renaissance era, I implemented an accelerometer mechanic that enabled players to navigate obstacles using Leonardo da Vinci’s flying machine. For the World War II section, I co-designed a puzzle requiring players to decipher Morse codes to obtain the final artifact."
+          "My main responsibility was developing the app with React Native. Beyond general app development, I implemented specific puzzle mechanics.",
+          "In Antiquity, I developed the integration of a digital compass that helped players guide Odysseus on his journey. For the Renaissance, I implemented accelerometer-based controls that allowed players to dodge obstacles with Leonardo da Vinci’s flying machine. In the World War II section, I co-designed a puzzle where players had to decode Morse messages to obtain the final artifact."
         ]
       },
       "presentation": {
         "title": "The Presentation",
         "text": [
-          "Together with a fellow student, I organized the presentation of Time Parabox at the project exhibition of FH St. Pölten. We designed the exhibition booth, created postcards, stickers, flyers, and posters, and developed the logo along with a cohesive corporate design.",
-          "Additionally, we created a social media concept for LinkedIn and Instagram to enhance the project’s visibility. Our goal was to develop a consistent and engaging presentation that sparks curiosity and encourages visitors to experience the game firsthand."
+          "Together with a fellow student, I organized the presentation of Time Parabox at the FH St. Pölten project exhibition. We designed the exhibition stand as well as a slideshow, postcards, stickers, flyers, and posters. We also created the logo and a consistent corporate design.",
+          "Additionally, we developed a social media concept for LinkedIn and Instagram to increase the project’s visibility. Our goal was to create a cohesive and engaging presentation that sparked curiosity and encouraged visitors to try out the game."
         ]
+      },
+      "cta": {
+        "title": "View GitHub Repository",
+        "link": "https://github.com/Time-Parabox/time-parabox"
       }
     },
     "pgmon": {

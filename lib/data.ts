@@ -11,9 +11,10 @@ import timeparabox from "@/public/timeParabox/time-parabox.webp";
 import timeparaboxPoster from "@/public/timeParabox/timeParabox-poster.webp";
 import timeparaboxApp from "@/public/timeParabox/timeParabox-app.webp";
 import timeparaboxMockups from "@/public/timeParabox/timeParabox-mockup.webp";
-import timeparaboxStory from "@/public/timeParabox/timeParabox-storyline.png";
-import timeparaboxStoryDark from "@/public/timeParabox/timeParabox-storyline-darkmode.png";
-import timeparaboxEpochs from "@/public/timeParabox/timeParabox-epoch.webp";
+import timeparaboxEpochs from "@/public/timeParabox/timeParabox-mission.webp";
+import timeparaboxWireframes from "@/public/timeParabox/timeParabox-wireframes.webp";
+import timeparaboxStructure from "@/public/timeParabox/timeParabox-aufbau.webp";
+import timeparaboxCollage from "@/public/timeParabox/timeParabox-collage.webp";
 import timeparaboxFeatures from "@/public/timeParabox/timeParabox-feature.webp";
 import timeparaboxVernissage from "@/public/timeParabox/timeParabox-vernissage.webp";
 
@@ -413,25 +414,21 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       projectId: "time-parabox",
       title: "Time Parabox",
       showTitle: false,
-      scaleCards: true,
+      scaleCards: false,
       date: t("timeParabox.date"),
       type: t("timeParabox.type"),
       duration: t("timeParabox.duration"),
       description: t("timeParabox.description"),
-      tags: ["React Native"],
+      tags: ["React Native", "Expo Go"],
       image: timeparabox,
       sectionImage: timeparaboxPoster,
       sections: [
         {
           title: t("timeParabox.project.title"),
-          text: [t("timeParabox.project.text.0")],
+          text: [t("timeParabox.project.text.0"), t("timeParabox.project.text.1"),  t("timeParabox.project.text.2")],
           className: "bg-[#F4F2EE]",
           image: timeparaboxApp,
           imageSize: "66%",
-          cta: {
-            title: "GitHub-Repository ansehen",
-            link: "https://github.com/Time-Parabox/time-parabox"
-          }
         },
         {
           title: t("timeParabox.concept.title"),
@@ -444,29 +441,47 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("timeParabox.story.title"),
           text: [t("timeParabox.story.text.0"), t("timeParabox.story.text.1")],
           className: "bg-[#EBE7DF]",
-          image: theme === "light" ? timeparaboxStory : timeparaboxStoryDark,
+          image: timeparaboxEpochs,
           imageSize: "60%",
         },
         {
-          title: t("timeParabox.implementation.title"),
-          text: [t("timeParabox.implementation.text.0"), t("timeParabox.implementation.text.1")],
+          title: t("timeParabox.app.title"),
+          text: [t("timeParabox.app.text.0"), t("timeParabox.app.text.1"), t("timeParabox.app.text.2")],
+          className: "bg-[#F0EDE7]",
+          image: timeparaboxWireframes,
+          imageSize: "60%",
+        },
+        {
+          title: t("timeParabox.architecture.title"),
+          text: [t("timeParabox.architecture.text.0"), t("timeParabox.architecture.text.1")],
           className: "bg-[#E5E1DB]",
-          image: timeparaboxEpochs,
+          image: timeparaboxStructure,
+          imageSize: "75%",
+        },
+        {
+          title: t("timeParabox.box.title"),
+          text: [t("timeParabox.box.text.0"), t("timeParabox.box.text.1")],
+          className: "bg-[#D8D1C8]",
+          image: timeparaboxCollage,
           imageSize: "60%",
         },
         {
           title: t("timeParabox.myTasks.title"),
           text: [t("timeParabox.myTasks.text.0"), t("timeParabox.myTasks.text.1")],
-          className: "bg-[#D8D1C8]",
+          className: "bg-[#EBE7DF]",
           image: timeparaboxFeatures,
           imageSize: "66%",
         },
         {
           title: t("timeParabox.presentation.title"),
           text: [t("timeParabox.presentation.text.0"), t("timeParabox.presentation.text.1")],
-          className: "bg-[#D1C9BF]",
+          className: "bg-[#F0EDE7]",
           image: timeparaboxVernissage,
           imageSize: "60%",
+          cta: {
+            title: t("timeParabox.presentation.cta.title"),
+            link: "https://github.com/Time-Parabox/time-parabox"
+          }
         },
       ]
     },
