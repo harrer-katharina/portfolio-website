@@ -19,13 +19,19 @@ import timeparaboxVernissage from "@/public/timeParabox/timeParabox-vernissage.w
 
 import bevry from "@/public/bevry/bevry-mocktail.webp";
 import bevrySplash from "@/public/bevry/bevry-cocktail-splash.webp";
-import bevryFeatures from "@/public/bevry/bevry-features.webp";
 import bevryThumbnail from "@/public/bevry/bevry-thumbnail.webp";
-import bevryBranding from "@/public/bevry/bevry-mockup-drucksorten.webp";
+import bevryLogo from "@/public/bevry/bevry-logo.webp";
+import bevryCollage from "@/public/bevry/bevry-collage.webp";
+import bevryWebsite from "@/public/bevry/bevry-website.webp";
+import bevryBranding from "@/public/bevry/bevry-drucksorten.webp";
 import bevryWireframes from "@/public/bevry/bevry-wireframes.webp";
-import bevryGroup from "@/public/bevry/bevry-group.jpg";
-import bevryCheers from "@/public/bevry/bevry-cheers.webp";
+import bevrySwagger from "@/public/bevry/bevry-swagger.webp";
+import bevryTesting from "@/public/bevry/bevry-testing.webp";
+import bevryFeatures from "@/public/bevry/bevry-features.webp";
+import bevryGames from "@/public/bevry/bevry-games.webp";
+import bevryGroup from "@/public/bevry/bevry-group.webp";
 import bevryScreens from "@/public/bevry/bevry-kathy-politan.webp";
+import bevryCheers from "@/public/bevry/bevry-cheers.webp";
 
 import erika from "@/public/erika/erika-closeup.webp";
 import erikaHand from "@/public/erika/erika-thumbnail.webp";
@@ -235,16 +241,38 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           }
         },
         {
-          title: t("bevry.features.title"),
-          text: [t("bevry.features.text.0"), t("bevry.features.text.1"), t("bevry.features.text.2")],
+          title: t("bevry.logo.title"),
+          text: [t("bevry.logo.text.0"), t("bevry.logo.text.1"), t("bevry.logo.text.2")],
           className: "bg-[#FFB889]",
-          image: bevryFeatures,
+          image: bevryLogo,
           imageSize: "60%",
         },
         {
-          title: t("bevry.branding.title"),
-          text: [t("bevry.branding.text.0"), t("bevry.branding.text.1")],
+          title: t("bevry.photography.title"),
+          text: [t("bevry.photography.text.0"), t("bevry.photography.text.1")],
           className: "bg-[#FFB084]",
+          image: bevryCollage,
+          imageSize: "66%",
+        },
+        {
+          title: t("bevry.website.title"),
+          text: [t("bevry.website.text.0"), t("bevry.website.text.1")],
+          className: "bg-[#FFA98B]",
+          image: bevryWebsite,
+          imageSize: "60%",
+          cta: {
+            title: t("bevry.website.cta"),
+            link: "https://www.figma.com/proto/UFSBLQKLjmnkKO7P03mbYo/bevry-mockups?page-id=339%3A440&node-id=339-1006&p=f&viewport=632%2C467%2C0.09&t=iSSgxM2rgduI8Nyc-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=339%3A1006"
+          },
+          cta2: {
+            title: t("bevry.website.cta2"),
+            link: "https://www.figma.com/proto/UFSBLQKLjmnkKO7P03mbYo/bevry-mockups?page-id=339%3A440&node-id=339-1312&p=f&viewport=632%2C467%2C0.09&t=iSSgxM2rgduI8Nyc-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=339%3A1312"
+          },
+        },
+        {
+          title: t("bevry.branding.title"),
+          text: [t("bevry.branding.text.0"), t("bevry.branding.text.1"), t("bevry.branding.text.2")],
+          className: "bg-[#FB9E8F]",
           image: bevryBranding,
           imageSize: "66%",
           cta: {
@@ -261,34 +289,60 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
         {
           title: t("bevry.wireframes.title"),
           text: [t("bevry.wireframes.text.0"), t("bevry.wireframes.text.1"), t("bevry.wireframes.text.2")],
-          className: "bg-[#FB9E8F]",
+          className: "bg-[#FFB084]",
           image: bevryWireframes,
           imageSize: "70%",
         },
         {
-          title: t("bevry.myTasks.title"),
-          text: [t("bevry.myTasks.text.0")],
+          title: t("bevry.backend.title"),
+          text: [t("bevry.backend.text.0"), t("bevry.backend.text.1"), t("bevry.backend.text.2")],
+          className: "bg-[#FFB889]",
+          image: bevrySwagger,
+          imageSize: "55%",
+        },
+        {
+          title: t("bevry.testing.title"),
+          text: [t("bevry.testing.text.0"), t("bevry.testing.text.1"), t("bevry.testing.text.2")],
+          className: "bg-[#FFC38D]",
+          image: bevryTesting,
+          imageSize: "55%",
+        },
+        {
+          title: t("bevry.features.title"),
+          text: [t("bevry.features.text.0"), t("bevry.features.text.1")],
+          className: "bg-[#FFB889]",
+          image: bevryFeatures,
+          imageSize: "60%",
+        },
+        {
+          title: t("bevry.games.title"),
+          text: [t("bevry.games.text.0"), t("bevry.games.text.1"), t("bevry.games.text.2")],
           className: "bg-[#FFB084]",
-          image: bevryScreens,
-          imageSize: "66%",
+          image: bevryGames,
+        },
+        {
+          title: t("bevry.team.title"),
+          text: [t("bevry.team.text.0"), t("bevry.team.text.1"), t("bevry.team.text.2"), t("bevry.team.text.3"), t("bevry.team.text.4"), t("bevry.team.text.5"), t("bevry.team.text.6")],
+          className: "bg-[#FFA98B]",
+          image: bevryGroup,
+          imageSize: "55%",
           cta: {
-            title: t("bevry.myTasks.cta"),
+            title: t("bevry.team.cta"),
             link: "https://mfg.fhstp.ac.at/allgemein/bevry-semesterprojekt-sose24/"
           }
         },
         {
-          title: t("bevry.team.title"),
-          text: [t("bevry.team.text.0"), t("bevry.team.text.1")],
-          className: "bg-[#FFB889]",
-          image: bevryGroup,
-          imageSize: "60%",
+          title: t("bevry.myTasks.title"),
+          text: [t("bevry.myTasks.text.0"), t("bevry.myTasks.text.1")],
+          className: "bg-[#FB9E8F]",
+          image: bevryScreens,
+          imageSize: "66%",
         },
         {
-          title: t("bevry.collaboration.title"),
-          text: [t("bevry.collaboration.text.0"), t("bevry.collaboration.text.1"), t("bevry.collaboration.text.2"), t("bevry.collaboration.text.3"), t("bevry.collaboration.text.4")],
-          className: "bg-[#FFC38D]",
+          title: t("bevry.learnings.title"),
+          text: [t("bevry.learnings.text.0"), t("bevry.learnings.text.1"), t("bevry.learnings.text.2")],
+          className: "bg-[#FFA98B]",
           image: bevryCheers,
-          imageSize: "66%",
         },
       ],
     },

@@ -82,36 +82,46 @@
       "project": {
         "title": "Das Projekt",
         "text": [
-          "Bevry ist eine Web-App, die im Rahmen meines Masterstudiums zusammen mit vier Kommilitoninnen entstanden ist. Die Anwendung richtet sich an Cocktail-Enthusiast*innen, die gerne neue Getränkekreationen ausprobieren und ihre eigenen Rezepte teilen möchten.", 
-          "Zunächst konzentrierten wir uns auf die grundlegenden Funktionen: das Ansehen, Posten, Liken und Bewerten von Cocktailrezepten."
+          "Bevry ist eine Cocktail-App, die im Rahmen meines Masterstudiums zusammen mit vier Kommilitoninnen entstanden ist.", 
+          "Ziel der Web-App ist es, Cocktail-Liebhaber*innen eine Plattform zu bieten, auf der sie neue Rezepte entdecken, eigene Kreationen teilen und Inspiration für ihre nächste Party sammeln können."
         ],
         "cta": "App ansehen"
       },
-      "features": {
-        "title": "Die Funktionalitäten",
+      "logo": {
+        "title": "Das Logo Design",
         "text": [
-          "Im zweiten Mastersemester haben wir der App ein neues Design verliehen und viele neue Funktionen hinzugefügt, um das Nutzererlebnis weiter zu verbessern.", 
-          "Mit der Bar-Inventory-Funktion behalten Nutzer*innen stets den Überblick über ihre vorhandenen Zutaten. Zusätzlich wurden Empfehlungen basierend auf den aktuell im Barbestand vorhandenen Zutaten integriert. Die Einkaufsliste erleichtert das Einkaufen, indem fehlende Zutaten direkt aus dem Rezept hinzugefügt werden können. Zudem gibt es die Möglichkeit, eigene Zutaten zu erstellen und Ersatzzutaten hinzuzufügen, um Rezepte noch individueller anzupassen.", 
-          "Für Unterhaltung auf Partys sorgen unsere beiden Minispiele. Zum einen gibt es das Turn-Based Multiplayer-Game 'Spin the Wheel' und zum anderen das Singleplayer-Game 'Mix it Up'."
+          "Wir entwickelten verschiedene Logo-Ideen und verfeinerten diese in mehreren Iterationen, bis ein Design entstand, das uns alle überzeugte. Das finale Logo greift einen Farbverlauf auf, der an einen Tequila Sunrise erinnert: Von einem fruchtigen Mimosa-Orange geht er fließend in ein beeriges Cosmopolitan-Pink über.",
+          "Diese warme, spielerische Farbpalette vermittelt Frische und Energie, während die weichen, organischen Formen Leichtigkeit und die sprudelnde Lebendigkeit eines prickelnden Drinks symbolisieren.",
+          "In den organischen 'Bubbles' sind zudem subtil die Buchstaben B und Y versteckt – passend zum Namen Bevry. Das 'Y' erinnert dabei zugleich an ein Martini-Glas und verstärkt so den Bezug zur Welt der Drinks."
         ]
+      },
+      "photography": {
+        "title": "Die Bildsprache",
+        "text": [
+          "Für die Bildsprache setzten wir auf authentische Fotos, die wir gemeinsam mit einer Fotografin aus unserem Studiengang im Rahmen eines Cocktail-Shootings erstellten. Jeder bereitete zwei Drinks vor, die anschließend professionell fotografiert wurden.",
+          "Die Rezepte dazu wurden ebenfalls in der App hochgeladen, sodass ein stimmiges Gesamtbild zwischen Design und Content entstand. So bekommt man direkt Lust auf einen Moscow Mule, Espresso Martini oder Tropical Punch!"
+        ]
+      },
+      "website": {
+        "title": "Die Brand Website",
+        "text": [
+          "Die Website wurde mit einem klaren Fokus auf Benutzerfreundlichkeit und ansprechendes Design entwickelt. Wir verwendeten moderne Webtechnologien wie React und Next.js, um eine schnelle und reaktive Benutzeroberfläche zu gewährleisten.",
+          "Die Inhalte wurden sorgfältig strukturiert und in ansprechenden Layouts präsentiert, um die Benutzer zum Stöbern und Entdecken einzuladen."
+        ],
+        "cta":"Website Prototyp ansehen",
+        "cta2":"Mobile Prototyp ansehen"
       },
       "branding": {
         "title": "Das Branding",
         "text": [
           "In der Lehrveranstaltung 'Markenidentität & Corporate Design' wurde die Corporate Identity von Bevry entwickelt. Wir arbeiteten dort mit Adobe InDesign, Adobe Photoshop und Figma.", 
-          "Ich habe dabei das Logo, verschiedene Geschäftsdrucksorten, Sticker, Website-Designs und Mockups angefertigt.", "Wirf doch mal einen Blick in das Brandbook!" 
+          "Ich habe dabei das Logo, die Geschäftsdrucksorten (Visitenkarten, Briefpapiere, Briefumschläge), Sticker, Website-Designs und Mockups angefertigt.", 
+          "Wirf doch mal einen Blick in das Brandbook!" 
         ],
         "cta": "Brandbook herunterladen"
       },
       "brandbook": {
         "title": "Das Brandbook"
-      },
-      "team": {
-        "title": "Agiles Arbeiten im Team",
-        "text": [
-          "Das Team besteht aus fünf Masterstudierenden der FH St. Pölten: Laura, Sara, Sophia, Vani und mir.",
-          "Wir fünf arbeiteten mit Scrum, um uns zu organisieren. Sprint Planning und Sprint Review fanden alle zwei Wochen während unseres wöchentlichen Meetings statt. Wir nutzten Jira, um Tickets zu erstellen und deren Status auf dem Kanban-Board zu verfolgen."
-        ]
       },
       "wireframes": {
         "title": "Das App Design",
@@ -121,23 +131,64 @@
           "Diese Wireframes wurden später in High-Fidelity-Wireframes überführt und dienten als Grundlage für das finale App-Design."
         ]
       },
-      "collaboration": {
-        "title": "Interdisziplinäre Zusammenarbeit",
+      "backend": {
+        "title": "Die Technologien",
         "text": [
+          "Für das Backend setzten wir auf NestJS als Framework, um eine saubere Architektur und modulare Struktur zu gewährleisten. Mit TypeORM konnten wir unsere Datenbank-Entities effizient verwalten und so eine stabile Grundlage für die Anwendung schaffen.",
+          "Die Authentifizierung wurde über JWT realisiert, während bcrypt für eine sichere Passwortverschlüsselung sorgte. Zudem nutzten wir OpenAPI zur automatisierten Dokumentation unserer Endpoints in Swagger, was die Abstimmung zwischen Frontend- und Backend-Entwicklung erheblich erleichterte.",
+          "Im Frontend entschieden wir uns für Vue.js als Framework, ergänzt durch Vuetify, dessen UI-Komponenten uns die Gestaltung einer konsistenten Benutzeroberfläche erleichterten. Für das State Management nutzten wir Pinia."
+        ]
+      },
+      "testing": {
+        "title": "Die User Tests",
+        "text": [
+          "Bereits nach rund zweieinhalb Monaten führten wir erste Usability Tests durch. Zu diesem Zeitpunkt waren die zentralen Basisfunktionalitäten bereits implementiert, das finale Design jedoch noch nicht festgelegt.",
+          "Die Tests zeigten, dass die Mehrheit der Teilnehmenden eine positive Nutzungserfahrung beim Suchen und Posten von Cocktailrezepten hatte. Besonders gelobt wurden die übersichtlichen Kategorien, die große Auswahl sowie das moderne, ansprechende Design. Gleichzeitig konnten auch konkrete Verbesserungspotenziale identifiziert werden.",
+          "Ergänzt wurde die Evaluation durch den Net Promoter Score (NPS), der mit einem Wert von 60 auf eine hohe Nutzerzufriedenheit und Weiterempfehlungsbereitschaft hinweist. Die Ergebnisse dienten uns als wichtige Grundlage für die gezielte Weiterentwicklung im zweiten Semester."
+        ]
+      },
+      "features": {
+        "title": "Die Funktionen",
+        "text": [
+          "Von Beginn an standen das Erstellen, Bearbeiten, Löschen und Teilen von Cocktail-Rezepten im Zentrum. Registrierte Nutzer*innen können die Rezeptsammlung durchsuchen, nach Kategorien oder Zutaten filtern und Rezepte in einer Favoritenliste speichern. Eine Bewertungs- und Kommentarfunktion ermöglicht Austausch und Feedback. Schritt-für-Schritt-Anleitungen erleichtern das Nachmischen.", 
+          "Mit dem Barbestand behalten Nutzende ihre Zutaten im Blick, während die Einkaufsliste fehlende Zutaten direkt aus Rezepten ergänzt. Darüber hinaus können Nutzende eigene Zutaten und Ersatzzutaten anlegen, Rezepte als Entwürfe speichern und auf Grundlage ihres Barbestands personalisierte Empfehlungen erhalten. Ergänzt wurden zudem eine E-Mail-Verifizierung, erweiterte Profileinstellungen sowie eine Ladeanimation."
+        ]
+      },
+      "games": {
+        "title": "Die Minigames",
+        "text": [
+          "Um Bevry noch interaktiver und unterhaltsamer zu gestalten, haben wir einen Games Hub integriert, in dem zwei Minigames entwickelt wurden. Ziel war es, den Spaß am Cocktailmixen sowohl in geselliger Runde als auch alleine spielerisch zu erweitern.", 
+          "Mit 'Spin The Wheel' entstand ein Partyspiel, das auf Geschwindigkeit, Zufall und Gruppendynamik setzt. Dabei drehen Spieler*innen abwechselnd ein Glücksrad, das Zutaten aus dem eigenen Barbestand bestimmt. Sobald der versteckte Timer abläuft, muss die letzte Person das zusammengemischte Getränk probieren.",
+          "Das zweite Spiel 'Mix It Up' richtet sich an Einzelspieler*innen. Hier gilt es, die richtigen Zutaten für ein Cocktailrezept einzusammeln. Auf Basis der echten Rezepte aus Bevry können Nutzende spielerisch neue Drinks entdecken, Bonuspunkte sammeln und sich im Highscore Board messen."
+        ]
+      },
+      "team": {
+        "title": "Agiles Arbeiten im Team",
+        "text": [
+          "Das Team besteht aus fünf Masterstudierenden der FH St. Pölten: Laura, Sara, Sophia, Vani und mir.",
+          "Wir fünf arbeiteten mit Scrum, um uns zu organisieren. Sprint Planning und Sprint Review fanden alle zwei Wochen während unseres wöchentlichen Meetings statt. Wir nutzten Jira, um Tickets zu erstellen und deren Status auf dem Kanban-Board zu verfolgen.",
           "Wir arbeiteten auch mit vier Mitstudierenden aus anderen Masterklassen zusammen, darunter:",
           "'Fotografie' für Cocktail-, Marketing- und Portfoliofotos",
           "'Grafikdesign' für Appdesign und Icons",
           "'Sound Design' für Soundtracks und Sound Effects für die Minigames",
           "'Animation' für eine Ladeanimation sowie Animationen innerhalb der Minigames"
-        ]
+        ],
+        "cta": "Blogeintrag ansehen"
       },
       "myTasks": {
         "title": "Meine Aufgaben",
         "text": [
-          "Meine Hauptverantwortung lag in der Backend-Entwicklung mit NestJS. Die Endpunkt-Dokumentation erfolgte mithilfe von OpenAPI in Swagger. Im Backend war ich unter anderem für die Implementierung der Rezepte, Zutaten, Ersatzzutaten sowie der Einkaufsliste und des Barbestands zuständig. Auch die Verwaltung der Nutzerdaten und die Implementierung der E-Mail-Verifizierung gehörten zu meinen Aufgaben.", 
+          "Neben dem Corporate Branding war ich innerhalb des Projekts hauptsächlich für die Backend-Entwicklung verantwortlich. Dabei habe ich unter anderem das Usermanagement erweitert, die E-Mail-Verifizierung integriert und die Datenbanklogik für Rezepte, Zutaten, Ersatzzutaten, Barbestand und Einkaufsliste umgesetzt.", 
           "Darüber hinaus war ich an der Frontend-Entwicklung mit Vue.js beteiligt. Ich unterstützte bei der Umsetzung der neuen Screendesigns und integrierte sowohl die selbst gestalteten Icons als auch die Ladeanimation."
-        ],
-        "cta": "Blogeintrag ansehen"
+        ]
+      },
+      "learnings": {
+        "title": "Meine Learings",
+        "text": [
+          "Für mich war das Projekt eine wertvolle Gelegenheit, über meinen bisherigen Schwerpunkt hinaus neue Technologien kennenzulernen. Besonders die Arbeit mit NestJS im Backend stellte für mich anfangs eine Herausforderung dar, da ich zuvor nur grundlegende Kenntnisse in PHP und SQL mitbrachte.",
+          "Ich habe gelernt, wie wichtig es ist, die Schnittstellen frühzeitig sauber zu planen, um den Austausch zwischen Frontend- und Backend-Entwicklung reibungslos zu gestalten. Insgesamt habe ich dadurch deutlich mehr Sicherheit im Umgang mit Backend-Technologien gewonnen und würde NestJS bei zukünftigen Projekten definitiv wieder einsetzen.",
+          "Darüber hinaus habe ich viel über Teamorganisation und Projektplanung gelernt. Die zweiwöchigen Sprint-Zyklen haben dafür gesorgt, dass wir kontinuierlich Fortschritte gemacht haben. Gleichzeitig habe ich erkannt, dass Themen wie Deployment und Testing nicht zu spät angegangen werden sollten, da hier oft unerwartete Probleme auftreten."
+        ]
       }
     },
     "erika": {

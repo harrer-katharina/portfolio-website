@@ -81,24 +81,40 @@
       "project": {
         "title": "The Project",
         "text": [
-          "Bevry is a web app created during my master's studies together with four fellow students. The application is aimed at cocktail enthusiasts who enjoy trying new drink creations and sharing their own recipes.",
-          "Initially, we focused on the basic functions: viewing, posting, liking, and rating cocktail recipes."
+          "Bevry is a cocktail app created as part of my master’s program together with four fellow students.",
+          "The goal of the web app is to offer cocktail enthusiasts a platform where they can discover new recipes, share their own creations, and find inspiration for their next party."
         ],
         "cta": "View App"
       },
-      "features": {
-        "title": "Features",
+      "logo": {
+        "title": "Logo Design",
         "text": [
-          "In the second semester of the master's program, we gave the app a new design and added numerous new features to further improve the user experience.",
-          "With the new bar inventory feature, users can always keep track of their existing ingredients. Additionally, recommendations based on the ingredients available in the bar stock were integrated. The shopping list simplifies shopping by allowing missing ingredients to be added directly from the recipe. Users can now also create their own ingredients and add substitute ingredients to make recipes even more personalized.",
-          "For entertainment at parties, our two mini-games come into play. One is the turn-based multiplayer game 'Spin the Wheel', and the other is the single-player game 'Mix it Up'."
+          "We developed several logo ideas and refined them through multiple iterations until we arrived at a design that convinced us all. The final logo features a gradient reminiscent of a Tequila Sunrise: transitioning from a fruity Mimosa orange to a rich Cosmopolitan pink.",
+          "This warm, playful color palette conveys freshness and energy, while the soft, organic shapes symbolize lightness and the sparkling vibrancy of a fizzy drink.",
+          "Within the organic bubbles, the letters B and Y are subtly hidden – matching the name Bevry. The 'Y' also resembles a martini glass, reinforcing the connection to the world of drinks."
         ]
+      },
+      "photography": {
+        "title": "Visual Language",
+        "text": [
+          "For the visual language, we relied on authentic photos created together with a photographer from our program during a cocktail shoot. Each of us prepared two drinks, which were then professionally photographed.",
+          "The corresponding recipes were also uploaded to the app, resulting in a consistent interplay between design and content. The images immediately make you crave a Moscow Mule, Espresso Martini, or Tropical Punch!"
+        ]
+      },
+      "website": {
+        "title": "Brand Website",
+        "text": [
+          "The website was developed with a strong focus on user-friendliness and appealing design. We used modern web technologies such as React and Next.js to ensure a fast and responsive user interface.",
+          "The content was carefully structured and presented in engaging layouts to invite users to browse and explore."
+        ],
+        "cta": "View Website Prototype",
+        "cta2": "View Mobile Prototype"
       },
       "branding": {
         "title": "Branding",
         "text": [
-          "In the course 'Brand Identity & Corporate Design', the corporate identity of Bevry was developed. We worked with Adobe InDesign, Adobe Photoshop, and Figma.",
-          "I created the logo, various business stationery, stickers, website designs, and mockups.",
+          "In the course 'Brand Identity & Corporate Design' we developed the corporate identity for Bevry. We worked with Adobe InDesign, Adobe Photoshop, and Figma.",
+          "I created the logo, business stationery (business cards, letterheads, envelopes), stickers, website designs, and mockups.",
           "Take a look at the brand book!"
         ],
         "cta": "Download Brandbook"
@@ -106,38 +122,72 @@
       "brandbook": {
         "title": "The Brandbook"
       },
+      "wireframes": {
+        "title": "App Design",
+        "text": [
+          "At the beginning, we analyzed comparable apps to identify relevant features, content, information architecture, and design approaches, which then formed the basis for our own app strategy.",
+          "As a next step, we created low-fidelity wireframes to plan the basic structure and user flow of the app.",
+          "These wireframes were later refined into high-fidelity wireframes, which served as the foundation for the final app design."
+        ]
+      },
+      "backend": {
+        "title": "Technologies",
+        "text": [
+          "For the backend, we used NestJS as a framework to ensure a clean architecture and modular structure. With TypeORM, we were able to manage our database entities efficiently and create a stable foundation for the application.",
+          "Authentication was implemented with JWT, while bcrypt ensured secure password encryption. We also used OpenAPI for automated endpoint documentation in Swagger, which greatly facilitated coordination between frontend and backend development.",
+          "On the frontend, we chose Vue.js as the framework, complemented by Vuetify, whose UI components helped us design a consistent user interface. For state management, we used Pinia."
+        ]
+      },
+      "testing": {
+        "title": "User Testing",
+        "text": [
+          "After about two and a half months, we conducted our first usability tests. At that point, the core functionalities were already implemented, but the final design had not yet been defined.",
+          "The tests showed that most participants had a positive experience when searching for and posting cocktail recipes. Particularly praised were the clear categories, the large selection, and the modern, appealing design. At the same time, concrete areas for improvement were identified.",
+          "The evaluation was complemented by the Net Promoter Score (NPS), which, with a score of 60, indicates high user satisfaction and willingness to recommend. The results served as an important basis for targeted improvements in the second semester."
+        ]
+      },
+      "features": {
+        "title": "Features",
+        "text": [
+          "From the very beginning, creating, editing, deleting, and sharing cocktail recipes was at the core. Registered users can browse the recipe collection, filter by category or ingredient, and save recipes in a favorites list. A rating and comment function allows for feedback and exchange. Step-by-step instructions make it easier to follow recipes.",
+          "With the Bar Inventory, users can keep track of their ingredients, while the Shopping List adds missing items directly from recipes. Users can also create custom ingredients and substitutes, save recipes as drafts, and receive personalized recommendations based on their bar inventory. Additionally, we integrated email verification, extended profile settings, and a loading animation."
+        ]
+      },
+      "games": {
+        "title": "Minigames",
+        "text": [
+          "To make Bevry even more interactive and fun, we integrated a Games Hub featuring two minigames. The goal was to expand the joy of mixing cocktails both in groups and alone in a playful way.",
+          "‘Spin The Wheel’ is a party game focused on speed, chance, and group dynamics. Players take turns spinning a wheel that selects ingredients from their own bar inventory. When the hidden timer runs out, the last player must drink the resulting mix.",
+          "The second game, ‘Mix It Up,’ is designed for single players. Here, the goal is to collect the correct ingredients for a cocktail recipe while avoiding the wrong ones. Based on real recipes from Bevry, players can discover new drinks, earn bonus points, and compete on the high score board."
+        ]
+      },
       "team": {
         "title": "Agile Teamwork",
         "text": [
-          "The team consists of five master's students from FH St. Pölten: Laura, Sara, Sophia, Vani, and me.",
-          "We worked with Scrum to stay organized. Sprint Planning and Sprint Review took place every two weeks during our weekly meetings. We used Jira to create tickets and track their status on the Kanban board."
-        ]
-      },
-      "wireframes": {
-        "title": "The App Design",
-        "text": [
-          "At the beginning, we conducted an analysis of comparable apps to identify relevant features, content, information architecture, and design approaches, which formed the basis for our own app strategy.",
-          "In the first step, low-fidelity wireframes were created to plan the basic structure and user flow of the app.",
-          "These wireframes were later transformed into high-fidelity wireframes and served as the basis for the final app design."
-        ]
-      },
-      "collaboration": {
-        "title": "Interdisciplinary Collaboration",
-        "text": [
-          "We also collaborated with students from other master's programs, including:",
-          "'Photography' for cocktail, marketing and portfolio photos",
-          "'Graphic Design' for app design and icons",
-          "'Sound Design' for soundtracks and sound effects for the mini-games",
-          "'Animation' for a loading animation as well as animations within the mini-games"
-        ]
+          "The team consisted of five master’s students from FH St. Pölten: Laura, Sara, Sophia, Vani, and myself.",
+          "We worked with Scrum to organize ourselves. Sprint planning and reviews were held every two weeks during our weekly meetings. We used Jira to create tickets and track their status on the Kanban board.",
+          "We also collaborated with four fellow students from other master’s programs, including:",
+          "‘Photography’ for cocktail, marketing, and portfolio photos",
+          "‘Graphic Design’ for app design and icons",
+          "‘Sound Design’ for soundtracks and sound effects for the minigames",
+          "‘Animation’ for a loading animation and in-game animations for the minigames"
+        ],
+        "cta": "Read Blog Post"
       },
       "myTasks": {
-        "title": "My Tasks",
+        "title": "My Responsibilities",
         "text": [
-          "My main responsibility was in backend development with NestJS. Endpoint documentation was done using OpenAPI in Swagger. In the backend, I was responsible for the implementation of recipes, ingredients, substitute ingredients, as well as the shopping list and bar inventory. I also handled user data management and the implementation of email verification.",
-          "Additionally, I was involved in frontend development with Vue.js. I assisted in implementing the new screen designs and integrated both the self-designed icons and the loading animation."
-        ],
-        "cta": "View Blog Post"
+          "In addition to corporate branding, I was mainly responsible for backend development within the project. Among other things, I extended the user management, integrated email verification, and implemented the database logic for recipes, ingredients, substitutes, bar inventory, and shopping list.",
+          "I was also involved in frontend development with Vue.js. I supported the implementation of the new screen designs and integrated both the custom-designed icons and the loading animation."
+        ]
+      },
+      "learnings": {
+        "title": "My Learnings",
+        "text": [
+          "For me, the project was a valuable opportunity to go beyond my previous focus and learn new technologies. Working with NestJS in the backend was particularly challenging at first, as I had previously only basic knowledge of PHP and SQL.",
+          "I learned how important it is to carefully plan interfaces early on to ensure smooth collaboration between frontend and backend development. Overall, this gave me much more confidence in working with backend technologies, and I would definitely use NestJS again in future projects.",
+          "I also learned a lot about team organization and project planning. The two-week sprint cycles ensured continuous progress. At the same time, I realized that deployment and testing should not be left too late, as unexpected issues often arise here."
+        ]
       }
     },
     "erika": {

@@ -16,6 +16,7 @@ export type ProjectSection = {
     image: StaticImageData | string;
     imageSize?: string;
     cta?: CTAType;
+    cta2?: CTAType;
 };
 
 export type ProjectType = {

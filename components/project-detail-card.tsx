@@ -139,6 +139,14 @@ export default function DetailCard({
                     />
                   </div>
                 )}
+              {section?.cta2 && (
+                <div className="mt-4">
+                  <CTABtn
+                    title={section.cta2.title ?? ""}
+                    link={section.cta2.link ?? ""}
+                  />
+                </div>
+              )}
             </div>
 
             <div
