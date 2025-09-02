@@ -37,14 +37,14 @@ export default function DetailCard({
     offset: ["start end", "start start"],
   });
 
+  const [isMobile, setIsMobile] = useState(false);
+  const [images, setImages] = useState<string[]>([]);
+
   const imageScale = useTransform(scrollYProgress, [0, 0.75], [2, 1]);
   const scale = useTransform(progress, range, [
     1,
-    scaleCards ? targetScale : 1,
+    isMobile || !scaleCards ? 1 : targetScale,
   ]);
-
-  const [isMobile, setIsMobile] = useState(false);
-  const [images, setImages] = useState<string[]>([]);
 
   useEffect(() => {
     if (section.image === "") {
@@ -83,7 +83,7 @@ export default function DetailCard({
           images?.length > 0 && !isMobile ? "" : "py-6 lg:p-12 sm:py-8"
         )}
         style={{
-          scale: isMobile ? 1 : scale,
+          scale: scale,
           top: isMobile || !scaleCards ? `` : `calc(-2vh + ${index * 25}px)`,
           backgroundColor:
             section.className && theme === "light"
