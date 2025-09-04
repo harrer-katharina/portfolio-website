@@ -30,15 +30,20 @@ export default function Experience() {
   const mouseEnter = () => setVariant("TEXT");
   const mouseLeave = () => setVariant("DEFAULT");
 
+  const experiences = getExperiencesData(t);
+  const inViewArray = experiences.map(() =>
+    useInView({
+      threshold: 0.2,
+      triggerOnce: true,
+    })
+  );
+
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>{t("title")}</SectionHeading>
       <VerticalTimeline lineColor={clientTheme === "light" ? "#fff" : ""}>
-        {getExperiencesData(t).map((item, index) => {
-          const { ref: itemRef, inView } = useInView({
-            threshold: 0.2,
-            triggerOnce: true,
-          });
+        {experiences.map((item, index) => {
+          const { ref: itemRef, inView } = inViewArray[index];
           return (
             <React.Fragment key={index}>
               <VerticalTimelineElement

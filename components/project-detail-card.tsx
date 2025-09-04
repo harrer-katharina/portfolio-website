@@ -56,7 +56,7 @@ export default function DetailCard({
 
       loadImages();
     }
-  }, []);
+  }, [section.image]);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
