@@ -17,15 +17,6 @@ import { useTheme } from "@/context/theme-context";
 import { useVariants } from "@/context/variants-context";
 import Tag from "@/components/tag";
 
-function useExperiencesInView(count: number) {
-  return Array.from({ length: count }, () =>
-    useInView({
-      threshold: 0.2,
-      triggerOnce: true,
-    })
-  );
-}
-
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const t = useTranslations("Experiences");
@@ -39,14 +30,24 @@ export default function Experience() {
   const mouseEnter = () => setVariant("TEXT");
   const mouseLeave = () => setVariant("DEFAULT");
 
-  const experiences = getExperiencesData(t);
-  const inViewArray = useExperiencesInView(experiences.length);
+  const inViewMaster = useInView({ threshold: 0.2, triggerOnce: true });
+  const inViewJob2 = useInView({ threshold: 0.2, triggerOnce: true });
+  const inViewJob1 = useInView({ threshold: 0.2, triggerOnce: true });
+  const inViewBachelor = useInView({ threshold: 0.2, triggerOnce: true });
+  const inViewSchool = useInView({ threshold: 0.2, triggerOnce: true });
+  const inViewArray = [
+    inViewMaster,
+    inViewJob1,
+    inViewJob2,
+    inViewBachelor,
+    inViewSchool,
+  ];
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>{t("title")}</SectionHeading>
       <VerticalTimeline lineColor={clientTheme === "light" ? "#fff" : ""}>
-        {experiences.map((item, index) => {
+        {getExperiencesData(t).map((item, index) => {
           const { ref: itemRef, inView } = inViewArray[index];
           return (
             <React.Fragment key={index}>
