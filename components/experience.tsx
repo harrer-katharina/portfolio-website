@@ -17,6 +17,15 @@ import { useTheme } from "@/context/theme-context";
 import { useVariants } from "@/context/variants-context";
 import Tag from "@/components/tag";
 
+function useExperiencesInView(count: number) {
+  return Array.from({ length: count }, () =>
+    useInView({
+      threshold: 0.2,
+      triggerOnce: true,
+    })
+  );
+}
+
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const t = useTranslations("Experiences");
@@ -31,12 +40,7 @@ export default function Experience() {
   const mouseLeave = () => setVariant("DEFAULT");
 
   const experiences = getExperiencesData(t);
-  const inViewArray = experiences.map(() =>
-    useInView({
-      threshold: 0.2,
-      triggerOnce: true,
-    })
-  );
+  const inViewArray = useExperiencesInView(experiences.length);
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
