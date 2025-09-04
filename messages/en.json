@@ -377,14 +377,16 @@
   },
   "Experiences": {
     "title": "My Career",
-    "bachelorTitle": "Bachelor of Science - Computer Science and Media",
-    "bachelorLocation": "TH Nürnberg",
-    "bachelorDescription": [
-      "Bachelor’s Thesis in Collaboration with Fraunhofer – Developed with Angular",
-      "Topic: Analysis and redesign of the user interface of a Pick-by-Light system to enhance usability, using the TRILUM project as a case study.", 
-      "Final grade: 1.8"
-    ],
-    "bachelorDate": "10/2018 – 03/2022",
+    "bachelor": {
+      "title": "Bachelor of Science - Computer Science and Media",
+      "location": "TH Nürnberg",
+      "date": "10/2018 – 03/2022",
+      "description": [
+        "Bachelor’s Thesis in Collaboration with Fraunhofer – Developed with Angular",
+        "Topic: Analysis and redesign of the user interface of a Pick-by-Light system to enhance usability, using the TRILUM project as a case study.",
+        "Final grade: 1.8"
+      ]
+    },
     "job1Title": "Frontend Developer: Research Assistant, Intern",
     "job1Location": "Fraunhofer IIS, Supply Chain Services Group, Nürnberg",
     "job1Description": [

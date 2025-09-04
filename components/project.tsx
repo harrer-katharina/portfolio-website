@@ -24,7 +24,7 @@ export default function Project({
   const router = useRouter();
   const { setVariant } = useVariants();
   const { locale } = useLanguage();
-  const { ref } = useSectionInView("Projects", 0.5);
+  const { ref } = useSectionInView("Projects");
   const container = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: container,
@@ -53,7 +53,7 @@ export default function Project({
       onMouseLeave={() => setVariant("DEFAULT")}
     >
       <section
-        ref={index === 0 ? ref : null}
+        ref={ref}
         onClick={showProjectDetails}
         className="max-w-[42rem] sm:h-[20rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative transition sm:group-even:pl-8 bg-white/75 hover:bg-white dark:text-white dark:bg-white/10 dark:hover:bg-white/20"
       >

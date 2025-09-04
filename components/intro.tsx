@@ -13,7 +13,7 @@ import Introduction from "./introduction";
 import CTABtn from "./cta-btn";
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.5);
+  const { ref } = useSectionInView("Home");
   const t = useTranslations("Intro");
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 

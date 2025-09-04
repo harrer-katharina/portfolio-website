@@ -377,36 +377,51 @@
   },
   "Experiences": {
     "title": "Mein Werdegang",
-    "bachelorTitle": "Bachelor of Science - Medieninformatik",
-    "bachelorLocation": "TH Nürnberg",
-    "bachelorDescription": [
-      "Bachelorarbeit in Kooperation mit Fraunhofer – Entwicklung mit Angular.",
-      "Thema: Analyse und Überarbeitung der Benutzeroberfläche eines Pick-by-Light-Systems zur Verbesserung der Usability am Beispiel des Projekts TRILUM.", 
-      "Abschlussnote: 1,8"
-    ],
-    "bachelorDate": "10/2018 – 03/2022",
-    "job1Title": "Frontendentwicklerin: HiWi, Praktikantin",
-    "job1Location": "Fraunhofer IIS, Arbeitsgruppe für Supply Chain Services, Nürnberg",
-    "job1Description": [
-      "Absolvierung eines fünfmonatigen Pflichtpraktikums im Bereich Frontend-Entwicklung.", 
-      "Anschließende Übernahme als wissenschaftliche Hilfskraft bis zum Ende des Bachelorstudiums.", 
-      "Entwicklung mit Vue.js, Durchführung von Objektmessungen für ein Machine-Learning-Projekt und Erstellung von UI-Prototypen."],
-    "job1Date": "09/2020 – 03/2022",
-    "job2Title": "Entwicklerin: Frontend – Middleware",
-    "job2Location": "edison street GmbH, Roth",
-    "job2Description": [
-      "Vollzeit-Tätigkeit (1 Jahr, 5 Monate) nach dem Bachelorabschluss.",
-      "Teilzeit-Beschäftigung (1 Jahr, 6 Monate) während des Masterstudiums.", 
-      "Entwicklung und Design einer Webanwendung, die Kunden eine übersichtliche Darstellung ihrer Verbrauchs- und Leistungsdaten ermöglicht."
-    ],
-    "job2Date": "04/2022 – 02/2025",
-    "masterTitle": "Dipl.-Ing. Interactive Technologies",
-    "masterLocation": "FH St. Pölten, Österreich",
-    "masterDescription": [
-      "Schwerpunkt: Mobile (Web- & Appentwicklung)", 
-      "Masterarbeit: Green Booking – Designinterventionen zur Unterstützung umweltbewusster Entscheidungen in einer Reisebuchungs-App."
-    ],
-    "masterDate": "09/2023 – dato"
+    "school": {
+      "title": "Allgemeine Hochschulreife",
+      "location": "Gymnasium Roth",
+      "date": "09/2015 – 07/2018",
+      "description": []
+    },
+    "bachelor": {
+      "title": "Bachelor of Science - Medieninformatik",
+      "location": "TH Nürnberg",
+      "date": "10/2018 – 03/2022",
+      "description": [
+        "Bachelorarbeit in Kooperation mit Fraunhofer – Entwicklung mit Angular.",
+        "Thema: Analyse und Überarbeitung der Benutzeroberfläche eines Pick-by-Light-Systems zur Verbesserung der Usability am Beispiel des Projekts TRILUM.",
+        "Abschlussnote: 1,8"
+      ]
+    },
+    "job1": {
+      "title": "Frontendentwicklerin: HiWi, Praktikantin",
+      "location": "Fraunhofer IIS, Arbeitsgruppe für Supply Chain Services, Nürnberg",
+      "date": "09/2020 – 03/2022",
+      "description": [
+        "Absolvierung eines fünfmonatigen Pflichtpraktikums im Bereich Frontend-Entwicklung.",
+        "Anschließende Übernahme als wissenschaftliche Hilfskraft bis zum Ende des Bachelorstudiums.",
+        "Entwicklung mit Vue.js, Durchführung von Objektmessungen für ein Machine-Learning-Projekt und Erstellung von UI-Prototypen."
+      ]
+    },
+    "job2": {
+      "title": "Entwicklerin: Frontend – Middleware",
+      "location": "edison street GmbH, Roth",
+      "date": "04/2022 – 02/2025",
+      "description": [
+        "Vollzeit-Tätigkeit (1 Jahr, 5 Monate) nach dem Bachelorabschluss.",
+        "Teilzeit-Beschäftigung (1 Jahr, 6 Monate) während des Masterstudiums.", 
+        "Entwicklung und Design einer Webanwendung, die Kunden eine übersichtliche Darstellung ihrer Verbrauchs- und Leistungsdaten ermöglicht."
+      ]
+    },
+    "master": {
+      "title": "Dipl.-Ing. Interactive Technologies",
+      "location": "FH St. Pölten, Österreich",
+      "date": "09/2023 – dato",
+      "description": [
+        "Schwerpunkt: Mobile (Web- & Appentwicklung)",
+        "Masterarbeit: Green Booking – Designinterventionen zur Unterstützung umweltbewusster Entscheidungen in einer Reisebuchungs-App."
+      ]
+    }
   },
   "Skills": {
     "title": "Meine Kenntnisse"
