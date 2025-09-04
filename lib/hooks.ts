@@ -20,15 +20,3 @@ export function useSectionInView(sectionName: SectionName, threshold = [0.25, 0.
     ref, inView
   };
 }
-
-export function useItemInView() {
-  const { ref: itemRef, inView } = useInView({
-    threshold: 0.2,
-    triggerOnce: true,
-  });
-
-  return {
-    itemRef,
-    inView,
-  };
-}

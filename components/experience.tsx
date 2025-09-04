@@ -11,7 +11,8 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { getExperiencesData } from "@/lib/data";
-import { useSectionInView, useItemInView } from "@/lib/hooks";
+import { useSectionInView } from "@/lib/hooks";
+import { useInView } from "react-intersection-observer";
 import { useTheme } from "@/context/theme-context";
 import { useVariants } from "@/context/variants-context";
 import Tag from "@/components/tag";
@@ -34,7 +35,10 @@ export default function Experience() {
       <SectionHeading>{t("title")}</SectionHeading>
       <VerticalTimeline lineColor={clientTheme === "light" ? "#fff" : ""}>
         {getExperiencesData(t).map((item, index) => {
-          const { itemRef, inView } = useItemInView();
+          const { ref: itemRef, inView } = useInView({
+            threshold: 0.2,
+            triggerOnce: true,
+          });
           return (
             <React.Fragment key={index}>
               <VerticalTimelineElement
