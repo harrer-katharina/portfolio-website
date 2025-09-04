@@ -182,7 +182,7 @@
         ]
       },
       "learnings": {
-        "title": "My Learnings",
+        "title": "Learnings",
         "text": [
           "For me, the project was a valuable opportunity to go beyond my previous focus and learn new technologies. Working with NestJS in the backend was particularly challenging at first, as I had previously only basic knowledge of PHP and SQL.",
           "I learned how important it is to carefully plan interfaces early on to ensure smooth collaboration between frontend and backend development. Overall, this gave me much more confidence in working with backend technologies, and I would definitely use NestJS again in future projects.",
@@ -198,13 +198,7 @@
       "project": {
         "title": "The Project",
         "text": [
-          "In the second semester of my master's program, I had the opportunity to work on a research project affiliated with the program's research institute. I chose the ERIKA project. The goal of the project is to develop the ERIKA app, which serves as a digital companion for climate-conscious actions in everyday life."
-        ],
-        "cta": "View Project"
-      },
-      "app": {
-        "title": "The App",
-        "text": [
+          "In the second semester of my master's program, I had the opportunity to work on a research project affiliated with the program's research institute. I chose the ERIKA project. The goal of the project is to develop the ERIKA app, which serves as a digital companion for climate-conscious actions in everyday life.",
           "The app aims to promote climate-friendly behavior and highlight regional activities in the Waidhofen a/d Ybbs area. The focus is not only on sustainable content but also on sustainable aspects in the development and design of the app, ensuring a holistic implementation of the concept of sustainability."
         ]
       },
@@ -233,6 +227,15 @@
           "The calendar and map views display upcoming initiatives and events. Each event has a detailed page with descriptions, dates, and location info. With GPS enabled, users receive notifications when near an event."
         ],
         "cta": "View Prototype"
+      },
+      "learnings": {
+        "title": "Learnings",
+        "text": [
+          "The project gave me the opportunity to contribute to a research project at the university for the first time, providing insight into the processes from conceptualization and research to surveys and workshops. It was particularly exciting for me to be involved so early in the project and see how much conceptual work goes into the initial phases.",
+          "I found the content-related research especially enriching, particularly on the topics of behavior influence in digital applications, which later led me to dedicate my master's thesis to this subject.",
+          "Through the intensive engagement with sustainable web design, I also discovered many new aspects I hadn’t considered before and was able to apply parts of this knowledge directly to my own web development projects."
+        ],
+        "cta": "View Project Website"
       }
     },
     "timeParabox": {
@@ -298,9 +301,14 @@
           "Additionally, we developed a social media concept for LinkedIn and Instagram to increase the project’s visibility. Our goal was to create a cohesive and engaging presentation that sparked curiosity and encouraged visitors to try out the game."
         ]
       },
-      "cta": {
-        "title": "View GitHub Repository",
-        "link": "https://github.com/Time-Parabox/time-parabox"
+      "learnings": {
+        "title": "Learnings",
+        "text": [
+          "In this project, I was able to gain valuable new experiences. For the first time, I worked with React Native and Expo, which gave me a solid introduction to native app development. I also found it particularly exciting to work with smartphone sensors that we integrated into the puzzle mechanics.",
+          "In addition, collaborating in a large team of ten people was a very instructive experience. At first, I was concerned that organizing such a big group might be challenging. However, by using Scrum, running regular sprints, and defining clear responsibilities within smaller subgroups, team coordination worked smoothly and efficiently.",
+          "Although my focus was mainly on the app and I worked less directly with the hardware, I found it fascinating to see how the various hardware and software components interlock and communicate with each other."
+        ],
+        "cta": "View GitHub Repo"
       }
     },
     "pgmon": {
@@ -375,7 +383,7 @@
         "cta": "View Prototype"
       },
       "learnings": {
-        "title": "The Learnings",
+        "title": "Learnings",
         "text": [
           "Through this project, I gained insights into creating business plans and, for the first time, approached a product from a business perspective. This included considering how it could become financially profitable, which business models might apply, and which subplans (e.g., personnel, finance, sales planning, as well as profit and loss statement) make up a complete business plan.",
           "The project showed me the importance of thinking about technical feasibility, user experience, and economic viability together."
@@ -437,14 +445,7 @@
         "text": [
           "In my second master's semester, I participated in a one-week Summer School workshop. I chose Environmental Storytelling, which focused on worldbuilding as well as environmental and visual storytelling.",
           "The project involved creating a static or interactive immersive video game scene using Unity and pre-made assets. The scene needed to be realistic, visually engaging, and functional for a game environment, with a strong emphasis on applying the principles of environmental storytelling.",
-          "In small teams, we developed Ecocalypse, a game set in 2035 after a climate catastrophe. A year earlier, the entire rainforest had burned down, triggering climate collapse and the breakdown of the global order."
-        ]
-      },
-      "implementation": {
-        "title": "The Implementation",
-        "text": [
-          "For the implementation of the project, I took on several tasks, including worldbuilding, storytelling, and placing objects in the room, such as the newspaper articles. Additionally, I was responsible for selecting the necessary low-poly assets for Unity.",
-          "When creating the storyline, we paid special attention to integrating behavioral traces, identity claims, and mood modifiers. These elements had to be cohesive to create an immersive experience. Any inconsistencies in the room, lighting, or sound could break the players’ immersion and disrupt the experience."
+          "In a small team of four, we developed the game concept Ecocalypse, a game set in the year 2035 after a climate catastrophe. A year earlier, the entire rainforest had burned down, triggering climate collapse and the breakdown of the global order."
         ]
       },
       "scene": {
@@ -460,8 +461,22 @@
           "Carefully placed objects narrate the game's story and provide background context. Newspaper articles on the walls report on the crisis. A family portrait hints at a rural safe haven. A city map highlights Joseph’s planned escape route.",
           "A wall calendar marks January 2035, showing Joseph’s attempts to keep track of time. His detailed daily routine reflects his struggle against isolation. An unfinished letter to Julia reveals his thoughts and emotions. An ad for H2-NO underscores extreme water scarcity and the world's dire conditions.",
           "These elements create an immersive scene that effectively applies the principles of environmental storytelling."
+        ]
+      },
+      "implementation": {
+        "title": "The Implementation",
+        "text": [
+          "My responsibilities in the project were diverse and included aspects of worldbuilding, storytelling and the creation of in-game objects, such as newspaper articles. Additionally, I was responsible for selecting the necessary low-poly assets for Unity.",
+          "When creating the storyline, we paid special attention to integrating behavioral traces, identity claims, and mood modifiers. These elements had to be cohesive to create an immersive experience. Any inconsistencies in the room, lighting, or sound could break the players’ immersion and disrupt the experience."
         ],
         "cta": "View Documentation"
+      },
+      "learnings": {
+        "title": "Learnings",
+        "text": [
+          "Before the Summer School, I was hardly familiar with the concept of environmental storytelling. Through the project, however, I was able to immerse myself in the world of game design and gain hands-on experience with worldbuilding, environmental, and visual storytelling. What I found especially exciting was not just telling a story, but making it tangible through space, objects, and atmosphere. The key was to create a coherent and immersive world where every detail contributes to the overall narrative.",
+          "I also gained my first experience working with Unity, a tool I had barely encountered before. What I found particularly valuable was the collaboration within our interdisciplinary team: by assigning tasks based on our strengths, we were able to leverage different skill sets effectively—ensuring that not everyone needed to be a Unity expert to achieve a compelling result."
+        ]
       }
     },
     "trilum": {

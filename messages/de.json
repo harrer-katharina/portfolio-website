@@ -66,7 +66,7 @@
         ]
       },
       "learnings": {
-        "title": "Die Learnings",
+        "title": "Meine Learnings",
         "text": [
           "Dieses Projekt war vor allem durch den Aspekt der Kundenarbeit geprägt. Ich habe gelernt, wie wichtig es ist, den Kunden fachlich gut zu beraten, aber gleichzeitig seine individuellen Wünsche ernst zu nehmen und beides in eine gute Lösung zu überführen.",
           "Neu war für mich außerdem die Arbeit mit WordPress im Sinne einer klassischen CMS-Nutzung. Zwar hatte ich bereits Erfahrungen mit WordPress gesammelt, damals jedoch ausschließlich mit selbst entwickelten Themes und Plugins. Dieses Projekt war das erste, bei dem ich eine Website vollständig ohne eigene Programmierung realisiert habe.",
@@ -199,9 +199,9 @@
       "project": {
         "title": "Das Projekt",
         "text": [
-          "Im zweiten Mastersemester hatte ich die Möglichkeit, an einem Forschungsprojekt des dem Studiengang angeschlossenen Forschungsinstituts mitzuarbeiten. Ich habe mich für das Projekt ERIKA entschieden. Ziel des Projekts ist die Entwicklung der App ERIKA, die als digitale Begleiterin für klimabewusstes Handeln im Alltag fungiert."
-        ],
-        "cta": "Projekt ansehen"
+          "Im zweiten Mastersemester hatte ich die Möglichkeit, an einem Forschungsprojekt des dem Studiengang angeschlossenen Forschungsinstituts mitzuarbeiten. Ich habe mich für das Projekt ERIKA entschieden. Ziel des Projekts ist die Entwicklung der App ERIKA, die als digitale Begleiterin für klimabewusstes Handeln im Alltag fungiert.",
+          "Die App soll dazu beitragen, klimafreundliches Verhalten zu fördern und regionale Aktivitäten in der Region Waidhofen a/d Ybbs sichtbar zu machen. Dabei liegt der Fokus nicht nur auf nachhaltigen Inhalten, sondern auch auf nachhaltigen Aspekten bei der Entwicklung und dem Design der App, um das Konzept der Nachhaltigkeit ganzheitlich zu implementieren."
+        ]
       },
       "app": {
         "title": "Die App",
@@ -234,6 +234,15 @@
           "In der Kalender- und Kartenansicht sind bevorstehende Initiativen und Events sichtbar. Jedes Event bietet eine Detailansicht mit Beschreibung, Terminen und Standortinfos. Bei aktivierter GPS-Funktion erhalten Nutzer*innen Benachrichtigungen, wenn sie sich in der Nähe eines Events befinden."
         ],
         "cta": "Prototyp ansehen"
+      },
+      "learnings": {
+        "title": "Meine Learnings",
+        "text": [
+          "Das Projekt gab mir erstmals die Möglichkeit, an einem Forschungsprojekt der Hochschule mitzuwirken und dadurch einen Einblick in die Abläufe von der Konzeption über Recherche und Umfragen bis hin zu Workshops zu erhalten. Besonders spannend war es für mich, so früh im Projekt dabei zu sein und zu sehen, wie viel konzeptionelle Arbeit in den ersten Phasen steckt.",
+          "Sehr bereichernd fand ich die inhaltliche Recherche, insbesondere zu den Themen Verhaltensbeeinflussung in digitalen Anwendungen, weshalb ich anschließend auch meine Masterthesis diesem Thema widmete.",
+          "Auch durch die intensive Auseinandersetzung mit nachhaltigem Webdesign habe ich viele neue Aspekte kennengelernt, über die ich zuvor nicht nachgedacht hatte und konnte Teile davon direkt für eigene Webentwicklungsprojekte anwenden."
+        ],
+        "cta": "Projektwebsite ansehen"
       }
     },
     "timeParabox": {
@@ -297,11 +306,16 @@
         "text": [
           "Gemeinsam mit einer Kommilitonin habe ich die Präsentation von Time Parabox bei der Projektevernissage der FH St. Pölten organisiert. Wir haben das Standdesign entwickelt sowie eine Slideshow, Postkarten, Sticker, Flyer und Poster gestaltet. Außerdem haben wir das Logo und ein einheitliches Corporate Design entworfen.",
           "Zusätzlich haben wir ein Social-Media-Konzept für LinkedIn und Instagram erstellt, um die Sichtbarkeit des Projekts zu erhöhen. Unser Ziel war es, ein stimmiges und ansprechendes Gesamtkonzept zu schaffen, das die Besucher*innen neugierig macht und zum Ausprobieren des Spiels einlädt."
+        ]
+      },
+      "learnings": {
+        "title": "Meine Learnings",
+        "text": [
+          "In diesem Projekt konnte ich wertvolle neue Erfahrungen sammeln. Zum ersten Mal arbeitete ich mit React Native und Expo und konnte so einen fundierten Einstieg in die native App-Entwicklung gewinnen. Besonders spannend war auch der Umgang mit Smartphone-Sensoren die wir in die Rätselmechaniken integriert haben.",
+          "Darüber hinaus war die Zusammenarbeit in einem großen Team von zehn Personen eine lehrreiche Erfahrung. Anfangs hatte ich die Befürchtung, dass die Organisation in einer so großen Gruppe herausfordernd sein könnte. Durch den Einsatz von Scrum, regelmäßige Sprints und klar verteilte Verantwortlichkeiten in kleineren Untergruppen funktionierte die Teamkoordination jedoch reibungslos und effizient.",
+          "Auch wenn mein Fokus hauptsächlich auf der App lag und ich weniger direkt mit der Hardware arbeitete, fand ich es äußerst spannend mitzuerleben, wie die verschiedenen Hardware- und Softwarekomponenten ineinandergreifen und miteinander kommunizieren."
         ],
-        "cta": {
-          "title": "GitHub-Repository ansehen",
-          "link": "https://github.com/Time-Parabox/time-parabox"
-        }
+        "cta": "GitHub-Repo ansehen"
       }
     },
     "pgmon": {
@@ -339,7 +353,7 @@
         ]
       },
       "learnings": {
-        "title": "Die Learnings",
+        "title": "Meine Learnings",
         "text": [
           "Durch das Projekt konnte ich meine Kenntnisse in Vue.js vertiefen und habe ein besseres Verständnis für das Zusammenspiel von Frontend und Backend gewonnen. Auch der Umgang mit externen APIs, wie Google Maps und der PokéAPI, war eine spannende Erfahrung.",
           "Darüber hinaus habe ich wertvolle Praxiserfahrung in der Teamorganisation mit Git gesammelt. Insgesamt war das Projekt eine gelungene Mischung aus technischer Weiterbildung und kreativer Umsetzung.",
@@ -376,7 +390,7 @@
         "cta": "Prototyp ansehen"
       },
       "learnings": {
-        "title": "Die Learnings",
+        "title": "Meine Learnings",
         "text": [
           "Durch das Projekt konnte ich Einblicke in die Erstellung von Businessplänen gewinnen und habe mich zum ersten Mal aus einer Business-Perspektive mit einem Produkt auseinandergesetzt. Also damit, wie es finanziell profitabel werden kann, welche Geschäftsmodelle in Frage kommen und welche Teilpläne (z. B. Personal-, Finanz- oder Absatzplanung sowie Gewinn- und Verlustrechnung) ein vollständiger Businessplan umfasst.",
           "Das Projekt hat mir gezeigt, wie wichtig es ist, technische Machbarkeit, Nutzer*innenerlebnis und wirtschaftliche Tragfähigkeit gemeinsam zu denken."
@@ -421,7 +435,7 @@
         "cta": "GitHub-Repo ansehen"
       },
       "challenges": {
-        "title": "Die Learnings",
+        "title": "Meine Learnings",
         "text": [
           "Besonders spannend war, dass ich im Rahmen dieses Projekts erstmals mit Tailwind CSS gearbeitet habe. Der Einstieg war erstaunlich einfach, und die Arbeit mit Variablen insbesondere für Dark- und Light-Mode hat mir sehr gefallen. Auch die Implementierung des Themeswitchers war eine neue Erfahrung, die sich als unkompliziert und zugleich lehrreich herausgestellt hat.",
           "Eine weitere Herausforderung bestand darin, die „10 Regeln für QR-Codes“ einzuhalten. Außerdem war das Generieren von 24 individuellen QR-Codes für das Poster aufwendig, dennoch hat mich die Idee überzeugt, da dadurch ein direkter und spielerischer Zugang zur Web-App ermöglicht wird."
@@ -438,14 +452,7 @@
         "text": [
           "Im zweiten Mastersemester konnte ich im Rahmen der Summer School einen einwöchigen Workshop besuchen. Ich wählte Environmental Storytelling, in dem es um Worldbuilding sowie Environmental und Visual Storytelling ging.",
           "Das Projekt bestand darin, eine statische oder interaktive immersive Videospielszene mit Unity und vorgefertigten Assets zu erstellen. Die Szene sollte realistisch, visuell ansprechend und funktional für eine Spielumgebung sein. Dabei lag der Fokus auf der Anwendung der erlernten Prinzipien des Environmental Storytelling.",
-          "In Kleingruppen entwickelten wir Ecocalypse, ein Spiel, das 2035 nach einer Klimakatastrophe spielt. Ein Jahr zuvor brannte der gesamte Regenwald ab, wodurch das Klima kollabierte und die Weltordnung zusammenbrach."
-        ]
-      },
-      "implementation": {
-        "title": "Die Umsetzung",
-        "text": [
-          "Für die Umsetzung des Projekts übernahm ich mehrere Aufgaben, darunter das Worldbuilding, das Storytelling und das Erstellen der platzierten Gegenstände im Raum, wie bspw. die Zeitungsartikel. Zudem war ich für die Auswahl der benötigten Low Poly Assets für Unity verantwortlich.", 
-          "Bei der Erstellung der Storyline legten wir besonderen Wert auf die Integration von Behavioral Traces, Identity Claims und Mood Modifiers. Diese Elemente mussten stimmig sein, um ein immersives Erlebnis zu schaffen. Unstimmigkeiten im Raum, bei der Beleuchtung oder dem Sound könnten die Spieler*innen aus der Szene reißen und das Erlebnis zerstören."
+          "In einer Kleingruppe von vier Personen entwickelten wir die Spielidee Ecocalypse, ein Spiel, das im Jahr 2035 nach einer Klimakatastrophe spielt. Ein Jahr zuvor brannte der gesamte Regenwald ab, wodurch das Klima kollabierte und die Weltordnung zusammenbrach."
         ]
       },
       "scene": {
@@ -461,8 +468,22 @@
           "Sorgfältig platzierte Objekte erzählen die Geschichte und vermitteln den Hintergrund des Spiels. Zeitungsartikel an den Wänden berichten über die Krise. Ein Familienporträt deutet auf einen Unterschlupf am Land hin. Eine Stadtkarte zeigt Josephs geplante Fluchtroute.",
           "Ein Wandkalender markiert Januar 2035 und zeigt, wie Joseph versuchte, den Überblick über die Zeit zu bewahren. Seine Tagesroutine spiegelt den Kampf gegen die Isolation wider. Ein angefangener Brief an Julia gibt Einblick in seine Gedanken und Gefühle. Werbung für H2-NO betont die Wasserknappheit und die extremen Lebensbedingungen.",
           "Diese Elemente schaffen eine immersive Szene, die die Prinzipien des Environmental Storytelling konsequent umsetzt."
+        ]
+      },
+      "implementation": {
+        "title": "Die Umsetzung",
+        "text": [
+          "Meine Aufgaben im Projekt waren vielfältig und umfassten Aspekte des Worldbuildings, des Storytellings sowie die Erstellung der Objekte im Raum, wie etwa Zeitungsartikeln. Zudem war ich für die Auswahl der benötigten Low Poly Assets für Unity verantwortlich.", 
+          "Bei der Erstellung der Storyline legten wir besonderen Wert auf die Integration von Behavioral Traces, Identity Claims und Mood Modifiers. Diese Elemente mussten stimmig sein, um ein immersives Erlebnis zu schaffen. Unstimmigkeiten im Raum, bei der Beleuchtung oder dem Sound könnten die Spieler*innen aus der Szene reißen und das Erlebnis zerstören."
         ],
         "cta": "Dokumentation ansehen"
+      },
+      "learnings": {
+        "title": "Meine Learnings",
+        "text": [
+          "Vor der Summer School war mir der Begriff Environmental Storytelling kaum vertraut. Durch das Projekt konnte ich jedoch tief in die Welt des Game Designs eintauchen und praktische Erfahrungen mit Worldbuilding, Environmental und Visual Storytelling sammeln. Besonders spannend war es, eine Geschichte nicht nur zu erzählen, sondern sie durch Raum, Objekte und Atmosphäre erfahrbar zu machen. Entscheidend war dabei, eine stimmige und immersive Welt zu gestalten, in der jedes Detail zur Gesamtgeschichte beiträgt.",
+          "Darüber hinaus erhielt ich erste Einblicke in die Arbeit mit Unity, mit dem ich zuvor kaum Berührungspunkte hatte. Besonders wertvoll war die Zusammenarbeit in unserem interdisziplinären Team: Durch die Aufteilung nach individuellen Stärken konnten wir die Kompetenzen gezielt einsetzen, sodass nicht jede*r ein Unity-Profi sein musste, um ein überzeugendes Ergebnis zu erzielen."
+        ]
       }
     },
     "trilum": {

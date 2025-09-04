@@ -11,12 +11,13 @@ import timeparabox from "@/public/timeParabox/time-parabox.webp";
 import timeparaboxPoster from "@/public/timeParabox/timeParabox-poster.webp";
 import timeparaboxApp from "@/public/timeParabox/timeParabox-app.webp";
 import timeparaboxMockups from "@/public/timeParabox/timeParabox-mockup.webp";
-import timeparaboxEpochs from "@/public/timeParabox/timeParabox-mission.webp";
+import timeparaboxEpochs from "@/public/timeParabox/timeParabox-storyline.webp";
 import timeparaboxWireframes from "@/public/timeParabox/timeParabox-wireframes.webp";
 import timeparaboxStructure from "@/public/timeParabox/timeParabox-aufbau.webp";
 import timeparaboxCollage from "@/public/timeParabox/timeParabox-collage.webp";
 import timeparaboxFeatures from "@/public/timeParabox/timeParabox-feature.webp";
 import timeparaboxVernissage from "@/public/timeParabox/timeParabox-vernissage.webp";
+import timeparaboxLearnings from "@/public/timeParabox/timeParabox-app-preview.webp";
 
 import bevry from "@/public/bevry/bevry-mocktail.webp";
 import bevrySplash from "@/public/bevry/bevry-cocktail-splash.webp";
@@ -63,6 +64,7 @@ import ecocalypseEntrance from "@/public/ecocalypse/ecocalypse-scene-entrance.we
 import ecocalypsePoster from "@/public/ecocalypse/ecocalypse-natures-revenge-poster.webp";
 import ecocalypseScene from "@/public/ecocalypse/ecocalypse-scene.webp";
 import ecocalypseCollage from "@/public/ecocalypse/ecocalypse-collage.webp";
+import ecocalypseBins from "@/public/ecocalypse/ecocalypse-bins.webp";
 
 import advent from "@/public/veganAdvent/advent-light.webp";
 import adventDark from "@/public/veganAdvent/advent-dark.webp";
@@ -226,7 +228,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       type: t("bevry.type"),
       duration: t("bevry.duration"),
       description: t("bevry.description"),
-      tags: ["NestJs", "Vue.js", "Adobe InDesign", "Adobe Photoshop"],
+      tags: ["NestJs", "Vue.js", "Adobe InDesign", "Adobe Photoshop", "Figma"],
       image: bevry,
       sectionImage: bevrySplash,
       sections: [
@@ -362,33 +364,22 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       sections: [
         {
           title: t("erika.project.title"),
-          text: [t("erika.project.text.0")],
+          text: [t("erika.project.text.0"), t("erika.project.text.1")],
           className: "bg-[#C1E5CC]",
           image: erikaMockup,
-          imageSize: "66%",
-          cta: {
-            title: t("erika.project.cta"),
-            link: "https://erika.fhstp.ac.at/"
-          }
+          imageSize: "60%",
         },
         {
-          title: t("erika.app.title"),
-          text: [t("erika.app.text.0")],
+          title: t("erika.implementation.title"),
+          text: [t("erika.implementation.text.0"), t("erika.implementation.text.1"), t("erika.implementation.text.2")],
           className: "bg-[#B5DCCD]",
           image: erikaProject,
           imageSize: "66%",
         },
         {
-          title: t("erika.implementation.title"),
-          text: [t("erika.implementation.text.0"), t("erika.implementation.text.1"), t("erika.implementation.text.2")],
-          className: "bg-[#AFD8CE]",
-          image: erikaScreens,
-          imageSize: "66%",
-        },
-        {
           title: t("erika.sustainability.title"),
           text: [t("erika.sustainability.text.0"), t("erika.sustainability.text.1"),t("erika.sustainability.text.2")],
-          className: "bg-[#A9D3CF]",
+          className: "bg-[#AFD8CE]",
           image: erikaLogo,
           imageSize: "40%",
           cta: {
@@ -399,12 +390,24 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
         {
           title: t("erika.prototyping.title"),
           text: [t("erika.prototyping.text.0"), t("erika.prototyping.text.1"), t("erika.prototyping.text.2")],
-          className: "bg-[#A3CDD0]",
+          className: "bg-[#A9D3CF]",
           image: erikaPrototype,
           imageSize: "60%",
           cta: {
             title: t("erika.prototyping.cta"),
             link: "https://www.figma.com/proto/e10aY7un7NpT8NdGW9HgAu/ERIKA?page-id=0%3A1&node-id=54-1755&viewport=735%2C324%2C0.06&t=pEKHDE4FGPe4fp6N-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=54%3A3545",
+            position: "right"
+          }
+        },
+        {
+          title: t("erika.learnings.title"),
+          text: [t("erika.learnings.text.0"), t("erika.learnings.text.1"), t("erika.learnings.text.2")],
+          className: "bg-[#A3CDD0]",
+          image: erikaScreens,
+          imageSize: "55%",
+          cta: {
+            title: t("erika.learnings.cta"),
+            link: "https://erika.fhstp.ac.at/",
             position: "right"
           }
         },
@@ -419,7 +422,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       type: t("timeParabox.type"),
       duration: t("timeParabox.duration"),
       description: t("timeParabox.description"),
-      tags: ["React Native", "Expo Go"],
+      tags: ["React Native", "Expo", "Bluetooth Low Energy"],
       image: timeparabox,
       sectionImage: timeparaboxPoster,
       sections: [
@@ -442,26 +445,26 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("timeParabox.story.text.0"), t("timeParabox.story.text.1")],
           className: "bg-[#EBE7DF]",
           image: timeparaboxEpochs,
-          imageSize: "60%",
+          imageSize: "66%",
         },
         {
           title: t("timeParabox.app.title"),
           text: [t("timeParabox.app.text.0"), t("timeParabox.app.text.1"), t("timeParabox.app.text.2")],
-          className: "bg-[#F0EDE7]",
+          className: "bg-[#E5E1DB]",
           image: timeparaboxWireframes,
           imageSize: "60%",
         },
         {
           title: t("timeParabox.architecture.title"),
           text: [t("timeParabox.architecture.text.0"), t("timeParabox.architecture.text.1")],
-          className: "bg-[#E5E1DB]",
+          className: "bg-[#D8D1C8]",
           image: timeparaboxStructure,
           imageSize: "75%",
         },
         {
           title: t("timeParabox.box.title"),
           text: [t("timeParabox.box.text.0"), t("timeParabox.box.text.1")],
-          className: "bg-[#D8D1C8]",
+          className: "bg-[#E5E1DB]",
           image: timeparaboxCollage,
           imageSize: "60%",
         },
@@ -478,11 +481,18 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           className: "bg-[#F0EDE7]",
           image: timeparaboxVernissage,
           imageSize: "60%",
-          cta: {
-            title: t("timeParabox.presentation.cta.title"),
-            link: "https://github.com/Time-Parabox/time-parabox"
-          }
         },
+        {
+          title: t("timeParabox.learnings.title"),
+          text: [t("timeParabox.learnings.text.0"), t("timeParabox.learnings.text.1"), t("timeParabox.learnings.text.2")],
+          className: "bg-[#F4F2EE]",
+          image: timeparaboxLearnings,
+          cta: {
+            title: t("timeParabox.learnings.cta.title"),
+            link: "https://github.com/Time-Parabox/time-parabox",
+            position: "right"
+          }
+        }
       ]
     },
     {
@@ -648,12 +658,6 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           imageSize: "60%",
         },
         {
-          title: t("ecocalypse.implementation.title"),
-          text: [t("ecocalypse.implementation.text.0"), t("ecocalypse.implementation.text.1")],
-          image: ecocalypsePoster,
-          imageSize: "58%",
-        },
-        {
           title: t("ecocalypse.scene.title"),
           text: [t("ecocalypse.scene.text.0"), t("ecocalypse.scene.text.1")],
           image: ecocalypseScene,
@@ -663,12 +667,22 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           title: t("ecocalypse.objects.title"),
           text: [t("ecocalypse.objects.text.0"), t("ecocalypse.objects.text.1"), t("ecocalypse.objects.text.2")],
           image: ecocalypseCollage,
-          imageSize: "59%",
+        },
+        {
+          title: t("ecocalypse.implementation.title"),
+          text: [t("ecocalypse.implementation.text.0"), t("ecocalypse.implementation.text.1")],
+          image: ecocalypsePoster,
+          imageSize: "60%",
           cta: {
-            title: t("ecocalypse.objects.cta"),
+            title: t("ecocalypse.implementation.cta"),
             link: "https://drive.google.com/file/d/1cGoZPNDv9JPIMD23VnicUWJK8yOmvcYI/view?usp=sharing"
           }
         },
+        {
+          title: t("ecocalypse.learnings.title"),
+          text: [t("ecocalypse.learnings.text.0"), t("ecocalypse.learnings.text.1")],
+          image: ecocalypseBins,
+        }
       ],
     },
     {
