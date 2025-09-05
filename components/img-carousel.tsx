@@ -82,7 +82,7 @@ export default function Carousel({
               <button
                 key={i}
                 onClick={() => setCurr(i)}
-                className={`transition-all w-3 h-3 rounded-full ${curr === i ? "bg-[var(--primary-color)]/75 p-2" : "bg-black/75"}`}
+                className={`transition-all w-3 h-3 rounded-full opacity-75 ${curr === i ? "bg-[var(--primary-color)] p-2" : "bg-black"}`}
               />
             ))}
           </div>
