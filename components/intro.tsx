@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
+import { useTheme } from "@/context/theme-context";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { useSectionInView } from "@/lib/hooks";
@@ -16,6 +17,7 @@ export default function Intro() {
   const { ref } = useSectionInView("Home");
   const t = useTranslations("Intro");
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  const { theme } = useTheme();
 
   const { setVariant } = useVariants();
   const textEnter = () => setVariant("TEXT");
@@ -26,9 +28,9 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="overflow-x-hidden w-screen flex flex-col-reverse xl:flex-row items-center justify-center mt-28 xl:mt-0 sm:py-auto px-8 lg:px-16 xl:h-[100vh] scroll-mt-24 lg:scroll-mt-0"
+      className="relative overflow-x-hidden w-screen flex flex-col-reverse xl:flex-row items-center justify-center mt-28 xl:mt-0 sm:py-auto px-8 lg:px-16 xl:h-[100vh] scroll-mt-24 lg:scroll-mt-0"
     >
-      <div className="flex flex-col items-start max-w-md lg:mr-16 dark:text-white">
+      <div className="flex flex-col items-start max-w-md lg:mr-16">
         <Introduction className="hidden xl:block" />
 
         <motion.h1
@@ -64,7 +66,7 @@ export default function Intro() {
           />
 
           <a
-            className="bg-black text-[#FF96CC] hover:text-[#FFD8EC] dark:bg-white/10 dark:text-white/60 p-3 flex items-center gap-2 text-[1.63rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
+            className="bg-black text-[var(--primary-color)] hover:text-[var(--secondary-color)] dark:bg-white/10 dark:text-white/60 p-3 flex items-center gap-2 text-[1.63rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
             href="https://www.linkedin.com/in/katharina-barbara-harrer"
             target="_blank"
             onMouseEnter={mouseEnter}
@@ -74,7 +76,7 @@ export default function Intro() {
           </a>
 
           <a
-            className="bg-black text-[#FF96CC] hover:text-[#FFD8EC] dark:bg-white/10 dark:text-white/60 p-3 flex items-center gap-2 text-[1.63rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
+            className="bg-black text-[var(--primary-color)] hover:text-[var(--secondary-color)] dark:bg-white/10 dark:text-white/60 p-3 flex items-center gap-2 text-[1.63rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
             href="https://github.com/harrer-katharina"
             target="_blank"
             onMouseEnter={mouseEnter}
@@ -96,10 +98,14 @@ export default function Intro() {
         <div className="relative overflow-hidden pt-0 xl:pt-28 xl:flex xl:items-center xl:justify-center xl:h-[100vh]">
           <Introduction className="xl:hidden" />
           <Image
-            src="/kharrer-landing.webp"
+            src={
+              theme === "dark"
+                ? "/kharrer-landing-dark.webp"
+                : "/kharrer-landing.webp"
+            }
             alt="Katharina"
             width={600}
-            height={600}
+            height={719}
             unoptimized
             className="object-cover object-bottom my-4 xl:my-0"
           />

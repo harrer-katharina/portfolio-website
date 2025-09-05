@@ -57,7 +57,7 @@ function CustomCursor() {
     TEXT: {
       height: 100,
       width: 100,
-      backgroundColor: "transparent",
+      backgroundColor: "rgba(255,255,255,0)",
       border: "1px solid white",
     },
   };

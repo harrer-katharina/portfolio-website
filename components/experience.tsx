@@ -46,7 +46,9 @@ export default function Experience() {
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>{t("title")}</SectionHeading>
-      <VerticalTimeline lineColor={clientTheme === "light" ? "#fff" : ""}>
+      <VerticalTimeline
+        lineColor={clientTheme === "light" ? "#fff" : "#ffffff1a"}
+      >
         {getExperiencesData(t).map((item, index) => {
           const { ref: itemRef, inView } = inViewArray[index];
           return (
@@ -83,14 +85,15 @@ export default function Experience() {
                   ref={itemRef}
                   onMouseEnter={mouseEnter}
                   onMouseLeave={mouseLeave}
+                  className="relative"
                 >
-                  <h3 className="font-semibold capitalize dark:text-[#FF96CC]">
+                  <h3 className="font-semibold capitalize dark:text-[var(--primary-color)]">
                     {item.title}
                   </h3>
                   <Link
                     href={item.link}
                     target={"_blank"}
-                    className="font-normal !mt-0 dark:text-[#FFD8EC] text-[#A83E75] hover:text-[#FF96CC]"
+                    className="font-normal !mt-0 dark:text-[var(--secondary-color)] text-[var(--tertiary-color)] hover:text-[var(--primary-color)]"
                   >
                     {item.location}
                   </Link>

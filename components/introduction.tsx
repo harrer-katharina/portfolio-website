@@ -10,7 +10,7 @@ export default function Introduction({ className = "" }) {
   const t = useTranslations("Intro");
   return (
     <div className={className}>
-      <h1 className="text-3xl font-extrabold dark:text-white">
+      <h1 className="text-3xl font-extrabold dark:text-[var(--secondary-color)]">
         {t("introduction")}
       </h1>
       <motion.span
@@ -26,7 +26,7 @@ export default function Introduction({ className = "" }) {
         <div className="flex mb-0 sm:mb-4 [@media(max-width:370px)]:mt-4">
           <div className="flex items-end">
             <KLogo height={60} />
-            <span className="font-black text-5xl sm:text-7xl dark:text-white relative top-2 md:top-3">
+            <span className="font-black text-5xl sm:text-7xl dark:text-[var(--secondary-color)] relative top-2 md:top-3">
               atharina
             </span>
           </div>

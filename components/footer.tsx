@@ -33,17 +33,17 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className="text-2xl hover:text-[#FF96CC] transition" />
+            <FaGithub className="text-2xl hover:text-[var(--primary-color)] transition" />
           </a>
           <a
             href="https://www.linkedin.com/in/katharina-barbara-harrer"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="text-2xl hover:text-[#FF96CC] transition" />
+            <FaLinkedin className="text-2xl hover:text-[var(--primary-color)] transition" />
           </a>
           <a href="mailto:hello@katharina-harrer.de">
-            <FaEnvelope className="text-2xl hover:text-[#FF96CC] transition" />
+            <FaEnvelope className="text-2xl hover:text-[var(--primary-color)] transition" />
           </a>
         </div>
 
@@ -51,14 +51,14 @@ export default function Footer() {
           <Link
             href={`/${locale}/legal-disclosure`}
             onClick={() => setActiveSection("")}
-            className="hover:text-[#FF96CC] transition"
+            className="hover:text-[var(--primary-color)] transition"
           >
             {t_dsgvo("legal-disclosure")}
           </Link>
           <Link
             href={`/${locale}/privacy-policy`}
             onClick={() => setActiveSection("")}
-            className="hover:text-[#FF96CC] transition"
+            className="hover:text-[var(--primary-color)] transition"
           >
             {t_dsgvo("privacy-policy")}
           </Link>

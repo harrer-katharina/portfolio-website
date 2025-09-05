@@ -41,9 +41,10 @@ export default function Header() {
             <li key={link.hash} className="relative">
               <Link
                 className={clsx(
-                  "hover:text-[#FF96CC] dark:hover:text-gray-100 transition",
+                  "hover:text-[var(--primary-color)] dark:hover:text-gray-100 transition",
                   {
-                    "dark:text-[#FF96CC]": activeSection === link.name,
+                    "dark:text-[var(--primary-color)]":
+                      activeSection === link.name,
                   }
                 )}
                 href={`/${locale}${link.hash}`}
@@ -55,7 +56,7 @@ export default function Header() {
                 {link.title}
                 {link.name === activeSection && (
                   <motion.span
-                    className="absolute -bottom-1 left-0 h-[2px] w-full bg-[#FF96CC] dark:bg-[#FFD8EC]"
+                    className="absolute -bottom-1 left-0 h-[2px] w-full bg-[var(--primary-color)] dark:bg-[var(--secondary-color)]"
                     layoutId="activeSection"
                     transition={{
                       type: "spring",
@@ -144,7 +145,8 @@ export default function Header() {
                   key={link.hash}
                   href={`/${locale}${link.hash}`}
                   className={clsx("text-lg font-medium", {
-                    "dark:text-[#FF96CC]": activeSection === link.name,
+                    "dark:text-[var(--primary-color)]":
+                      activeSection === link.name,
                   })}
                   onClick={() => {
                     setMenuOpen(false);
@@ -154,7 +156,7 @@ export default function Header() {
                 >
                   {link.title}
                   {link.name === activeSection && (
-                    <span className="absolute -bottom-1 left-0 h-[2px] w-full bg-[#FF96CC] dark:bg-[#FFD8EC]"></span>
+                    <span className="absolute -bottom-1 left-0 h-[2px] w-full bg-[var(--primary-color)] dark:bg-[var(--secondary-color)]"></span>
                   )}
                 </Link>
               </li>

@@ -88,18 +88,18 @@ export default function DetailCard({
           backgroundColor:
             section.className && theme === "light"
               ? ""
-              : `hsl(${theme === "dark" ? 231 : 0}, ${theme === "dark" ? 14 : 0}%, ${
-                  isMobile
+              : `hsl(${theme === "dark" ? 264 : 0}, ${theme === "dark" ? 24 : 0}%, ${
+                  isMobile || !scaleCards
                     ? theme === "dark"
-                      ? 20
+                      ? 18
                       : 95
                     : theme === "dark"
-                      ? 20 + index * 2
+                      ? 15 + index
                       : 95 + index * 2
                 }%)`,
         }}
       >
-        <h2 className="lg:hidden text-2xl font-extrabold mb-4">
+        <h2 className="lg:hidden text-2xl font-extrabold mb-4 dark:text-[var(--secondary-color)]">
           {section.title}
         </h2>
         {section.image !== "" ? (
@@ -113,7 +113,7 @@ export default function DetailCard({
               onMouseEnter={mouseEnter}
               onMouseLeave={mouseLeave}
             >
-              <h2 className="hidden lg:block text-2xl font-extrabold mb-4">
+              <h2 className="hidden lg:block text-2xl font-extrabold mb-4 dark:text-[var(--secondary-color)]">
                 {section.title}
               </h2>
               {section.text.map((text, idx) => (

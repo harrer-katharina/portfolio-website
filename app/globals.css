@@ -3,11 +3,18 @@
 @tailwind utilities;
 
 html {
-  --line-color: #e5e7eb;
+  --bg-color: #f9fafb;
+  --bg-color-right: #FBE2E3;
+  --bg-color-left: #FFE0F0;
+  --primary-color: #FF96CC;
+  --secondary-color: #F5D0FE;
+  --tertiary-color: #A83E75;
 }
 
 html.dark {
-  --line-color: rgba(255, 255, 255, 0.2);
+  --bg-color: #12102B;
+  --bg-color-right: #18163D;
+  --bg-color-left: #18163D;
 }
 
 .borderBlack {

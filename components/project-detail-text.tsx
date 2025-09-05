@@ -32,7 +32,9 @@ const ProjectDetailText: React.FC<ProjectDetailsProps> = ({ project }) => {
 
   return details.map(({ label, content }, index) => (
     <div key={index} className="flex flex-col">
-      <div className="text-lg font-semibold dark:text-[#FF96CC]">{label}</div>
+      <div className="text-lg font-semibold dark:text-[var(--primary-color)]">
+        {label}
+      </div>
       {content}
     </div>
   ));

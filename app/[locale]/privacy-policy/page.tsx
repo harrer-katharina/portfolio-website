@@ -6,8 +6,8 @@ export default function PrivacyPolicy() {
 
   return (
     <main>
-      <div className="bg-[#fbe2e3] dark:bg-gray-800 fixed top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-      <div className="bg-[#ffd2e9] dark:bg-gray-800 fixed top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
+      <div className="bg-[var(--bg-color-right)] fixed top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="bg-[var(--bg-color-left)] fixed top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
       <div className="flex flex-col justify-center text-justify hyphens-auto m-auto py-28 px-8 lg:px-16 max-w-[50rem]">
         <SectionHeading>{t("privacy-policy")}</SectionHeading>
         <h1 className="mb-4 text-3xl font-extrabold dark:text-white">

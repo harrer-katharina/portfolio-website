@@ -11,7 +11,7 @@ export default function SubmitBtn({ isPending }: { isPending: boolean }) {
   return (
     <button
       type="submit"
-      className="bg-black text-white dark:bg-[#FF96CC] dark:text-black group flex items-center justify-center gap-2 h-[3rem] w-[8rem] rounded-full outline-none transition-all focus:scale-110 active:scale-105 disabled:scale-100 disabled:bg-opacity-65"
+      className="bg-black text-white dark:bg-[var(--primary-color)] dark:text-black group flex items-center justify-center gap-2 h-[3rem] w-[8rem] rounded-full outline-none transition-all focus:scale-110 active:scale-105 disabled:scale-100 disabled:bg-opacity-65"
       disabled={isPending}
       onMouseEnter={() => setVariant("BUTTON")}
       onMouseLeave={() => setVariant("DEFAULT")}

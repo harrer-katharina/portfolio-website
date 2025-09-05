@@ -8,7 +8,7 @@ export default function Icon({ height = 50 }: KLogoProps) {
       height={height}
       viewBox="0 0 103 100"
       xmlns="http://www.w3.org/2000/svg"
-      className="fill-dark dark:fill-white"
+      className="fill-dark dark:fill-[var(--secondary-color)]"
     >
       <path
         fillRule="evenodd"

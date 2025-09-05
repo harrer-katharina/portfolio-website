@@ -29,7 +29,7 @@ export default function Skills() {
     <section
       id="skills"
       ref={ref}
-      className="max-w-[53rem] h-[100vh] flex flex-col justify-center text-center"
+      className="relative max-w-[53rem] h-[100vh] flex flex-col justify-center text-center"
     >
       <SectionHeading>{t("title")}</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">

@@ -27,7 +27,7 @@ export default function Contact() {
     <motion.section
       id="contact"
       ref={ref}
-      className="pb-10 w-[min(100%,38rem)] min-h-[100vh] flex flex-col scroll-mt-28"
+      className="relative pb-10 w-[min(100%,38rem)] min-h-[100vh] flex flex-col scroll-mt-28"
       initial={{
         opacity: 0,
       }}
@@ -96,7 +96,9 @@ export default function Contact() {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
-          <h3 className="font-semibold dark:text-[#FF96CC]">{t("consent")}</h3>
+          <h3 className="font-semibold dark:text-[var(--primary-color)]">
+            {t("consent")}
+          </h3>
           <label className="pb-4 flex items-center gap-2 text-sm text-gray-700 dark:text-white/80">
             <input
               type="checkbox"

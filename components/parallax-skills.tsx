@@ -27,7 +27,7 @@ export default function ParallaxSkills() {
         {skills.map((skill, index) => (
           <span
             key={index}
-            className="flex items-center text-xl md:text-7xl font-semibold uppercase tracking-tighter text-[#FF96CC]/60 dark:text-[#FF96CC]/30"
+            className="flex items-center text-xl md:text-7xl font-semibold uppercase tracking-tighter opacity-60 text-[var(--primary-color)] dark:text-[var(--secondary-color)]"
           >
             {skill}
             <span className="text-base md:text-3xl ml-6 mr-3">✦︎</span>
