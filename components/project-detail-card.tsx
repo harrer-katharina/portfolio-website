@@ -121,11 +121,13 @@ export default function DetailCard({
               {section.text.map((text, idx) => (
                 <p
                   key={idx}
-                  className={`mb-2 lg:text-justify hyphens-auto leading-relaxed ${
-                    idx === 0
-                      ? "first-letter:text-2xl first-letter:font-semibold"
-                      : ""
-                  }`}
+                  className={clsx(
+                    "mb-2 lg:text-justify hyphens-auto leading-relaxed",
+                    {
+                      "first-letter:text-2xl first-letter:font-semibold":
+                        idx === 0,
+                    }
+                  )}
                 >
                   {text}
                 </p>
@@ -158,7 +160,10 @@ export default function DetailCard({
                   src={section.image}
                   alt={section.title}
                   unoptimized
-                  className="object-cover"
+                  className={clsx(
+                    "object-cover rounded-2xl",
+                    section.imageClass
+                  )}
                 />
               </motion.div>
               {section?.cta &&

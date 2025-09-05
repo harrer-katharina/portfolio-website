@@ -249,6 +249,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           className: "bg-[#FFB889]",
           image: bevryLogo,
           imageSize: "60%",
+          imageClass: theme === "light" ? "" : "bg-white",
         },
         {
           title: t("bevry.photography.title"),
@@ -445,6 +446,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("timeParabox.story.text.0"), t("timeParabox.story.text.1")],
           className: "bg-[#EBE7DF]",
           image: timeparaboxEpochs,
+          imageClass: theme === "light" ? "" : "bg-white",
           imageSize: "66%",
         },
         {
@@ -488,7 +490,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           className: "bg-[#F4F2EE]",
           image: timeparaboxLearnings,
           cta: {
-            title: t("timeParabox.learnings.cta.title"),
+            title: t("timeParabox.learnings.cta"),
             link: "https://github.com/Time-Parabox/time-parabox",
             position: "right"
           }
