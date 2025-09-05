@@ -45,6 +45,8 @@ export default function DetailCard({
     1,
     isMobile || !scaleCards ? 1 : targetScale,
   ]);
+  const y = useTransform(scrollYProgress, [0, 0.2], [100, 0]);
+  const opacity = useTransform(scrollYProgress, [0, 0.4], [0, 1]);
 
   useEffect(() => {
     if (section.image === "") {
@@ -83,15 +85,17 @@ export default function DetailCard({
           images?.length > 0 && !isMobile ? "" : "py-6 lg:p-12 sm:py-8"
         )}
         style={{
+          y: isMobile ? y : 0,
+          opacity: isMobile ? opacity : 1,
           scale: scale,
-          top: isMobile || !scaleCards ? `` : `calc(-2vh + ${index * 25}px)`,
+          top: isMobile || !scaleCards ? 0 : `calc(-2vh + ${index * 25}px)`,
           backgroundColor:
             section.className && theme === "light"
               ? ""
-              : `hsl(${theme === "dark" ? 264 : 0}, ${theme === "dark" ? 24 : 0}%, ${
+              : `hsl(${theme === "dark" ? 264 : 0}, ${theme === "dark" ? 28 : 0}%, ${
                   isMobile || !scaleCards
                     ? theme === "dark"
-                      ? 18
+                      ? 15
                       : 95
                     : theme === "dark"
                       ? 15 + index
@@ -143,7 +147,7 @@ export default function DetailCard({
               className="relative h-full rounded-2xl overflow-hidden flex flex-col justify-center items-center"
               style={{ flexBasis: section.imageSize ?? "50%" }}
             >
-              <motion.div style={{ scale: imageScale }}>
+              <motion.div style={{ scale: isMobile ? 1 : imageScale }}>
                 <Image
                   src={section.image}
                   alt={section.title}
