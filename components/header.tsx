@@ -26,7 +26,7 @@ export default function Header() {
   const toggleMenu = () => setMenuOpen((prevState) => !prevState);
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-white dark:bg-gray-900">
+    <header className="fixed top-0 left-0 w-full z-50 bg-white dark:bg-[var(--bg-color)]">
       <nav className="flex items-center justify-between max-w-7xl mx-auto px-6 py-6">
         <Link href={`/${locale}`} className="flex items-center space-x-2">
           <Logo />
