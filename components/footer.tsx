@@ -7,7 +7,6 @@ import { useLanguage } from "@/context/language-context";
 import { useVariants } from "@/context/variants-context";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
-import Logo from "./logo";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -22,7 +21,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="bg-black text-white dark:text-white dark:bg-gray-900 py-8 px-4 mt-10"
+      className="py-8 px-4 mt-10 bg-black text-white dark:border-t-2 dark:border-solid dark:border-[var(--bg-color-right)]"
       onMouseEnter={mouseEnter}
       onMouseLeave={mouseLeave}
     >
