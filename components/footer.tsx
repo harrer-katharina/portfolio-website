@@ -21,7 +21,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="py-8 px-4 mt-10 bg-black text-white dark:border-t-2 dark:border-solid dark:border-[var(--bg-color-right)]"
+      className="py-8 px-4 mt-10 text-white bg-black dark:bg-[var(--bg-color)] border-t-2 border-solid border-black dark:border-[var(--bg-color-right)]"
       onMouseEnter={mouseEnter}
       onMouseLeave={mouseLeave}
     >
