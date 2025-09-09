@@ -93,8 +93,12 @@ export default function DetailCard({
             section.className && theme === "light"
               ? ""
               : isMobile || !scaleCards
-                ? `hsl(${theme === "dark" ? 264 : 0}, ${theme === "dark" ? 50 : 0}%, ${theme === "dark" ? 14 : 95}%)`
-                : `hsl(${theme === "dark" ? 264 : 0}, ${theme === "dark" ? 40 : 0}%, ${theme === "dark" ? 14 + index : 95 + index * 2}%)`,
+                ? theme === "dark"
+                  ? "hsl(243, 47%, 14.5%)"
+                  : `hsl(0, 0%, 95%)`
+                : theme === "dark"
+                  ? `hsl(243, 47%, ${13 + index / 3}%)`
+                  : `hsl(0, 0%, ${95 + index * 2}%)`,
         }}
       >
         <h2 className="lg:hidden text-2xl font-extrabold mb-4 dark:text-[var(--secondary-color)]">
