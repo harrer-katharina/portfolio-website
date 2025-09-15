@@ -67,7 +67,8 @@
           "Zur Entwicklung der App wurde ein Prototyping-Ansatz gewählt, um die Gestaltung der Designinterventionen zu erproben und weiterzuentwickeln. Die Umsetzung erfolgte in Figma. Zunächst entstand ein Low-Fidelity-Prototyp, der sich auf Struktur, Inhalte und Interaktionen konzentrierte, ohne durch visuelles Design abzulenken.",
           "Darauf aufbauend wurde ein High-Fidelity-Prototyp umgesetzt, der ein konsistentes visuelles Erscheinungsbild, realitätsnahe Inhalte und eine modulare Komponentenstruktur vereint. Der Prototyp bildet vier eigenständige Buchungsszenarien ab und ermöglicht so eine gezielte Evaluation der eingesetzten Designstrategien."
         ],
-        "cta": "Lo-Fi-Prototyp ansehen"
+        "cta": "Lo-Fi-Prototyp ansehen",
+        "cta2": "Hi-Fi-Prototyp ansehen"
       },
       "interventions": {
         "title": "Die Designinterventionen",
@@ -113,7 +114,8 @@
         "text": [
           "Eine zentrale Herausforderung bestand darin, Nachhaltigkeit sichtbar zu machen, ohne Nutzer*innen das Gefühl zu geben, manipuliert oder bevormundet zu werden. Zu starke, wertende Darstellungen – etwa durch rote Warnhinweise – können Reaktanz auslösen und langfristig das Vertrauen in die Plattform untergraben. Ziel war daher eine Gestaltung, die zu bewussteren Entscheidungen anregt, ohne Druck auszuüben – denn nur Plattformen, die gerne genutzt werden, können langfristig Wirkung entfalten.",
           "Im Rahmen der Umsetzung habe ich viel über den effizienten Einsatz von Figma, komponentenbasiertes Design, zentrale Variablen und Styles gelernt – ebenso wie über die Erstellung interaktiver Prototypen mit Animationen. Zudem konnte ich Useberry als Tool zur Testdurchführung und Analyse intensiv kennenlernen."
-        ]
+        ],
+        "cta": "finalen Prototyp ansehen"
       }
     },
     "weidlich": {

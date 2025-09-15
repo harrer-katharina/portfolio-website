@@ -204,7 +204,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           imageSize: "66%",
           cta: {
             title: t("wegweiser.project.cta"),
-            link: "https://www.figma.com/proto/S0Qw8J37oW2tqsQ4Z8zHFp/Wegweiser-Prototyp?page-id=0%3A1&node-id=1812-17049&p=f&viewport=2314%2C3786%2C0.25&t=EGEinzUgtU9q5SbF-1&scaling=contain&content-scaling=fixed&starting-point-node-id=1812%3A17049"
+            link: "https://bit.ly/wegweiser-app"
           }
         },
         {
@@ -236,7 +236,11 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           imageSize: "60%",
           cta: {
             title: t("wegweiser.prototyping.cta"),
-            link: "https://www.figma.com/proto/4S2TZpeqYYlSbFCEKR8ngC/wegweiserapp?page-id=0%3A1&node-id=72-79940&p=f&viewport=728%2C824%2C0.13&t=gSK4aPhltc7LKfwT-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=72%3A79940"
+            link: "https://bit.ly/wegweiser-lofi-app"
+          },
+          cta2: {
+            title: t("wegweiser.prototyping.cta2"),
+            link: "https://bit.ly/wegweiser-hifi-app"
           }
         },
         {
@@ -254,7 +258,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           imageSize: "55%",
           cta: {
             title: t("wegweiser.branding.cta"),
-            link: "https://drive.google.com/file/d/1hRpP2D-IXTZfvWAHtTCllIeyVkC0Q0RO/view"
+            link: "https://bit.ly/wegweiser-designkonzept",
           }
         },
         {
@@ -289,6 +293,10 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           className: "bg-[#F1F9F1]",
           image: wegweiserHotel,
           imageSize: "55%",
+          cta: {
+            title: t("wegweiser.challenges.cta"),
+            link: "https://bit.ly/wegweiser-app"
+          }
         },
         {
           title: "",
