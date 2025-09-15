@@ -201,6 +201,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("wegweiser.project.text.0"), t("wegweiser.project.text.1")],
           className: "bg-[#C3E6C3]",
           image: wegweiserMockup,
+          imageSize: "66%",
           cta: {
             title: t("wegweiser.project.cta"),
             link: "https://www.figma.com/proto/S0Qw8J37oW2tqsQ4Z8zHFp/Wegweiser-Prototyp?page-id=0%3A1&node-id=1812-17049&p=f&viewport=2314%2C3786%2C0.25&t=EGEinzUgtU9q5SbF-1&scaling=contain&content-scaling=fixed&starting-point-node-id=1812%3A17049"
@@ -211,24 +212,28 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("wegweiser.problem.text.0"), t("wegweiser.problem.text.1"), t("wegweiser.problem.text.2")],
           className: "bg-[#CBEBCB]",
           image: theme === "light" ? wegweiserEmissions : wegweiserEmissionsDark,
+          imageSize: "55%",
         },
         {
           title: t("wegweiser.research.title"),
           text: [t("wegweiser.research.text.0"), t("wegweiser.research.text.1"), t("wegweiser.research.text.2"), t("wegweiser.research.text.3"), t("wegweiser.research.text.4")],
           className: "bg-[#D8F0D8]",
           image: wegweiserGamification,
+          imageSize: "60%",
         },
         {
           title: t("wegweiser.concept.title"),
           text: [t("wegweiser.concept.text.0"), t("wegweiser.concept.text.1")],
           className: "bg-[#E8F6E8]",
           image: wegweiserReiseplanung,
+          imageSize: "55%",
         },
         {
           title: t("wegweiser.prototyping.title"),
           text: [t("wegweiser.prototyping.text.0"), t("wegweiser.prototyping.text.1")],
           className: "bg-[#F1F9F1]",
           image: wegweiserLofi,
+          imageSize: "60%",
           cta: {
             title: t("wegweiser.prototyping.cta"),
             link: "https://www.figma.com/proto/4S2TZpeqYYlSbFCEKR8ngC/wegweiserapp?page-id=0%3A1&node-id=72-79940&p=f&viewport=728%2C824%2C0.13&t=gSK4aPhltc7LKfwT-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=72%3A79940"
@@ -239,12 +244,14 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("wegweiser.interventions.text.0"), t("wegweiser.interventions.text.1")],
           className: "bg-[#E8F6E8]",
           image: wegweiserHifi,
+          imageSize: "60%",
         },
         {
           title: t("wegweiser.branding.title"),
           text: [t("wegweiser.branding.text.0"), t("wegweiser.branding.text.1")],
           className: "bg-[#D8F0D8]",
           image: theme === "light" ? wegweiserLogo : wegweiserLogoDark,
+          imageSize: "55%",
           cta: {
             title: t("wegweiser.branding.cta"),
             link: "https://drive.google.com/file/d/1hRpP2D-IXTZfvWAHtTCllIeyVkC0Q0RO/view"
@@ -261,12 +268,14 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("wegweiser.onlineTests.text.0"), t("wegweiser.onlineTests.text.1")],
           className: "bg-[#CBEBCB]",
           image: wegweiserUseberry,
+          imageSize: "60%",
         },
         {
           title: t("wegweiser.thinkAloud.title"),
           text: [t("wegweiser.thinkAloud.text.0"), t("wegweiser.thinkAloud.text.1")],
           className: "bg-[#D8F0D8]",
           image: wegweiserExcercise,
+          imageSize: "60%",
         },
         {
           title: t("wegweiser.results.title"),
@@ -279,6 +288,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           text: [t("wegweiser.challenges.text.0"), t("wegweiser.challenges.text.1")],
           className: "bg-[#F1F9F1]",
           image: wegweiserHotel,
+          imageSize: "55%",
         },
         {
           title: "",
