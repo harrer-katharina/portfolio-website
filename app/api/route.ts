@@ -13,7 +13,7 @@ export async function GET() {
 
     if (fs.existsSync(brandbookDir)) {
       filenames = fs.readdirSync(brandbookDir).filter((filename) =>
-        filename.endsWith('.webp') || filename.endsWith('.png')
+        filename.endsWith('.webp')
       );
     }
 

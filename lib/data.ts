@@ -7,8 +7,8 @@ import wegweiserGamification from "@/public/wegweiser/wegweiser-treueprogramm.we
 import wegweiserReiseplanung from "@/public/wegweiser/wegweiser-reiseplanung.webp";
 import wegweiserLofi from "@/public/wegweiser/wegweiser-lofi.webp";
 import wegweiserHifi from "@/public/wegweiser/wegweiser-hifi.webp";
-import wegweiserLogo from "@/public/wegweiser/wegweiser-logo.webp";
-import wegweiserLogoDark from "@/public/wegweiser/wegweiser-logo-dark.webp";
+import wegweiserLogo from "@/public/wegweiser/wegweiser-logo.png";
+import wegweiserLogoDark from "@/public/wegweiser/wegweiser-logo-dark.png";
 import wegweiserUseberry from "@/public/wegweiser/wegweiser-useberry.webp";
 import wegweiserExcercise from "@/public/wegweiser/wegweiser-excercise.webp";
 import wegweiserUeq from "@/public/wegweiser/wegweiser-ueq.webp";
@@ -221,13 +221,13 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
         {
           title: t("wegweiser.concept.title"),
           text: [t("wegweiser.concept.text.0"), t("wegweiser.concept.text.1")],
-          className: "bg-[#D3EED3]",
+          className: "bg-[#E8F6E8]",
           image: wegweiserReiseplanung,
         },
         {
           title: t("wegweiser.prototyping.title"),
           text: [t("wegweiser.prototyping.text.0"), t("wegweiser.prototyping.text.1")],
-          className:   "bg-[#DCF1DC]",
+          className: "bg-[#F1F9F1]",
           image: wegweiserLofi,
           cta: {
             title: t("wegweiser.prototyping.cta"),
@@ -237,13 +237,13 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
         {
           title: t("wegweiser.interventions.title"),
           text: [t("wegweiser.interventions.text.0"), t("wegweiser.interventions.text.1")],
-          className: "bg-[#D9F0D9]",
+          className: "bg-[#E8F6E8]",
           image: wegweiserHifi,
         },
         {
           title: t("wegweiser.branding.title"),
           text: [t("wegweiser.branding.text.0"), t("wegweiser.branding.text.1")],
-          className: "bg-[#E1F4E1]",
+          className: "bg-[#D8F0D8]",
           image: theme === "light" ? wegweiserLogo : wegweiserLogoDark,
           cta: {
             title: t("wegweiser.branding.cta"),
@@ -251,33 +251,33 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           }
         },
         {
-          title: t("bevry.brandbook.title"),
+          title: t("wegweiser.brandbook.title"),
           text: [],
-          className: "bg-[#E5F5E5]",
+          className: "bg-[#C3E6C3]",
           image: "",
         },
         {
           title: t("wegweiser.onlineTests.title"),
           text: [t("wegweiser.onlineTests.text.0"), t("wegweiser.onlineTests.text.1")],
-          className: "bg-[#E8F6E8]",
+          className: "bg-[#CBEBCB]",
           image: wegweiserUseberry,
         },
         {
           title: t("wegweiser.thinkAloud.title"),
           text: [t("wegweiser.thinkAloud.text.0"), t("wegweiser.thinkAloud.text.1")],
-          className: "bg-[#ECF7EC]",
+          className: "bg-[#D8F0D8]",
           image: wegweiserExcercise,
         },
         {
           title: t("wegweiser.results.title"),
           text: [t("wegweiser.results.text.0"), t("wegweiser.results.text.1")],
-          className: "bg-[#F1F9F1]",
+          className: "bg-[#E8F6E8]",
           image: theme === "light" ? wegweiserUeq : wegweiserUeqDark,
         },
         {
           title: t("wegweiser.challenges.title"),
           text: [t("wegweiser.challenges.text.0"), t("wegweiser.challenges.text.1")],
-          className: "bg-[#F3F9F3]",
+          className: "bg-[#F1F9F1]",
           image: wegweiserHotel,
         },
         {
