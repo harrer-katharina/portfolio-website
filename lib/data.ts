@@ -75,14 +75,16 @@ import veganAdventPoster from "@/public/veganAdvent/veganAdvent-poster.webp";
 import veganAdventApp from "@/public/veganAdvent/veganAdvent-app.webp";
 import veganAdventMockups from "@/public/veganAdvent/veganAdvent-mockups.webp";
 
-import trilum from "@/public/trilum/trilum-orders-overview.webp";
-import trilumOrders from "@/public/trilum/trilum-overview.webp";
+import trilum from "@/public/trilum/trilum-orders.webp";
+import trilumOverview from "@/public/trilum/trilum-overview.webp";
+import trilumMockup from "@/public/trilum/trilum-orders-overview.webp";
 import trilumTechStack from "@/public/trilum/trilum-tech-stack.webp";
 import trilumWorkflow from "@/public/trilum/trilum-workflow.webp";
 import trilumUsabilityTests from "@/public/trilum/trilum-usability-tests.webp";
 
 import nakt from "@/public/nakt/nakt-recipe-customizer-desktop.webp";
 import naktPreview from "@/public/nakt/nakt-preview.webp";
+import naktMockup from "@/public/nakt/nakt-mockup.webp";
 import naktBackend from "@/public/nakt/nakt-recipe-backend.webp";
 
 export const getLinks = (t: (key: string) => string) => {
@@ -698,12 +700,12 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       description: t("trilum.description"),
       tags: ["Angluar", "PostgreSQL", "Figma"],
       image: trilum,
-      sectionImage: trilumOrders,
+      sectionImage: trilumOverview,
       sections: [
         {
           title: t("trilum.project.title"),
           text: [t("trilum.project.text.0"), t("trilum.project.text.1"), t("trilum.project.text.2")],
-          image: trilum,
+          image: trilumMockup,
           imageSize: "55%",
           cta: {
             title: t("trilum.project.cta"),
@@ -753,7 +755,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
         {
           title: t("nakt.project.title"),
           text: [t("nakt.project.text.0"), t("nakt.project.text.1")],
-          image: nakt,
+          image: naktMockup,
           imageSize: "60%",
         },
         {
