@@ -295,7 +295,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           imageSize: "55%",
           cta: {
             title: t("wegweiser.challenges.cta"),
-            link: "https://bit.ly/wegweiser-app"
+            link: "https://phaidra.fhstp.ac.at/o:7391"
           }
         },
         {
