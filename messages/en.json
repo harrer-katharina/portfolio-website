@@ -202,7 +202,7 @@
           "The website was developed with a strong focus on user-friendliness and appealing design. We used modern web technologies such as React and Next.js to ensure a fast and responsive user interface.",
           "The content was carefully structured and presented in engaging layouts to invite users to browse and explore."
         ],
-        "cta": "View Website Prototype",
+        "cta": "View Desktop Prototype",
         "cta2": "View Mobile Prototype"
       },
       "branding": {
@@ -637,39 +637,52 @@
   },
   "Experiences": {
     "title": "My Career",
+    "school": {
+      "title": "General Matriculation Standard (Abitur)",
+      "location": "Gymnasium Roth",
+      "date": "09/2015 – 07/2018",
+      "description": []
+    },
     "bachelor": {
       "title": "Bachelor of Science - Computer Science and Media",
       "location": "TH Nürnberg",
       "date": "10/2018 – 03/2022",
       "description": [
-        "Bachelor’s Thesis in Collaboration with Fraunhofer – Developed with Angular",
-        "Topic: Analysis and redesign of the user interface of a Pick-by-Light system to enhance usability, using the TRILUM project as a case study.",
-        "Final grade: 1.8"
+        "Final grade: 1.8",
+        "Bachelor's thesis in cooperation with Fraunhofer: Analysis and redesign of the user interface of a pick-by-light system to improve usability, using the TRILUM project as a case study."
+      ],
+      "cta": "Find out more about the bachelor's thesis"
+    },
+    "job1": {
+      "title": "Frontend Developer: Research Assistant, Intern",
+      "location": "Fraunhofer IIS, Supply Chain Services Group, Nürnberg",
+      "date": "09/2020 – 03/2022",
+      "description": [
+        "Completion of a five-month internship in frontend development.",
+        "Subsequent employment as a student research assistant until the end of the bachelor's degree.",
+        "Creating UI prototypes, developing user interfaces with Vue.js and conducting object measurements for a machine learning project."
       ]
     },
-    "job1Title": "Frontend Developer: Research Assistant, Intern",
-    "job1Location": "Fraunhofer IIS, Supply Chain Services Group, Nürnberg",
-    "job1Description": [
-      "Completion of a five-month mandatory internship in frontend development.",
-      "Subsequent employment as a student research assistant until the end of the bachelor's degree.",
-      "Development of user interfaces with Vue.js, conducting object measurements for a machine learning project and creating UI prototypes."
-    ],
-    "job1Date": "09/2020 – 03/2022",
-    "job2Title": "Developer: Frontend - Middleware",
-    "job2Location": "edison street GmbH, Roth",
-    "job2Description": [
-      "Full-time position (1 year, 5 months) after completing the bachelor's degree.",
-      "Part-time employment (1 year, 6 months) during the master's program.",
-      "Development and Design of a web application that allows customers to clearly visualize their consumption and performance data."
-    ],
-  "job2Date": "04/2022 – 02/2025",
-    "masterTitle": "Dipl.-Ing. Interactive Technologies",
-    "masterLocation": "FH St. Pölten, Austria",
-    "masterDescription": [
-      "Focus: Mobile (web & app development)",
-      "Master's thesis: Green Booking – Design interventions to support environmentally conscious decisions in a travel booking app."
-    ],
-    "masterDate": "09/2023 - present"
+    "job2": {
+      "title": "Developer: Frontend - Middleware",
+      "location": "edison street GmbH, Roth",
+      "date": "04/2022 – 02/2025",
+      "description": [
+        "Full-time position (1 year, 5 months) after completing the bachelor's degree.",
+        "Part-time employment (1 year, 6 months) during the master's program.",
+        "Development and Design of a web application that allows customers to clearly visualize their consumption and performance data."
+      ]
+    },
+    "master": {
+      "title": "Dipl.-Ing. Interactive Technologies",
+      "location": "FH St. Pölten, Austria",
+      "date": "09/2023 – dato",
+      "description": [
+        "Focus: Mobile (web & app development)",
+        "Master's thesis: Green Booking – Design interventions to support environmentally conscious decisions in a travel booking app."
+      ],
+      "cta": "Find out more about the master's thesis"
+    }
   },
   "Skills": {
     "title": "My skills"

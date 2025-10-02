@@ -203,7 +203,7 @@
           "Die Website wurde mit einem klaren Fokus auf Benutzerfreundlichkeit und ansprechendes Design entwickelt. Wir verwendeten moderne Webtechnologien wie React und Next.js, um eine schnelle und reaktive Benutzeroberfläche zu gewährleisten.",
           "Die Inhalte wurden sorgfältig strukturiert und in ansprechenden Layouts präsentiert, um die Benutzer zum Stöbern und Entdecken einzuladen."
         ],
-        "cta":"Website Prototyp ansehen",
+        "cta":"Desktop Prototyp ansehen",
         "cta2":"Mobile Prototyp ansehen"
       },
       "branding": {
@@ -655,19 +655,19 @@
       "location": "TH Nürnberg",
       "date": "10/2018 – 03/2022",
       "description": [
-        "Bachelorarbeit in Kooperation mit Fraunhofer – Entwicklung mit Angular.",
-        "Thema: Analyse und Überarbeitung der Benutzeroberfläche eines Pick-by-Light-Systems zur Verbesserung der Usability am Beispiel des Projekts TRILUM.",
-        "Abschlussnote: 1,8"
-      ]
+        "Abschlussnote: 1,8",
+        "Bachelorarbeit in Kooperation mit Fraunhofer: Analyse und Überarbeitung der Benutzeroberfläche eines Pick-by-Light-Systems zur Verbesserung der Usability am Beispiel des Projekts TRILUM."
+      ],
+      "cta": "Erfahre mehr über die Bachelorarbeit"
     },
     "job1": {
       "title": "Frontendentwicklerin: HiWi, Praktikantin",
       "location": "Fraunhofer IIS, Arbeitsgruppe für Supply Chain Services, Nürnberg",
       "date": "09/2020 – 03/2022",
       "description": [
-        "Absolvierung eines fünfmonatigen Pflichtpraktikums im Bereich Frontend-Entwicklung.",
+        "Absolvierung eines fünfmonatigen Praktikums im Bereich Frontend-Entwicklung.",
         "Anschließende Übernahme als wissenschaftliche Hilfskraft bis zum Ende des Bachelorstudiums.",
-        "Entwicklung mit Vue.js, Durchführung von Objektmessungen für ein Machine-Learning-Projekt und Erstellung von UI-Prototypen."
+        "Erstellung von UI-Prototypen, Entwicklung mit Vue.js und Durchführung von Objektmessungen für ein Machine-Learning-Projekt."
       ]
     },
     "job2": {
@@ -687,7 +687,8 @@
       "description": [
         "Schwerpunkt: Mobile (Web- & Appentwicklung)",
         "Masterarbeit: Green Booking – Designinterventionen zur Unterstützung umweltbewusster Entscheidungen in einer Reisebuchungs-App."
-      ]
+      ],
+      "cta": "Erfahre mehr über die Masterarbeit"
     }
   },
   "Skills": {

@@ -105,6 +105,15 @@ export default function Experience() {
                       ✦︎ {desc}
                     </p>
                   ))}
+                  {item.cta && (
+                    <Link
+                      href={item.cta?.link}
+                      target={"_blank"}
+                      className="font-normal !mt-0 dark:text-[var(--secondary-color)] text-[var(--tertiary-color)] hover:text-[var(--primary-color)]"
+                    >
+                      {"> " + item.cta?.title}
+                    </Link>
+                  )}
                   {item.tags && (
                     <ul className="flex flex-wrap gap-2 mt-2">
                       {item.tags.map((tag, index) => (
