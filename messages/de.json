@@ -806,6 +806,7 @@
     ]
   },
   "Footer": {
-    "description": "Diese Website wurde mit React & Next.js, TypeScript, Tailwind CSS & Framer Motion erstellt."
+    "description": "Diese Website wurde mit React & Next.js, TypeScript, Tailwind CSS & Framer Motion erstellt.",
+    "github": "Zum GitHub-Repository"
   }
 }

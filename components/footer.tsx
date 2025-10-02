@@ -63,9 +63,17 @@ export default function Footer() {
           </Link>
         </div>
 
-        <p className="text-xs md:w-[20%] text-gray-300 text-center">
-          {t("description")}
-        </p>
+        <div className="text-xs md:w-[20%] text-gray-300 text-center">
+          <p>{t("description")}</p>
+          <a
+            href="https://github.com/harrer-katharina/portfolio-website"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[var(--primary-color)] hover:text-[var(--secondary-color)] transition"
+          >
+            {"> " + t("github")}
+          </a>
+        </div>
       </div>
 
       <p className="text-center text-xs mt-10">

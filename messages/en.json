@@ -799,6 +799,7 @@
     ]
   },
   "Footer": {
-    "description": "This website is built with React & Next.js, TypeScript, Tailwind CSS & Framer Motion."
+    "description": "This website is built with React & Next.js, TypeScript, Tailwind CSS & Framer Motion.",
+    "github": "View Source on GitHub"
   }
 }
