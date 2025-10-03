@@ -25,7 +25,7 @@ export default function PrevNextNav({
 
   return (
     <div
-      className={`flex ${alignment} items-center max-w-5xl mx-auto px-6 py-8`}
+      className={`flex ${alignment} items-center max-w-6xl mx-auto px-6 py-8`}
     >
       {prevProject && (
         <Link

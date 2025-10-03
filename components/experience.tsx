@@ -106,13 +106,11 @@ export default function Experience() {
                     </p>
                   ))}
                   {item.cta && (
-                    <Link
-                      href={item.cta?.link}
-                      target={"_blank"}
-                      className="font-normal !mt-0 dark:text-[var(--secondary-color)] text-[var(--tertiary-color)] hover:text-[var(--primary-color)]"
-                    >
-                      {"> " + item.cta?.title}
-                    </Link>
+                    <p className="!font-normal !mt-0 dark:text-[var(--secondary-color)] text-[var(--tertiary-color)] hover:text-[var(--primary-color)]">
+                      <Link href={item.cta?.link} target={"_blank"}>
+                        {"> " + item.cta?.title}
+                      </Link>
+                    </p>
                   )}
                   {item.tags && (
                     <ul className="flex flex-wrap gap-2 mt-2">

@@ -6,7 +6,6 @@ interface ProjectDetailsProps {
   project: {
     tags: string[];
     type: string;
-    date: string;
     duration: string;
   };
 }
@@ -20,13 +19,17 @@ const ProjectDetailText: React.FC<ProjectDetailsProps> = ({ project }) => {
       content: (
         <ul className="flex flex-wrap gap-2 mt-2">
           {project.tags.map((tag, index) => (
-            <Tag index={index} title={tag} key={index} />
+            <Tag
+              index={index}
+              title={tag}
+              className="text-[0.8rem]"
+              key={index}
+            />
           ))}
         </ul>
       ),
     },
     { label: t("type"), content: project.type },
-    { label: t("date"), content: project.date },
     { label: t("duration"), content: project.duration },
   ];
 

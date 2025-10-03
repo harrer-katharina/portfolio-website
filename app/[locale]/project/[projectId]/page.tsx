@@ -44,8 +44,8 @@ const ProjectDetail = ({ params }: { params: { projectId: string } }) => {
   return (
     <main>
       <ProjectIntroImage project={project} />
-      <div className="max-w-6xl mx-auto mt-6 px-3 sm:px-6 space-y-8 scroll-mt-28">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <div className="max-w-7xl mx-auto mt-6 px-3 sm:px-6 space-y-8 scroll-mt-28">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-40">
           <p className="sm:hidden text-3xl uppercase font-black">
             {project.title}
           </p>

@@ -7,26 +7,25 @@
     "contact": "Contact"
   },
   "Intro": {
-    "introduction": "Hey, I am",
+    "introduction": "Hi, I'm",
     "job": "UX Design & Web Development",
-    "description": "I love bringing digital experiences to life through code & design – currently deepening my expertise in the Master’s program for Interactive Technologies.",
+    "description": "Bringing digital experiences to life through design and code – intuitive, aesthetic, and user-centered.",
     "cta": "Contact"
   },
   "About": {
     "title": "About Me",
-    "description": "During my Bachelor's degree in Media Informatics at TH Nürnberg, I gained a strong foundation in computer science and digital media. After graduating, I wanted to further specialize in web development, which led me to pursue a Master's degree in Interactive Technologies with a focus on Mobile at FH St. Pölten. My main focus is on understanding user experience (UX) and translating it into user-centered designs.",
+    "description": "During my Bachelor's degree in Media Informatics at TH Nürnberg, I gained a strong foundation in computer science and digital media. After graduating, I wanted to further specialize in web development, which led me to pursue a Master's degree in Interactive Technologies with a focus on Mobile at FH St. Pölten. My main focus is on understanding user experience and translating it into user-centered designs.",
     "hobbies": "In my free time, I like to explore topics around sustainability and enjoy trying out new vegan recipes. I love spending time outdoors – whether it’s running, hiking in the mountains, cycling, or going on bikepacking trips to discover new places and countries. Last year, for example, I cycled from Roth to Budapest and also explored Denmark and Sweden. For me, it’s the perfect way to leave everyday life behind and dive into new adventures."
   },
   "Projects": {
     "title": "My Projects",
-    "date": "Creation Period",
     "technologies": "Technologies",
     "type": "Project Type",
     "duration": "Project Duration",
     "wegweiser": {
       "description": "Travel booking app designed to support environmentally conscious decisions throughout the booking process.",
       "date": "Feb – July 2025",
-      "type": "App Design, Prototyping, UX Testing",
+      "type": "App Design ✦︎ Prototyping ✦︎ UX Testing",
       "duration": "6 months",
       "project": {
         "title": "The Project",
@@ -121,7 +120,7 @@
     "weidlich": {
       "description": "Website for a retired notary to present his lectures, publications, and professional background.",
       "date": "July 2024 – July 2025",
-      "type": "WordPress development, SEO, Web design, Corporate branding",
+      "type": "WordPress Development ✦︎ SEO ✦︎ Web Design ✦︎ Corporate Branding ✦︎ Customer Service",
       "duration": "1 year",
       "project": {
         "title": "The Project",
@@ -171,7 +170,7 @@
     "bevry": {
       "description": "Web app for cocktail enthusiasts to discover, share, rate and manage drinks.",
       "date": "Nov 2023 - July 2024",
-      "type": "Web Development, Corporate Branding",
+      "type": "Full-Stack Development ✦︎ Corporate Branding ✦︎ User Testing ✦︎ Agile Teamwork",
       "duration": "9 months",
       "project": {
         "title": "The Project",
@@ -288,7 +287,7 @@
     "erika": {
       "description": "App as a digital companion for climate-friendly actions and regional activities.",
       "date": "March 2024 - June 2024",
-      "type": "Sustainable web & app design, prototyping",
+      "type": "Sustainable Web & App Design ✦︎ Prototyping ✦︎ Research",
       "duration": "4 months",
       "project": {
         "title": "The Project",
@@ -336,7 +335,7 @@
     "timeParabox": {
       "description": "Interactive puzzle game with escape-box elements and a time travel theme, controlled by a native app.",
       "date": "Oct 2024 - Jan 2025",
-      "type": "App Development",
+      "type": "App Development ✦︎ Hardware Integration ✦︎ Agile Teamwork",
       "duration": "4 months",
       "project": {
         "title": "The Project",
@@ -344,7 +343,8 @@
           "Time Parabox is an interactive escape box game that takes players on an exciting time-travel journey to repair paradoxes in history.",
           "The adventure leads through five historical eras – Antiquity, the Middle Ages, the Renaissance, the Industrial Revolution, and World War II.",
           "The project was carried out within the Master’s program 'Mobile' by a team of ten students. Development followed agile methods, with two-week sprints organized via Jira and weekly meetings to track progress."
-        ]
+        ],
+        "cta": "Watch the app video"
       },
       "concept": {
         "title": "The Concept",
@@ -409,7 +409,7 @@
     "pgmon": {
       "description": "Community app for sharing Pokémon sightings with map view and playful UI elements.",
       "date": "Oct 2023 – Jan 2024",
-      "type": "Full-Stack Development, UI Design",
+      "type": "Full-Stack Development ✦︎ UI Design",
       "duration": "4 months",
       "project": {
         "title": "The Project",
@@ -452,7 +452,7 @@
     "museumverse": {
       "description": "Audio guide app that uses AI to create personalized and dynamically generated museum experiences.",
       "date": "Oct 2024 – Apr 2025",
-      "type": "Business Planning, UI Design",
+      "type": "Business Planning ✦︎ UI Design",
       "duration": "7 months",
       "project": {
         "title": "The Project",
@@ -488,10 +488,10 @@
     "veganAdvent": {
       "description": "Digital advent calendar with valuable tips and information for a vegan lifestyle.",
       "date": "Oct 2024",
-      "type": "UI-Design, Web Development",
+      "type": "UI Design ✦︎ Frontend Development",
       "duration": "2 weeks",
       "background": {
-        "title": "Background",
+        "title": "The Project Background",
         "text": [
           "This so-called Print2Mobile project was carried out as part of the Master's degree program Interactive Technologies at FH St. Pölten. The goal was to seamlessly guide users from a physical medium into the digital world with the help of a QR code.",
           "Particularly important here is compliance with certain design and usability rules to ensure that the transition is clear, accessible, and suitable for all devices. My approach was to implement this concept in the form of a digital advent calendar."
@@ -533,7 +533,7 @@
     "ecocalypse": {
       "description": "Immersive video game scene focusing on worldbuilding and visual storytelling.",
       "date": "June 2024",
-      "type": "Game Design, Worldbuilding, and Storytelling",
+      "type": "Game Design ✦︎ Worldbuilding ✦︎ Visual Storytelling",
       "duration": "1 week",
       "project": {
         "title": "The Project",
@@ -577,7 +577,7 @@
     "trilum": {
       "description": "Analysis and redesign of the user interface for the wireless Pick-by-Light system TRILUM to enhance usability.",
       "date": "Sep 2021 - Feb 2022",
-      "type": "Web Development, Web Design, Usability",
+      "type": "Web Development ✦︎ Web Design ✦︎ Human-Centered Design ✦︎ Usability Testing",
       "duration": "6 months",
       "project": {
         "title": "The Project",
@@ -616,7 +616,7 @@
     "nakt": {
       "description": "WordPress website without pre-built themes or plugins. The focus was on PHP programming.",
       "date": "March - June 2021",
-      "type": "WordPress Plugin Development, Web Development",
+      "type": "WordPress Plugin Development ✦︎ Web Development",
       "duration": "4 months",
       "project": {
           "title": "The Project",
@@ -651,7 +651,7 @@
         "Final grade: 1.8",
         "Bachelor's thesis in cooperation with Fraunhofer: Analysis and redesign of the user interface of a pick-by-light system to improve usability, using the TRILUM project as a case study."
       ],
-      "cta": "Find out more about the bachelor's thesis"
+      "cta": "Find out more about my bachelor's thesis"
     },
     "job1": {
       "title": "Frontend Developer: Research Assistant, Intern",
@@ -681,7 +681,7 @@
         "Focus: Mobile (web & app development)",
         "Master's thesis: Green Booking – Design interventions to support environmentally conscious decisions in a travel booking app."
       ],
-      "cta": "Find out more about the master's thesis"
+      "cta": "Find out more about my master's thesis"
     }
   },
   "Skills": {
@@ -689,7 +689,7 @@
   },
   "Contact": {
     "title": "Get in Touch!",
-    "description1": "You can reach me directly at",
+    "description1": "Feel free to reach out — whether with feedback, questions, or just to say hello. You can reach me directly at",
     "description2": "or via the contact form.",
     "emailPlaceholder": "Your email",
     "messagePlaceholder": "Your message",

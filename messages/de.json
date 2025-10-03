@@ -7,27 +7,25 @@
     "contact": "Kontakt"
   },
   "Intro": {
-    "introduction": "Hey, ich bin",
+    "introduction": "Hi, ich bin",
     "job": "UX Design & Web Development",
-    "description": "Ich liebe es, digitale Erlebnisse durch Code & Design zum Leben zu erwecken – aktuell vertiefe ich mein Wissen im Master Interactive Technologies.",
+    "description": "Mit Design und Code erwecke ich digitale Erlebnisse zum Leben – intuitiv, ästhetisch und nutzerzentriert.",
     "cta": "Kontakt"
   },
   "About": {
     "title": "Über mich",
-    "description": "Während meines Bachelorstudiums in Medieninformatik an der TH Nürnberg konnte ich fundierte Kenntnisse in Informatik und digitalen Medien erwerben. Nach dem Abschluss wollte ich mich stärker in Richtung Webentwicklung weiterbilden, weshalb ich mich für den Masterstudiengang Interactive Technologies mit dem Schwerpunkt Mobile an der FH St. Pölten entschieden habe. Mein Fokus liegt darauf, die Benutzererfahrung (UX) zu verstehen und in benutzerzentrierte Designs umzusetzen.",
+    "description": "Während meines Bachelorstudiums in Medieninformatik an der TH Nürnberg konnte ich fundierte Kenntnisse in Informatik und digitalen Medien erwerben. Nach dem Abschluss wollte ich mich stärker in Richtung Webentwicklung weiterbilden, weshalb ich mich für den Masterstudiengang Interactive Technologies mit dem Schwerpunkt Mobile an der FH St. Pölten entschieden habe. Mein Fokus liegt darauf, die Benutzererfahrung zu verstehen und in benutzerzentrierte Designs umzusetzen.",
     "hobbies": "In meiner Freizeit setze ich mich mit Nachhaltigkeit auseinander und probiere gerne neue vegane Rezepte aus. Am liebsten bin ich draußen unterwegs – beim Joggen, Wandern in den Bergen, auf dem Rennrad oder beim Bikepacking, um neue Orte und Länder zu entdecken. So habe ich im letzten Jahr etwa die Strecke von Roth nach Budapest mit dem Rad zurückgelegt und zudem Dänemark und Schweden erkundet. Für mich die ideale Möglichkeit, den Alltag hinter mir zu lassen und neue Abenteuer zu erleben."
   },
   "Projects": {
     "title": "Meine Projekte",
-    "date": "Entstehungszeitraum",
     "technologies": "Technologien",
     "type": "Projekttyp",
     "duration": "Projektdauer",
     "wegweiser": {
       "description": "Reisebuchungs-App, um umweltbewusste Entscheidungen im Buchungsprozess zu fördern.",
-      "date": "Feb - Juli 2025",
-      "type": "Appdesign, Prototyping, UX Testing",
-      "duration": "6 Monate",
+      "type": "Appdesign ✦︎ Prototyping ✦︎ UX Testing",
+      "duration": "Feb - Juli 2025 (6 Monate)",
       "project": {
         "title": "Das Projekt",
         "text": [
@@ -49,9 +47,9 @@
         "text": [
           "Die Arbeit verbindet ökologische Nachhaltigkeit im Tourismus mit persuasivem Design. Im Mittelpunkt stand die Frage, wie Nutzer*innen durch digitale Lenkungsstrategien wie Nudging und Gamification zu nachhaltigeren Entscheidungen bewegt werden können.",
           "Darüber hinaus lag ein Schwerpunkt auf der User Experience: Wie lassen sich Nachhaltigkeit und positive Nutzungserlebnisse in Einklang bringen? Daraus ergeben sich folgende Forschungsschwerpunkte:",
-          "- Welche Nachhaltigkeitsstrategien werden in Buchungsplattformen bereits umgesetzt?",
-          "- Welche Lenkungsstrategien fördern nachhaltige Entscheidungen auf Buchungsplattformen?",
-          "- Welche Wirkung haben die Designinterventionen des Prototyps auf die Nutzer*innen?"
+          "✦︎ Welche Nachhaltigkeitsstrategien werden in Buchungsplattformen bereits umgesetzt?",
+          "✦︎ Welche Lenkungsstrategien fördern nachhaltige Entscheidungen auf Buchungsplattformen?",
+          "✦︎ Welche Wirkung haben die Designinterventionen des Prototyps auf die Nutzer*innen?"
         ]
       },
       "concept": {
@@ -120,9 +118,8 @@
     },
     "weidlich": {
       "description": "Website für einen Notar a. D. zur Präsentation seiner Vortragstätigkeit, Publikationen und beruflichen Laufbahn.",
-      "date": "Juli 2024 - Juli 2025",
-      "type": "WordPress-Entwicklung, SEO, Webdesign, Corporate Branding",
-      "duration": "1 Jahr",
+      "type": "WordPress-Entwicklung ✦︎ SEO ✦︎ Webdesign ✦︎ Corporate Branding ✦︎ Kundenbetreuung",
+      "duration": "Juli 2024 - Juli 2025 (1 Jahr)",
       "project": {
         "title": "Das Projekt",
         "text": [
@@ -171,9 +168,8 @@
     },
     "bevry": {
       "description": "Web-App für Cocktailfans zum Entdecken, Teilen, Bewerten und Verwalten von Getränken.",
-      "date": "Nov 2023 - Juli 2024",
-      "type": "Webentwicklung, Corporate Branding",
-      "duration": "9 Monate",
+      "type": "Full-Stack-Entwicklung ✦︎ Corporate Branding ✦︎ User Testing ✦︎ Agiles Arbeiten im Team",
+      "duration": "Nov 2023 - Juli 2024 (9 Monate)",
       "project": {
         "title": "Das Projekt",
         "text": [
@@ -288,9 +284,8 @@
     },
     "erika": {
       "description": "App als digitale Begleiterin für klimafreundliches Handeln und regionale Aktivitäten.",
-      "date": "März - Juni 2024",
-      "type": "Nachhaltiges Web- & Appdesign, Prototyping",
-      "duration": "4 Monate",
+      "type": "Nachhaltiges Web- & Appdesign ✦︎ Prototyping ✦︎ Forschung",
+      "duration": "März - Juni 2024 (4 Monate)",
       "project": {
         "title": "Das Projekt",
         "text": [
@@ -342,16 +337,16 @@
     },
     "timeParabox": {
       "description": "Interaktives Rätselspiel mit Escape-Box-Elementen und Zeitreise-Thematik, gesteuert durch eine native App.",
-      "date": "Okt 2024 - Jan 2025",
-      "type": "Appentwicklung",
-      "duration": "4 Monate",
+      "type": "Appentwicklung ✦︎ Hardware-Integration ✦︎ Agiles Arbeiten im Team",
+      "duration": "Okt 2024 - Jan 2025 (4 Monate)",
       "project": {
         "title": "Das Projekt",
         "text": [
           "Time Parabox ist ein interaktives Escape-Box-Spiel, das Spieler*innen auf eine spannende Zeitreise schickt, um Paradoxe in der Geschichte zu korrigieren.",
           "Die Reise führt durch fünf historische Epochen – Antike, Mittelalter, Renaissance, Industrielle Revolution und den Zweiten Weltkrieg.",
           "Das Projekt wurde im Rahmen der Masterklasse 'Mobile' in einer 10er-Gruppe durchgeführt. Die Entwicklung erfolgte mithilfe agiler Methoden. Zweiwöchige Sprints wurden mit Jira organisiert und der Fortschritt wurde in wöchentlichen Meetings überprüft."
-        ]
+        ],
+        "cta": "Video zur App ansehen"
       },
       "concept": {
         "title": "Das Konzept",
@@ -415,9 +410,8 @@
     },
     "pgmon": {
       "description": "Community-App für Pokémon-Sichtungen mit Kartenansicht und spielerischen Elementen.",
-      "date": "Okt 2023 - Jan 2024",
-      "type": "Full-Stack-Entwicklung, UI-Design",
-      "duration": "4 Monate",
+      "type": "Full-Stack-Entwicklung ✦︎ UI-Design ",
+      "duration": "Okt 2023 - Jan 2024 (4 Monate)",
       "project": {
         "title": "Das Projekt",
         "text": [
@@ -458,9 +452,8 @@
     },
     "museumverse": {
       "description": "Audioguide-App, die durch den Einsatz von KI personalisierte und dynamisch generierte Museumerlebnisse ermöglicht.",
-      "date": "Okt 2024 - Apr 2025",
-      "type": "Businessplanung, UI-Design",
-      "duration": "7 Monate",
+      "type": "Businessplanung ✦︎ UI-Design",
+      "duration": "Okt 2024 - Apr 2025 (7 Monate)",
       "project": {
         "title": "Das Projekt",
         "text": [
@@ -494,13 +487,12 @@
     },     
     "veganAdvent": {
       "description": "Digitaler Adventskalender mit wertvollen Tipps und Infos für ein veganes Leben.",
-      "date": "Okt 2024",
-      "type": "UI-Design, Webentwicklung",
-      "duration": "2 Wochen",
+      "type": "UI-Design ✦︎ Frontend-Entwicklung",
+      "duration": "Okt 2024 (2 Wochen)",
       "background": {
-        "title": "Hintergrund",
+        "title": "Der Projekthintergrund",
         "text": [
-          "Dieses sogenannte Print2Mobile-Projekt wurde im Rahmen des Masterstudiengangs Interactive Technologies an der FH St. Pölten umgesetzt. Ziel war es, Nutzer*innen von einem physischen Medium mithilfe eines QR-Codes nahtlos in die digitale Welt zu begleiten.",
+          "Dieses Print2Mobile-Projekt wurde im Rahmen des Masterstudiengangs Interactive Technologies an der FH St. Pölten umgesetzt. Ziel war es, Nutzer*innen von einem physischen Medium mithilfe eines QR-Codes nahtlos in die digitale Welt zu begleiten.",
           "Besonders wichtig ist dabei die Einhaltung bestimmter Gestaltungs- und Usability-Regeln, damit der Übergang verständlich, niederschwellig und für alle Endgeräte geeignet ist. Mein Ansatz war es, dieses Konzept in Form eines digitalen Adventskalenders umzusetzen."
         ],
         "cta": "Web-App ansehen"
@@ -539,9 +531,8 @@
     },
     "ecocalypse": {
       "description": "Immersive Videospielszene mit Fokus auf Worldbuilding und Visual Storytelling.",
-      "date": "Juni 2024",
-      "type": "Gamedesign, Worldbuilding und Storytelling",
-      "duration": "1 Woche",
+      "type": "Gamedesign ✦︎ Worldbuilding ✦︎ Visual Storytelling",
+      "duration": "Juni 2024 (1 Woche)",
       "project": {
         "title": "Das Projekt",
         "text": [
@@ -583,9 +574,8 @@
     },
     "trilum": {
       "description": "Analyse und Überarbeitung der Benutzeroberfläche des drahtlosen Pick-by-Light-Systems TRILUM zur Verbesserung der Usability.",
-      "date": "Sep 2021 - Feb 2022",
-      "type": "Webentwicklung, Webdesign, Usability",
-      "duration": "6 Monate",
+      "type": "Webentwicklung ✦︎ Webdesign ✦ User-Centered-Design ✦︎ Usability-Testing",
+      "duration": "Sep 2021 - Feb 2022 (6 Monate)",
       "project": {
         "title": "Das Projekt",
         "text": [
@@ -601,7 +591,7 @@
           "TRILUM ist ein drahtloses Pick-by-Light-System für Lagerkommissionierung und Montageprozesse. Das Kommissioniersystem leitet Mitarbeiter*innen, die Material aus Regalen entnehmen müssen, per Leuchtsignal zum richtigen Entnahmefach.",
           "Der Fokus meiner Arbeit lag allerdings auf der, mit dem Oberflächen-Framework Angular entwickelten, Desktopanwendung. Diese wurde zur Koordination von Aufträgen, Lagerbeständen und Mitarbeitern eingesetzt."
         ],
-        "cta": "Mehr über das System"
+        "cta": "Erfahre mehr über das System"
       },
       "implementation": {
         "title": "Die Umsetzung",
@@ -622,9 +612,8 @@
     },
     "nakt": {
       "description": "WordPress-Website ohne vorgefertigte Themes oder Plugins. Der Fokus lag auf PHP-Programmierung.",
-      "date": "März - Juni 2021",
-      "type": "WordPress Plugin-Entwicklung, Webentwicklung",
-      "duration": "4 Monate",
+      "type": "WordPress Plugin-Entwicklung ✦︎ Webentwicklung",
+      "duration": "März - Juni 2021 (4 Monate)",
       "project": {
         "title": "Das Projekt",
         "text": [
@@ -658,7 +647,7 @@
         "Abschlussnote: 1,8",
         "Bachelorarbeit in Kooperation mit Fraunhofer: Analyse und Überarbeitung der Benutzeroberfläche eines Pick-by-Light-Systems zur Verbesserung der Usability am Beispiel des Projekts TRILUM."
       ],
-      "cta": "Erfahre mehr über die Bachelorarbeit"
+      "cta": "Erfahre mehr über meine Bachelorarbeit"
     },
     "job1": {
       "title": "Frontendentwicklerin: HiWi, Praktikantin",
@@ -688,7 +677,7 @@
         "Schwerpunkt: Mobile (Web- & Appentwicklung)",
         "Masterarbeit: Green Booking – Designinterventionen zur Unterstützung umweltbewusster Entscheidungen in einer Reisebuchungs-App."
       ],
-      "cta": "Erfahre mehr über die Masterarbeit"
+      "cta": "Erfahre mehr über meine Masterarbeit"
     }
   },
   "Skills": {
@@ -696,7 +685,7 @@
   },
   "Contact": {
     "title": "Schreib mir!",
-    "description1": "Du erreichst mich direkt unter",
+    "description1": "Gerne kannst du dich bei mir melden — egal ob mit Feedback, neuen Impulsen oder einfach, um Hallo zu sagen. Du erreichst mich direkt unter",
     "description2": "oder über das Kontaktformular.",
     "emailPlaceholder": "Deine E-Mail",
     "messagePlaceholder": "Deine Nachricht",
