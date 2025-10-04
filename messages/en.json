@@ -24,9 +24,8 @@
     "duration": "Project Duration",
     "wegweiser": {
       "description": "Travel booking app designed to support environmentally conscious decisions throughout the booking process.",
-      "date": "Feb – July 2025",
       "type": "App Design ✦︎ Prototyping ✦︎ UX Testing",
-      "duration": "6 months",
+      "duration": "Feb – July 2025 (6 months)",
       "project": {
         "title": "The Project",
         "text": [
@@ -119,9 +118,8 @@
     },
     "weidlich": {
       "description": "Website for a retired notary to present his lectures, publications, and professional background.",
-      "date": "July 2024 – July 2025",
       "type": "WordPress Development ✦︎ SEO ✦︎ Web Design ✦︎ Corporate Branding ✦︎ Customer Service",
-      "duration": "1 year",
+      "duration": "July 2024 – July 2025 (1 year)",
       "project": {
         "title": "The Project",
         "text": [
@@ -169,9 +167,8 @@
     },
     "bevry": {
       "description": "Web app for cocktail enthusiasts to discover, share, rate and manage drinks.",
-      "date": "Nov 2023 - July 2024",
       "type": "Full-Stack Development ✦︎ Corporate Branding ✦︎ User Testing ✦︎ Agile Teamwork",
-      "duration": "9 months",
+      "duration": "Nov 2023 - July 2024 (9 months)",
       "project": {
         "title": "The Project",
         "text": [
@@ -286,9 +283,8 @@
     },
     "erika": {
       "description": "App as a digital companion for climate-friendly actions and regional activities.",
-      "date": "March 2024 - June 2024",
       "type": "Sustainable Web & App Design ✦︎ Prototyping ✦︎ Research",
-      "duration": "4 months",
+      "duration": "March 2024 - June 2024 (4 months)",
       "project": {
         "title": "The Project",
         "text": [
@@ -334,9 +330,8 @@
     },
     "timeParabox": {
       "description": "Interactive puzzle game with escape-box elements and a time travel theme, controlled by a native app.",
-      "date": "Oct 2024 - Jan 2025",
       "type": "App Development ✦︎ Hardware Integration ✦︎ Agile Teamwork",
-      "duration": "4 months",
+      "duration": "Oct 2024 - Jan 2025 (4 months)",
       "project": {
         "title": "The Project",
         "text": [
@@ -408,9 +403,8 @@
     },
     "pgmon": {
       "description": "Community app for sharing Pokémon sightings with map view and playful UI elements.",
-      "date": "Oct 2023 – Jan 2024",
       "type": "Full-Stack Development ✦︎ UI Design",
-      "duration": "4 months",
+      "duration": "Oct 2023 – Jan 2024 (4 months)",
       "project": {
         "title": "The Project",
         "text": [
@@ -451,9 +445,8 @@
     },
     "museumverse": {
       "description": "Audio guide app that uses AI to create personalized and dynamically generated museum experiences.",
-      "date": "Oct 2024 – Apr 2025",
       "type": "Business Planning ✦︎ UI Design",
-      "duration": "7 months",
+      "duration": "Oct 2024 – Apr 2025 (7 months)",
       "project": {
         "title": "The Project",
         "text": [
@@ -487,9 +480,8 @@
     },
     "veganAdvent": {
       "description": "Digital advent calendar with valuable tips and information for a vegan lifestyle.",
-      "date": "Oct 2024",
       "type": "UI Design ✦︎ Frontend Development",
-      "duration": "2 weeks",
+      "duration": "Oct 2024 (2 weeks)",
       "background": {
         "title": "The Project Background",
         "text": [
@@ -532,9 +524,8 @@
     },
     "ecocalypse": {
       "description": "Immersive video game scene focusing on worldbuilding and visual storytelling.",
-      "date": "June 2024",
       "type": "Game Design ✦︎ Worldbuilding ✦︎ Visual Storytelling",
-      "duration": "1 week",
+      "duration": "June 2024 (1 week)",
       "project": {
         "title": "The Project",
         "text": [
@@ -576,9 +567,8 @@
     },
     "trilum": {
       "description": "Analysis and redesign of the user interface for the wireless Pick-by-Light system TRILUM to enhance usability.",
-      "date": "Sep 2021 - Feb 2022",
       "type": "Web Development ✦︎ Web Design ✦︎ Human-Centered Design ✦︎ Usability Testing",
-      "duration": "6 months",
+      "duration": "Sep 2021 - Feb 2022 (6 months)",
       "project": {
         "title": "The Project",
         "text": [
@@ -615,9 +605,8 @@
     },
     "nakt": {
       "description": "WordPress website without pre-built themes or plugins. The focus was on PHP programming.",
-      "date": "March - June 2021",
       "type": "WordPress Plugin Development ✦︎ Web Development",
-      "duration": "4 months",
+      "duration": "March - June 2021 (4 months)",
       "project": {
           "title": "The Project",
           "text": [

@@ -25,7 +25,6 @@ export type ProjectType = {
     title: string;
     showTitle: boolean;
     scaleCards: boolean;
-    date: string;
     type: string;
     duration: string;
     description: string;

@@ -35,9 +35,6 @@ export default function Carousel({
     trackMouse: true,
   });
 
-  const customLoader = ({ src }: { src: string }) => {
-    return src; // gibt die Original-URL zurück
-  };
   return (
     <div
       className={clsx(
