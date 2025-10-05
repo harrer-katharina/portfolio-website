@@ -578,7 +578,7 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           imageSize: "66%",
           cta: {
             title: t("timeParabox.project.cta"),
-            link: "https://fhstp-my.sharepoint.com/personal/it231522_fhstp_ac_at/_layouts/15/stream.aspx?id=%2Fpersonal%2Fit231522%5Ffhstp%5Fac%5Fat%2FDocuments%2FIT3%2FMOB%2FScreenRecording%5F01%2D23%2D2025%2016%2D59%2D42%5F1%2Emov",
+            link: "https://fhstp-my.sharepoint.com/:v:/g/personal/it231522_fhstp_ac_at/Eaj2RYBfH5hLuBnJG0N25OkBmzNZDjj-iMSmNTVHU8-60w?e=8rsoBJ",
           }
         },
         {
