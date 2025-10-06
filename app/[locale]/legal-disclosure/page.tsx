@@ -20,6 +20,9 @@ export default function PrivacyPolicy() {
           <a className="underline" href="mailto:hello@katharina-harrer.de">
             hello@katharina-harrer.de
           </a>
+          <br />
+          <strong>{t("phone")}: </strong>+49 160 2314103
+          <br />
         </p>
 
         <h1 className="text-3xl font-extrabold dark:text-white">

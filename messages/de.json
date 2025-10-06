@@ -698,9 +698,10 @@
   "DSGVO": {
     "legal-disclosure": "Impressum",
     "operator": "Webseitenbetreiber",
-    "residence": "Wohnort",
-    "residence-text": "91154 Roth, Deutschland",
+    "residence": "Adresse",
+    "residence-text": "Clara-Schumann-Str. 2, 91154 Roth, Deutschland",
     "email": "E-Mail",
+    "phone": "Telefon",
     "disclaimer": "Haftungsausschluss",
     "liability-content": "Haftung für Inhalte",
     "liability-content-text": "Die Inhalte meiner Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann ich jedoch keine Gewähr übernehmen. Als Diensteanbieter bin ich gemäß § 7 Abs.1 DDG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 DDG bin ich als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.",
