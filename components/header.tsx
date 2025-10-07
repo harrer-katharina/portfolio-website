@@ -128,7 +128,7 @@ export default function Header() {
 
       {menuOpen && (
         <motion.div
-          className="md:hidden fixed inset-0 flex flex-col items-center justify-center space-y-6 bg-white text-black dark:bg-gray-900 dark:text-white"
+          className="md:hidden fixed inset-0 flex flex-col items-center justify-center space-y-6 bg-white text-black dark:bg-[var(--bg-color)] dark:text-white"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}

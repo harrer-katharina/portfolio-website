@@ -80,7 +80,7 @@ export default function Contact() {
           }}
         >
           <input
-            className="h-14 px-4 rounded-lg borderBlack transition-all dark:placeholder-gray-600 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-90 dark:outline-none"
+            className="h-14 px-4 rounded-lg borderBlack transition-all dark:placeholder-text-white/80 dark:bg-white dark:bg-opacity-10 dark:focus:bg-opacity-90 dark:outline-none"
             name="senderName"
             type="text"
             required
@@ -90,7 +90,7 @@ export default function Contact() {
             onChange={(e) => setName(e.target.value)}
           />
           <input
-            className="h-14 px-4 my-3 rounded-lg borderBlack transition-all dark:placeholder-gray-600 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-90 dark:outline-none"
+            className="h-14 px-4 my-3 rounded-lg borderBlack transition-all dark:placeholder-text-white/80 dark:bg-white dark:bg-opacity-10 dark:focus:bg-opacity-90 dark:outline-none"
             name="senderEmail"
             type="email"
             required
@@ -100,7 +100,7 @@ export default function Contact() {
             onChange={(e) => setEmail(e.target.value)}
           />
           <textarea
-            className="h-52 p-4 mb-3 rounded-lg borderBlack transition-all dark:placeholder-gray-600 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-90 dark:outline-none"
+            className="h-52 p-4 mb-3 rounded-lg borderBlack transition-all dark:placeholder-text-white/80 dark:bg-white dark:bg-opacity-10 dark:focus:bg-opacity-90 dark:outline-none"
             name="message"
             required
             maxLength={5000}
