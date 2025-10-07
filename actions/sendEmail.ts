@@ -8,10 +8,11 @@ import { render } from "@react-email/render";
 
 export const sendEmail = async (formData: FormData) => {
 
+  const senderName = formData.get("senderName") as string;
   const senderEmail = formData.get("senderEmail") as string;
   const message = formData.get("message") as string;
 
-  if (!senderEmail || !message) {
+  if (!senderName || !senderEmail || !message) {
     return { error: "Bitte fülle alle Felder aus." };
   }
   if (!validateString(senderEmail, 500)) {
@@ -24,6 +25,7 @@ export const sendEmail = async (formData: FormData) => {
   const emailHtml = await render(
     React.createElement(ContactFormEmail, {
       message,
+      senderName,
       senderEmail,
     })
   );
@@ -44,7 +46,7 @@ export const sendEmail = async (formData: FormData) => {
       to: "hello@katharina-harrer.de",
       replyTo: senderEmail,
       subject: "Neue Nachricht vom Kontaktformular",
-      text: `Nachricht von: ${senderEmail}\n\n${message}`,
+      text: `Nachricht von: ${senderName}\n\n${message}`,
       html: emailHtml,
     });
 

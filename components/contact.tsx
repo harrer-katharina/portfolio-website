@@ -16,6 +16,7 @@ export default function Contact() {
   const { setVariant } = useVariants();
 
   const [isPending, setIsPending] = useState(false);
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [isChecked, setIsChecked] = useState(false);
@@ -72,6 +73,7 @@ export default function Contact() {
 
             toast.success(t("success"));
 
+            setName("");
             setEmail("");
             setMessage("");
             setIsChecked(false);
@@ -79,6 +81,16 @@ export default function Contact() {
         >
           <input
             className="h-14 px-4 rounded-lg borderBlack transition-all dark:placeholder-gray-600 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-90 dark:outline-none"
+            name="senderName"
+            type="text"
+            required
+            maxLength={500}
+            placeholder={t("namePlaceholder")}
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+          <input
+            className="h-14 px-4 my-3 rounded-lg borderBlack transition-all dark:placeholder-gray-600 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-90 dark:outline-none"
             name="senderEmail"
             type="email"
             required
@@ -88,7 +100,7 @@ export default function Contact() {
             onChange={(e) => setEmail(e.target.value)}
           />
           <textarea
-            className="h-52 p-4 my-3 rounded-lg borderBlack transition-all dark:placeholder-gray-600 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-90 dark:outline-none"
+            className="h-52 p-4 mb-3 rounded-lg borderBlack transition-all dark:placeholder-gray-600 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-90 dark:outline-none"
             name="message"
             required
             maxLength={5000}
