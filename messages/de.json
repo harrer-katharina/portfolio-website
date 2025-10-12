@@ -116,56 +116,6 @@
         "cta": "Masterarbeit ansehen"
       }
     },
-    "weidlich": {
-      "description": "Website für einen Notar a. D. zur Präsentation seiner Vortragstätigkeit, Publikationen und beruflichen Laufbahn.",
-      "type": "WordPress-Entwicklung ✦︎ SEO ✦︎ Webdesign ✦︎ Corporate Branding ✦︎ Kundenbetreuung",
-      "duration": "Juli 2024 - Juli 2025 (1 Jahr)",
-      "project": {
-        "title": "Das Projekt",
-        "text": [
-          "Für Dr. Dietmar Weidlich wurde eine Website entwickelt, die ihn und seine berufliche Expertise auch nach dem Ausscheiden aus dem aktiven Notardienst professionell präsentiert. Als Notar a. D. bleibt Dr. Weidlich weiterhin fachlich aktiv – etwa durch Notarvertretungen, Publikationen, Fachbeiträge und seine Vortragstätigkeit. Die Website richtet sich daher nicht an klassische Mandant*innen, sondern vor allem an Veranstalter*innen die ihn als Referenten anfragen möchten.",
-          "Die Inhalte wurden so aufgebaut, dass sie bereits während der aktiven Notartätigkeit genutzt werden konnten, aber zum geplanten Ruhestand Ende Juli 2025 flexibel anpassbar waren."
-        ],
-        "cta": "Website ansehen"
-      },
-      "features": {
-        "title": "Die Funktionalitäten",
-        "text": [
-          "Die Website basiert auf dem Content-Management-System WordPress und umfasst fünf Unterseiten (Vorstellung, Publikationen, Vortragstätigkeit, Notarvertretungen, Kontakt), die Interessierten einen fundierten Überblick über die Person, seine Expertise und seine Tätigkeiten bieten.",
-          "Sie enthält ein DSGVO-konformes Kontaktformular mit SMTP-Anbindung für eine zuverlässige E-Mail-Kommunikation. Zur Performance-Optimierung wurden Caching-Funktionen eingesetzt, Google Fonts lokal eingebunden und die Seite für mobile Endgeräte sowie verschiedene Bildschirmgrößen responsiv gestaltet. Zudem wurden SEO-Maßnahmen umgesetzt. Auch Hosting, Domainverwaltung und die Einrichtung einer professionellen E-Mail-Adresse wurden im Rahmen des Projekts übernommen." 
-        
-        ]
-      },
-      "branding": {
-        "title": "Das Branding",
-        "text": [
-          "Im Rahmen des Projekts wurde auch das visuelle Erscheinungsbild entwickelt. Dazu zählen ein minimalistisches Logo, ein stimmiges Farbkonzept, das Webdesign sowie Visitenkarten.  Die Visitenkarten enthalten einen QR-Code, der direkt zur Website führt, sowie weitere Kontaktmöglichkeiten.",
-          "Die Hauptfarben – ein tiefes Petrolblau und ein helleres Cyanblau – vermitteln Seriosität und Professionalität. In Kombination mit runden grafischen Elementen entsteht ein moderner und klarer Look. Schriftwahl und Layout unterstützen eine aufgeräumte, strukturierte und vertrauenswürdige Wirkung."
-        ]
-      },
-      "photography": {
-        "title": "Die Bildsprache",
-        "text": [
-          "Die Bildauswahl entstand in enger Zusammenarbeit mit dem Kunden: Wir haben uns im damaligen Notarbüro getroffen und mit professioneller Lichtausstattung ein eigenes Fotoshooting umgesetzt.",
-          "Die meisten auf der Website verwendeten Bilder – inklusive Porträts und Abbildungen seiner Fachbücher – sind eigens für dieses Projekt fotografiert worden. Dadurch wirkt die Seite persönlich und authentisch."
-        ]
-      },
-      "customer": {
-        "title": "Die Kundenbetreuung",
-        "text": [
-          "Von Anfang an war das Projekt von engem Austausch geprägt. Wir haben uns regelmäßig getroffen, um Layoutideen, Struktur und Inhalte gemeinsam abzustimmen.",
-          "Ich habe zunächst eine erste Version für die Phase vor dem Ruhestand erstellt – mit der Option, sie zum geplanten Zeitpunkt flexibel umzustellen. So konnte z. B. der Bereich „Notarstätigkeit“ zu „Notarvertretungen“ überführt und das Wording sowie Impressum/Datenschutzhinweise entsprechend angepasst werden."
-        ]
-      },
-      "learnings": {
-        "title": "Meine Learnings",
-        "text": [
-          "Dieses Projekt war vor allem durch den Aspekt der Kundenarbeit geprägt. Ich habe gelernt, wie wichtig es ist, den Kunden fachlich gut zu beraten, aber gleichzeitig seine individuellen Wünsche ernst zu nehmen und beides in eine gute Lösung zu überführen.",
-          "Neu war für mich außerdem die Arbeit mit WordPress im Sinne einer klassischen CMS-Nutzung. Zwar hatte ich bereits Erfahrungen mit WordPress gesammelt, damals jedoch ausschließlich mit selbst entwickelten Themes und Plugins. Dieses Projekt war das erste, bei dem ich eine Website vollständig ohne eigene Programmierung realisiert habe.",
-          "Auch das Thema SEO war Neuland für mich z. B. in Bezug auf strukturierte Daten, OpenGraph und Sitemaps. Außerdem habe ich erlebt, wie viel Verantwortung, Organisation und Iteration dazugehört, wenn man ein Projekt im Alleingang für eine reale Person umsetzt."
-        ]
-      }
-    },
     "bevry": {
       "description": "Web-App für Cocktailfans zum Entdecken, Teilen, Bewerten und Verwalten von Getränken.",
       "type": "Full-Stack-Entwicklung ✦︎ Corporate Branding ✦︎ User Testing ✦︎ Agiles Arbeiten im Team",
@@ -282,57 +232,54 @@
         ]
       }
     },
-    "erika": {
-      "description": "App als digitale Begleiterin für klimafreundliches Handeln und regionale Aktivitäten.",
-      "type": "Nachhaltiges Web- & Appdesign ✦︎ Prototyping ✦︎ Forschung",
-      "duration": "März - Juni 2024 (4 Monate)",
+    "weidlich": {
+      "description": "Website für einen Notar a. D. zur Präsentation seiner Vortragstätigkeit, Publikationen und beruflichen Laufbahn.",
+      "type": "WordPress-Entwicklung ✦︎ SEO ✦︎ Webdesign ✦︎ Corporate Branding ✦︎ Kundenbetreuung",
+      "duration": "Juli 2024 - Juli 2025 (1 Jahr)",
       "project": {
         "title": "Das Projekt",
         "text": [
-          "Im zweiten Mastersemester hatte ich die Möglichkeit, an einem Forschungsprojekt des dem Studiengang angeschlossenen Forschungsinstituts mitzuarbeiten. Ich habe mich für das Projekt ERIKA entschieden. Ziel des Projekts ist die Entwicklung der App ERIKA, die als digitale Begleiterin für klimabewusstes Handeln im Alltag fungiert.",
-          "Die App soll dazu beitragen, klimafreundliches Verhalten zu fördern und regionale Aktivitäten in der Region Waidhofen a/d Ybbs sichtbar zu machen. Dabei liegt der Fokus nicht nur auf nachhaltigen Inhalten, sondern auch auf nachhaltigen Aspekten bei der Entwicklung und dem Design der App, um das Konzept der Nachhaltigkeit ganzheitlich zu implementieren."
-        ]
-      },
-      "app": {
-        "title": "Die App",
-        "text": [
-          "Die App soll dazu beitragen, klimafreundliches Verhalten zu fördern und regionale Aktivitäten in der Region Waidhofen a/d Ybbs sichtbar zu machen. Dabei liegt der Fokus nicht nur auf nachhaltigen Inhalten, sondern auch auf nachhaltigen Aspekten bei der Entwicklung und dem Design der App, um das Konzept der Nachhaltigkeit ganzheitlich zu implementieren."
-        ]
-      },
-      "implementation": {
-        "title": "Die Umsetzung",
-        "text": [
-          "Während meiner Tätigkeit im Forschungsprojekt ERIKA habe ich umfassend recherchiert, welche Faktoren für die Entwicklung einer nachhaltigen Website entscheidend sind.", 
-          "Darüber hinaus war ich an der Recherche und Ausarbeitung von Forschungsfragen beteiligt, die sich mit klimafreundlichem Handeln im Alltag, den Auswirkungen verschiedener Maßnahmen, der Rolle der Digitalisierung und der Anwendung von Gamification zur Unterstützung nachhaltigen Verhaltens beschäftigen.", 
-          "Ich habe Umfrageergebnisse ausgewertet und aufbereitet sowie einen klickbaren Prototypen der App erstellt."
-        ]
-      },
-      "sustainability": {
-        "title": "Nachhaltiges Web- & Appdesign",
-        "text": [
-          "Nachhaltigkeit ist in vielen Lebensbereichen wichtig, doch selten bedenken wir, wie stark das Internet unseren Planeten belastet. Seine CO₂-Emissionen entsprechen denen der Luftfahrt und machen etwa 2 % der globalen Emissionen aus.", 
-          "Bei meiner Recherche zu nachhaltigem Web-, App- und E-Mail-Design stieß ich auf viele Einflussfaktoren, darunter: Hosting, effizienten Code, optimierte Bilder, durchdachtes Design sowie die Wahl von Farben und Schriftarten.",
-          "Nachhaltiges Webdesign ist nicht nur aus ökologischer Sicht sinnvoll, sondern verbessert auch die Benutzer*innenerfahrung, das Suchmaschinen-Ranking und die Zugänglichkeit. Webseiten, die weniger Ressourcen verbrauchen, laden schneller und bieten eine bessere Performance, was die Zufriedenheit der Nutzer*innen erhöht und die Reichweite steigert."
+          "Für Dr. Dietmar Weidlich wurde eine Website entwickelt, die ihn und seine berufliche Expertise auch nach dem Ausscheiden aus dem aktiven Notardienst professionell präsentiert. Als Notar a. D. bleibt Dr. Weidlich weiterhin fachlich aktiv – etwa durch Notarvertretungen, Publikationen, Fachbeiträge und seine Vortragstätigkeit. Die Website richtet sich daher nicht an klassische Mandant*innen, sondern vor allem an Veranstalter*innen die ihn als Referenten anfragen möchten.",
+          "Die Inhalte wurden so aufgebaut, dass sie bereits während der aktiven Notartätigkeit genutzt werden konnten, aber zum geplanten Ruhestand Ende Juli 2025 flexibel anpassbar waren."
         ],
-        "cta": "Blogartikel ansehen"
+        "cta": "Website ansehen"
       },
-      "prototyping": {
-        "title": "Prototyping",
+      "features": {
+        "title": "Die Funktionalitäten",
         "text": [
-          "Ich habe einen Figma-Prototypen für eine User Story des ERIKA Services erstellt. Der Klickdummy zeigt, wie der Service genutzt wird, um Nutzer*innen über nachhaltige Initiativen zu informieren.", 
-          "Der Prototyp enthält ein Formular zur Einreichung eigener Initiativen, die nach Prüfung in der Kalender- und Kartenansicht erscheinen. So können Nutzer*innen nicht nur an Veranstaltungen teilnehmen, sondern auch eigene Ideen einbringen, um ihren ökologischen Handabdruck zu vergrößern.",
-          "In der Kalender- und Kartenansicht sind bevorstehende Initiativen und Events sichtbar. Jedes Event bietet eine Detailansicht mit Beschreibung, Terminen und Standortinfos. Bei aktivierter GPS-Funktion erhalten Nutzer*innen Benachrichtigungen, wenn sie sich in der Nähe eines Events befinden."
-        ],
-        "cta": "Prototyp ansehen"
+          "Die Website basiert auf dem Content-Management-System WordPress und umfasst fünf Unterseiten (Vorstellung, Publikationen, Vortragstätigkeit, Notarvertretungen, Kontakt), die Interessierten einen fundierten Überblick über die Person, seine Expertise und seine Tätigkeiten bieten.",
+          "Sie enthält ein DSGVO-konformes Kontaktformular mit SMTP-Anbindung für eine zuverlässige E-Mail-Kommunikation. Zur Performance-Optimierung wurden Caching-Funktionen eingesetzt, Google Fonts lokal eingebunden und die Seite für mobile Endgeräte sowie verschiedene Bildschirmgrößen responsiv gestaltet. Zudem wurden SEO-Maßnahmen umgesetzt. Auch Hosting, Domainverwaltung und die Einrichtung einer professionellen E-Mail-Adresse wurden im Rahmen des Projekts übernommen." 
+        
+        ]
+      },
+      "branding": {
+        "title": "Das Branding",
+        "text": [
+          "Im Rahmen des Projekts wurde auch das visuelle Erscheinungsbild entwickelt. Dazu zählen ein minimalistisches Logo, ein stimmiges Farbkonzept, das Webdesign sowie Visitenkarten.  Die Visitenkarten enthalten einen QR-Code, der direkt zur Website führt, sowie weitere Kontaktmöglichkeiten.",
+          "Die Hauptfarben – ein tiefes Petrolblau und ein helleres Cyanblau – vermitteln Seriosität und Professionalität. In Kombination mit runden grafischen Elementen entsteht ein moderner und klarer Look. Schriftwahl und Layout unterstützen eine aufgeräumte, strukturierte und vertrauenswürdige Wirkung."
+        ]
+      },
+      "photography": {
+        "title": "Die Bildsprache",
+        "text": [
+          "Die Bildauswahl entstand in enger Zusammenarbeit mit dem Kunden: Wir haben uns im damaligen Notarbüro getroffen und mit professioneller Lichtausstattung ein eigenes Fotoshooting umgesetzt.",
+          "Die meisten auf der Website verwendeten Bilder – inklusive Porträts und Abbildungen seiner Fachbücher – sind eigens für dieses Projekt fotografiert worden. Dadurch wirkt die Seite persönlich und authentisch."
+        ]
+      },
+      "customer": {
+        "title": "Die Kundenbetreuung",
+        "text": [
+          "Von Anfang an war das Projekt von engem Austausch geprägt. Wir haben uns regelmäßig getroffen, um Layoutideen, Struktur und Inhalte gemeinsam abzustimmen.",
+          "Ich habe zunächst eine erste Version für die Phase vor dem Ruhestand erstellt – mit der Option, sie zum geplanten Zeitpunkt flexibel umzustellen. So konnte z. B. der Bereich „Notarstätigkeit“ zu „Notarvertretungen“ überführt und das Wording sowie Impressum/Datenschutzhinweise entsprechend angepasst werden."
+        ]
       },
       "learnings": {
         "title": "Meine Learnings",
         "text": [
-          "Das Projekt gab mir erstmals die Möglichkeit, an einem Forschungsprojekt der Hochschule mitzuwirken und dadurch einen Einblick in die Abläufe von der Konzeption über Recherche und Umfragen bis hin zu Workshops zu erhalten. Besonders spannend war es für mich, so früh im Projekt dabei zu sein und zu sehen, wie viel konzeptionelle Arbeit in den ersten Phasen steckt.",
-          "Sehr bereichernd fand ich die inhaltliche Recherche, insbesondere zu den Themen Verhaltensbeeinflussung in digitalen Anwendungen, weshalb ich anschließend auch meine Masterthesis diesem Thema widmete.",
-          "Auch durch die intensive Auseinandersetzung mit nachhaltigem Webdesign habe ich viele neue Aspekte kennengelernt, über die ich zuvor nicht nachgedacht hatte und konnte Teile davon direkt für eigene Webentwicklungsprojekte anwenden."
-        ],
-        "cta": "Projektwebsite ansehen"
+          "Dieses Projekt war vor allem durch den Aspekt der Kundenarbeit geprägt. Ich habe gelernt, wie wichtig es ist, den Kunden fachlich gut zu beraten, aber gleichzeitig seine individuellen Wünsche ernst zu nehmen und beides in eine gute Lösung zu überführen.",
+          "Neu war für mich außerdem die Arbeit mit WordPress im Sinne einer klassischen CMS-Nutzung. Zwar hatte ich bereits Erfahrungen mit WordPress gesammelt, damals jedoch ausschließlich mit selbst entwickelten Themes und Plugins. Dieses Projekt war das erste, bei dem ich eine Website vollständig ohne eigene Programmierung realisiert habe.",
+          "Auch das Thema SEO war Neuland für mich z. B. in Bezug auf strukturierte Daten, OpenGraph und Sitemaps. Außerdem habe ich erlebt, wie viel Verantwortung, Organisation und Iteration dazugehört, wenn man ein Projekt im Alleingang für eine reale Person umsetzt."
+        ]
       }
     },
     "timeParabox": {
@@ -406,6 +353,59 @@
           "Auch wenn mein Fokus hauptsächlich auf der App lag und ich weniger direkt mit der Hardware arbeitete, fand ich es äußerst spannend mitzuerleben, wie die verschiedenen Hardware- und Softwarekomponenten ineinandergreifen und miteinander kommunizieren."
         ],
         "cta": "GitHub-Repo ansehen"
+      }
+    },
+    "erika": {
+      "description": "App als digitale Begleiterin für klimafreundliches Handeln und regionale Aktivitäten.",
+      "type": "Nachhaltiges Web- & Appdesign ✦︎ Prototyping ✦︎ Forschung",
+      "duration": "März - Juni 2024 (4 Monate)",
+      "project": {
+        "title": "Das Projekt",
+        "text": [
+          "Im zweiten Mastersemester hatte ich die Möglichkeit, an einem Forschungsprojekt des dem Studiengang angeschlossenen Forschungsinstituts mitzuarbeiten. Ich habe mich für das Projekt ERIKA entschieden. Ziel des Projekts ist die Entwicklung der App ERIKA, die als digitale Begleiterin für klimabewusstes Handeln im Alltag fungiert.",
+          "Die App soll dazu beitragen, klimafreundliches Verhalten zu fördern und regionale Aktivitäten in der Region Waidhofen a/d Ybbs sichtbar zu machen. Dabei liegt der Fokus nicht nur auf nachhaltigen Inhalten, sondern auch auf nachhaltigen Aspekten bei der Entwicklung und dem Design der App, um das Konzept der Nachhaltigkeit ganzheitlich zu implementieren."
+        ]
+      },
+      "app": {
+        "title": "Die App",
+        "text": [
+          "Die App soll dazu beitragen, klimafreundliches Verhalten zu fördern und regionale Aktivitäten in der Region Waidhofen a/d Ybbs sichtbar zu machen. Dabei liegt der Fokus nicht nur auf nachhaltigen Inhalten, sondern auch auf nachhaltigen Aspekten bei der Entwicklung und dem Design der App, um das Konzept der Nachhaltigkeit ganzheitlich zu implementieren."
+        ]
+      },
+      "implementation": {
+        "title": "Die Umsetzung",
+        "text": [
+          "Während meiner Tätigkeit im Forschungsprojekt ERIKA habe ich umfassend recherchiert, welche Faktoren für die Entwicklung einer nachhaltigen Website entscheidend sind.", 
+          "Darüber hinaus war ich an der Recherche und Ausarbeitung von Forschungsfragen beteiligt, die sich mit klimafreundlichem Handeln im Alltag, den Auswirkungen verschiedener Maßnahmen, der Rolle der Digitalisierung und der Anwendung von Gamification zur Unterstützung nachhaltigen Verhaltens beschäftigen.", 
+          "Ich habe Umfrageergebnisse ausgewertet und aufbereitet sowie einen klickbaren Prototypen der App erstellt."
+        ]
+      },
+      "sustainability": {
+        "title": "Nachhaltiges Web- & Appdesign",
+        "text": [
+          "Nachhaltigkeit ist in vielen Lebensbereichen wichtig, doch selten bedenken wir, wie stark das Internet unseren Planeten belastet. Seine CO₂-Emissionen entsprechen denen der Luftfahrt und machen etwa 2 % der globalen Emissionen aus.", 
+          "Bei meiner Recherche zu nachhaltigem Web-, App- und E-Mail-Design stieß ich auf viele Einflussfaktoren, darunter: Hosting, effizienten Code, optimierte Bilder, durchdachtes Design sowie die Wahl von Farben und Schriftarten.",
+          "Nachhaltiges Webdesign ist nicht nur aus ökologischer Sicht sinnvoll, sondern verbessert auch die Benutzer*innenerfahrung, das Suchmaschinen-Ranking und die Zugänglichkeit. Webseiten, die weniger Ressourcen verbrauchen, laden schneller und bieten eine bessere Performance, was die Zufriedenheit der Nutzer*innen erhöht und die Reichweite steigert."
+        ],
+        "cta": "Blogartikel ansehen"
+      },
+      "prototyping": {
+        "title": "Prototyping",
+        "text": [
+          "Ich habe einen Figma-Prototypen für eine User Story des ERIKA Services erstellt. Der Klickdummy zeigt, wie der Service genutzt wird, um Nutzer*innen über nachhaltige Initiativen zu informieren.", 
+          "Der Prototyp enthält ein Formular zur Einreichung eigener Initiativen, die nach Prüfung in der Kalender- und Kartenansicht erscheinen. So können Nutzer*innen nicht nur an Veranstaltungen teilnehmen, sondern auch eigene Ideen einbringen, um ihren ökologischen Handabdruck zu vergrößern.",
+          "In der Kalender- und Kartenansicht sind bevorstehende Initiativen und Events sichtbar. Jedes Event bietet eine Detailansicht mit Beschreibung, Terminen und Standortinfos. Bei aktivierter GPS-Funktion erhalten Nutzer*innen Benachrichtigungen, wenn sie sich in der Nähe eines Events befinden."
+        ],
+        "cta": "Prototyp ansehen"
+      },
+      "learnings": {
+        "title": "Meine Learnings",
+        "text": [
+          "Das Projekt gab mir erstmals die Möglichkeit, an einem Forschungsprojekt der Hochschule mitzuwirken und dadurch einen Einblick in die Abläufe von der Konzeption über Recherche und Umfragen bis hin zu Workshops zu erhalten. Besonders spannend war es für mich, so früh im Projekt dabei zu sein und zu sehen, wie viel konzeptionelle Arbeit in den ersten Phasen steckt.",
+          "Sehr bereichernd fand ich die inhaltliche Recherche, insbesondere zu den Themen Verhaltensbeeinflussung in digitalen Anwendungen, weshalb ich anschließend auch meine Masterthesis diesem Thema widmete.",
+          "Auch durch die intensive Auseinandersetzung mit nachhaltigem Webdesign habe ich viele neue Aspekte kennengelernt, über die ich zuvor nicht nachgedacht hatte und konnte Teile davon direkt für eigene Webentwicklungsprojekte anwenden."
+        ],
+        "cta": "Projektwebsite ansehen"
       }
     },
     "pgmon": {

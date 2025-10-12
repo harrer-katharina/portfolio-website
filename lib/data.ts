@@ -308,59 +308,6 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       ]
     },
     {
-      projectId: "dr-weidlich",
-      title: "Dr. Weidlich",
-      showTitle: false,
-      scaleCards: true,
-      type: t("weidlich.type"),
-      duration: t("weidlich.duration"),
-      description: t("weidlich.description"),
-      tags: ["WordPress", "Figma"],
-      image: weidlich,
-      sectionImage: weidlichWebsiteMockup,
-      sections: [
-        {
-          title: t("weidlich.project.title"),
-          text: [t("weidlich.project.text.0"),t("weidlich.project.text.1")],
-          image: weidlichSmartphoneMockup,
-          cta: {
-            title: t("weidlich.project.cta"),
-            link: "https://dr-dietmar-weidlich.de"
-          }
-        },
-        {
-          title: t("weidlich.features.title"),
-          text: [t("weidlich.features.text.0"), t("weidlich.features.text.1")],
-          image: weidlichServices,
-          imageSize: "60%",
-        },
-        {
-          title: t("weidlich.branding.title"),
-          text: [t("weidlich.branding.text.0"), t("weidlich.branding.text.1")],
-          image: weidlichBusinessCards,
-          imageSize: "66%",
-        },
-        {
-          title: t("weidlich.photography.title"),
-          text: [t("weidlich.photography.text.0"), t("weidlich.photography.text.1")],
-          image: weidlichShooting,
-          imageSize: "66%",
-        },
-        {
-          title: t("weidlich.customer.title"),
-          text: [t("weidlich.customer.text.0"), t("weidlich.customer.text.1")],
-          image: weidlichSmartphone,
-          imageSize: "58%",
-        },
-        {
-          title: t("weidlich.learnings.title"),
-          text: [t("weidlich.learnings.text.0"), t("weidlich.learnings.text.1"), t("weidlich.learnings.text.2")],
-          image: weidlichContact,
-          imageSize: "60%",
-        },
-      ]
-    },
-    {
       projectId: "bevry",
       title: "Bevry",
       showTitle: false,
@@ -497,66 +444,57 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
       ],
     },
     {
-      projectId: "erika",
-      title: "Erika",
-      showTitle: true,
+      projectId: "dr-weidlich",
+      title: "Dr. Weidlich",
+      showTitle: false,
       scaleCards: true,
-      type: t("erika.type"),
-      duration: t("erika.duration"),
-      description: t("erika.description"),
-      tags: ["Figma"],
-      image: erika,
-      sectionImage: erikaHand,
+      type: t("weidlich.type"),
+      duration: t("weidlich.duration"),
+      description: t("weidlich.description"),
+      tags: ["WordPress", "Figma"],
+      image: weidlich,
+      sectionImage: weidlichWebsiteMockup,
       sections: [
         {
-          title: t("erika.project.title"),
-          text: [t("erika.project.text.0"), t("erika.project.text.1")],
-          className: "bg-[#C1E5CC]",
-          image: erikaMockup,
-          imageSize: "66%",
-        },
-        {
-          title: t("erika.implementation.title"),
-          text: [t("erika.implementation.text.0"), t("erika.implementation.text.1"), t("erika.implementation.text.2")],
-          className: "bg-[#B5DCCD]",
-          image: erikaProject,
-          imageSize: "66%",
-        },
-        {
-          title: t("erika.sustainability.title"),
-          text: [t("erika.sustainability.text.0"), t("erika.sustainability.text.1"),t("erika.sustainability.text.2")],
-          className: "bg-[#AFD8CE]",
-          image: erikaLogo,
+          title: t("weidlich.project.title"),
+          text: [t("weidlich.project.text.0"),t("weidlich.project.text.1")],
+          image: weidlichSmartphoneMockup,
           cta: {
-            title: t("erika.sustainability.cta"),
-            link: "https://mfg.fhstp.ac.at/allgemein/sustainable-webdesign/"
+            title: t("weidlich.project.cta"),
+            link: "https://dr-dietmar-weidlich.de"
           }
         },
         {
-          title: t("erika.prototyping.title"),
-          text: [t("erika.prototyping.text.0"), t("erika.prototyping.text.1"), t("erika.prototyping.text.2")],
-          className: "bg-[#A9D3CF]",
-          image: erikaPrototype,
-          imageSize: "66%",
-          cta: {
-            title: t("erika.prototyping.cta"),
-            link: "https://www.figma.com/proto/e10aY7un7NpT8NdGW9HgAu/ERIKA?page-id=0%3A1&node-id=54-1755&viewport=735%2C324%2C0.06&t=pEKHDE4FGPe4fp6N-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=54%3A3545",
-            position: "right"
-          }
-        },
-        {
-          title: t("erika.learnings.title"),
-          text: [t("erika.learnings.text.0"), t("erika.learnings.text.1"), t("erika.learnings.text.2")],
-          className: "bg-[#A3CDD0]",
-          image: erikaScreens,
+          title: t("weidlich.features.title"),
+          text: [t("weidlich.features.text.0"), t("weidlich.features.text.1")],
+          image: weidlichServices,
           imageSize: "60%",
-          cta: {
-            title: t("erika.learnings.cta"),
-            link: "https://erika.fhstp.ac.at/",
-            position: "right"
-          }
         },
-      ],
+        {
+          title: t("weidlich.branding.title"),
+          text: [t("weidlich.branding.text.0"), t("weidlich.branding.text.1")],
+          image: weidlichBusinessCards,
+          imageSize: "66%",
+        },
+        {
+          title: t("weidlich.photography.title"),
+          text: [t("weidlich.photography.text.0"), t("weidlich.photography.text.1")],
+          image: weidlichShooting,
+          imageSize: "66%",
+        },
+        {
+          title: t("weidlich.customer.title"),
+          text: [t("weidlich.customer.text.0"), t("weidlich.customer.text.1")],
+          image: weidlichSmartphone,
+          imageSize: "58%",
+        },
+        {
+          title: t("weidlich.learnings.title"),
+          text: [t("weidlich.learnings.text.0"), t("weidlich.learnings.text.1"), t("weidlich.learnings.text.2")],
+          image: weidlichContact,
+          imageSize: "60%",
+        },
+      ]
     },
     {
       projectId: "time-parabox",
@@ -644,6 +582,68 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           }
         }
       ]
+    },
+    {
+      projectId: "erika",
+      title: "Erika",
+      showTitle: true,
+      scaleCards: true,
+      type: t("erika.type"),
+      duration: t("erika.duration"),
+      description: t("erika.description"),
+      tags: ["Figma"],
+      image: erika,
+      sectionImage: erikaHand,
+      sections: [
+        {
+          title: t("erika.project.title"),
+          text: [t("erika.project.text.0"), t("erika.project.text.1")],
+          className: "bg-[#C1E5CC]",
+          image: erikaMockup,
+          imageSize: "66%",
+        },
+        {
+          title: t("erika.implementation.title"),
+          text: [t("erika.implementation.text.0"), t("erika.implementation.text.1"), t("erika.implementation.text.2")],
+          className: "bg-[#B5DCCD]",
+          image: erikaProject,
+          imageSize: "66%",
+        },
+        {
+          title: t("erika.sustainability.title"),
+          text: [t("erika.sustainability.text.0"), t("erika.sustainability.text.1"),t("erika.sustainability.text.2")],
+          className: "bg-[#AFD8CE]",
+          image: erikaLogo,
+          cta: {
+            title: t("erika.sustainability.cta"),
+            link: "https://mfg.fhstp.ac.at/allgemein/sustainable-webdesign/"
+          }
+        },
+        {
+          title: t("erika.prototyping.title"),
+          text: [t("erika.prototyping.text.0"), t("erika.prototyping.text.1"), t("erika.prototyping.text.2")],
+          className: "bg-[#A9D3CF]",
+          image: erikaPrototype,
+          imageSize: "66%",
+          cta: {
+            title: t("erika.prototyping.cta"),
+            link: "https://www.figma.com/proto/e10aY7un7NpT8NdGW9HgAu/ERIKA?page-id=0%3A1&node-id=54-1755&viewport=735%2C324%2C0.06&t=pEKHDE4FGPe4fp6N-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=54%3A3545",
+            position: "right"
+          }
+        },
+        {
+          title: t("erika.learnings.title"),
+          text: [t("erika.learnings.text.0"), t("erika.learnings.text.1"), t("erika.learnings.text.2")],
+          className: "bg-[#A3CDD0]",
+          image: erikaScreens,
+          imageSize: "60%",
+          cta: {
+            title: t("erika.learnings.cta"),
+            link: "https://erika.fhstp.ac.at/",
+            position: "right"
+          }
+        },
+      ],
     },
     {
       projectId: "pgmon",

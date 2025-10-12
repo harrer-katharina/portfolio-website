@@ -116,55 +116,6 @@
         "cta": "View masterthesis"
       }
     },
-    "weidlich": {
-      "description": "Website for a retired notary to present his lectures, publications, and professional background.",
-      "type": "WordPress Development ✦︎ SEO ✦︎ Web Design ✦︎ Corporate Branding ✦︎ Customer Service",
-      "duration": "July 2024 – July 2025 (1 year)",
-      "project": {
-        "title": "The Project",
-        "text": [
-          "A website was developed for Dr. Dietmar Weidlich to professionally showcase his expertise even after retiring from active notary service. As a retired notary, Dr. Weidlich continues to be professionally active – offering notary representations, publishing legal texts, and speaking at events.",
-          "The website is not intended for acquiring new clients, but rather addresses event organizers interested in booking him as a speaker. The content was designed to be usable during his active service and easily adaptable for his retirement starting end of July 2025."
-        ],
-        "cta": "View Website"
-      },
-      "features": {
-        "title": "Key Features",
-        "text": [
-          "The website is based on the WordPress content management system and includes five main sections (Introduction, Publications, Lectures, Notary Representation Services, Contact) providing a clear overview of Dr. Weidlich’s work and expertise.",
-          "It features a GDPR-compliant contact form with SMTP integration for reliable email communication. Performance was enhanced through caching, local hosting of Google Fonts, and responsive design across devices. SEO measures were also implemented. Hosting, domain setup, and a professional email address were included as part of the project."
-        ]
-      },
-      "branding": {
-        "title": "Branding",
-        "text": [
-          "The visual identity was developed as part of the project and includes a minimalist logo, a cohesive color scheme, web design, and business cards. The business cards feature a QR code linking directly to the website, along with contact details.",
-          "The main colors – a deep teal and a lighter cyan-blue – convey professionalism and trust. Combined with soft round elements, the design appears modern and structured. Typography and layout contribute to a clean and reliable look."
-        ]
-      },
-      "photography": {
-        "title": "Photography",
-        "text": [
-          "The image selection was developed in close collaboration with the client. We met at his former notary office and organized a photoshoot using professional lighting equipment.",
-          "Most of the images used on the website – including portraits and photographs of his published works – were created specifically for this project. This results in a personal and authentic visual impression."
-        ]
-      },
-      "customer": {
-        "title": "Client Collaboration",
-        "text": [
-          "From the beginning, the project was marked by close collaboration. We met regularly to align the layout, content, and overall structure of the site.",
-          "I initially built a version that reflected his active role as a notary, with the ability to seamlessly transition the content upon retirement. This included changes like converting the 'Notary Services' section to 'Notary Representation Services' and including updates to the imprint and privacy policy."
-        ]
-      },
-      "learnings": {
-        "title": "Learnings",
-        "text": [
-          "This project was especially shaped by the aspect of client collaboration. I learned how important it is to offer expert guidance while also respecting a client’s individual wishes—and how to bring both together in a strong final result.",
-          "It was also my first time working with WordPress as a traditional CMS. While I had previous experience with WordPress, that had only involved developing custom themes and plugins. Here, I built the entire website without any custom programming.",
-          "Additionally, I explored SEO for the first time, including structured data, OpenGraph tags, and sitemaps. The experience taught me how much organization, responsibility, and iteration it takes to implement a real-world project on your own."
-        ]
-      }
-    },
     "bevry": {
       "description": "Web app for cocktail enthusiasts to discover, share, rate and manage drinks.",
       "type": "Full-Stack Development ✦︎ Corporate Branding ✦︎ User Testing ✦︎ Agile Teamwork",
@@ -281,51 +232,53 @@
         ]
       }
     },
-    "erika": {
-      "description": "App as a digital companion for climate-friendly actions and regional activities.",
-      "type": "Sustainable Web & App Design ✦︎ Prototyping ✦︎ Research",
-      "duration": "March 2024 - June 2024 (4 months)",
+    "weidlich": {
+      "description": "Website for a retired notary to present his lectures, publications, and professional background.",
+      "type": "WordPress Development ✦︎ SEO ✦︎ Web Design ✦︎ Corporate Branding ✦︎ Customer Service",
+      "duration": "July 2024 – July 2025 (1 year)",
       "project": {
         "title": "The Project",
         "text": [
-          "In the second semester of my master's program, I had the opportunity to work on a research project affiliated with the program's research institute. I chose the ERIKA project. The goal of the project is to develop the ERIKA app, which serves as a digital companion for climate-conscious actions in everyday life.",
-          "The app aims to promote climate-friendly behavior and highlight regional activities in the Waidhofen a/d Ybbs area. The focus is not only on sustainable content but also on sustainable aspects in the development and design of the app, ensuring a holistic implementation of the concept of sustainability."
+          "A website was developed for Dr. Dietmar Weidlich to professionally showcase his expertise even after retiring from active notary service. As a retired notary, Dr. Weidlich continues to be professionally active – offering notary representations, publishing legal texts, and speaking at events.",
+          "The website is not intended for acquiring new clients, but rather addresses event organizers interested in booking him as a speaker. The content was designed to be usable during his active service and easily adaptable for his retirement starting end of July 2025."
+        ],
+        "cta": "View Website"
+      },
+      "features": {
+        "title": "Key Features",
+        "text": [
+          "The website is based on the WordPress content management system and includes five main sections (Introduction, Publications, Lectures, Notary Representation Services, Contact) providing a clear overview of Dr. Weidlich’s work and expertise.",
+          "It features a GDPR-compliant contact form with SMTP integration for reliable email communication. Performance was enhanced through caching, local hosting of Google Fonts, and responsive design across devices. SEO measures were also implemented. Hosting, domain setup, and a professional email address were included as part of the project."
         ]
       },
-      "implementation": {
-        "title": "The Implementation",
+      "branding": {
+        "title": "Branding",
         "text": [
-          "During my work on the ERIKA research project, I conducted extensive research on the factors crucial for developing a sustainable website.",
-          "Additionally, I participated in researching and formulating research questions related to climate-friendly actions in daily life, the impacts of various measures, the role of digitalization, and the application of gamification to support sustainable behavior.",
-          "I analyzed and processed survey results and created a clickable prototype of the app."
+          "The visual identity was developed as part of the project and includes a minimalist logo, a cohesive color scheme, web design, and business cards. The business cards feature a QR code linking directly to the website, along with contact details.",
+          "The main colors – a deep teal and a lighter cyan-blue – convey professionalism and trust. Combined with soft round elements, the design appears modern and structured. Typography and layout contribute to a clean and reliable look."
         ]
       },
-      "sustainability": {
-        "title": "Sustainable Web & App Design",
+      "photography": {
+        "title": "Photography",
         "text": [
-          "Sustainability is crucial in many aspects of life, yet we rarely consider how much the internet impacts our planet. Its CO₂ emissions are equivalent to those of aviation, accounting for about 2% of global emissions.",
-          "While researching sustainable web, app, and email design, I discovered various key factors, including hosting, efficient code, optimized images, thoughtful design, and the choice of colors and fonts.",
-          "Sustainable web design is not only environmentally beneficial but also enhances user experience, search engine rankings, and accessibility. Websites that consume fewer resources load faster, improving performance, user satisfaction, and overall reach."
-        ],
-        "cta": "Read Blog Post"
+          "The image selection was developed in close collaboration with the client. We met at his former notary office and organized a photoshoot using professional lighting equipment.",
+          "Most of the images used on the website – including portraits and photographs of his published works – were created specifically for this project. This results in a personal and authentic visual impression."
+        ]
       },
-      "prototyping": {
-        "title": "Prototyping",
+      "customer": {
+        "title": "Client Collaboration",
         "text": [
-          "I created a Figma prototype for a user story of the ERIKA service. This interactive mockup demonstrates how the service informs users about sustainable initiatives.",
-          "The prototype includes a form for submitting initiatives, which appear in the calendar and map view after review. This allows users not only to participate in events but also to contribute their own ideas, increasing their ecological handprint.",
-          "The calendar and map views display upcoming initiatives and events. Each event has a detailed page with descriptions, dates, and location info. With GPS enabled, users receive notifications when near an event."
-        ],
-        "cta": "View Prototype"
+          "From the beginning, the project was marked by close collaboration. We met regularly to align the layout, content, and overall structure of the site.",
+          "I initially built a version that reflected his active role as a notary, with the ability to seamlessly transition the content upon retirement. This included changes like converting the 'Notary Services' section to 'Notary Representation Services' and including updates to the imprint and privacy policy."
+        ]
       },
       "learnings": {
         "title": "Learnings",
         "text": [
-          "The project gave me the opportunity to contribute to a research project at the university for the first time, providing insight into the processes from conceptualization and research to surveys and workshops. It was particularly exciting for me to be involved so early in the project and see how much conceptual work goes into the initial phases.",
-          "I found the content-related research especially enriching, particularly on the topics of behavior influence in digital applications, which later led me to dedicate my master's thesis to this subject.",
-          "Through the intensive engagement with sustainable web design, I also discovered many new aspects I hadn’t considered before and was able to apply parts of this knowledge directly to my own web development projects."
-        ],
-        "cta": "View Project Website"
+          "This project was especially shaped by the aspect of client collaboration. I learned how important it is to offer expert guidance while also respecting a client’s individual wishes—and how to bring both together in a strong final result.",
+          "It was also my first time working with WordPress as a traditional CMS. While I had previous experience with WordPress, that had only involved developing custom themes and plugins. Here, I built the entire website without any custom programming.",
+          "Additionally, I explored SEO for the first time, including structured data, OpenGraph tags, and sitemaps. The experience taught me how much organization, responsibility, and iteration it takes to implement a real-world project on your own."
+        ]
       }
     },
     "timeParabox": {
@@ -399,6 +352,53 @@
           "Although my focus was mainly on the app and I worked less directly with the hardware, I found it fascinating to see how the various hardware and software components interlock and communicate with each other."
         ],
         "cta": "View GitHub Repo"
+      }
+    },
+    "erika": {
+      "description": "App as a digital companion for climate-friendly actions and regional activities.",
+      "type": "Sustainable Web & App Design ✦︎ Prototyping ✦︎ Research",
+      "duration": "March 2024 - June 2024 (4 months)",
+      "project": {
+        "title": "The Project",
+        "text": [
+          "In the second semester of my master's program, I had the opportunity to work on a research project affiliated with the program's research institute. I chose the ERIKA project. The goal of the project is to develop the ERIKA app, which serves as a digital companion for climate-conscious actions in everyday life.",
+          "The app aims to promote climate-friendly behavior and highlight regional activities in the Waidhofen a/d Ybbs area. The focus is not only on sustainable content but also on sustainable aspects in the development and design of the app, ensuring a holistic implementation of the concept of sustainability."
+        ]
+      },
+      "implementation": {
+        "title": "The Implementation",
+        "text": [
+          "During my work on the ERIKA research project, I conducted extensive research on the factors crucial for developing a sustainable website.",
+          "Additionally, I participated in researching and formulating research questions related to climate-friendly actions in daily life, the impacts of various measures, the role of digitalization, and the application of gamification to support sustainable behavior.",
+          "I analyzed and processed survey results and created a clickable prototype of the app."
+        ]
+      },
+      "sustainability": {
+        "title": "Sustainable Web & App Design",
+        "text": [
+          "Sustainability is crucial in many aspects of life, yet we rarely consider how much the internet impacts our planet. Its CO₂ emissions are equivalent to those of aviation, accounting for about 2% of global emissions.",
+          "While researching sustainable web, app, and email design, I discovered various key factors, including hosting, efficient code, optimized images, thoughtful design, and the choice of colors and fonts.",
+          "Sustainable web design is not only environmentally beneficial but also enhances user experience, search engine rankings, and accessibility. Websites that consume fewer resources load faster, improving performance, user satisfaction, and overall reach."
+        ],
+        "cta": "Read Blog Post"
+      },
+      "prototyping": {
+        "title": "Prototyping",
+        "text": [
+          "I created a Figma prototype for a user story of the ERIKA service. This interactive mockup demonstrates how the service informs users about sustainable initiatives.",
+          "The prototype includes a form for submitting initiatives, which appear in the calendar and map view after review. This allows users not only to participate in events but also to contribute their own ideas, increasing their ecological handprint.",
+          "The calendar and map views display upcoming initiatives and events. Each event has a detailed page with descriptions, dates, and location info. With GPS enabled, users receive notifications when near an event."
+        ],
+        "cta": "View Prototype"
+      },
+      "learnings": {
+        "title": "Learnings",
+        "text": [
+          "The project gave me the opportunity to contribute to a research project at the university for the first time, providing insight into the processes from conceptualization and research to surveys and workshops. It was particularly exciting for me to be involved so early in the project and see how much conceptual work goes into the initial phases.",
+          "I found the content-related research especially enriching, particularly on the topics of behavior influence in digital applications, which later led me to dedicate my master's thesis to this subject.",
+          "Through the intensive engagement with sustainable web design, I also discovered many new aspects I hadn’t considered before and was able to apply parts of this knowledge directly to my own web development projects."
+        ],
+        "cta": "View Project Website"
       }
     },
     "pgmon": {
