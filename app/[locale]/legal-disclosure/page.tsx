@@ -47,8 +47,14 @@ export default function PrivacyPolicy() {
         <h1 className="text-2xl font-extrabold dark:text-white">
           {t("data-protection")}
         </h1>
+        <p className="mb-4">{t("data-protection-text")}</p>
+
+        <h1 className="text-2xl font-extrabold dark:text-white">
+          {t("image-credit")}
+        </h1>
+        <p className="mb-4">{t("image-credit-text")}</p>
         <p>
-          {t("data-protection-text")} {t("dsgvo-generator")}{" "}
+          {t("dsgvo-generator")}{" "}
           <a href="https://www.impressum-generator.de">
             https://www.impressum-generator.de
           </a>

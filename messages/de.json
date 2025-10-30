@@ -15,7 +15,7 @@
   "About": {
     "title": "Über mich",
     "description": "Während meines Bachelorstudiums in Medieninformatik an der TH Nürnberg konnte ich fundierte Kenntnisse in Informatik und digitalen Medien erwerben. Nach dem Abschluss wollte ich mich stärker in Richtung Webentwicklung weiterbilden, weshalb ich mich für den Masterstudiengang Interactive Technologies mit dem Schwerpunkt Mobile an der FH St. Pölten entschieden habe. Mein Fokus liegt darauf, die Benutzererfahrung zu verstehen und in benutzerzentrierte Designs umzusetzen.",
-    "hobbies": "In meiner Freizeit setze ich mich mit Nachhaltigkeit auseinander und probiere gerne neue vegane Rezepte aus. Am liebsten bin ich draußen unterwegs – beim Joggen, Wandern in den Bergen, auf dem Rennrad oder beim Bikepacking, um neue Orte und Länder zu entdecken. So habe ich im letzten Jahr etwa die Strecke von Roth nach Budapest mit dem Rad zurückgelegt und zudem Dänemark und Schweden erkundet. Für mich die ideale Möglichkeit, den Alltag hinter mir zu lassen und neue Abenteuer zu erleben. Aktuell bereite ich mich auf meinen ersten Halbmarathon vor, wobei ich auch auf längeren Strecken stets das Ziel im Blick behalte."
+    "hobbies": "In meiner Freizeit setze ich mich mit Nachhaltigkeit auseinander und probiere gerne neue vegane Rezepte aus. Am liebsten bin ich draußen unterwegs – beim Joggen, Wandern in den Bergen, auf dem Rennrad oder beim Bikepacking, um neue Orte und Länder zu entdecken. So habe ich im letzten Jahr etwa die Strecke von Roth nach Budapest mit dem Rad zurückgelegt und zudem Dänemark und Schweden erkundet. Als Halbmarathonläuferin behalte ich auch auf längeren Strecken das Ziel im Blick – ob beim Sport oder in meinen Projekten."
   },
   "Projects": {
     "title": "Meine Projekte",
@@ -671,10 +671,11 @@
     },
     "master": {
       "title": "Dipl.-Ing. Interactive Technologies",
-      "location": "FH St. Pölten, Österreich",
+      "location": "University of Applied Sciences St. Pölten, Österreich",
       "date": "09/2023 – dato",
       "description": [
-        "Schwerpunkt: Mobile (Web- & Appentwicklung)",
+        "Schwerpunkt: Mobile (Web- & Appentwicklung, UI/UX-Design).",
+        "Abschluss: mit ausgezeichnetem Erfolg.",
         "Masterarbeit: Green Booking – Designinterventionen zur Unterstützung umweltbewusster Entscheidungen in einer Reisebuchungs-App."
       ],
       "cta": "Erfahre mehr über meine Masterarbeit"
@@ -713,6 +714,8 @@
     "data-protection": "Datenschutz",
     "data-protection-text": "Die Nutzung meiner Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf meiner Seite personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Ich weise darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.",
     "dsgvo-generator": "Quelle: ",
+    "image-credit": "Bildernachweis",
+    "image-credit-text": "Die auf dieser Website verwendeten Bilder stammen von Fotografin Anna Bruckner und Katharina Harrer.",
     "privacy-policy": "Datenschutzerklärung",
     "data-overview": "1. Datenschutz auf einen Blick",
     "general-information": "Allgemeine Hinweise",

@@ -140,7 +140,7 @@ export const getExperiencesData = (t: (key: string) => string) => {
       title: t("master.title"),
       location: t("master.location"),
       link: "https://www.fhstp.ac.at/",
-      description: [t("master.description.0"), t("master.description.1")],
+      description: [t("master.description.0"), t("master.description.1"), t("master.description.2")],
       cta: { title: t("master.cta"), link: "/project/wegweiser" },
       icon: "/experience/fh-st-pölten-logo.webp",
       date: t("master.date"),
