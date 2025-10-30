@@ -15,7 +15,7 @@
   "About": {
     "title": "About Me",
     "description": "During my Bachelor's degree in Media Informatics at TH Nürnberg, I gained a strong foundation in computer science and digital media. After graduating, I wanted to further specialize in web development, which led me to pursue a Master's degree in Interactive Technologies with a focus on Mobile at FH St. Pölten. My main focus is on understanding user experience and translating it into user-centered designs.",
-    "hobbies": "In my free time, I like to explore topics around sustainability and enjoy trying out new vegan recipes. I love spending time outdoors – whether it’s running, hiking in the mountains, cycling, or going on bikepacking trips to discover new places and countries. Last year, for example, I cycled from Roth to Budapest and also explored Denmark and Sweden. For me, it’s the perfect way to leave everyday life behind and dive into new adventures. I am currently preparing for my first half marathon, as I always keep my goal in sight even on longer distances."
+    "hobbies": "In my free time, I like to explore topics around sustainability and enjoy trying out new vegan recipes. I love spending time outdoors – whether it’s running, hiking in the mountains, cycling, or going on bikepacking trips to discover new places and countries. Last year, for example, I cycled from Roth to Budapest and also explored Denmark and Sweden. As a half-marathon runner, I keep my eyes on the goal – whether on the track or in my projects."
   },
   "Projects": {
     "title": "My Projects",
@@ -665,7 +665,7 @@
     "master": {
       "title": "Dipl.-Ing. Interactive Technologies",
       "location": "University of Applied Sciences St. Pölten, Austria",
-      "date": "09/2023 – dato",
+      "date": "09/2023 – 10/2025",
       "description": [
         "Specialization: Mobile (Web & App Development, UI/UX Design)",
         "Degree: Graduated with distinction.",
