@@ -14,6 +14,7 @@ import wegweiserExcercise from "@/public/wegweiser/wegweiser-excercise.webp";
 import wegweiserUeq from "@/public/wegweiser/wegweiser-ueq.webp";
 import wegweiserUeqDark from "@/public/wegweiser/wegweiser-ueq-dark.webp";
 import wegweiserHotel from "@/public/wegweiser/wegweiser-hotel.webp";
+import stipendium from "@/public/wegweiser/stipendium.webp";
 
 import weidlich from "@/public/dr-weidlich/website-preview.webp";
 import weidlichBusinessCards from "@/public/dr-weidlich/business-cards.webp";
@@ -297,6 +298,17 @@ export const getProjectsData = (theme: string, t: (key: string) => string) => {
           cta: {
             title: t("wegweiser.challenges.cta"),
             link: "https://phaidra.fhstp.ac.at/o:7391"
+          }
+        },
+        {
+          title: t("wegweiser.stipendium.title"),
+          text: [t("wegweiser.stipendium.text.0"), t("wegweiser.stipendium.text.1")],
+          className: "bg-[#F7FFF7]",
+          image: stipendium,
+          imageSize: "45%",
+          cta: {
+            title: t("wegweiser.stipendium.cta"),
+            link: "https://www.ustp.at/de/stories/news/matthias-stadler-stipendium-fuer-masterarbeiten-1"
           }
         },
         {

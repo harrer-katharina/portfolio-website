@@ -17,6 +17,7 @@ module.exports = {
   safelist: [
     "bg-[#000000]",
 
+    "bg-[#F7FFF7]",
     "bg-[#F1F9F1]",
     "bg-[#E8F6E8]",
     "bg-[#D8F0D8]",
