@@ -30,12 +30,14 @@ export default function Experience() {
   const mouseEnter = () => setVariant("TEXT");
   const mouseLeave = () => setVariant("DEFAULT");
 
+  const inViewJob3 = useInView({ threshold: 0.2, triggerOnce: true });
   const inViewMaster = useInView({ threshold: 0.2, triggerOnce: true });
   const inViewJob2 = useInView({ threshold: 0.2, triggerOnce: true });
   const inViewJob1 = useInView({ threshold: 0.2, triggerOnce: true });
   const inViewBachelor = useInView({ threshold: 0.2, triggerOnce: true });
   const inViewSchool = useInView({ threshold: 0.2, triggerOnce: true });
   const inViewArray = [
+    inViewJob3,
     inViewMaster,
     inViewJob1,
     inViewJob2,

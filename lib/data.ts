@@ -138,6 +138,14 @@ export const getLinks = (t: (key: string) => string) => {
 export const getExperiencesData = (t: (key: string) => string) => {
   return [
     {
+      title: t("job3.title"),
+      location: t("job3.location"),
+      link: "https://www.arbeitsagentur.de/",
+      description: [],
+      icon: "/experience/ba-logo.png",
+      date: t("job3.date"),
+    },
+    {
       title: t("master.title"),
       location: t("master.location"),
       link: "https://www.fhstp.ac.at/",
